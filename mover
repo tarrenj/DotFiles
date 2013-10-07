@@ -1,0 +1,5 @@
+sudo cp ssh_config /etc/ssh/ssh_config
+sudo cp sshd_config /etc/ssh/sshd_config
+
+cp .vimrc ~/.vimrc
+
