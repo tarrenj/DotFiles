@@ -3,19 +3,20 @@ if(-d flag used){
     sudo add-apt-repository ppa:paparazzi-uav/ppa
     sudo apt-get update
     sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
-    git clone https://github.com/paparazzi/paparazzi.git ~/paparazzi
+    git clone git@github.com:paparazzi/paparazzi.git ~/paparazzi
     cd ~/paparazzi/
     git checkout master
     make
     }
 
-if(-o flage used){
+if(-c flage used){
     sudo apt-get dist-upgrade
     sudo add-apt-repository ppa:paparazzi-uav/ppa
     sudo apt-get update
     sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
-    git clone https://github.com/cnuuavlab/paparazzi ~/paparazzi
+    git clone git@github.com:cnuuaslab/paparazzi.git~/paparazzi
     cd ~/paparazzi/
+    git remote add upstream git@github.com:cnuuaslab/paparazzi.git
     git checkout master
     make
     }
