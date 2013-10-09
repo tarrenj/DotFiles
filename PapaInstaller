@@ -1,0 +1,28 @@
+if(-d flag used){
+    sudo apt-get dist-upgrade
+    sudo add-apt-repository ppa:paparazzi-uav/ppa
+    sudo apt-get update
+    sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
+    git clone https://github.com/paparazzi/paparazzi.git ~/paparazzi
+    cd ~/paparazzi/
+    git checkout master
+    make
+    }
+
+if(-o flage used){
+    sudo apt-get dist-upgrade
+    sudo add-apt-repository ppa:paparazzi-uav/ppa
+    sudo apt-get update
+    sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
+    git clone https://github.com/cnuuavlab/paparazzi ~/paparazzi
+    cd ~/paparazzi/
+    git checkout master
+    make
+    }
+    
+
+if(Paparazzi is already installed ){
+    cd ~/paparazzi/
+    git pull
+    make
+    }

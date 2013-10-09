@@ -1,0 +1,15 @@
+Discription='A Wireless connection using a custom network block configuration'
+Interface=wlp1s0
+Connection=wireless
+Security=wpa=configsection
+IP=dhcp
+WPAConfigSection=(
+    'ssid="WiFi-CNU-Student"'
+    'scan_ssid=0'
+    epa=PEAP TTLS'
+    'identity=""'
+    'password=""'
+#    'phase1="peaplabel=1"'
+    'phase2=:auth=MSCHAPV2"'
+    'priority=10'
+)
