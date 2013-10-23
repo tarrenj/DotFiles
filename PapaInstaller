@@ -1,29 +1,20 @@
-if(-d flag used){
-    sudo apt-get dist-upgrade
-    sudo add-apt-repository ppa:paparazzi-uav/ppa
-    sudo apt-get update
-    sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
-    git clone git@github.com:paparazzi/paparazzi.git ~/paparazzi
-    cd ~/paparazzi/
-    git checkout master
-    make
-    }
-
-if(-c flage used){
-    sudo apt-get dist-upgrade
-    sudo add-apt-repository ppa:paparazzi-uav/ppa
-    sudo apt-get update
-    sudo apt-get install paparazzi-dev paparazzi-arm-multilib git
-    git clone git@github.com:cnuuaslab/paparazzi.git~/paparazzi
-    cd ~/paparazzi/
-    git remote add upstream git@github.com:cnuuaslab/paparazzi.git
-    git checkout master
-    make
-    }
-    
-
-if(Paparazzi is already installed ){
-    cd ~/paparazzi/
-    git pull
-    make
-    }
+sudo apt-get dist-upgrade
+sudo add-apt-repository ppa:paparazzi-uav/ppa
+sudo apt-get update
+sudo apt-get install paparazzi-dev git wget paparazzi-jsbsim vim
+mkdir ~/Builds
+cd ~/Builds
+wget http://wgetpaste.zlin.dk/wgetpaste-2.23.tar.bz2
+wget https://launchpad.net/gcc-arm-embedded/4.7/4.7-2013-q3-update/+download/gcc-arm-none-eabi-4_7-2013q3-20130916-linux.tar.bz2
+tar jxf gcc-arm-none-eabi-4_7-2013q3-20130916-linux.tar.bz2
+tar jxf wgetpaste-2.23.tar.bz2
+mv gcc-arm-none-eabi-4_7-2013q3-20130916-linux gcc-arm-none-eabi
+rm wgetpaste-2.23.tar.bc2
+rm gcc-arm-none-eabi-4_7-2013q3-20130916-linux.tar.bz2
+echo “export PATH=~/Builds/gcc/arm-none-eabi/bin:$PATH” > ~/.bashrc
+gcc-arm-none-eabi --version
+git clone https://github.com/paparazzi/paparazzi.git
+cd paparazzi/
+git checkout master
+make
+cd ~/
