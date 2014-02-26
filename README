@@ -1,11 +1,4 @@
 A place for me to store systems wide DotFiles for all my accounts.
 
-PapaInstaller info:
-    WORKS ONLY ON DEBIAN SYSTEMS
-    PapaInstaller -d
-        installs paparazzi from the default repo(git@gitub.com:paparazzi/paparazzi.git)
-    PapaInstaller -c
-        intstalls paparazzi from CnuUasLab repo(git@github.com:cnuuaslab/paparazzi.com)
-
 mover info:
     moves all the files/ssh keys to their respective locations
