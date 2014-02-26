@@ -3,4 +3,4 @@ sudo cp ssh/sshd_config /etc/ssh/sshd_config
 sudo cp ssh/id_ecdsa.pub /etc/authorized_keys
 
 cp userEnviroment/.vimrc ~/.vimrc
-
+cp userEnviroment/.xinitrc ~/.xinitrc
