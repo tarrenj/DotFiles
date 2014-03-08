@@ -8,6 +8,7 @@ cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc
 cp .Xdefaults ~/.Xdefaults
 cp .zshrc ~/.zshrc
+cp .gitconfig ~/.gitconfig
 
 cp tmux.conf ~/tmux.conf
 
@@ -18,4 +19,6 @@ mkdir ~/.config/sxhd
 cp bspwmrc ~/.config/bspwm/
 cp sxhdrc ~/.config/sxhd/
 
-
+mkdir ~/Documents
+mkdir ~/Builds
+mkdir ~/Downloads

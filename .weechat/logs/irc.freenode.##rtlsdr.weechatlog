@@ -1,0 +1,1030 @@
+2014-03-06 15:42:59	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined ##rtlsdr
+2014-03-06 15:42:59	--	Topic for ##rtlsdr is "Low-cost SDR - http://sdr.osmocom.org/trac/wiki/rtl-sdr - http://rtlsdr.org/ - http://rtlsdr.reddit.com - Try http://sdrsharp.com/ - Keep offtopic discussions short."
+2014-03-06 15:42:59	--	Topic set by horizon (~horizon@osmocom/horizon) on Sat, 25 May 2013 18:25:24
+2014-03-06 15:43:00	--	Channel ##rtlsdr: 270 nicks (0 ops, 0 voices, 270 normals)
+2014-03-06 15:43:01	--	Mode ##rtlsdr [+cnt]
+2014-03-06 15:43:02	--	Channel created on Sun, 01 Apr 2012 01:17:32
+2014-03-06 15:43:09	--	PvNotice(ChanServ): Welcome to ##rtlsdr! Can you help us build the test script? Can you test your unit for us and report results on reddit? http://redd.it/rqrwo
+2014-03-06 15:44:10	smrtz|nix	I'm on debian, and was just given an RTL dongle, can someone help me get started please?  I've installed rtl-sdr, and ran rtl_test, but that's all I know how to do...
+2014-03-06 15:44:52	smrtz|nix	lspci tells me that I've got RTS5209
+2014-03-06 15:47:14	KvH	lsusb
+2014-03-06 15:47:32	KvH	and dmesg right after plugin
+2014-03-06 15:47:52	smrtz|nix	no wait, that's my card reader.
+2014-03-06 15:48:01	-->	[SkG] (~Esqueje@62.83.47.190.dyn.user.ono.com) has joined ##rtlsdr
+2014-03-06 15:48:09	<--	[SkG] (~Esqueje@62.83.47.190.dyn.user.ono.com) has quit (Changing host)
+2014-03-06 15:48:09	-->	[SkG] (~Esqueje@unaffiliated/skg/x-897332) has joined ##rtlsdr
+2014-03-06 15:48:20	<--	KornKage (KornKage@bl11-158-178.dsl.telepac.pt) has quit (Ping timeout: 240 seconds)
+2014-03-06 15:48:43	smrtz|nix	It's an RTL2838UHIDIR
+2014-03-06 15:49:04	[SkG]	generic name.
+2014-03-06 15:49:33	smrtz|nix	so what should I look for?
+2014-03-06 15:50:32	-->	KornKage (~KornKage@bl11-158-178.dsl.telepac.pt) has joined ##rtlsdr
+2014-03-06 15:51:42	KvH	lsusb prints out an usb id
+2014-03-06 15:52:00	smrtz|nix	Ok, let me install it.
+2014-03-06 15:52:06	pksato	rtl_test return a error? if not its is working.
+2014-03-06 15:52:48	smrtz|nix	It's an RTL2838
+2014-03-06 15:52:55	KvH	well....
+2014-03-06 15:53:13	smrtz|nix	KvH: is that bad?
+2014-03-06 15:53:42	KvH	no
+2014-03-06 15:53:57	KvH	as far as i know its an RTL2832
+2014-03-06 15:54:23	KvH	the difference lies in some kind of eprom attached to your device
+2014-03-06 15:54:36	KvH	but it is the tuner that matters
+2014-03-06 15:54:52	KvH	the RTLxxxx is only the demodulator
+2014-03-06 15:55:15	KvH	try rtl_test or look for your usb-ids using lsusb
+2014-03-06 15:56:12	smrtz|nix	It's 0bda:2838.
+2014-03-06 15:56:33	smrtz|nix	Oh, rtl_test tells me it's an E4000.
+2014-03-06 15:56:37	KvH	yes
+2014-03-06 15:56:58	KvH	its an ezcap USB 2.0 DVB-T/DAB/FM dongle
+2014-03-06 15:57:23	-->	^peter^ (~peter@30.0.168.125.sta.wbroadband.net.au) has joined ##rtlsdr
+2014-03-06 15:57:32	smrtz|nix	cool, now what?
+2014-03-06 15:57:33	smrtz|nix	lol.
+2014-03-06 15:57:42	KvH	well, and if rtl_test has seen it, it is working
+2014-03-06 15:58:13	KvH	iam using windows, so cant help you here :)
+2014-03-06 15:58:53	BzztPloink	well if it's working it's off to the googles!
+2014-03-06 15:59:00	smrtz|nix	Every time I run rtl_test, it returns lost at least xx bytes, and xx is going up each time I run it.  Now it's at 156.  Does that mean anyting?
+2014-03-06 16:00:00	Sout	ah yeah sample rate set to high ?
+2014-03-06 16:01:04	pksato	rtl_test after show device info. not write any if is ok.
+2014-03-06 16:01:44	-->	CeruleanSky (~CeruleanS@unaffiliated/ceruleansky) has joined ##rtlsdr
+2014-03-06 16:02:32	smrtz|nix	Sout: how can I tell?
+2014-03-06 16:02:41	<--	bdavenport (~davenport@chronos.rpi.mindlesstux.com) has quit (Ping timeout: 245 seconds)
+2014-03-06 16:02:49	smrtz|nix	This time it only lost at least 100 bytes
+2014-03-06 16:03:59	-->	FreeArtMan (~famtastic@93.177.213.54) has joined ##rtlsdr
+2014-03-06 16:04:00	keenerd	smrtz|nix: No, you are fine.  The first message does not mean anything.
+2014-03-06 16:04:46	smrtz|nix	keenerd: Ok, cool.  I was conserned because it was after the line saying if I don't see anything else, everything's fine.
+2014-03-06 16:05:03	smrtz|nix	Can anyone help me figure out how to use this in linux?
+2014-03-06 16:05:05	-->	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has joined ##rtlsdr
+2014-03-06 16:05:31	keenerd	First you need to figure out what you want to achieve with it :-)
+2014-03-06 16:05:54	smrtz|nix	I guess just scan through and listen to some of the local repeters.
+2014-03-06 16:06:00	pksato	smrtz|nix: install linrad.
+2014-03-06 16:06:22	<--	AdvancedNewbie (~AdvancedN@stjhnf0148w-142134218010.dhcp-dynamic.FibreOp.nl.bellaliant.net) has quit (Remote host closed the connection)
+2014-03-06 16:06:49	smrtz|nix	pksato: Ok, I'll have to manually install it.
+2014-03-06 16:07:07	-->	bdavenport (~davenport@chronos.rpi.mindlesstux.com) has joined ##rtlsdr
+2014-03-06 16:07:11	pksato	yes. not have pkg for most sdr software.
+2014-03-06 16:08:23	smrtz|nix	pksato: why linrad over sdrsharp?
+2014-03-06 16:10:51	pksato	sdrsharp is slow and not optimized to run on mono.
+2014-03-06 16:11:15	smrtz|nix	mono?
+2014-03-06 16:11:21	pksato	and is semi-closed sofware.
+2014-03-06 16:12:38	smrtz|nix	what's mono?
+2014-03-06 16:12:54	<--	edoardo (~edoardo@host125-193-dynamic.0-87-r.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2014-03-06 16:13:17	pksato	open source implementation of dotnet.
+2014-03-06 16:13:58	smrtz|nix	Ahh, ok.  cool.
+2014-03-06 16:14:06	<--	Fetsdroid (~stefan@aftr-37-201-224-3.unity-media.net) has quit (Read error: Connection reset by peer)
+2014-03-06 16:14:13	-->	Stefdroid (~stefan@aftr-37-201-224-3.unity-media.net) has joined ##rtlsdr
+2014-03-06 16:14:57	-->	ve7it (~LawrenceG@S01060014d19d0b68.pk.shawcable.net) has joined ##rtlsdr
+2014-03-06 16:17:26	-->	Maroni (~user@91.141.2.51.wireless.dyn.drei.com) has joined ##rtlsdr
+2014-03-06 16:17:35	pksato	besides the linrad, you have option of gnuradio and its companions like gqrx, sdrangelove, etc
+2014-03-06 16:18:04	smrtz|nix	I read gnuradio was a bit of a bitch to use, so I'll play around with linrad.
+2014-03-06 16:20:02	-->	Robot_1 (~robot@178.143.10.109) has joined ##rtlsdr
+2014-03-06 16:22:10	<--	Robot_ (~robot@178.143.194.133) has quit (Ping timeout: 244 seconds)
+2014-03-06 16:22:23	-->	tonyttg (~tonyttg@46.148.31.206) has joined ##rtlsdr
+2014-03-06 16:25:52	-->	Vai (~Vai@41.251.198.219) has joined ##rtlsdr
+2014-03-06 16:26:05	<--	Vai (~Vai@41.251.198.219) has left ##rtlsdr
+2014-03-06 16:26:59	smrtz|nix	pksato: I'm getting this error when trying to ./configure http://pastebin.com/d7dDqfxR  Do you have any idea what dependencies I need?  I installed everything with libx11 in it.
+2014-03-06 16:28:42	BzztPloink	paste removed
+2014-03-06 16:29:13	smrtz|nix	http://pastebin.com/dZdDqfxR
+2014-03-06 16:29:14	pksato	linrad have a few dependeces, all basic for X11 buiding.
+2014-03-06 16:29:30	smrtz|nix	BzztPloink: does that one work?
+2014-03-06 16:29:30	<--	tonyttg (~tonyttg@46.148.31.206) has quit (Ping timeout: 240 seconds)
+2014-03-06 16:29:57	smrtz|nix	pksato: and I've already built my X11 enviroment, so shouldn't I have the dependancies?
+2014-03-06 16:30:24	BzztPloink	why would X11 include libusb? or portaudio?
+2014-03-06 16:31:04	pksato	and others for hw access. like alsa or portaudio, libusb, etc...
+2014-03-06 16:31:04	smrtz|nix	idk.
+2014-03-06 16:31:28	<--	MoonUnit` (~MoonUnit@217.155.33.24) has quit (Quit: Leaving)
+2014-03-06 16:31:41	pksato	you build and install rtlsdr?
+2014-03-06 16:31:49	KvH	 is there a way to locate an mode-s transponder without ads-b?
+2014-03-06 16:32:20	<--	zju3 (~a@93.84.66.135) has quit (Ping timeout: 240 seconds)
+2014-03-06 16:32:46	<--	dos_fan] (dos_fan@pdpc/supporter/active/dos-fan) has quit (Remote host closed the connection)
+2014-03-06 16:32:46	<--	prog (prog@airspy.com) has quit (Remote host closed the connection)
+2014-03-06 16:33:01	pksato	from my old build dependece of linrad,  build-essential cmake libusb-1.0-0-dev nasm libx11-dev libxext-dev libusb-dev
+2014-03-06 16:34:08	<--	Robot_1 (~robot@178.143.10.109) has quit (Quit: Leaving.)
+2014-03-06 16:34:11	pksato	get latest version of rtlsdr from git, build and install.
+2014-03-06 16:36:17	pksato	and latest version on linrad. http://www.sm5bsz.com/linuxdsp/archive/lir03-51.tbz
+2014-03-06 16:36:44	pksato	compile and use.
+2014-03-06 16:37:29	-->	prog (prog@airspy.com) has joined ##rtlsdr
+2014-03-06 16:37:43	pksato	linrad dont have installer, just copy xlinrad and .lir files to some empty directory and run.
+2014-03-06 16:38:53	-->	bvernoux (~Ben@chl26-1-88-183-104-56.fbx.proxad.net) has joined ##rtlsdr
+2014-03-06 16:40:50	-->	dos_fan] (dos_fan@pdpc/supporter/active/dos-fan) has joined ##rtlsdr
+2014-03-06 16:41:28	pksato	if need help to use linrad http://www.on4khg.be/Linrad%20Installation%20&%20Configuration%20User%20Guide%20-%20V1-0.zip
+2014-03-06 16:42:47	charolastra	you know when a program is intuitive if the documentations is larger than the program itself;)
+2014-03-06 16:46:41	<--	stsydow (~stsydow@dslb-088-072-190-057.pools.arcor-ip.net) has quit (Remote host closed the connection)
+2014-03-06 16:48:12	-->	zju3 (~a@93.85.77.77) has joined ##rtlsdr
+2014-03-06 16:52:23	<--	Tonberry (~Tonberry@ti-229-62-83.telkomadsl.co.za) has quit (Quit: The world is square)
+2014-03-06 16:58:01	<--	Stefdroid (~stefan@aftr-37-201-224-3.unity-media.net) has quit (Remote host closed the connection)
+2014-03-06 16:58:45	<--	pksato (~PEBKAC@unaffiliated/pksato) has quit (Quit: Problem Exists Between Keyboard And Chair)
+2014-03-06 17:00:38	<--	maexono|AFK (~quassel@dslb-188-108-006-156.pools.arcor-ip.net) has quit (Read error: Connection reset by peer)
+2014-03-06 17:04:34	-->	zoc (~zoc@funix.zajebancija.net) has joined ##rtlsdr
+2014-03-06 17:05:30	-->	Kobra (~kate@unaffiliated/kobra) has joined ##rtlsdr
+2014-03-06 17:05:38	Kobra	http://screenshot.xiatek.org/Kobra/1394142063.png :3
+2014-03-06 17:07:58	<--	[SkG] (~Esqueje@unaffiliated/skg/x-897332) has quit (Remote host closed the connection)
+2014-03-06 17:08:22	<--	superkuh (~superkuh@unaffiliated/superkuh) has quit (Read error: Connection reset by peer)
+2014-03-06 17:10:36	-->	superkuh (~superkuh@unaffiliated/superkuh) has joined ##rtlsdr
+2014-03-06 17:12:52	<--	bertrik (~quassel@rockbox/developer/bertrik) has quit (Remote host closed the connection)
+2014-03-06 17:15:58	--	Sirocco_ is now known as Sirocco
+2014-03-06 17:16:34	smrtz|nix	Ok, I'm running make xlinrad64 now, thanks for the help pksato
+2014-03-06 17:19:51	-->	pjm (~pjm@uhfsatcom.plus.com) has joined ##rtlsdr
+2014-03-06 17:23:00	<--	pjm_ (~pjm@uhfsatcom.plus.com) has quit (Ping timeout: 252 seconds)
+2014-03-06 17:27:55	<--	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has quit (Quit: Leaving)
+2014-03-06 17:30:16	<--	Delboy (~openwrt@2001:b68:fc00:8b08::1) has quit (Ping timeout: 264 seconds)
+2014-03-06 17:30:44	-->	pksato (~PEBKAC@unaffiliated/pksato) has joined ##rtlsdr
+2014-03-06 17:31:54	--	blkhawk is now known as blkaway
+2014-03-06 17:48:01	-->	wendydel (~wendydel@193.106.31.219) has joined ##rtlsdr
+2014-03-06 17:49:04	<--	Moonlit (~moonlit@unaffiliated/moonlit) has quit (Read error: Connection reset by peer)
+2014-03-06 17:51:40	pksato	look at the noise on last minutes, https://dl.dropboxusercontent.com/u/10287126/diversos/hfband-2014-03-06_13-19.jpg
+2014-03-06 17:52:20	elfets	nice
+2014-03-06 17:52:29	elfets	you can see that the muf is about 18MHz
+2014-03-06 17:53:11	elfets	whats your antenna?
+2014-03-06 17:54:22	pksato	4m of wire outside close to wall.
+2014-03-06 17:54:46	elfets	connected to converter?
+2014-03-06 17:55:01	pksato	yes.
+2014-03-06 17:55:37	<--	Axone (~Axone@APuteaux-154-1-73-244.w86-195.abo.wanadoo.fr) has quit (Quit: .)
+2014-03-06 17:56:43	<--	Maroni (~user@91.141.2.51.wireless.dyn.drei.com) has quit (Ping timeout: 252 seconds)
+2014-03-06 17:57:04	elfets	http://i.imgur.com/S7RkBNb.jpg
+2014-03-06 17:57:10	elfets	horrible interference with wire
+2014-03-06 17:57:48	pksato	last minutes netbook is on battery.
+2014-03-06 17:58:46	pksato	I need to check frequency cut of low pass filter of my upconverter.
+2014-03-06 17:58:58	<--	Ullarah (~Ullarah@unaffiliated/ullarah) has left ##rtlsdr
+2014-03-06 17:59:13	keenerd	All that was from the AC adapter?
+2014-03-06 17:59:26	pksato	yes
+2014-03-06 18:00:30	<--	wendydel (~wendydel@193.106.31.219) has quit (Ping timeout: 241 seconds)
+2014-03-06 18:00:39	pksato	let me check if noise come from charger of is internal of netbook.
+2014-03-06 18:01:03	<--	dishaze (~dis@unaffiliated/burnreich) has quit (Quit: "http://allyour.basearebelongto.us/")
+2014-03-06 18:01:57	pksato	charger pluged on wall, but not on netbook.
+2014-03-06 18:02:20	pksato	and wait...
+2014-03-06 18:04:40	keenerd	Chargers act differently under load.
+2014-03-06 18:10:58	<--	jmalsbury (~john@64.186.172.226) has quit (Ping timeout: 265 seconds)
+2014-03-06 18:12:55	-->	jmalsbury (~john@64.186.172.226) has joined ##rtlsdr
+2014-03-06 18:17:43	-->	cubix``750 (prog@airspy.com) has joined ##rtlsdr
+2014-03-06 18:18:26	<--	elfets (~stefan@aftr-37-201-224-3.unity-media.net) has quit (Read error: Connection reset by peer)
+2014-03-06 18:20:37	<--	JernejL_ (~JernejL@cpe-92-37-38-81.dynamic.amis.net) has quit (Ping timeout: 264 seconds)
+2014-03-06 18:21:14	-->	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has joined ##rtlsdr
+2014-03-06 18:21:19	<--	cubix` (~prog@airspy.com) has quit (Ping timeout: 252 seconds)
+2014-03-06 18:21:20	--	cubix``750 is now known as cubix`
+2014-03-06 18:22:33	-->	Fetsdroid (~stefan@aftr-37-201-224-3.unity-media.net) has joined ##rtlsdr
+2014-03-06 18:31:42	<--	bvernoux (~Ben@chl26-1-88-183-104-56.fbx.proxad.net) has quit (Read error: Connection reset by peer)
+2014-03-06 18:32:56	<--	^peter^ (~peter@30.0.168.125.sta.wbroadband.net.au) has quit
+2014-03-06 18:43:36	pksato	testing noise using external 5v supply. 30m...
+2014-03-06 18:51:40	<--	AnallyActive (59a66ad6@gateway/web/freenode/ip.89.166.106.214) has quit (Quit: Page closed)
+2014-03-06 18:57:59	-->	koibunny (~koikoi@CPE08863b5cc76f-CM00222d75eb05.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-06 18:58:43	<--	FreeArtMan (~famtastic@93.177.213.54) has quit (Ping timeout: 244 seconds)
+2014-03-06 19:02:18	-->	KvH_ (~KvH@p5B2355BB.dip0.t-ipconnect.de) has joined ##rtlsdr
+2014-03-06 19:05:31	<--	KvH (~KvH@p5B23497C.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2014-03-06 19:07:39	-->	MoALTz_ (~no@user-31-175-247-158.play-internet.pl) has joined ##rtlsdr
+2014-03-06 19:07:56	<--	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Quit: Leaving)
+2014-03-06 19:08:26	<--	xSmurf (~MrSmurf@unaffiliated/mrsmurf) has quit (Ping timeout: 240 seconds)
+2014-03-06 19:10:02	<--	MoALTz (~no@user-31-175-247-158.play-internet.pl) has quit (Ping timeout: 240 seconds)
+2014-03-06 19:10:21	<--	beerus (~beerus@c-76-119-124-40.hsd1.ma.comcast.net) has quit
+2014-03-06 19:10:45	-->	beerus (~beerus@c-76-119-124-40.hsd1.ma.comcast.net) has joined ##rtlsdr
+2014-03-06 19:12:39	<--	konradoo77 (~debian@user-94-254-195-165.play-internet.pl) has quit (Ping timeout: 240 seconds)
+2014-03-06 19:15:13	pksato	external 5v not help. :(
+2014-03-06 19:15:31	<--	tholin (~tholin@c-d6cce455.04-302-6c6b701.cust.bredbandsbolaget.se) has quit (Ping timeout: 240 seconds)
+2014-03-06 19:29:42	<--	koibunny (~koikoi@CPE08863b5cc76f-CM00222d75eb05.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2014-03-06 19:40:50	<--	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has quit (Remote host closed the connection)
+2014-03-06 19:55:58	-->	patchvonbraun1 (~mleech@static.77.netband.caribe.net) has joined ##rtlsdr
+2014-03-06 19:57:03	-->	NSRob (~NSRob@142.177.43.112) has joined ##rtlsdr
+2014-03-06 20:00:22	-->	KvH (~KvH@p5B235CCB.dip0.t-ipconnect.de) has joined ##rtlsdr
+2014-03-06 20:01:07	patchvonbraun1	I ahve the mother and father of all post-flight headaches.
+2014-03-06 20:04:04	<--	KvH_ (~KvH@p5B2355BB.dip0.t-ipconnect.de) has quit (Ping timeout: 265 seconds)
+2014-03-06 20:08:54	<--	charolastra (~quassel@178-191-255-48.adsl.highway.telekom.at) has quit (Ping timeout: 265 seconds)
+2014-03-06 20:09:27	<--	MoALTz_ (~no@user-31-175-247-158.play-internet.pl) has quit (Quit: Leaving)
+2014-03-06 20:10:56	NSRob	Crying kids next row over?
+2014-03-06 20:12:36	NSRob	Anyone in here into trunking?
+2014-03-06 20:12:58	<--	adhollander (~adh@169.237.167.181) has quit (Quit: Leaving)
+2014-03-06 20:13:19	patchvonbraun1	Lots of crying kids, yes.  I arrived last night, headache all day.  Sigh.
+2014-03-06 20:14:09	patchvonbraun1	Insufficent sleep last night as well.
+2014-03-06 20:14:45	NSRob	Sucks.
+2014-03-06 20:14:56	myself	Drink lots of fluids, I usually refrain before getting on the bathrooms-are-awkward-zone and then forget to restart.
+2014-03-06 20:15:13	myself	And dehydration's a sure-fire headache.
+2014-03-06 20:15:19	<--	Rokko (~Roklobsta@ppp118-209-43-143.lns20.mel4.internode.on.net) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2014-03-06 20:17:30	patchvonbraun1	Yeah, been trying to stay well-hydrated.  It's not super hot-n-humid here.  Much nicer than southern Mexico in July (a couple of years ago.  Yikes!)
+2014-03-06 20:19:14	myself	when you're that close to the tropics, does the season really matter?
+2014-03-06 20:21:33	patchvonbraun1	myself: Apparently, southern Mex does cool off significantly during notional "winter" there--my sister lives there, and reports that to be so.
+2014-03-06 20:21:53	myself	neat
+2014-03-06 20:22:39	patchvonbraun1	We ahven't made it up to Arecibo yet.  Spent today (and will spend part of tomorrow) dealing with stupid problems--like FedEx hasn't delivered the computer yet.
+2014-03-06 20:23:01	BrainDamage	you're in a similar timezone, no?
+2014-03-06 20:23:05	myself	When it absolutely, positively, has to be there a few days late.
+2014-03-06 20:23:20	patchvonbraun1	BrainDamage: I'm 1 hour ahead of EST
+2014-03-06 20:23:28	-->	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has joined ##rtlsdr
+2014-03-06 20:23:39	<--	Fetsdroid (~stefan@aftr-37-201-224-3.unity-media.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 20:23:41	patchvonbraun1	myself: It actually arrived yesterday, but due to some paperwork screw-up, they shipped it back to the mainland.
+2014-03-06 20:24:07	myself	gaaaah
+2014-03-06 20:25:30	patchvonbraun1	The riometer itself arrived just fine, and we were running it off my laptop earlier today--after some mucking about to get it going.
+2014-03-06 20:26:04	BrainDamage	at least it's not problems-on-site
+2014-03-06 20:26:11	BrainDamage	..yet :p
+2014-03-06 20:26:55	patchvonbraun1	Yeah, well we apparently have a 1-hour incoherent scatter radar run scheduled for Saturday morning.  Apparently, it costs them $20K/hour to run that radar.
+2014-03-06 20:27:46	myself	good lord, are they feeding the hamsters gold-plated alfalfa?
+2014-03-06 20:40:18	<--	jmalsbury (~john@64.186.172.226) has quit (Quit: Leaving)
+2014-03-06 20:41:05	patchvonbraun1	myself: That's the number I heard today.  The radar is a 400Mhz radar, running at 75kW or so.
+2014-03-06 20:42:29	myself	If that's PEP and the transmitter finals aren't particularly efficient, it could be a considerably bigger power bill, too. Yow.
+2014-03-06 20:43:31	<--	onny (~onny@krlh-4d036af7.pool.mediaWays.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 20:44:26	BrainDamage	assuming a ridiculously low efficiency of 1% and 0.2€/kWh energy cost: (1/0.01)⋅75kW⋅0.2€/kWh⋅1h ~= 1500€
+2014-03-06 20:44:46	patchvonbraun1	Actually, I lied.  It's 2.5MW peak power, but with duty-cycle considerations the average power is 150kW.
+2014-03-06 20:45:06	patchvonbraun1	They use dual Klystrons at 430MHz.
+2014-03-06 20:45:07	myself	:o
+2014-03-06 20:45:17	myself	Klystrons the size of a bus, no doubt!
+2014-03-06 20:45:22	BrainDamage	uhh fancy, are they tunable too?
+2014-03-06 20:46:16	patchvonbraun1	It operates at a fixed frequency of 430MHz.
+2014-03-06 20:46:29	BrainDamage	I have a puny 300W@10GHz one :/
+2014-03-06 20:47:03	BrainDamage	I dubbed it the "christron" because it made me curse lot of blasphemies to get it to work
+2014-03-06 20:47:51	NSRob	What type of work do you folks do that you get to work with that kind of equipment?
+2014-03-06 20:48:00	myself	hah
+2014-03-06 20:50:25	<--	phuzion (~phuzion@ipv6.irc.teh-server.com) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-06 20:50:48	-->	phuzion (~phuzion@ipv6.irc.teh-server.com) has joined ##rtlsdr
+2014-03-06 20:53:49	patchvonbraun1	NSRob: I am but a lowly software developer by day.  But I do science instrument development on the side.  I'm here as the resident nerd help do some science at Arecibo for a week.
+2014-03-06 20:58:56	<--	reDFog (~reDFog@gateway/tor-sasl/redfog) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:00:59	-->	beerux (~beerus@c-76-119-124-40.hsd1.ma.comcast.net) has joined ##rtlsdr
+2014-03-06 21:03:09	<--	beerus (~beerus@c-76-119-124-40.hsd1.ma.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:03:22	<--	GargantuaSauce (~sauce@blk-222-248-226.eastlink.ca) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:04:06	-->	g0hww_betty (~g0hww@5.44.248.130) has joined ##rtlsdr
+2014-03-06 21:04:27	-->	ArakuS_ (~arakus@87.117.252.90) has joined ##rtlsdr
+2014-03-06 21:05:01	-->	GargantuaSauce (~sauce@blk-222-248-226.eastlink.ca) has joined ##rtlsdr
+2014-03-06 21:05:08	-->	cde_ (~cde@88.191.177.146) has joined ##rtlsdr
+2014-03-06 21:05:32	-->	ngharo_ (~ngharo@nexus.sypherz.com) has joined ##rtlsdr
+2014-03-06 21:05:49	-->	keenerd_ (~kyle@67-23-13-172.static.slicehost.net) has joined ##rtlsdr
+2014-03-06 21:06:47	-->	Sirocco_ (~g@vir78-1-82-230-44-96.fbx.proxad.net) has joined ##rtlsdr
+2014-03-06 21:06:48	<--	g0hww (~g0hww@5.44.248.130) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:48	<--	ngharo (~ngharo@nexus.sypherz.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:49	<--	ArexR (~alex@unaffiliated/arexr) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:49	<--	Sirocco (~g@vir78-1-82-230-44-96.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:49	<--	ArakuS (~arakus@87.117.252.90) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:49	<--	Mack (~Mack@unaffiliated/mack) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:50	<--	cde (~cde@fsf/member/cde) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:50	<--	Overand (~overand@unaffiliated/overand) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:50	<--	keenerd (~kyle@archlinux/trusteduser/keenerd) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:50	<--	riotz (riotz@gateway/shell/sh3lls.net/x-kogrvsalktrvripl) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:51	<--	Tykling (tykling@gibfest.dk) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:51	<--	karpoff (~s@50-197-169-18-static.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:51	<--	prog (prog@airspy.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:51	-->	Mack (~Mack@znc.mg.gy) has joined ##rtlsdr
+2014-03-06 21:06:59	-->	karpoff (~s@50-197-169-18-static.hfc.comcastbusiness.net) has joined ##rtlsdr
+2014-03-06 21:07:06	<--	Mack (~Mack@znc.mg.gy) has quit (Changing host)
+2014-03-06 21:07:06	-->	Mack (~Mack@unaffiliated/mack) has joined ##rtlsdr
+2014-03-06 21:07:23	-->	Tykling (tykling@gibfest.dk) has joined ##rtlsdr
+2014-03-06 21:07:26	-->	riotz_ (riotz@gateway/shell/sh3lls.net/x-aujcyanitswelqpx) has joined ##rtlsdr
+2014-03-06 21:07:27	--	riotz_ is now known as riotz
+2014-03-06 21:07:40	-->	Overand (~overand@unaffiliated/overand) has joined ##rtlsdr
+2014-03-06 21:08:40	-->	prog (prog@airspy.com) has joined ##rtlsdr
+2014-03-06 21:12:58	--	keenerd_ is now known as keenerd
+2014-03-06 21:13:16	<--	sackRELIG (~zib@24-156-81-249.npg.sta.suddenlink.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:13:18	<--	keenerd (~kyle@67-23-13-172.static.slicehost.net) has quit (Changing host)
+2014-03-06 21:13:18	-->	keenerd (~kyle@archlinux/trusteduser/keenerd) has joined ##rtlsdr
+2014-03-06 21:14:01	-->	sackRELIG (~zib@24-156-81-249.npg.sta.suddenlink.net) has joined ##rtlsdr
+2014-03-06 21:14:08	<--	cubix` (prog@airspy.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:14:15	-->	cubix` (prog@airspy.com) has joined ##rtlsdr
+2014-03-06 21:15:41	<--	KornKage (~KornKage@bl11-158-178.dsl.telepac.pt) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:16:43	-->	KornKage (KornKage@bl11-158-178.dsl.telepac.pt) has joined ##rtlsdr
+2014-03-06 21:17:20	<--	Celerity (~ski@unaffiliated/celerity) has quit (Disconnected by services)
+2014-03-06 21:17:21	-->	Celerity_ (~ski@109.161.142.61) has joined ##rtlsdr
+2014-03-06 21:19:06	-->	eax64_ (~kevin@ks3096759.kimsufi.com) has joined ##rtlsdr
+2014-03-06 21:19:22	-->	fartbagxp_ (~chatzilla@pool-71-191-91-201.washdc.fios.verizon.net) has joined ##rtlsdr
+2014-03-06 21:21:46	-->	natsfr (~nats`@evil.t4ke.me) has joined ##rtlsdr
+2014-03-06 21:24:01	-->	edenist_ (~edenist@hy7429.virtual.bitcloud.com.au) has joined ##rtlsdr
+2014-03-06 21:24:57	NSRob	patchvonbraun1: Wow, that must be very rewarding! What types of instruments do you develop?
+2014-03-06 21:25:00	<--	Vegomatic2 (~user1965@c-71-237-19-218.hsd1.co.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:01	<--	eax64 (~kevin@ks3096759.kimsufi.com) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:02	<--	poutine (poutine@2600:3c01::f03c:91ff:fe93:f9f1) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:02	<--	nats` (~nats`@evil.t4ke.me) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:03	<--	superkuh (~superkuh@unaffiliated/superkuh) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:03	<--	edenist (~edenist@hy7429.virtual.bitcloud.com.au) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:04	<--	ChickeNES (ChickeNES@2600:3c00::f03c:91ff:fedf:a1f) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:05	<--	stump (~quassel@rose.makesad.us) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:05	<--	Tykling (tykling@gibfest.dk) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:05	<--	phuzion (~phuzion@ipv6.irc.teh-server.com) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:05	<--	quentusrex (~quentusre@freeswitch/developer/quentusrex) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:05	<--	fartbagxp (~chatzilla@pool-71-191-91-201.washdc.fios.verizon.net) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:06	<--	flyback (~flyback@c-67-163-147-45.hsd1.pa.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:06	<--	dos_fan] (dos_fan@pdpc/supporter/active/dos-fan) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:07	<--	Overand (~overand@unaffiliated/overand) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:09	<--	KyleYankan (KyleYankan@hive76/member/KyleYankan) has quit (Ping timeout: 265 seconds)
+2014-03-06 21:25:10	--	natsfr is now known as nats`
+2014-03-06 21:25:11	-->	Vegomatic2 (~user1965@c-71-237-19-218.hsd1.co.comcast.net) has joined ##rtlsdr
+2014-03-06 21:25:33	-->	Bzzt_Ploink (Bzzt@S01067cb21bdac4a9.cg.shawcable.net) has joined ##rtlsdr
+2014-03-06 21:25:38	-->	ChickeNES (ChickeNES@2600:3c00::f03c:91ff:fedf:a1f) has joined ##rtlsdr
+2014-03-06 21:25:46	<--	ChickeNES (ChickeNES@2600:3c00::f03c:91ff:fedf:a1f) has quit (*.net *.split)
+2014-03-06 21:25:46	<--	Vegomatic2 (~user1965@c-71-237-19-218.hsd1.co.comcast.net) has quit (*.net *.split)
+2014-03-06 21:25:47	<--	gFFto (usser@gateway/shell/blinkenshell.org/x-scsvpoibqelpealx) has quit (*.net *.split)
+2014-03-06 21:25:47	<--	BV1AL (~bmc@220-135-151-143.HINET-IP.hinet.net) has quit (*.net *.split)
+2014-03-06 21:27:01	-->	dos_fan] (dos_fan@pdpc/supporter/active/dos-fan) has joined ##rtlsdr
+2014-03-06 21:27:57	-->	Celerity (~ski@109.161.142.61) has joined ##rtlsdr
+2014-03-06 21:28:13	<--	Celerity (~ski@109.161.142.61) has quit (Changing host)
+2014-03-06 21:28:13	-->	Celerity (~ski@unaffiliated/celerity) has joined ##rtlsdr
+2014-03-06 21:28:24	-->	kmehall (~quassel@droplet.kevinmehall.com) has joined ##rtlsdr
+2014-03-06 21:29:07	-->	Overand (~overand@unaffiliated/overand) has joined ##rtlsdr
+2014-03-06 21:30:14	-->	quentusrex (~quentusre@70-89-155-57-amigo-vino-wa.hfc.comcastbusiness.net) has joined ##rtlsdr
+2014-03-06 21:30:15	<--	quentusrex (~quentusre@70-89-155-57-amigo-vino-wa.hfc.comcastbusiness.net) has quit (Changing host)
+2014-03-06 21:30:15	-->	quentusrex (~quentusre@freeswitch/developer/quentusrex) has joined ##rtlsdr
+2014-03-06 21:30:48	-->	boutdulacleman (~lloyd@static-62-50-81-121.irtnet.net) has joined ##rtlsdr
+2014-03-06 21:32:53	-->	riotz_ (riotz@gateway/shell/sh3lls.net/x-jesekqdevdwucfak) has joined ##rtlsdr
+2014-03-06 21:34:37	<--	Kobra (~kate@unaffiliated/kobra) has left ##rtlsdr
+2014-03-06 21:35:23	<--	Celerity_ (~ski@109.161.142.61) has quit (*.net *.split)
+2014-03-06 21:35:24	<--	riotz (riotz@gateway/shell/sh3lls.net/x-aujcyanitswelqpx) has quit (*.net *.split)
+2014-03-06 21:35:24	<--	keenerd (~kyle@archlinux/trusteduser/keenerd) has quit (*.net *.split)
+2014-03-06 21:35:26	<--	zju3 (~a@93.85.77.77) has quit (*.net *.split)
+2014-03-06 21:35:27	<--	oh2ftg (~Ismo@dsl-espbrasgw1-54f9df-42.dhcp.inet.fi) has quit (*.net *.split)
+2014-03-06 21:35:27	<--	BzztPloink (~Bzzt@S01067cb21bdac4a9.cg.shawcable.net) has quit (*.net *.split)
+2014-03-06 21:35:27	<--	xxValiumxx (~xxValiumx@c-67-182-160-118.hsd1.ca.comcast.net) has quit (*.net *.split)
+2014-03-06 21:35:28	<--	boutdula1leman (~lloyd@static-62-50-81-121.irtnet.net) has quit (*.net *.split)
+2014-03-06 21:35:28	<--	patchvonbraun (~mleech@66-78-121-63.access.myhighspeed.ca) has quit (*.net *.split)
+2014-03-06 21:35:29	<--	kmehall_ (~quassel@droplet.kevinmehall.com) has quit (*.net *.split)
+2014-03-06 21:35:29	<--	tem_ (~tem@70.114.252.168) has quit (*.net *.split)
+2014-03-06 21:35:29	<--	runexe_ (~douggeige@ec2-54-224-37-77.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-03-06 21:35:29	<--	programmerq (~jefferya@saffron.programmerq.net) has quit (*.net *.split)
+2014-03-06 21:35:29	<--	edenist_ (~edenist@hy7429.virtual.bitcloud.com.au) has quit (*.net *.split)
+2014-03-06 21:35:30	<--	fartbagxp_ (~chatzilla@pool-71-191-91-201.washdc.fios.verizon.net) has quit (*.net *.split)
+2014-03-06 21:35:30	<--	prog (prog@airspy.com) has quit (*.net *.split)
+2014-03-06 21:35:31	<--	g0hww_betty (~g0hww@5.44.248.130) has quit (*.net *.split)
+2014-03-06 21:35:31	<--	patchvonbraun1 (~mleech@static.77.netband.caribe.net) has quit (*.net *.split)
+2014-03-06 21:35:32	<--	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has quit (*.net *.split)
+2014-03-06 21:35:32	<--	asa1024 (~asa@unaffiliated/asa1024) has quit (*.net *.split)
+2014-03-06 21:35:32	<--	vortmax (vortmax@24-197-75-254.dhcp.mtgm.al.charter.com) has quit (*.net *.split)
+2014-03-06 21:35:33	<--	Free_maN (~Free_maN@unaffiliated/freeman) has quit (*.net *.split)
+2014-03-06 21:35:33	<--	al1o (~al1o@p4FF55D03.dip0.t-ipconnect.de) has quit (*.net *.split)
+2014-03-06 21:35:33	<--	kyhwana (kyhwana@snowleopard.kyhwana.org) has quit (*.net *.split)
+2014-03-06 21:35:34	<--	ALoGeNo (~alogeno@unaffiliated/alogeno) has quit (*.net *.split)
+2014-03-06 21:35:34	<--	tkf (~none@wopr.wardial.me) has quit (*.net *.split)
+2014-03-06 21:35:35	<--	guymann (~c@unaffiliated/guymann) has quit (*.net *.split)
+2014-03-06 21:35:36	<--	a1berto (~a1berto@unaffiliated/alb3rt0) has quit (*.net *.split)
+2014-03-06 21:35:37	<--	Odysimus (~Odysimus@198.46.145.164) has quit (*.net *.split)
+2014-03-06 21:35:38	<--	Mony (dimi34ka@jupiter.bg3.biz) has quit (*.net *.split)
+2014-03-06 21:35:38	<--	Tiger^ (tygrys@moo.pl) has quit (*.net *.split)
+2014-03-06 21:35:38	<--	bpadalino (~bpadalino@cpe-72-230-135-225.rochester.res.rr.com) has quit (*.net *.split)
+2014-03-06 21:35:39	<--	xLa (~alexander@relay.irc.so) has quit (*.net *.split)
+2014-03-06 21:35:39	-->	ChickeNES (ChickeNES@2600:3c00::f03c:91ff:fedf:a1f) has joined ##rtlsdr
+2014-03-06 21:35:39	--	riotz_ is now known as riotz
+2014-03-06 21:42:25	-->	programmerq (~jefferya@saffron.programmerq.net) has joined ##rtlsdr
+2014-03-06 21:47:42	<--	pksato (~PEBKAC@unaffiliated/pksato) has quit (Quit: Problem Exists Between Keyboard And Chair)
+2014-03-06 21:52:54	-->	OmniMancer (~Paul@125-237-6-248.jetstream.xtra.co.nz) has joined ##rtlsdr
+2014-03-06 21:59:07	<--	NSRob (~NSRob@142.177.43.112) has quit (Quit: Leaving)
+2014-03-06 21:59:46	-->	cubix``466 (prog@airspy.com) has joined ##rtlsdr
+2014-03-06 22:00:51	-->	mathis__ (~mathis@2a01:488:66:1000:523:f03d:0:1) has joined ##rtlsdr
+2014-03-06 22:01:16	-->	hlsniper (~c4rc4s@unaffiliated/c4rc4s) has joined ##rtlsdr
+2014-03-06 22:02:13	-->	programm1 (~jefferya@saffron.programmerq.net) has joined ##rtlsdr
+2014-03-06 22:04:13	<--	asdil12 (~asdil12@p4FD045A8.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-03-06 22:04:27	-->	pjm_ (~pjm@uhfsatcom.plus.com) has joined ##rtlsdr
+2014-03-06 22:06:12	<--	mathis_ (~mathis@2a01:488:66:1000:523:f03d:0:1) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:12	<--	programmerq (~jefferya@saffron.programmerq.net) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:12	<--	beingaware (~beingawar@pi.icanhaz.org) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:12	<--	c4rc4s (~c4rc4s@unaffiliated/c4rc4s) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:12	<--	cubix` (prog@airspy.com) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:14	<--	FreezingCold (~FreezingC@135.0.41.14) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:14	<--	pjm (~pjm@uhfsatcom.plus.com) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:15	-->	beingaware (~beingawar@59.167.214.161) has joined ##rtlsdr
+2014-03-06 22:06:16	<--	Jango__ (uid21846@gateway/web/irccloud.com/x-scwmwreprsfxtekp) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:16	<--	KornKage (KornKage@bl11-158-178.dsl.telepac.pt) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:16	<--	yoavz (yoavz@yoavz.net) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:17	<--	Bzzt_Ploink (Bzzt@S01067cb21bdac4a9.cg.shawcable.net) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:18	--	cubix``466 is now known as cubix`
+2014-03-06 22:07:18	<--	weissbier (~weissbier@ip-0101-0000.sub-1000-0000.cust.nori.jp) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:09:39	-->	asdil12 (~asdil12@p4FD04347.dip0.t-ipconnect.de) has joined ##rtlsdr
+2014-03-06 22:10:41	-->	xSmurf (~MrSmurf@unaffiliated/mrsmurf) has joined ##rtlsdr
+2014-03-06 22:11:05	-->	al1o (~al1o@p4FF57250.dip0.t-ipconnect.de) has joined ##rtlsdr
+2014-03-06 22:24:42	<--	xSmurf (~MrSmurf@unaffiliated/mrsmurf) has quit (*.net *.split)
+2014-03-06 22:24:42	<--	beingaware (~beingawar@59.167.214.161) has quit (*.net *.split)
+2014-03-06 22:24:43	<--	ChickeNES (ChickeNES@2600:3c00::f03c:91ff:fedf:a1f) has quit (*.net *.split)
+2014-03-06 22:24:43	<--	boutdulacleman (~lloyd@static-62-50-81-121.irtnet.net) has quit (*.net *.split)
+2014-03-06 22:24:43	<--	kmehall (~quassel@droplet.kevinmehall.com) has quit (*.net *.split)
+2014-03-06 22:24:44	<--	cde_ (~cde@88.191.177.146) has quit (*.net *.split)
+2014-03-06 22:24:45	<--	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has quit (*.net *.split)
+2014-03-06 22:24:45	<--	KvH (~KvH@p5B235CCB.dip0.t-ipconnect.de) has quit (*.net *.split)
+2014-03-06 22:24:45	<--	zoc (~zoc@funix.zajebancija.net) has quit (*.net *.split)
+2014-03-06 22:24:45	<--	polde___ (uid19610@gateway/web/irccloud.com/x-dynwkstosfiuswse) has quit (*.net *.split)
+2014-03-06 22:24:45	<--	ephemer0l (~ephemerol@unaffiliated/ephemer0l) has quit (*.net *.split)
+2014-03-06 22:24:46	<--	uwe_ (~uwe_@dslb-088-064-212-101.pools.arcor-ip.net) has quit (*.net *.split)
+2014-03-06 22:24:46	<--	amki (amki@mail.epow0.org) has quit (*.net *.split)
+2014-03-06 22:24:46	<--	wave (wave@gateway/shell/blinkenshell.org/x-jucrarmwfcnygxzi) has quit (*.net *.split)
+2014-03-06 22:24:47	<--	welterde (welterde@thinkbase.srv.welterde.de) has quit (*.net *.split)
+2014-03-06 22:24:47	<--	mrsteveman1 (~mstm1@infincia.com) has quit (*.net *.split)
+2014-03-06 22:24:48	<--	lessyv (~lessyv@unaffiliated/lessyv) has quit (*.net *.split)
+2014-03-06 22:24:49	<--	evilroots (~roots@irc.thefinn93.com) has quit (*.net *.split)
+2014-03-06 22:24:49	<--	toresbe (~toresbe@158.36.190.254) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	MBS__ (~MBS@74.80.51.161) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	smbkirE (~kirE@c-7c85e455.78-0102-74657210.cust.bredbandsbolaget.se) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	jorey (jorey@bitmuncher-linux.de) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	tecnik (~tecnik@120.138.19.109) has quit (*.net *.split)
+2014-03-06 22:24:51	<--	koolatron (~hillse@c-67-188-38-93.hsd1.ca.comcast.net) has quit (*.net *.split)
+2014-03-06 22:24:51	<--	wilr (~wil@douglas.conostix.com) has quit (*.net *.split)
+2014-03-06 22:24:51	<--	dagb (~dagb@80.203.63.59) has quit (*.net *.split)
+2014-03-06 22:24:52	<--	snorlax (~snorlax@unaffiliated/redditz) has quit (*.net *.split)
+2014-03-06 22:25:40	-->	evilroots (roots@irc.thefinn93.com) has joined ##rtlsdr
+2014-03-06 22:28:48	-->	KvH (~KvH@p5B235CCB.dip0.t-ipconnect.de) has joined ##rtlsdr
+2014-03-06 22:29:07	-->	tecnik (~tecnik@120.138.19.109) has joined ##rtlsdr
+2014-03-06 22:29:34	-->	ephemer0l (~ephemerol@5.231.63.25) has joined ##rtlsdr
+2014-03-06 22:29:34	<--	ephemer0l (~ephemerol@5.231.63.25) has quit (Changing host)
+2014-03-06 22:29:34	-->	ephemer0l (~ephemerol@unaffiliated/ephemer0l) has joined ##rtlsdr
+2014-03-06 22:29:35	-->	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-06 22:30:05	-->	smbkirE (~kirE@c-7c85e455.78-0102-74657210.cust.bredbandsbolaget.se) has joined ##rtlsdr
+2014-03-06 22:31:42	-->	MBS__ (~MBS@74.80.51.161) has joined ##rtlsdr
+2014-03-06 22:34:58	-->	wave (wave@gateway/shell/blinkenshell.org/x-ddgshhazfhbtburl) has joined ##rtlsdr
+2014-03-06 22:42:46	-->	welterde (welterde@thinkbase.srv.welterde.de) has joined ##rtlsdr
+2014-03-06 22:49:23	<--	Celerity (~ski@unaffiliated/celerity) has quit (Ping timeout: 252 seconds)
+2014-03-06 22:50:44	--	d4venull2 is now known as d4venull
+2014-03-06 22:53:41	-->	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has joined ##rtlsdr
+2014-03-06 22:54:30	-->	bpadalino (~bpadalino@cpe-72-230-135-225.rochester.res.rr.com) has joined ##rtlsdr
+2014-03-06 23:01:44	-->	Goatman (~bronco51@c-76-18-85-100.hsd1.nm.comcast.net) has joined ##rtlsdr
+2014-03-06 23:05:43	<--	Sculptor (~Sculptor@cable-188-2-180-144.dynamic.sbb.rs) has quit (Read error: Connection reset by peer)
+2014-03-06 23:06:28	-->	Sculptor (~Sculptor@188.2.180.144) has joined ##rtlsdr
+2014-03-06 23:15:28	<--	ve7it (~LawrenceG@S01060014d19d0b68.pk.shawcable.net) has quit (Remote host closed the connection)
+2014-03-06 23:16:30	-->	ve7it (~LawrenceG@S01060014d19d0b68.pk.shawcable.net) has joined ##rtlsdr
+2014-03-06 23:23:35	<--	ve7it (~LawrenceG@S01060014d19d0b68.pk.shawcable.net) has quit (Remote host closed the connection)
+2014-03-06 23:49:09	-->	Moon_Man_ (~Moon_Man@CPE1040f39b36f8-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-06 23:49:42	<--	Moon_Man_ (~Moon_Man@CPE1040f39b36f8-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Client Quit)
+2014-03-06 23:50:00	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2014-03-07 00:01:55	--	irc: disconnected from server
+2014-03-07 22:30:01	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined ##rtlsdr
+2014-03-07 22:30:01	--	Topic for ##rtlsdr is "Low-cost SDR - http://sdr.osmocom.org/trac/wiki/rtl-sdr - http://rtlsdr.org/ - http://rtlsdr.reddit.com - Try http://sdrsharp.com/ - Keep offtopic discussions short."
+2014-03-07 22:30:01	--	Topic set by horizon (~horizon@osmocom/horizon) on Sat, 25 May 2013 18:25:24
+2014-03-07 22:30:01	--	Channel ##rtlsdr: 256 nicks (0 ops, 0 voices, 256 normals)
+2014-03-07 22:30:01	--	PvNotice(ChanServ): Welcome to ##rtlsdr! Can you help us build the test script? Can you test your unit for us and report results on reddit? http://redd.it/rqrwo
+2014-03-07 22:30:02	--	Mode ##rtlsdr [+cnt]
+2014-03-07 22:30:02	--	Channel created on Sun, 01 Apr 2012 01:17:32
+2014-03-07 22:30:10	jorey	they planned .dd, but never used it
+2014-03-07 22:30:31	domaani	well, it looks like we're having the soviet union back
+2014-03-07 22:31:25	flyback	better not
+2014-03-07 22:31:40	flyback	cause if they fuck over poland and my friend again, i'll kill putin myself
+2014-03-07 22:34:42	Sculptor	you can try. he's a badass
+2014-03-07 22:34:54	Sculptor	he's a member of the motorcycle gang
+2014-03-07 22:35:03	flyback	landmine :)
+2014-03-07 22:35:03	domaani	where's norris
+2014-03-07 22:35:09	jorey	i'm not so sure i'd try to kill the former head of the KGB
+2014-03-07 22:35:14	Sculptor	http://i.dailymail.co.uk/i/pix/2011/03/24/article-1369485-0B4FFF9100000578-679_634x423.jpg
+2014-03-07 22:35:32	Sculptor	if you touch him, those guys will hand your ass over to you
+2014-03-07 22:37:12	Sculptor	he's also a singer https://www.youtube.com/watch?v=ekeq4szDmJo
+2014-03-07 22:37:52	jorey	domaani: http://files.abovetopsecret.com/files/img/yf50817a5f.jpg
+2014-03-07 22:40:22	<--	pksato (~PEBKAC@unaffiliated/pksato) has quit (Quit: Problem Exists Between Keyboard And Chair)
+2014-03-07 22:42:03	domaani	блюберий хил
+2014-03-07 22:42:07	domaani	oh my :D
+2014-03-07 22:42:20	domaani	that does sound russian
+2014-03-07 22:42:23	<--	DrDeke (~DrDeke@deculator.rustytel.net) has quit (Ping timeout: 244 seconds)
+2014-03-07 22:42:44	-->	DrDeke (~DrDeke@deculator.rustytel.net) has joined ##rtlsdr
+2014-03-07 22:43:38	domaani	http://imgur.com/A6XtmTP
+2014-03-07 22:44:53	jorey	(((
+2014-03-07 22:46:38	-->	SigSauer (~Cat@38.99.244.194) has joined ##rtlsdr
+2014-03-07 22:50:09	<--	flyback (~flyback@c-67-163-147-45.hsd1.pa.comcast.net) has quit (Quit: Leaving)
+2014-03-07 22:55:20	<--	SigSauer (~Cat@38.99.244.194) has quit (Ping timeout: 240 seconds)
+2014-03-07 22:57:46	--	LjL is now known as LjL-Spider
+2014-03-07 22:59:41	domaani	Sculptor: he's still singing when he closes his mouth
+2014-03-07 22:59:48	domaani	how does he do that!
+2014-03-07 22:59:49	domaani	amazing
+2014-03-07 23:00:27	Sculptor	hah
+2014-03-07 23:01:06	Sculptor	he's even more amzaing now
+2014-03-07 23:01:24	-->	SigSauer (~Cat@38.99.244.194) has joined ##rtlsdr
+2014-03-07 23:01:34	Sculptor	skills.add(ventriloquilism);
+2014-03-07 23:05:09	smrtz|nix	Anyone here on linux, using linRad?
+2014-03-07 23:08:36	<--	SigSauer (~Cat@38.99.244.194) has quit (Ping timeout: 265 seconds)
+2014-03-07 23:12:20	-->	cool_guy6 (~IceChat77@199-7-156-142.eng.wind.ca) has joined ##rtlsdr
+2014-03-07 23:18:16	<--	Ullarah (~Ullarah@unaffiliated/ullarah) has quit (Ping timeout: 256 seconds)
+2014-03-07 23:27:50	smrtz|nix	Can someone help me get setup in linux please?  I'm trying to use LinRad with my ezcap E4000.
+2014-03-07 23:35:23	-->	sth0R (~shawn@125.39.68.43) has joined ##rtlsdr
+2014-03-07 23:38:26	-->	baldrick (~joe@cpe-98-15-202-69.hvc.res.rr.com) has joined ##rtlsdr
+2014-03-07 23:42:06	<--	baldrick (~joe@cpe-98-15-202-69.hvc.res.rr.com) has quit (Client Quit)
+2014-03-07 23:42:29	-->	baldrick (~joe@cpe-98-15-202-69.hvc.res.rr.com) has joined ##rtlsdr
+2014-03-07 23:43:01	<--	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has quit (Quit: Leaving)
+2014-03-07 23:43:09	-->	mike_t (~mike@95.67.247.156) has joined ##rtlsdr
+2014-03-07 23:50:37	-->	flyback (~flyback@c-67-163-147-45.hsd1.pa.comcast.net) has joined ##rtlsdr
+2014-03-07 23:50:49	<--	flyback (~flyback@c-67-163-147-45.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2014-03-07 23:51:10	kyhwana	smrtz|nix: where are you up to?
+2014-03-07 23:52:30	<--	koibunny (~koikoi@CPE08863b5cc76f-CM00222d75eb05.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2014-03-08 00:00:35	smrtz|nix	KyleYankan: I actually got LinRad installed, but I'm kinda intimidated by the setup process, so I'm switching to sdr#.
+2014-03-08 00:01:03	smrtz|nix	I'm following the guide on rtlsdr.org/softwarelinux
+2014-03-08 00:01:44	smrtz|nix	and I just did the svn command, and edited the file in monodevelop, but the build options are grayed out...
+2014-03-08 00:02:27	smrtz|nix	wait, no, I'm struggeling to edit the file, since there's 32 diffrent instences of ActiveCfg in there...
+2014-03-08 00:02:44	<--	jeromeinco (~jeromeinc@c-50-134-212-4.hsd1.co.comcast.net) has quit
+2014-03-08 00:04:24	-->	flyback (~flyback@c-67-163-147-45.hsd1.pa.comcast.net) has joined ##rtlsdr
+2014-03-08 00:11:31	Bzzt_Ploink	smrtz|nix, that page is insane, here do these 900 things, and at the bottom they go 'or just use this handy one liner!',
+2014-03-08 00:11:54	smrtz|nix	Bzzt_Ploink: what? let me scroll down...
+2014-03-08 00:12:11	smrtz|nix	Oh god damn it..
+2014-03-08 00:12:36	Bzzt_Ploink	evil geniouses everywhere :)
+2014-03-08 00:13:27	smrtz|nix	ls
+2014-03-08 00:14:14	smrtz|nix	so wait, I have to svn the sdr directory, then run xbuild from within the sdr directory?
+2014-03-08 00:17:36	<--	beingaware (~beingawar@pi.icanhaz.org) has quit (Ping timeout: 264 seconds)
+2014-03-08 00:17:38	smrtz|nix	Bzzt_Ploink: I just ran xbuild, and I don't have an SDRSharp.exe.  Are you using sdrsharp?
+2014-03-08 00:17:52	Bzzt_Ploink	i'm on windows
+2014-03-08 00:17:56	smrtz|nix	ahh, ok.
+2014-03-08 00:18:06	Bzzt_Ploink	but that xbuild command works, have used it in the past
+2014-03-08 00:18:33	smrtz|nix	Yeah, I just ran it, and it completed without any errors, but I don't have a .exe
+2014-03-08 00:18:35	Bzzt_Ploink	you run it in whatever folder has the .sln file
+2014-03-08 00:18:44	Bzzt_Ploink	it's probably in a debug folder somewhere
+2014-03-08 00:18:47	Bzzt_Ploink	or release
+2014-03-08 00:19:02	Bzzt_Ploink	gotta run, best of luck!
+2014-03-08 00:19:06	smrtz|nix	I ran an ack-grep, it's nowhere in my sdrsharp directory.
+2014-03-08 00:19:41	smrtz|nix	and a locate.
+2014-03-08 00:20:09	smrtz|nix	Oh, ok.  thanks. I'll keep playing with it.
+2014-03-08 00:23:14	-->	beingaware (~beingawar@pi.icanhaz.org) has joined ##rtlsdr
+2014-03-08 00:23:36	-->	KI6WOW (~xxValiumx@c-67-182-160-118.hsd1.ca.comcast.net) has joined ##rtlsdr
+2014-03-08 00:25:27	<--	xxValiumxx (~xxValiumx@c-67-182-160-118.hsd1.ca.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-03-08 00:25:28	--	KI6WOW is now known as xxValiumxx
+2014-03-08 00:25:57	flyback	oh fuck
+2014-03-08 00:26:03	flyback	tuirn ON YORU RTLSDR'S NOW
+2014-03-08 00:26:09	flyback	SOME MALASIA AIRLINE ON THE NEWS
+2014-03-08 00:26:14	flyback	DUNNO IF TOTALLY CRASH
+2014-03-08 00:26:15	flyback	MISSING
+2014-03-08 00:26:17	flyback	HIJACKED
+2014-03-08 00:26:25	flyback	waiting for other networks
+2014-03-08 00:30:12	smrtz|nix	I re and built sdrsharp, and found SDRSharp.exe, but when I run it, I get this error, any idea?  pastebin.com/ULk4xaNg
+2014-03-08 00:32:38	kyhwana	[img-timeline]
+2014-03-08 00:32:55	smrtz|nix	kyhwana: is that for me?
+2014-03-08 00:33:04	smrtz|nix	Also, nevermind, I got it.
+2014-03-08 00:33:19	smrtz|nix	the xbuild script doesn't make the simlinks, I don't know why I thought it would...
+2014-03-08 00:34:08	kyhwana	no, flyback
+2014-03-08 00:37:32	smrtz|nix	Ahh, ok.
+2014-03-08 00:41:23	smrtz|nix	In case any reads the channel logs, I've got SDRSharp running, but when I select my RTL dongle, and hit play, I get invalid sample rate, but that box is grayed out so I can't change it....
+2014-03-08 00:45:15	<--	beingaware (~beingawar@pi.icanhaz.org) has quit (Ping timeout: 240 seconds)
+2014-03-08 00:45:34	smrtz|nix	I remade after running 'cmake ../ -DINSTALL_UDEV_RULES=ON
+2014-03-08 00:45:36	smrtz|nix	'
+2014-03-08 00:46:43	<--	mike_t (~mike@95.67.247.156) has quit (Remote host closed the connection)
+2014-03-08 00:47:15	-->	beingaware (~beingawar@pi.icanhaz.org) has joined ##rtlsdr
+2014-03-08 00:50:49	smrtz|nix	I think the problem is with my audio, since I'm either getting 'connection refused' or 'invalid sample rate' depending on what audio output I select...
+2014-03-08 00:51:41	-->	Fetsdroid (~stefan@aftr-37-201-224-217.unity-media.net) has joined ##rtlsdr
+2014-03-08 00:53:13	<--	nickstr558 (bratina501@adsl-69-212-240-11.dsl.ipltin.ameritech.net) has quit (Remote host closed the connection)
+2014-03-08 00:53:28	-->	nickstr558 (bratina501@adsl-69-212-240-11.dsl.ipltin.ameritech.net) has joined ##rtlsdr
+2014-03-08 01:01:03	-->	elfets (~stefan@2a02:908:f321:2080:1109:4436:7a5c:168e) has joined ##rtlsdr
+2014-03-08 01:02:47	<--	nickstr558 (bratina501@adsl-69-212-240-11.dsl.ipltin.ameritech.net) has quit
+2014-03-08 01:03:54	<--	^peter^ (~peter@30.0.168.125.sta.wbroadband.net.au) has quit
+2014-03-08 01:06:14	flyback	OH NO
+2014-03-08 01:07:37	kyhwana	smrtz|nix: try running it as root?
+2014-03-08 01:08:26	--	azl_ is now known as azl
+2014-03-08 01:09:12	-->	beaware2 (~beingawar@pi.icanhaz.org) has joined ##rtlsdr
+2014-03-08 01:09:20	Bzzt_Ploink	smrtz|nix, the xbuild replaces the fucking around with mono develop, you still need to do the rest
+2014-03-08 01:09:48	<--	beingaware (~beingawar@pi.icanhaz.org) has quit (Ping timeout: 264 seconds)
+2014-03-08 01:10:03	smrtz|nix	kyhwana: yeah, I am.  I'm working on fixing my audio now, since that's also broken, apparently...
+2014-03-08 01:18:26	<--	beaware2 (~beingawar@pi.icanhaz.org) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:25:34	-->	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has joined ##rtlsdr
+2014-03-08 01:45:32	<--	elfets (~stefan@2a02:908:f321:2080:1109:4436:7a5c:168e) has quit (Read error: Connection reset by peer)
+2014-03-08 01:46:59	<--	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has quit (Quit: Leaving)
+2014-03-08 01:49:53	-->	beingaware (~beingawar@pi.icanhaz.org) has joined ##rtlsdr
+2014-03-08 01:52:38	ALoGeNo	http://www.youtube.com/watch?v=8hqcGK72XYQ
+2014-03-08 01:55:10	-->	^peter^ (~peter@30.0.168.125.sta.wbroadband.net.au) has joined ##rtlsdr
+2014-03-08 01:57:52	-->	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has joined ##rtlsdr
+2014-03-08 02:01:38	<--	Fetsdroid (~stefan@aftr-37-201-224-217.unity-media.net) has quit (Ping timeout: 265 seconds)
+2014-03-08 02:12:31	-->	darkscout (~Miranda@dslc-082-083-043-085.pools.arcor-ip.net) has joined ##rtlsdr
+2014-03-08 02:16:40	--	irc: disconnected from server
+2014-03-08 04:16:56	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined ##rtlsdr
+2014-03-08 04:16:56	--	Topic for ##rtlsdr is "Low-cost SDR - http://sdr.osmocom.org/trac/wiki/rtl-sdr - http://rtlsdr.org/ - http://rtlsdr.reddit.com - Try http://sdrsharp.com/ - Keep offtopic discussions short."
+2014-03-08 04:16:56	--	Topic set by horizon (~horizon@osmocom/horizon) on Sat, 25 May 2013 18:25:24
+2014-03-08 04:16:56	--	Channel ##rtlsdr: 256 nicks (0 ops, 0 voices, 256 normals)
+2014-03-08 04:16:56	--	PvNotice(ChanServ): Welcome to ##rtlsdr! Can you help us build the test script? Can you test your unit for us and report results on reddit? http://redd.it/rqrwo
+2014-03-08 04:16:57	--	Mode ##rtlsdr [+cnt]
+2014-03-08 04:16:57	--	Channel created on Sun, 01 Apr 2012 01:17:32
+2014-03-08 04:18:08	<--	beingaware (~beingawar@pi.icanhaz.org) has quit (Read error: Connection reset by peer)
+2014-03-08 04:18:11	-->	steve|m (~steve@osmocom/steve-m) has joined ##rtlsdr
+2014-03-08 04:18:59	-->	beingaware (~beingawar@pi.icanhaz.org) has joined ##rtlsdr
+2014-03-08 04:19:01	-->	Acinonyx (~acinonyx@62.1.50.72.dsl.dyn.forthnet.gr) has joined ##rtlsdr
+2014-03-08 04:20:05	-->	charolastra (~quassel@212-88-7-131.adsl.highway.telekom.at) has joined ##rtlsdr
+2014-03-08 04:22:45	<--	MaxValor (~KK4YMB@68-186-182-79.dhcp.leds.al.charter.com) has quit
+2014-03-08 04:28:04	<--	Joel_re (~jr@115.69.254.241) has quit (Ping timeout: 252 seconds)
+2014-03-08 04:29:17	-->	Joel_re (~jr@115.69.254.241) has joined ##rtlsdr
+2014-03-08 04:33:20	-->	[SkG] (~Esqueje@unaffiliated/skg/x-897332) has joined ##rtlsdr
+2014-03-08 04:43:24	<--	Joel_re (~jr@115.69.254.241) has quit (Ping timeout: 264 seconds)
+2014-03-08 04:44:45	-->	Joel_re (~jr@103.31.146.120) has joined ##rtlsdr
+2014-03-08 04:44:47	Sculptor	https://scontent-b-vie.xx.fbcdn.net/hphotos-frc3/t31/1980216_841013005925852_2121573408_o.jpg
+2014-03-08 04:52:20	cde	aliens perhaps?
+2014-03-08 04:52:37	cde	or maybe, they get lost on an island. WITH ALIENS
+2014-03-08 04:54:03	-->	JlRd (~JlRd@ip68-109-174-116.ph.ph.cox.net) has joined ##rtlsdr
+2014-03-08 04:57:09	Sculptor	please...
+2014-03-08 04:57:25	-->	Moonlit (~moonlit@unaffiliated/moonlit) has joined ##rtlsdr
+2014-03-08 04:58:52	<--	Joel_re (~jr@103.31.146.120) has quit (Ping timeout: 252 seconds)
+2014-03-08 04:58:52	-->	hitmanactual121 (450ee2b9@gateway/web/freenode/ip.69.14.226.185) has joined ##rtlsdr
+2014-03-08 04:59:17	hitmanactual121	Woah, ton of people in here, uh, hi.
+2014-03-08 05:00:15	charolastra	hi, please don't kill us
+2014-03-08 05:00:26	-->	Joel_re (~jr@103.224.4.134) has joined ##rtlsdr
+2014-03-08 05:01:29	hitmanactual121	so, SDR looks cool
+2014-03-08 05:03:16	Sculptor	do you own a rtlsdr device
+2014-03-08 05:05:40	<--	hitmanactual121 (450ee2b9@gateway/web/freenode/ip.69.14.226.185) has quit (Ping timeout: 245 seconds)
+2014-03-08 05:08:46	<--	jmalsbury (~john@c-50-156-100-55.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-03-08 05:23:19	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Quit: …zzzzz...)
+2014-03-08 05:33:19	charolastra	Sculptor: the world must have stopped using primary radar, it seems
+2014-03-08 05:50:26	-->	BabelO (~fcr@unaffiliated/babelo) has joined ##rtlsdr
+2014-03-08 05:54:01	--	yeryry4 is now known as yeryry
+2014-03-08 06:04:06	<--	baldrick (~joe@cpe-98-15-202-69.hvc.res.rr.com) has quit (Quit: Leaving.)
+2014-03-08 06:06:12	<--	BabelO (~fcr@unaffiliated/babelo) has quit (Ping timeout: 244 seconds)
+2014-03-08 06:06:25	-->	BabelO (~fcr@37.163.94.156) has joined ##rtlsdr
+2014-03-08 06:06:26	<--	BabelO (~fcr@37.163.94.156) has quit (Changing host)
+2014-03-08 06:06:26	-->	BabelO (~fcr@unaffiliated/babelo) has joined ##rtlsdr
+2014-03-08 06:06:42	flyback	https://www.youtube.com/watch?v=fNuI6keQXYA
+2014-03-08 06:06:45	<--	BrainDamage (~BrainDama@dynamic-adsl-94-36-234-92.clienti.tiscali.it) has quit (Ping timeout: 260 seconds)
+2014-03-08 06:10:02	-->	pksato (~PEBKAC@unaffiliated/pksato) has joined ##rtlsdr
+2014-03-08 06:15:19	<--	csgo (~jzimmerma@216.2.203.2) has quit (Read error: Connection reset by peer)
+2014-03-08 06:33:50	-->	SigSauer (~Cat@38.99.244.194) has joined ##rtlsdr
+2014-03-08 06:33:57	-->	BabelO_ (~fcr@2a01:e35:8adc:3150:21e:8cff:fe2d:7d3f) has joined ##rtlsdr
+2014-03-08 06:33:57	<--	BabelO_ (~fcr@2a01:e35:8adc:3150:21e:8cff:fe2d:7d3f) has quit (Changing host)
+2014-03-08 06:33:57	-->	BabelO_ (~fcr@unaffiliated/babelo) has joined ##rtlsdr
+2014-03-08 06:36:19	<--	BabelO (~fcr@unaffiliated/babelo) has quit (Ping timeout: 240 seconds)
+2014-03-08 06:44:08	<--	darkscout (~Miranda@dslc-082-083-043-085.pools.arcor-ip.net) has quit (Remote host closed the connection)
+2014-03-08 06:44:36	--	Maqs_ is now known as Maqs
+2014-03-08 06:47:00	--	irc: disconnected from server
+2014-03-08 08:40:38	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined ##rtlsdr
+2014-03-08 08:40:38	--	Topic for ##rtlsdr is "Low-cost SDR - http://sdr.osmocom.org/trac/wiki/rtl-sdr - http://rtlsdr.org/ - http://rtlsdr.reddit.com - Try http://sdrsharp.com/ - Keep offtopic discussions short."
+2014-03-08 08:40:38	--	Topic set by horizon (~horizon@osmocom/horizon) on Sat, 25 May 2013 18:25:24
+2014-03-08 08:40:38	--	Channel ##rtlsdr: 257 nicks (0 ops, 0 voices, 257 normals)
+2014-03-08 08:40:38	--	PvNotice(ChanServ): Welcome to ##rtlsdr! Can you help us build the test script? Can you test your unit for us and report results on reddit? http://redd.it/rqrwo
+2014-03-08 08:40:40	--	Mode ##rtlsdr [+cnt]
+2014-03-08 08:40:40	--	Channel created on Sun, 01 Apr 2012 01:17:32
+2014-03-08 08:41:06	charolastra	assuming lates version of course :)
+2014-03-08 08:41:11	smrtz|nix	Ok, keenerd. I'll start a survey once I figure out how.
+2014-03-08 08:41:35	keenerd	charolastra: You can figure it out for your setup by looking at the counter field of the rtl_power output.
+2014-03-08 08:41:55	keenerd	smrtz|nix: What band are you interested in?
+2014-03-08 08:42:01	smrtz|nix	keenerd: what would you recommend for the bin_size?
+2014-03-08 08:42:20	<--	smrtz (60e421bb@gateway/web/freenode/ip.96.228.33.187) has quit (Ping timeout: 245 seconds)
+2014-03-08 08:42:26	smrtz|nix	and I honistly have no idea... I've never played with any radio stuff before.
+2014-03-08 08:42:41	keenerd	smrtz|nix: Okay, let's walk through one.
+2014-03-08 08:42:54	smrtz|nix	I guess Ham, it'd be cool to hear people talk, and probobly an easy starting point.
+2014-03-08 08:43:15	keenerd	Surveys don't let you hear anything, they are about finding things.
+2014-03-08 08:43:28	keenerd	So we are going to find stuff :-)
+2014-03-08 08:43:40	smrtz|nix	keenerd: right, so I'd be finding what I should try to listen too.
+2014-03-08 08:44:06	keenerd	So, first we need a frequency band. 150MHz to 160MHz is a good one.
+2014-03-08 08:44:54	-->	lazze (5764b018@gateway/web/freenode/ip.87.100.176.24) has joined ##rtlsdr
+2014-03-08 08:44:59	smrtz|nix	Ok, so rtl_power -f 150000:160000:binsize
+2014-03-08 08:45:12	keenerd	No, 150M:160M:binsize
+2014-03-08 08:45:20	smrtz|nix	Oh, cool.
+2014-03-08 08:45:36	keenerd	Now, think carefully about the binsize...
+2014-03-08 08:45:44	charolastra	the counter filed is the 6th one?
+2014-03-08 08:45:49	charolastra	*field
+2014-03-08 08:46:00	keenerd	smrtz|nix: If it is 2k, you'll end up with a pretty picture 5 thousand pixels across.
+2014-03-08 08:46:24	keenerd	charolastra: date, time, Hz low, Hz high, Hz step, samples, dbm, dbm, ...
+2014-03-08 08:46:33	smrtz|nix	keenerd: I don't understand what the bin_size does.
+2014-03-08 08:46:53	pksato	smrtz|nix: find ham repater on you area, and tune on. and wait for 30min to 2hours. repater broadcast callsing on some time on this interval.
+2014-03-08 08:46:58	charolastra	right, thanks
+2014-03-08 08:47:27	keenerd	smrtz|nix: On a waterfall, every pixel has a size.  They will be Y seconds tall and X Hz wide.
+2014-03-08 08:47:41	smrtz|nix	and why you would need it, if you're just getting CVS', like in your example.
+2014-03-08 08:48:16	smrtz|nix	Oh, so bin_size is just the delta y per pixle?  that's cool.  let's do about 3 hours worth?
+2014-03-08 08:48:29	keenerd	No, it is the delta X.
+2014-03-08 08:48:45	keenerd	"-i interval" sets the delta Y.
+2014-03-08 08:49:19	smrtz|nix	Ok, well, I've got a 1080 screen, and I'm fine with scrolling, so let's do 2040, or is that dumb?
+2014-03-08 08:49:20	keenerd	And "-e exit_time" tells when to stop recording.
+2014-03-08 08:49:47	pksato	4m wire antenna with 9:1 ballum and low gain (9) https://dl.dropboxusercontent.com/u/10287126/diversos/hfband-20140308.jpg
+2014-03-08 08:50:31	keenerd	smrtz|nix: rtl_power -f 150M:160M:4k -i 10 -e 3h -g 50 survey-150.csv
+2014-03-08 08:51:00	-->	Geshy (~Geshtu@c-98-243-182-53.hsd1.mi.comcast.net) has joined ##rtlsdr
+2014-03-08 08:51:24	keenerd	smrtz|nix: This will make a (rougly) 2000px by 1000px waterfall covering 10MHz over three hours.
+2014-03-08 08:51:49	smrtz|nix	will it save it as a .jpg or something along with the .cvs?
+2014-03-08 08:51:56	smrtz|nix	csv*
+2014-03-08 08:52:13	keenerd	No, rendering it to an image is done by different software.
+2014-03-08 08:52:29	smrtz|nix	ahh ok.
+2014-03-08 08:53:02	smrtz|nix	it cancels if I move the focus to another window?
+2014-03-08 08:53:17	keenerd	Oh, use "-p 18" since you went to the trouble to find your error :-)
+2014-03-08 08:53:23	keenerd	Um, no?
+2014-03-08 08:54:08	smrtz|nix	Oh, ok.. weird.
+2014-03-08 08:54:36	keenerd	Oh, lets use all the bells and whistles
+2014-03-08 08:54:43	keenerd	rtl_power -f 150M:160M:4k -i 10 -e 3h -g 50 -p 18 -F 9 survey-150.csv
+2014-03-08 08:54:57	-->	MaxValor (~KK4YMB@68-186-182-79.dhcp.leds.al.charter.com) has joined ##rtlsdr
+2014-03-08 08:55:07	smrtz|nix	hold on, it's returning "user cancel, exiting.." a few seconds after running...
+2014-03-08 08:55:08	-->	mike_t (~mike@95.67.247.156) has joined ##rtlsdr
+2014-03-08 08:55:30	pksato	gain 50? noise can overlap most of signals. :)
+2014-03-08 08:55:42	keenerd	Not if you are using the stock antenna :-)
+2014-03-08 08:56:30	pksato	Ah... no any signal . :)
+2014-03-08 08:56:38	smrtz|nix	Is there also a verbose flag?
+2014-03-08 08:56:39	keenerd	(Erm, -F 9 is pointless for this type of scan, sorry.)
+2014-03-08 08:56:48	keenerd	No, it is verbose by default.
+2014-03-08 08:56:58	smrtz|nix	Ok, I'll read through the man pages while it's scanning.
+2014-03-08 08:57:18	keenerd	It just has a "--help", no man page :-(
+2014-03-08 08:57:26	smrtz|nix	there's a man page...
+2014-03-08 08:57:29	smrtz|nix	I was just reading it.
+2014-03-08 08:57:45	keenerd	Not an official man page.
+2014-03-08 08:57:54	smrtz|nix	that's how I knew it was -f lowerBound:upperBound:bitSize
+2014-03-08 08:57:56	Sculptor	keenerd, msexcel csv field separator is locale dependent. it's not ',' all the time. sometime it's ';', etc
+2014-03-08 08:58:38	keenerd	Sculptor: So?  You can tell it the separator when you do the import.
+2014-03-08 08:58:52	Sculptor	yes, but it's a hustle
+2014-03-08 08:58:59	-->	MrUtuber (~MrUtuber0@141.72.218.87.dynamic.jazztel.es) has joined ##rtlsdr
+2014-03-08 08:59:01	charolastra	true, but the name is Comma Seperated Values ;)
+2014-03-08 08:59:04	<--	MrUtuber (~MrUtuber0@141.72.218.87.dynamic.jazztel.es) has left ##rtlsdr
+2014-03-08 08:59:43	keenerd	I should go old school and insist on tabs.
+2014-03-08 08:59:44	smrtz|nix	keenerd: is there a well documented wiki so I don't have to keep asking you guys what are probobly really simple questions?
+2014-03-08 08:59:49	Sculptor	usually when ';' is used as a list separator, ',' is used as decimal point
+2014-03-08 09:00:12	<--	Celerity (~ski@unaffiliated/celerity) has quit (Read error: Connection reset by peer)
+2014-03-08 09:00:45	keenerd	I have no compassion for people who use ',' as a "point".
+2014-03-08 09:00:57	charolastra	smrtz|nix should also have put a -c 0.23 in there
+2014-03-08 09:01:07	keenerd	It is even sillier than people who insist on imperial units :-)
+2014-03-08 09:01:20	smrtz|nix	charolastra: ok.
+2014-03-08 09:01:22	Sculptor	well, it's defined by the locale
+2014-03-08 09:01:34	keenerd	smrtz|nix: No, I still have not gotten around to writing one of those yet.
+2014-03-08 09:01:44	Sculptor	that's why it's called 'decimal mark'
+2014-03-08 09:01:59	-->	oh2ftg (~Ismo@dsl-espbrasgw1-54f9df-42.dhcp.inet.fi) has joined ##rtlsdr
+2014-03-08 09:02:01	smrtz|nix	keenerd: ahh ok.
+2014-03-08 09:02:06	-->	Celerity (~ski@109.161.142.61) has joined ##rtlsdr
+2014-03-08 09:02:06	<--	Celerity (~ski@109.161.142.61) has quit (Changing host)
+2014-03-08 09:02:06	-->	Celerity (~ski@unaffiliated/celerity) has joined ##rtlsdr
+2014-03-08 09:02:36	Sculptor	keenerd, http://alternativeassets.tumblr.com/image/66687605392
+2014-03-08 09:02:55	smrtz|nix	can you recommend a good intro to radio please?  Like, trunking? ssb/usb/cw? decoding?  halp.
+2014-03-08 09:02:56	keenerd	Sculptor: Multiple dongles or multiple seperators, only one of these features will make it in ;-)
+2014-03-08 09:02:59	Sculptor	most of the world uses ','
+2014-03-08 09:03:05	Sculptor	hah ok
+2014-03-08 09:03:44	Sculptor	only british ex colonies use '.'
+2014-03-08 09:03:50	charolastra	keep quiet, everyone want's multible dongle support :P
+2014-03-08 09:04:06	Sculptor	fine
+2014-03-08 09:05:07	keenerd	smrtz|nix: Radio is a huuuuge field.
+2014-03-08 09:05:31	charolastra	smrtz|nix: while you wait for it to finish you can run the python script mentioned at the end of the --help on it to generate a graphic
+2014-03-08 09:06:01	keenerd	A partial graphic of the data collected so far.
+2014-03-08 09:06:13	smrtz|nix	keenerd: got a good primer?  something so I at least know what the terms mean?
+2014-03-08 09:07:24	keenerd	smrtz|nix: For the basics of ham stuff, http://www.kb6nu.com/wp-content/uploads/2010/06/2010_Tech_Study_Guide.pdf is good.
+2014-03-08 09:08:36	keenerd	(Of course that does not have much to do with SDR or radio astronomy or trunking or any number of different sub-fields.)
+2014-03-08 09:09:09	smrtz|nix	thanks, it's a start.
+2014-03-08 09:13:55	smrtz|nix	s
+2014-03-08 09:14:33	keenerd	smrtz|nix: http://www.emce.tuwien.ac.at/hfadmin/354059/download/Digital_Modulation_in_Communications_Systems_-_An_Introduction__Agilent_AN_1298_.pdf is good for SDR.
+2014-03-08 09:14:45	smrtz|nix	awesome, thanks!
+2014-03-08 09:15:01	keenerd	smrtz|nix: http://complextoreal.com/ too
+2014-03-08 09:17:00	smrtz|nix	thanks.
+2014-03-08 09:17:20	smrtz|nix	I'll read throuh as much of this as I can take this weekend.
+2014-03-08 09:28:57	<--	mike_t (~mike@95.67.247.156) has quit (Remote host closed the connection)
+2014-03-08 09:40:41	-->	tejeez (~tejeez@prkele.prk.tky.fi) has joined ##rtlsdr
+2014-03-08 09:50:20	<--	konradoo77 (~debian@user-94-254-145-4.play-internet.pl) has quit (Ping timeout: 240 seconds)
+2014-03-08 09:52:15	-->	konradoo77 (~debian@user-94-254-208-83.play-internet.pl) has joined ##rtlsdr
+2014-03-08 10:21:56	-->	Fetsdroid (~stefan@aftr-37-201-224-8.unity-media.net) has joined ##rtlsdr
+2014-03-08 10:30:24	<--	Geshy (~Geshtu@c-98-243-182-53.hsd1.mi.comcast.net) has quit (Read error: Connection reset by peer)
+2014-03-08 10:35:25	-->	t3st3r (~t3st3r@gateway/tor-sasl/t3st3r) has joined ##rtlsdr
+2014-03-08 10:36:49	-->	elfets (~stefan@2a02:908:f321:2080:81cd:8afb:ec15:4e73) has joined ##rtlsdr
+2014-03-08 10:37:02	charolastra	smrtz|nix: got a preview of your survey
+2014-03-08 10:37:12	-->	Roklobsta (~Roklobsta@ppp118-209-206-165.lns20.mel6.internode.on.net) has joined ##rtlsdr
+2014-03-08 10:45:37	<--	pksato (~PEBKAC@unaffiliated/pksato) has quit (Quit: Problem Exists Between Keyboard And Chair)
+2014-03-08 10:53:13	cde	keenerd: thanks
+2014-03-08 10:53:35	cde	http://www.amazon.com/Software-Receiver-Design-Digital-Communication/dp/0521189446 is nice too
+2014-03-08 10:54:06	cde	there's a pdf floating around too
+2014-03-08 10:58:08	<--	Joel_re (~jr@103.224.4.134) has quit (Ping timeout: 252 seconds)
+2014-03-08 11:02:01	<--	Tykling (tykling@gibfest.dk) has quit (Ping timeout: 265 seconds)
+2014-03-08 11:02:55	-->	Tykling (tykling@gibfest.dk) has joined ##rtlsdr
+2014-03-08 11:02:59	<--	bertrik (~quassel@rockbox/developer/bertrik) has quit (Ping timeout: 265 seconds)
+2014-03-08 11:06:26	-->	jmalsbury (~john@c-50-156-100-55.hsd1.ca.comcast.net) has joined ##rtlsdr
+2014-03-08 11:07:33	--	blkhawk is now known as blkaway
+2014-03-08 11:09:25	-->	mike_t (~mike@95.67.247.156) has joined ##rtlsdr
+2014-03-08 11:09:31	--	blkaway is now known as blkhawk
+2014-03-08 11:11:12	-->	rjg (~robert@odie.tomelliott.net) has joined ##rtlsdr
+2014-03-08 11:19:43	-->	Joel_re (~jr@103.224.4.134) has joined ##rtlsdr
+2014-03-08 11:23:32	<--	MoonUnit` (~MoonUnit@217.155.33.24) has quit (Quit: Leaving)
+2014-03-08 11:25:24	-->	MoonUnit` (~MoonUnit@217.155.33.24) has joined ##rtlsdr
+2014-03-08 11:28:10	-->	PacketVortex (~Moe@unaffiliated/packetvortex) has joined ##rtlsdr
+2014-03-08 11:28:35	<--	ejhgwe (62ce6558@gateway/web/freenode/ip.98.206.101.88) has quit (Ping timeout: 245 seconds)
+2014-03-08 11:29:26	atouk	http://www.nt.tuwien.ac.at/fileadmin/users/wehrlich/Digital_Modulation_in_Communications_Systems_-_An_Introduction__Agilent_AN_1298_.pdf
+2014-03-08 11:29:37	atouk	that might be the one he's referring to
+2014-03-08 11:30:08	-->	pksato (~PEBKAC@unaffiliated/pksato) has joined ##rtlsdr
+2014-03-08 11:30:26	<--	superkuh (~superkuh@unaffiliated/superkuh) has quit (Ping timeout: 240 seconds)
+2014-03-08 11:31:34	-->	superkuh (~superkuh@unaffiliated/superkuh) has joined ##rtlsdr
+2014-03-08 11:31:52	cde	Agilent has lots of great application notes. R&S too
+2014-03-08 11:37:10	atouk	http://www.dspguide.com/
+2014-03-08 11:37:42	atouk	http://homepages.cae.wisc.edu/~sethares/telebreak.pdf
+2014-03-08 11:38:50	atouk	that should give him enough to read for a while
+2014-03-08 11:49:33	-->	GVGUJCV (62ce6558@gateway/web/freenode/ip.98.206.101.88) has joined ##rtlsdr
+2014-03-08 12:05:26	-->	bertrik (~quassel@rockbox/developer/bertrik) has joined ##rtlsdr
+2014-03-08 12:05:39	-->	reDFog (~reDFog@gateway/tor-sasl/redfog) has joined ##rtlsdr
+2014-03-08 12:06:24	elfets	lna works, getting planes 300km far away with simple dipole
+2014-03-08 12:06:47	elfets	had to adjust the collector current for lowest noise though
+2014-03-08 12:08:01	<--	Guest18399 (~joat@ip70-160-158-40.hr.hr.cox.net) has quit (Ping timeout: 252 seconds)
+2014-03-08 12:08:52	-->	joat (~joat@ip70-160-158-40.hr.hr.cox.net) has joined ##rtlsdr
+2014-03-08 12:09:05	--	joat is now known as Guest93716
+2014-03-08 12:09:28	bertrik	elfets: nice
+2014-03-08 12:10:36	bertrik	I think jarod/Willienl uses his own special "spider" antenna for ads-b
+2014-03-08 12:10:53	<--	cool_guy6 (~IceChat77@199-7-156-142.eng.wind.ca) has quit (Quit: I used to think I was indecisive, but now I'm not too sure.)
+2014-03-08 12:11:01	Willienl	bertrik: dualband gsm whip.. :D
+2014-03-08 12:11:16	<--	PacketVortex (~Moe@unaffiliated/packetvortex) has quit
+2014-03-08 12:11:39	Willienl	http://p.globalsources.com/IMAGES/PDT/B1054454288/Car-Whip-Antenna.jpg
+2014-03-08 12:12:21	Willienl	r820t with such antenna here between the window potplants +- 170~250km
+2014-03-08 12:12:59	Willienl	jarod with 1/4 wave groundplane at 60M height.. 350~470km-ish ?
+2014-03-08 12:12:59	<--	Guest93716 (~joat@ip70-160-158-40.hr.hr.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-08 12:13:09	Willienl	without lna just the r820t as is
+2014-03-08 12:13:19	Willienl	me at 6m height
+2014-03-08 12:13:24	Willienl	indoor
+2014-03-08 12:13:30	elfets	oh with this simple whip?
+2014-03-08 12:13:38	elfets	looks like 5/8 lambda
+2014-03-08 12:13:56	Willienl	it is around 1.1ghz
+2014-03-08 12:14:12	Willienl	original tip was longer.. but then have way more noise
+2014-03-08 12:14:16	Willienl	compared to signals
+2014-03-08 12:14:17	elfets	yeah
+2014-03-08 12:14:22	-->	joat| (~joat@ip70-160-158-40.hr.hr.cox.net) has joined ##rtlsdr
+2014-03-08 12:14:24	elfets	maybe highpass filter?
+2014-03-08 12:14:27	Willienl	moment will up an img with ruler next to it
+2014-03-08 12:14:28	elfets	or bandpass
+2014-03-08 12:14:56	Willienl	elfets: hmz guessing 1/2 + 1/4 wave as dualband this was result of a failed wifi antenna math.. :)
+2014-03-08 12:15:16	Willienl	2.4+5ghz -> fail
+2014-03-08 12:15:19	elfets	depends
+2014-03-08 12:15:22	elfets	it is possible
+2014-03-08 12:15:48	elfets	I don't trust the chinese antennas
+2014-03-08 12:15:52	elfets	the wifi stuff they sell is bs
+2014-03-08 12:16:05	-->	cool_guy6 (~IceChat77@199-7-156-142.eng.wind.ca) has joined ##rtlsdr
+2014-03-08 12:16:40	<--	Iota (~Iota@unaffiliated/iota) has quit (Ping timeout: 240 seconds)
+2014-03-08 12:16:54	bertrik	http://x264.nl/dump/ads-b-antenna-groundplane-proper.jpg I think this is the one that jarod uses
+2014-03-08 12:17:36	Willienl	elfets: http://imagebin.org/297944
+2014-03-08 12:17:50	Willienl	elfets: sold as wlan antenna but bottom said "GSM"
+2014-03-08 12:17:53	Willienl	:)
+2014-03-08 12:18:09	elfets	yeah
+2014-03-08 12:18:12	elfets	haha
+2014-03-08 12:18:52	Willienl	but reduced the tip without thinking about the coil in middle may was a phasing coil for dual band whip :D
+2014-03-08 12:19:03	Willienl	but for rx as sdr antenna well no problem.
+2014-03-08 12:20:38	Willienl	bertrik: jup
+2014-03-08 12:21:09	Willienl	1/2wave gp may only overload his receiver more then already do :)
+2014-03-08 12:24:13	Willienl	also some dvb sticks came with a telescopic whip 8 up to 45cm
+2014-03-08 12:24:30	<--	lilikos (~lilikos@91.229.77.72) has quit (Ping timeout: 240 seconds)
+2014-03-08 12:24:50	-->	Iota (~Iota@unaffiliated/iota) has joined ##rtlsdr
+2014-03-08 12:26:51	elfets	wow never seen  one of these
+2014-03-08 12:26:53	-->	FreeArtMan (~famtastic@93.177.213.54) has joined ##rtlsdr
+2014-03-08 12:28:16	Willienl	http://www.ebay.com/itm/TT-Terratec-RTL-SDR-Radio-USB-Kit-DVB-T-TV-FM-DAB-RTL2832U-E4000-Tuner-VAN-/301094675858?pt=US_Video_Capture_TV_Tuner_Cards&hash=item461aa42592
+2014-03-08 12:28:28	Willienl	do not look at the price was first result of list ;p
+2014-03-08 12:30:28	Willienl	lowest price have seen for these dongles can say 3 usd excl shipping
+2014-03-08 12:31:51	bertrik	What kind of tuner do you typically see? Still R820T being the majority? and E4000 getting more scarce?
+2014-03-08 12:33:40	atouk	as long as you dont' get a FC00xx, you're good
+2014-03-08 12:35:16	bertrik	we have an FC00xx for receiving high altitude balloons, works pretty well actually, but we have a low-noise 70cm band LNA in front of it
+2014-03-08 12:36:02	atouk	teh FCs work, just don'e have the s/n or high/low range as teh others
+2014-03-08 12:36:24	bertrik	our "habamp" is basically a 10 MHz-wide SAW filter + low-noise amplifier as far as I understand
+2014-03-08 12:42:51	<--	fredy (~fredy@2001:648:2ffc:1225:a800:ff:fe12:113e) has quit (Excess Flood)
+2014-03-08 12:45:16	-->	fredy (~fredy@snf-8914.vm.okeanos.grnet.gr) has joined ##rtlsdr
+2014-03-08 12:46:59	<--	DrDeke (~DrDeke@deculator.rustytel.net) has quit (Remote host closed the connection)
+2014-03-08 12:47:14	-->	DrDeke (~DrDeke@deculator.rustytel.net) has joined ##rtlsdr
+2014-03-08 12:50:08	-->	BrainDamage (~BrainDama@dynamic-adsl-94-36-242-15.clienti.tiscali.it) has joined ##rtlsdr
+2014-03-08 12:52:19	<--	mike_t (~mike@95.67.247.156) has quit (Remote host closed the connection)
+2014-03-08 12:55:40	<--	kurti (~kurti@unaffiliated/kurti) has quit (Ping timeout: 252 seconds)
+2014-03-08 12:59:41	-->	kurti (~kurti@unaffiliated/kurti) has joined ##rtlsdr
+2014-03-08 13:02:19	<--	DrDeke (~DrDeke@deculator.rustytel.net) has quit (Ping timeout: 240 seconds)
+2014-03-08 13:09:33	-->	DrDeke (~DrDeke@deculator.rustytel.net) has joined ##rtlsdr
+2014-03-08 13:10:07	-->	Maroni (~user@178.165.128.24.wireless.dyn.drei.com) has joined ##rtlsdr
+2014-03-08 13:16:22	-->	TriJetScud (~TriJetScu@van-app-svr.ad.v10networks.ca) has joined ##rtlsdr
+2014-03-08 13:17:03	TriJetScud	would a dipole antenna tuned for 1090MHz work fine with ADS-B given if I live by an airport?
+2014-03-08 13:17:18	TriJetScud	just wondering before I try constructing the colinear one
+2014-03-08 13:17:33	bertrik	yes I think so
+2014-03-08 13:17:39	bertrik	what would be the problem?
+2014-03-08 13:18:51	TriJetScud	well, I don't have the radiation pattern for the colinear one I've read about
+2014-03-08 13:19:27	TriJetScud	I'm just wondering what difference it is on paper before I go ahead and waste some time to construct the colinear one
+2014-03-08 13:20:48	keenerd	What are your thoughts on a quarter wave ground plane?
+2014-03-08 13:21:04	TriJetScud	well, kinda a PITA to construct
+2014-03-08 13:21:10	TriJetScud	simple design but it's just bah
+2014-03-08 13:21:16	keenerd	Not compared to a colinear :-)
+2014-03-08 13:21:18	TriJetScud	I've seen the rad pattern on that one
+2014-03-08 13:21:48	keenerd	Everyone around here who does ads-b swears by the qwgp, for what it is worth.
+2014-03-08 13:21:59	TriJetScud	keenerd: I'd say the co-linear one is the easiest to construct without the need of getting a special connector for it
+2014-03-08 13:22:13	TriJetScud	just grab a bunch of RG-6 and you're on your merry way
+2014-03-08 13:22:28	TriJetScud	and short the open end as far as I've read
+2014-03-08 13:22:40	keenerd	It is still trickier to build.
+2014-03-08 13:23:25	keenerd	A qwgp can be made from pretty much any scrap.
+2014-03-08 13:24:02	TriJetScud	true
+2014-03-08 13:24:05	keenerd	Every colinear I've ever done was very fragile and finicky.
+2014-03-08 13:24:15	TriJetScud	but I happen to have a crapload of RG-6 lying around
+2014-03-08 13:24:40	TriJetScud	and I'm willing to cut through some of the plastic steathing and solder the inner conductor on the braod of the RG-6
+2014-03-08 13:24:53	TriJetScud	which hopefully will make it a bit more reliable
+2014-03-08 13:24:57	TriJetScud	and durable
+2014-03-08 13:25:05	keenerd	Assuming the braid is solderable :-)
+2014-03-08 13:25:13	TriJetScud	sure it is
+2014-03-08 13:25:16	TriJetScud	I've done it before
+2014-03-08 13:25:31	TriJetScud	soldering a BNC ground on the braid of the RG6? yeah, doable
+2014-03-08 13:25:40	TriJetScud	but you just need a ton of flux to do the job
+2014-03-08 13:25:49	TriJetScud	it's like solder wick once you get the hang of it
+2014-03-08 13:26:43	keenerd	I've only seen aluminum braid/shield.  Basically unsolderable.
+2014-03-08 13:27:12	TriJetScud	heh, not the RG-6 I've seen around here, it's still doable but quite tricky
+2014-03-08 13:27:13	keenerd	If you have the deluxe stuff with copper braid, go nuts :-)
+2014-03-08 13:27:53	TriJetScud	but meh, I'll stick with the dipole design for the mean time
+2014-03-08 13:28:09	TriJetScud	much easier to build
+2014-03-08 13:29:00	keenerd	Do try a qwgp.  I've never before met someone who thought a colinear was easier to build, and the qwpg's pattern is pretty good for planes.
+2014-03-08 13:29:11	TriJetScud	hm...
+2014-03-08 13:29:49	TriJetScud	well it's not the first time I've tried constructing an antenna anyhow :P my previous one was for the GSM frequencies
+2014-03-08 13:30:01	<--	fredy (~fredy@snf-8914.vm.okeanos.grnet.gr) has quit (Excess Flood)
+2014-03-08 13:30:16	keenerd	It is just a couple inches of wire.  The cheapest I've made stuck four pieces into a cork and soldered to the antenna cable :-)
+2014-03-08 13:30:46	-->	fredy (~fredy@2001:648:2ffc:1225:a800:ff:fe12:113e) has joined ##rtlsdr
+2014-03-08 13:33:59	atouk	http://www.atouk.com/wordpress/?page_id=237   ADSB antanna project
+2014-03-08 13:34:46	TriJetScud	well I'll just say this, I can't believe any of this rtl-sdr stuff was real until I got my hands on one of those tv dongles
+2014-03-08 13:35:28	TriJetScud	when I got mine, I had to pinch myself because what I realized was I now have a portable $100K spectrum analyzer in my pocket
+2014-03-08 13:35:35	keenerd	atouk: It sounds like he does not have any of those connectors on hand, and that was the main reason for avoiding the qwgp.
+2014-03-08 13:36:07	TriJetScud	well keenerd, I just need a dipole for a quick test so yeah
+2014-03-08 13:36:07	atouk	copper wire and just about anything to hold it together will work
+2014-03-08 13:36:35	keenerd	Weeeell they are not quite as nice as $100K.
+2014-03-08 13:37:28	atouk	no, but for saving $99,990, they're pretty damn good
+2014-03-08 13:37:30	keenerd	They are as nice as the $800 dedicated ads-b boxes some places sell :-)
+2014-03-08 13:40:08	TriJetScud	even cheaper keenerd
+2014-03-08 13:41:03	keenerd	I mean, if you want something that actually compared to a $100K peice of hardware, you want a $1K USRP.
+2014-03-08 13:45:11	-->	nickstr558 (~nickstr55@adsl-69-212-240-11.dsl.ipltin.ameritech.net) has joined ##rtlsdr
+2014-03-08 13:46:26	<--	Vegomatic2 (~user1965@c-71-237-19-218.hsd1.co.comcast.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2014-03-08 13:48:25	<--	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has quit (Quit: Leaving)
+2014-03-08 13:49:25	<--	lazze (5764b018@gateway/web/freenode/ip.87.100.176.24) has quit (Ping timeout: 245 seconds)
+2014-03-08 13:51:18	--	hlsniper is now known as c4rc4s
+2014-03-08 13:56:23	<--	wishi (~wishi@unaffiliated/wishi) has quit (Ping timeout: 244 seconds)
+2014-03-08 13:56:30	<--	Joel_re (~jr@103.224.4.134) has quit (Ping timeout: 240 seconds)
+2014-03-08 13:56:49	-->	Vegomatic (~user1965@c-71-237-19-218.hsd1.co.comcast.net) has joined ##rtlsdr
+2014-03-08 13:58:40	<--	Maroni (~user@178.165.128.24.wireless.dyn.drei.com) has quit (Ping timeout: 240 seconds)
+2014-03-08 13:58:46	-->	Moonlit_ (~moonlit@unaffiliated/moonlit) has joined ##rtlsdr
+2014-03-08 13:59:46	Sout	keenerd, even then SA have advantages
+2014-03-08 14:02:35	<--	Moonlit (~moonlit@unaffiliated/moonlit) has quit (Ping timeout: 244 seconds)
+2014-03-08 14:03:34	-->	wishi (~wishi@kaze.crazylazy.info) has joined ##rtlsdr
+2014-03-08 14:03:34	<--	wishi (~wishi@kaze.crazylazy.info) has quit (Changing host)
+2014-03-08 14:03:34	-->	wishi (~wishi@unaffiliated/wishi) has joined ##rtlsdr
+2014-03-08 14:10:32	-->	Joel_re (~jr@103.17.106.46) has joined ##rtlsdr
+2014-03-08 14:10:52	-->	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-08 14:12:42	-->	AlphaLima (AlphaLima@c-24-6-26-239.hsd1.ca.comcast.net) has joined ##rtlsdr
+2014-03-08 14:14:56	<--	DrDeke (~DrDeke@deculator.rustytel.net) has quit (Ping timeout: 265 seconds)
+2014-03-08 14:19:23	-->	DrDeke (~DrDeke@deculator.rustytel.net) has joined ##rtlsdr
+2014-03-08 14:26:20	<--	JlRd (~JlRd@ip68-109-174-116.ph.ph.cox.net) has quit (Ping timeout: 244 seconds)
+2014-03-08 14:30:11	<--	wishi (~wishi@unaffiliated/wishi) has quit (Read error: Connection reset by peer)
+2014-03-08 14:30:26	-->	wishi (~wishi@kaze.crazylazy.info) has joined ##rtlsdr
+2014-03-08 14:30:26	<--	wishi (~wishi@kaze.crazylazy.info) has quit (Changing host)
+2014-03-08 14:30:26	-->	wishi (~wishi@unaffiliated/wishi) has joined ##rtlsdr
+2014-03-08 14:30:30	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Quit: …zzzzz...)
+2014-03-08 14:30:48	<--	FreeArtMan (~famtastic@93.177.213.54) has quit (Ping timeout: 264 seconds)
+2014-03-08 14:34:53	<--	vravn (~vravn@syn.rook.sx) has quit (Ping timeout: 255 seconds)
+2014-03-08 14:36:48	-->	SpiritWolf (~SpiritWol@c-71-197-255-46.hsd1.wa.comcast.net) has joined ##rtlsdr
+2014-03-08 14:37:45	-->	kkok (~kvirc@53.Red-81-38-230.dynamicIP.rima-tde.net) has joined ##rtlsdr
+2014-03-08 14:40:40	<--	GVGUJCV (62ce6558@gateway/web/freenode/ip.98.206.101.88) has quit (Ping timeout: 245 seconds)
+2014-03-08 14:42:11	-->	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-08 14:43:06	-->	FreeArtMan (~famtastic@93.177.213.54) has joined ##rtlsdr
+2014-03-08 14:50:36	<--	kkok (~kvirc@53.Red-81-38-230.dynamicIP.rima-tde.net) has quit (Quit: KVIrc 4.1.3 Equilibrium http://www.kvirc.net/)
+2014-03-08 14:55:36	jarod	atouk nice progp :)
+2014-03-08 14:55:47	jarod	yourfirstadsbantenna :0
+2014-03-08 14:56:50	atouk	read the adsb quickstart, too.  I haven't updated in a while. suggerstions appreciated
+2014-03-08 14:58:37	prog	the program hasn't changed either
+2014-03-08 14:59:02	jarod	its perfect atouk :)
+2014-03-08 14:59:30	jarod	i have tested the gp at an official ads-b coil antenna ... range wise haven't seen much difference
+2014-03-08 14:59:38	jarod	simply line of sight
+2014-03-08 15:01:12	Sculptor	give me antenna tall enough and i'll map all the planes
+2014-03-08 15:02:08	jarod	no need?
+2014-03-08 15:02:08	bertrik	and move the earth? :)
+2014-03-08 15:02:18	atouk	been out of the loop here for a bit. dealing with death of mom, probate, dipshit siblings, lawyers, trying to keep business running, etc
+2014-03-08 15:03:32	Sculptor	sorry to hear that
+2014-03-08 15:04:15	atouk	i hate lawyers even more than I did before
+2014-03-08 15:04:23	-->	Anastasius (~Anastasiu@unaffiliated/anastasius) has joined ##rtlsdr
+2014-03-08 15:06:28	atouk	"sure we'll take your case, just give us a 25K retainer.  Not that much cash?  Just get a home equity loan.  Of course we can't gaurantee results..."
+2014-03-08 15:15:36	pksato	I forget that my upconverter hava a 1:1 transformer, and can input side ungrounded from main ground, removed jumper and noise reduced  https://dl.dropboxusercontent.com/u/10287126/diversos/hfband-20140308_-_ungrounded_tr.jpg
+2014-03-08 15:19:08	Sculptor	noise and signal
+2014-03-08 15:19:59	pksato	gain setting is very low on this test.
+2014-03-08 15:20:27	<--	FreeArtMan (~famtastic@93.177.213.54) has quit (Quit: main.lv)
+2014-03-08 15:22:05	pksato	and antenna is not good below 4MHz
+2014-03-08 15:22:39	<--	fredy (~fredy@2001:648:2ffc:1225:a800:ff:fe12:113e) has quit (Excess Flood)
+2014-03-08 15:25:45	-->	fredy (~fredy@snf-8914.vm.okeanos.grnet.gr) has joined ##rtlsdr
+2014-03-08 15:26:25	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Quit: …zzzzz...)
+2014-03-08 15:34:00	<--	FreezingCold (~FreezingC@135.0.41.14) has quit (Ping timeout: 240 seconds)
+2014-03-08 15:35:00	smrtz|nix	keenerd: What linux software are you guys using?  I'd like to play with my options a bit.
+2014-03-08 15:35:20	keenerd	What do you want to do?
+2014-03-08 15:35:32	keenerd	smrtz|nix: Also, did you share your survey :-)
+2014-03-08 15:35:39	smrtz|nix	keenerd: you know that I have no idea.
+2014-03-08 15:35:50	pksato	:)
+2014-03-08 15:35:56	keenerd	Maybe you read all the stuff we had linked ;-)
+2014-03-08 15:36:09	smrtz|nix	no, it failed halfway through.  I'm attempting to rerun it now, it's about half way done.
+2014-03-08 15:36:57	keenerd	You could have rendered it when it was halfway through.
+2014-03-08 15:37:04	smrtz|nix	keenerd: I'm working my way though it, but you linked me a lot, and I'm anxious to use this
+2014-03-08 15:37:07	MoonUnit`	i'm reading acars messages atm, interesting stuff like  : HEI. WE NEED TECHNICAL ASS AT ARLANDA. FWD TOILET SEAT IS LOOSE FROM THE WALL AND NEEDS REFITTING LN-DYO
+2014-03-08 15:37:39	-->	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-08 15:37:40	smrtz|nix	keenerd: yeah, but, I fell asleep.
+2014-03-08 15:37:47	Sculptor	Moon_Man, pure gold
+2014-03-08 15:38:14	keenerd	pksato: How is there no 28.8Mhz noise?
+2014-03-08 15:38:31	Sculptor	keenerd, 30mhz
+2014-03-08 15:38:35	Sculptor	has only one 28.8mhz line
+2014-03-08 15:38:43	keenerd	Yeah but I don't see it.
+2014-03-08 15:38:45	Sculptor	err. two
+2014-03-08 15:39:37	pksato	have one on 24MHz. 28.8? need to check  what line is it.
+2014-03-08 15:39:46	-->	JlRd (~JlRd@ip68-109-174-116.ph.ph.cox.net) has joined ##rtlsdr
+2014-03-08 15:39:56	Moon_Man	Nothing but the finest gold.
+2014-03-08 15:40:02	Sculptor	pksato, is that direct sampling
+2014-03-08 15:40:08	Sculptor	keenerd, direct sampling
+2014-03-08 15:40:26	pksato	no, is done by upconverter
+2014-03-08 15:41:07	Sculptor	what's the osc frequency
+2014-03-08 15:42:36	-->	SigSauer (~Cat@38.99.244.194) has joined ##rtlsdr
+2014-03-08 15:43:08	MoonUnit`	i made a 150 to 160 survey, https://dl.dropboxusercontent.com/u/7618572/150-to-160.png
+2014-03-08 15:43:08	keenerd	Oh, right.  Of course it would not be at 28.8
+2014-03-08 15:43:42	smrtz|nix	keenerd: I think I'd like to talk to space.
+2014-03-08 15:43:42	MoonUnit`	strong pocsag around 153Mhz
+2014-03-08 15:43:52	smrtz|nix	how hard would that be, minus building the antenna.
+2014-03-08 15:44:34	pksato	ah...
+2014-03-08 15:45:13	keenerd	smrtz|nix: Um, you'd need to get your technicians license and then get a 2m radio and a directional antenna and then aim the whole operation at one of the ham sats.
+2014-03-08 15:45:37	smrtz|nix	keenerd: by talk, I meant listen, sorry.
+2014-03-08 15:45:48	Vegomatic	you can talk to space with a dual band handheld and a directional antenna... get you ham license
+2014-03-08 15:46:28	keenerd	smrtz|nix: In that case the simplest thing is the NOAA weather sats.  They beam down photos and are very easy to pick up.
+2014-03-08 15:46:45	smrtz|nix	keenerd: awesome, I'll look into those.
+2014-03-08 15:48:12	keenerd	MoonUnit`: Nice.  Looks like the gain could be turned down 15db or so.  I see bunch of pagers and a couple of voice channels.
+2014-03-08 15:49:09	keenerd	There are maybe four pager channels, but the extra gain makes them each appear 8 times :-)
+2014-03-08 15:49:27	smrtz|nix	keenerd: I really like your python drawing script.
+2014-03-08 15:49:28	MoonUnit`	ok, will rerun tomorrow.
+2014-03-08 15:49:31	pksato	smrtz|nix: tune "bolinha" (little ball) sat :)
+2014-03-08 15:49:41	-->	FreezingCold (~FreezingC@135.0.41.14) has joined ##rtlsdr
+2014-03-08 15:49:53	smrtz|nix	pksato, I'll google it:)
+2014-03-08 15:50:03	keenerd	smrtz|nix: I take it you did not try to use it under windows then ;-)
+2014-03-08 15:50:34	keenerd	(It should work, but getting PIL is annoying and I've not had any comfirmations of it working yet.)
+2014-03-08 15:51:12	smrtz|nix	keenerd: no, I gave up playing with windows once my video drivers started being weird.
+2014-03-08 15:51:42	smrtz|nix	It's a new windows install, and I haven't bothered to actually install the correct drivers yet, I'm still on the genaric...
+2014-03-08 15:53:13	keenerd	MoonUnit`: Have you tried tuning the voice channel that is near 159MHz?
+2014-03-08 15:53:56	smrtz|nix	pksato: damn, that's interesting.
+2014-03-08 15:58:33	MoonUnit`	keenerd, not sure all my logged freqs are SDR#, using linux atm. i have a few around 160 and 461
+2014-03-08 15:59:08	<--	radioastro (~quassel@veda.xs4all.nl) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2014-03-08 15:59:16	smrtz|nix	keenerd: I read something about you using Arch on your website, right?
+2014-03-08 15:59:33	-->	babylonlurker (~quassel@veda.xs4all.nl) has joined ##rtlsdr
+2014-03-08 15:59:44	keenerd	smrtz|nix: Yes?
+2014-03-08 16:00:48	smrtz|nix	do you know if I can usd DVB-T, and then just unload the modules for it when I want to use it for SDR?  https://wiki.archlinux.org/index.php/DVB-T, keenerd 
+2014-03-08 16:02:08	keenerd	In theory yes.  In practice, if you live in the US you can't use DVB anyway.
+2014-03-08 16:02:21	smrtz|nix	Oh?  why not?
+2014-03-08 16:02:49	keenerd	The US uses ATSC.  DVB is a mainly european thing.
+2014-03-08 16:03:29	smrtz|nix	Ahh ok.
+2014-03-08 16:03:43	MoonUnit`	DVB-T for SD, DVB-T2 for HD in the UK.
+2014-03-08 16:04:04	-->	d1g_ (~d1g@static.253.227.76.144.clients.your-server.de) has joined ##rtlsdr
+2014-03-08 16:11:01	<--	MoALTz (~no@user-31-175-247-158.play-internet.pl) has quit (Ping timeout: 264 seconds)
+2014-03-08 16:15:34	-->	mmazing (~mmazing@1.87.124.24.cm.sunflower.com) has joined ##rtlsdr
+2014-03-08 16:15:35	<--	mmazing (~mmazing@1.87.124.24.cm.sunflower.com) has quit (Changing host)
+2014-03-08 16:15:35	-->	mmazing (~mmazing@unaffiliated/mmazing) has joined ##rtlsdr
+2014-03-08 16:18:35	-->	^peter^ (~peter@30.0.168.125.sta.wbroadband.net.au) has joined ##rtlsdr
+2014-03-08 16:26:44	<--	cool_guy6 (~IceChat77@199-7-156-142.eng.wind.ca) has quit (Ping timeout: 244 seconds)
+2014-03-08 16:33:07	<--	Moonlit_ (~moonlit@unaffiliated/moonlit) has quit (Read error: Connection reset by peer)
+2014-03-08 16:34:39	<--	DrDeke (~DrDeke@deculator.rustytel.net) has quit (Ping timeout: 240 seconds)
+2014-03-08 16:35:11	smrtz|nix	keenerd: Is there an official github for sdrangelove?  I'd like to fork it.
+2014-03-08 16:38:00	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2014-03-08 16:38:01	keenerd	No, just   git clone git://git.osmocom.org/sdrangelove.git
+2014-03-08 16:38:17	smrtz|nix	Ok, thanks.
+2014-03-08 16:38:55	keenerd	But you can push your fork to github and ask nicely to get patches merged.
+2014-03-08 16:43:06	-->	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-08 16:52:57	-->	Moon_Man_ (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has joined ##rtlsdr
+2014-03-08 16:54:16	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2014-03-08 16:54:16	--	Moon_Man_ is now known as Moon_Man
+2014-03-08 16:54:29	<--	BrainDamage (~BrainDama@dynamic-adsl-94-36-242-15.clienti.tiscali.it) has quit (Ping timeout: 260 seconds)
+2014-03-08 16:54:59	-->	BrainDamage (~BrainDama@dynamic-adsl-78-12-241-227.clienti.tiscali.it) has joined ##rtlsdr
+2014-03-08 16:57:02	-->	sonrisa (~sonrisa@62.109.6.57) has joined ##rtlsdr
+2014-03-08 16:57:25	-->	creyc (~creyc@70.126.188.239) has joined ##rtlsdr
+2014-03-08 17:01:56	<--	MoonUnit` (~MoonUnit@217.155.33.24) has quit (Quit: Leaving)
+2014-03-08 17:06:30	<--	Moon_Man (~Moon_Man@CPE9072400ccd21-CM001868d946e0.cpe.net.cable.rogers.com) has quit (Ping timeout: 244 seconds)
+2014-03-08 17:11:22	-->	DrDeke (~DrDeke@deculator.rustytel.net) has joined ##rtlsdr
+2014-03-08 17:13:03	<--	creyc (~creyc@70.126.188.239) has quit
+2014-03-08 17:14:13	--	irc: disconnected from server

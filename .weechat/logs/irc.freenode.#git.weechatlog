@@ -1,0 +1,44 @@
+2014-03-08 16:22:34	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #git
+2014-03-08 16:22:34	--	Topic for #git is "Welcome to #git, the place for git help and eggs benedict | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | I kissed a git, and I liked it. I hope my repo don't mind it."
+2014-03-08 16:22:34	--	Topic set by EugeneKay (eugene@itvends.com) on Sat, 08 Mar 2014 14:51:48
+2014-03-08 16:22:36	--	Channel #git: 1040 nicks (1 op, 11 voices, 1028 normals)
+2014-03-08 16:22:36	--	Mode #git [+Ccnt]
+2014-03-08 16:22:36	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-08 16:22:38	-->	jaequery (~jaequery@cpe-98-154-1-32.socal.res.rr.com) has joined #git
+2014-03-08 16:22:38	<--	jaequery (~jaequery@cpe-98-154-1-32.socal.res.rr.com) has quit (Client Quit)
+2014-03-08 16:22:48	hsnmck	µe3µ/join #javascript
+2014-03-08 16:22:53	<--	hsnmck (~hsnmck@198.136.59.211) has quit (Quit: leaving)
+2014-03-08 16:22:59	-->	jaequery (~jaequery@cpe-98-154-1-32.socal.res.rr.com) has joined #git
+2014-03-08 16:23:00	<--	jaequery (~jaequery@cpe-98-154-1-32.socal.res.rr.com) has quit (Client Quit)
+2014-03-08 16:23:00	smrtz|nix	Hey, I'm trying to keep my git clean, is there a way I can put someone elses repo within one of mine?
+2014-03-08 16:23:25	xender	ionelmc: hook maybe?
+2014-03-08 16:23:37	xender	Is there even something as push hook?
+2014-03-08 16:23:46	<--	zajn (~zajn@airbears2-136-152-142-142.AirBears2.Berkeley.EDU) has quit (Read error: Connection reset by peer)
+2014-03-08 16:23:48	xender	s/as/like/
+2014-03-08 16:24:07	-->	zajn (~zajn@airbears2-136-152-142-142.AirBears2.Berkeley.EDU) has joined #git
+2014-03-08 16:24:13	-->	axsuul (~textual@76.91.190.116) has joined #git
+2014-03-08 16:24:22	-->	hsnmck (~hsnmck@198.136.59.211) has joined #git
+2014-03-08 16:24:45	ionelmc	xender: dunno, but i'm gonna run `git push` anyway, might as well run `git push origin HEAD:otherbranch`, not *such* a big effort
+2014-03-08 16:25:13	xender	ionelmc: You can create an alias as well
+2014-03-08 16:25:34	xender	And doing this explicitely seems a better idea than hooks
+2014-03-08 16:25:48	ionelmc	good point, thanks
+2014-03-08 16:26:02	<--	james_d_h (~james@cpe-173-175-239-55.tx.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-03-08 16:26:09	grawity	git push origin HEAD:master HEAD:otherbranch
+2014-03-08 16:26:27	-->	Packardnode (Pack@charlie.yourbnc.co.uk) has joined #git
+2014-03-08 16:27:09	-->	rgr (~user@f054172206.adsl.alicedsl.de) has joined #git
+2014-03-08 16:27:46	<--	dreiss (~dreiss@173.252.71.189) has quit (Read error: Connection reset by peer)
+2014-03-08 16:28:00	<--	lindenle (~lindenle@host-184-167-16-102.jcs-wy.client.bresnan.net) has quit (Remote host closed the connection)
+2014-03-08 16:28:06	-->	reskp (~accessibl@2a01:e34:ec13:82f0:d082:94ce:9e00:474c) has joined #git
+2014-03-08 16:28:44	-->	cagedwisdom (~X@dsl-58-7-35-202.wa.westnet.com.au) has joined #git
+2014-03-08 16:29:09	-->	lindenle (~lindenle@host-184-167-16-102.jcs-wy.client.bresnan.net) has joined #git
+2014-03-08 16:29:24	<--	JyZyXEL (~foo@a88-112-64-35.elisa-laajakaista.fi) has left #git
+2014-03-08 16:29:41	-->	nilg (~user@77.70.2.229) has joined #git
+2014-03-08 16:29:44	-->	Goplat (~goplat@reactos/developer/Goplat) has joined #git
+2014-03-08 16:30:58	-->	Dougie187 (~douglasj@c-174-56-101-93.hsd1.nm.comcast.net) has joined #git
+2014-03-08 16:31:40	<--	SorenHolm (~quassel@5634f347.rev.stofanet.dk) has quit (Remote host closed the connection)
+2014-03-08 16:33:24	-->	yhager (~yuval@207.216.222.232) has joined #git
+2014-03-08 16:33:52	-->	kyledr (~kyle@c-75-73-4-55.hsd1.mn.comcast.net) has joined #git
+2014-03-08 16:34:21	kyledr	if i have a really tough file to merge, how do i manually fix it?
+2014-03-08 16:34:34	kyledr	i want to open the old file and the new file and then hand edit a new file
+2014-03-08 16:34:48	<--	maestrojed (~maestroje@c-98-246-149-230.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-08 16:35:05	kyledr	source tree either lets me choose the left, choose the right, or choose section by section which to use. however, it doesn't break it up into sections correctly so it needs to be hand edited

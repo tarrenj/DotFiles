@@ -3,6 +3,11 @@ A place for me to store systems wide DotFiles for all my accounts.
 mover info:
     moves all the files/ssh keys to their respective locations
 
+weechat encrypted nickserv password:
+    /secure passphrase <passphrase>
+    /secure set freenode <nickserv password>  (maybe not this one)
+    /set irc.server.freenode.command "/msg nickserv identify $(sec.data.freenode)"
+
 TODO:
 Things I want to do, in no particular order
 
