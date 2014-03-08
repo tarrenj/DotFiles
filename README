@@ -2,3 +2,16 @@ A place for me to store systems wide DotFiles for all my accounts.
 
 mover info:
     moves all the files/ssh keys to their respective locations
+
+TODO:
+Things I want to do, in no particular order
+
+PGP
+tmux - copy and paste
+zsh
+bspwm/sxkbd
+xbattbar
+autoUpdate script
+SLIM (or someother login manager)
+weechat url handeling
+

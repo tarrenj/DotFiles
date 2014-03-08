@@ -2,5 +2,20 @@ sudo cp ssh/ssh_config /etc/ssh/ssh_config
 sudo cp ssh/sshd_config /etc/ssh/sshd_config
 sudo cp ssh/id_ecdsa.pub /etc/authorized_keys
 
-cp userEnviroment/.vimrc ~/.vimrc
-cp userEnviroment/.xinitrc ~/.xinitrc
+sudo cp 20-thinkpad.conf /usr/share/X11/xorg.conf.d/20-thinkpad.conf
+
+cp .vimrc ~/.vimrc
+cp .xinitrc ~/.xinitrc
+cp .Xdefaults ~/.Xdefaults
+cp .zshrc ~/.zshrc
+
+cp tmux.conf ~/tmux.conf
+
+mkdir ~/.config
+mkdir ~/.config/bspwm
+mkdir ~/.config/sxhd
+
+cp bspwmrc ~/.config/bspwm/
+cp sxhdrc ~/.config/sxhd/
+
+
