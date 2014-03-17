@@ -1,0 +1,597 @@
+2014-02-25 19:42:51	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #bspwm
+2014-02-25 19:42:51	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 19:42:51	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 19:42:51	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 19:42:51	--	Channel #bspwm: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2014-02-25 19:42:51	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 19:42:53	--	Mode #bspwm [+cnt]
+2014-02-25 19:42:53	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 19:49:28	-->	dansbandit (~Johnny@dynamic.1.17.e8edf3b0a780.9cd36d9e9dc1.afb.bredband2.com) has joined #bspwm
+2014-02-25 19:56:57	smrtz|nix	I'm following bspwm for dummies, and when it says to add to /etc/profile, do I just add that line to the end?
+2014-02-25 20:08:45		irc: disconnected from server
+2014-02-25 20:35:11	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-25 20:35:11	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 20:35:11	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 20:35:11	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dansbandit dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 20:35:11	--	Channel #bspwm: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2014-02-25 20:35:11	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 20:35:13	--	Mode #bspwm [+cnt]
+2014-02-25 20:35:13	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 20:36:05	smrtz|nix	bspwm has vim keybindings by default?!  I've been wasting my time with all other wm's.  I'm done hopping arround, bspwm is here to stay.
+2014-02-25 20:36:55		irc: disconnected from server
+2014-02-25 20:48:10	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-25 20:48:10	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 20:48:10	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 20:48:10	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dansbandit dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 20:48:10	--	Channel #bspwm: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2014-02-25 20:48:10	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 20:48:12	--	Mode #bspwm [+cnt]
+2014-02-25 20:48:12	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 20:50:55		irc: disconnected from server
+2014-02-25 20:55:01	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-25 20:55:01	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 20:55:01	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 20:55:01	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dansbandit dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 20:55:01	--	Channel #bspwm: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2014-02-25 20:55:01	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 20:55:03	--	Mode #bspwm [+cnt]
+2014-02-25 20:55:03	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 20:55:29	smrtz|nix	Can someone help me set up a panel please?  I'm following bspwm for dummies, and I can't seem to figure out what I'm doing wrong...
+2014-02-25 21:07:42	smrtz|nix	Panel is running, but when I pkill it, and run it directly from terminal, I get this output: http://pastebin.com/62SxTuJw  Any ideas?
+2014-02-25 22:05:14	smrtz|nix	I fixed it by running make && sudo make install in each of the sub directories I just cloned, then installing xfonts-terminus, I'm about to restart x to see if that works.
+2014-02-25 22:05:15		irc: disconnected from server
+2014-02-25 22:38:15	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-25 22:38:16	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 22:38:16	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 22:38:16	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dansbandit dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 22:38:16	--	Channel #bspwm: 18 nicks (0 ops, 0 halfops, 0 voices, 18 normals)
+2014-02-25 22:38:16	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 22:38:17	--	Mode #bspwm [+cnt]
+2014-02-25 22:38:17	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 22:39:49		irc: disconnected from server
+2014-02-26 22:02:08	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:02:08	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:02:08	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:02:08	--	Channel #bspwm: 19 nicks (0 ops, 0 voices, 19 normals)
+2014-02-26 22:02:08	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:02:08	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:02:10	--	Mode #bspwm [+cnt]
+2014-02-26 22:02:10	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:02:29	smrtz|nix	applications open by default over top of the bar at the top of the screen.  How do I fix that?
+2014-02-26 22:03:09	tuftedocelot	top_padding
+2014-02-26 22:03:22	smrtz|nix	tuftedocelot: Ok, thanks!
+2014-02-26 22:04:19	tuftedocelot	18 is usually a reasonable number if you're using bar-aint-recursive
+2014-02-26 22:04:43	smrtz|nix	what's that?
+2014-02-26 22:05:08	smrtz|nix	Would I set a rule for it in my bspwmrc?
+2014-02-26 22:06:30	tuftedocelot	in bspwmrc, yes
+2014-02-26 22:06:43	tuftedocelot	bspc config top_padding <value>
+2014-02-26 22:07:02	smrtz|nix	Ok, is there a well documented wiki on this?  I googled for like, 45 min before asking here...
+2014-02-26 22:08:14	tuftedocelot	https://github.com/baskerville/bspwm/blob/master/doc/bspwm.1.txt
+2014-02-26 22:08:26	smrtz|nix	tuftedocelot: Ok, cool.
+2014-02-26 22:08:45	tuftedocelot	Or just https://github.com/baskerville/bspwm#bspwm1
+2014-02-26 22:09:12	smrtz|nix	cool, I'll read these tonight...
+2014-02-26 22:09:33	tuftedocelot	They're the same
+2014-02-26 22:09:43	smrtz|nix	the second one has nicer formatting thouhg.
+2014-02-26 22:09:48	smrtz|nix	thought*
+2014-02-26 22:12:06	exm	Is there a way to do window resizing with one keybinding instead of two?
+2014-02-26 22:13:23	exm	I've got bspc window -e  {left -10,down +10,up -10,right +10} and {right -10,up +10,down -10,left +10}, and I'd like to combine them
+2014-02-26 22:16:30	tuftedocelot	How do you mean?
+2014-02-26 22:16:54	exm	Actually, I just figured out why it wouldn't work
+2014-02-26 22:17:30	exm	Because windows won't always be bounded by a screen edge, you couldn't decide to push one edge or pull the opposite
+2014-02-26 22:17:45	exm	Oh well, one to enbiggen and one to shrink it is
+2014-02-26 22:18:32	exm	But what I had wanted was to be able to select a window, and use splat h to push left and splat l to pull left when on the right half of the screen.
+2014-02-26 22:18:59	exm	But if a window is in middle, it can't work, so I rescind my question and apologize for puking in the channel
+2014-02-26 22:19:05	tuftedocelot	This sounds vaguely familiar, but I can't remember any details so carry on
+2014-02-26 22:19:23	tuftedocelot	But that conclusion sounds right
+2014-02-26 22:20:14	--	irc: disconnected from server
+2014-02-26 22:21:08	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:21:08	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:21:08	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:21:08	--	Channel #bspwm: 19 nicks (0 ops, 0 voices, 19 normals)
+2014-02-26 22:21:08	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:21:08	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:21:10	--	Mode #bspwm [+cnt]
+2014-02-26 22:21:10	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:21:30	exm	Thinking about implementing monitor independent workspaces, and was wondering how weird that might fit into the current code
+2014-02-26 22:21:31	tuftedocelot	Not as far as I know. I've never seen baskerville in here
+2014-02-26 22:21:49	exm	Okay. No better way to find out than to start hacking at it
+2014-02-26 22:22:04	smrtz|nix	tuftedocelot: since adding "bspc config top_padding    18" and restarting bspwm, my panel's gone.  Any ideas?
+2014-02-26 22:22:11	tuftedocelot	Yeah, he seems communicative based on previous bug reports and pull requests
+2014-02-26 22:22:37	exm	smrtz|nix: If you remove it, does it work again?
+2014-02-26 22:22:45	smrtz|nix	exm: let me check...
+2014-02-26 22:23:06	exm	If it does, run `bspc config top_padding 18` in a terminal in that
+2014-02-26 22:23:07	smrtz|nix	# comments it out?
+2014-02-26 22:23:12	exm	Yes
+2014-02-26 22:23:17	smrtz|nix	brb.
+2014-02-26 22:23:19	--	irc: disconnected from server
+2014-02-26 22:23:42	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:23:42	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:23:42	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:23:42	--	Channel #bspwm: 19 nicks (0 ops, 0 voices, 19 normals)
+2014-02-26 22:23:42	--	Notice(morgan.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-02-26 22:23:42	--	Mode #bspwm [+cnt]
+2014-02-26 22:23:43	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:23:43	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:23:43	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:24:12	smrtz|nix	exm: Oh!  I just realized, I moved my panel config, so I need to change my path, nevermind.
+2014-02-26 22:24:22	exm	That would do it :)
+2014-02-26 22:26:03	--	irc: disconnected from server
+2014-02-26 22:30:20	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:30:20	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:30:20	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:30:20	--	Channel #bspwm: 19 nicks (0 ops, 0 voices, 19 normals)
+2014-02-26 22:30:20	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:30:20	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:30:20	--	Mode #bspwm [+cnt]
+2014-02-26 22:30:21	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:31:19	smrtz|nix	exm: I fixed my /etc/profile, but I still don't have a panel when I restart x, I ran the echo command, and it was running, so I pkilled it, and manually ran it, which worked.  Any ideas?
+2014-02-26 22:33:19	<--	exm (~millere@128.153.186.12) has quit (Ping timeout: 265 seconds)
+2014-02-26 22:34:11	smrtz|nix	damn.
+2014-02-26 22:34:16	--	irc: disconnected from server
+2014-02-26 22:40:30	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:40:30	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:40:30	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:40:30	--	Channel #bspwm: 18 nicks (0 ops, 0 voices, 18 normals)
+2014-02-26 22:40:30	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:40:30	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:40:32	--	Mode #bspwm [+cnt]
+2014-02-26 22:40:32	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:41:02	smrtz|nix	If anyone's here, panel loads correctly at startx, about half the time now.
+2014-02-26 22:47:41	--	irc: disconnected from server
+2014-02-26 22:54:37	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 22:54:38	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 22:54:38	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 22:54:38	--	Channel #bspwm: 18 nicks (0 ops, 0 voices, 18 normals)
+2014-02-26 22:54:38	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 22:54:38	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 22:54:39	--	Mode #bspwm [+cnt]
+2014-02-26 22:54:39	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-26 22:59:14	-->	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-02-26 23:02:28	smrtz|nix	earsplit: you here?
+2014-02-26 23:04:28	earsplit	hey
+2014-02-26 23:05:02	smrtz|nix	I'm having trouble getting my panel to work, would you help me out please?
+2014-02-26 23:05:46	earsplit	whats not working
+2014-02-26 23:06:30	smrtz|nix	when I startx, it's only there about half the time, when it's not, I can kill it, and manually run it, and it'll open up fine.
+2014-02-26 23:08:04	smrtz|nix	I'm still using the default panel and panel_bar scripts.
+2014-02-26 23:15:13	earsplit	hey sorry im doing a million things
+2014-02-26 23:15:36	earsplit	how are you quitting bspwm?
+2014-02-26 23:15:49	earsplit	i have this in my sxhkd
+2014-02-26 23:15:50	earsplit	alt + shift + q
+2014-02-26 23:15:52	earsplit	        bspc quit 1 && pkill bar && pkill dzen2
+2014-02-26 23:15:59	earsplit	my guess is you're not stopping panel when you log out
+2014-02-26 23:16:08	earsplit	you wouldn't need the dzen part
+2014-02-26 23:25:12	smrtz|nix	Yep, I just wasn't killing it.
+2014-02-26 23:25:16	smrtz|nix	awesome, thanks
+2014-02-26 23:28:27	earsplit	:D
+2014-02-26 23:28:53	earsplit	whenver something like that doesnt work, just try running the command that isnt working
+2014-02-26 23:29:07	earsplit	it would have been like "hey man i'm already running!"
+2014-02-26 23:36:05	smrtz|nix	earsplit: I was, I just didn't connect the dots to see that I need to kill it when I kill bspwm.
+2014-02-26 23:55:06	--	irc: disconnected from server
+2014-02-26 23:56:51	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-02-26 23:56:51	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-26 23:56:51	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-26 23:56:51	--	Channel #bspwm: 19 nicks (0 ops, 0 voices, 19 normals)
+2014-02-26 23:56:51	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-02-26 23:56:51	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-26 23:56:53	--	Mode #bspwm [+cnt]
+2014-02-26 23:56:53	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-27 00:38:29	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-02-27 01:38:23	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-02-27 01:54:32	-->	faiden1 (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-02-27 01:55:06	<--	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2014-02-27 02:04:10	-->	wmtest (~wmtest@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 02:12:31	<--	wmtest (~wmtest@88-134-78-226-dynip.superkabel.de) has quit (Remote host closed the connection)
+2014-02-27 02:27:42	-->	wmtest (~wmtest@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 02:37:51	<--	faiden1 (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Ping timeout: 245 seconds)
+2014-02-27 02:38:21	-->	exm (~millere@128.153.222.224) has joined #bspwm
+2014-02-27 02:47:17	<--	wmtest (~wmtest@88-134-78-226-dynip.superkabel.de) has quit (Remote host closed the connection)
+2014-02-27 03:05:26	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 04:35:53	<--	exm (~millere@128.153.222.224) has quit (Ping timeout: 252 seconds)
+2014-02-27 05:41:00	<--	h41 (~h41@88-134-78-226-dynip.superkabel.de) has quit (Quit: Leaving)
+2014-02-27 06:36:09	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 08:06:11	<--	dansbandit (~Johnny@dynamic.1.17.e8edf3b0a780.9cd36d9e9dc1.afb.bredband2.com) has quit (Ping timeout: 245 seconds)
+2014-02-27 08:09:35	-->	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-02-27 10:03:14	dimeshake_	if i've two windows on a desktop and would like to orient them horizontally instead of vertically -- what bspc command will do that?
+2014-02-27 10:07:21	tuftedocelot	Hm, if I'm visualizing this correctly, then the rotate command ought to do the trick
+2014-02-27 10:08:25	dimeshake_	oh neat
+2014-02-27 10:08:30	dimeshake_	this'un should do
+2014-02-27 10:08:34	tuftedocelot	Try: bspc desktop -R 90
+2014-02-27 10:08:48	tuftedocelot	Is that what you're looking for?
+2014-02-27 10:09:05	dimeshake_	yes it is!
+2014-02-27 10:09:07	dimeshake_	excellent
+2014-02-27 10:09:09	dimeshake_	thanks
+2014-02-27 10:09:41	tuftedocelot	No problem. I have that set to a keybind
+2014-02-27 10:09:57	dimeshake_	yep, adding that now myself.
+2014-02-27 10:10:08	dimeshake_	curious, what've you bound it to?
+2014-02-27 10:10:12	tuftedocelot	super + r
+2014-02-27 10:10:16	dimeshake_	heh also what i chose
+2014-02-27 10:10:54	dimeshake_	yep, works a treat
+2014-02-27 10:10:56	dimeshake_	thankya
+2014-02-27 10:11:13	tuftedocelot	You're welcome!
+2014-02-27 10:20:16	-->	dotpyfe_ (~dotpyfe@192.3.10.91) has joined #bspwm
+2014-02-27 10:21:44	<--	h41 (~h41@88-134-78-226-dynip.superkabel.de) has quit (*.net *.split)
+2014-02-27 10:21:44	<--	dotpyfe (~dotpyfe@192.3.10.91) has quit (*.net *.split)
+2014-02-27 10:21:45	--	dotpyfe_ is now known as dotpyfe
+2014-02-27 10:23:57	--	dimeshake_ is now known as dimeshake
+2014-02-27 10:25:29	-->	GigaG33k (~frakingch@rrcs-24-172-188-86.central.biz.rr.com) has joined #bspwm
+2014-02-27 10:27:51	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 11:25:15	<--	h41 (~h41@88-134-78-226-dynip.superkabel.de) has quit (Quit: Leaving)
+2014-02-27 11:48:53	-->	earsplit (~sunn@cpe-66-65-47-1.nyc.res.rr.com) has joined #bspwm
+2014-02-27 11:55:03	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-02-27 12:00:01	-->	exm (~millere@128.153.222.224) has joined #bspwm
+2014-02-27 12:05:52	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-02-27 12:23:10	-->	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-02-27 12:55:00	siwoti	let's say I have 3 windows like in these drawings https://github.com/baskerville/bspwm#splitting-modes
+2014-02-27 12:55:14	siwoti	how do I put windows 1 below 3 so that 2 takes the full height
+2014-02-27 12:55:35	<--	exm (~millere@128.153.222.224) has quit (Ping timeout: 272 seconds)
+2014-02-27 14:20:35	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-27 14:31:05	earsplit	hi you still there?
+2014-02-27 14:31:21	earsplit	read up on preselection
+2014-02-27 14:31:36	<--	hardcore (~hardcore@s15423758.onlinehome-server.info) has quit (Ping timeout: 240 seconds)
+2014-02-27 14:32:02	earsplit	pretty necessary for bspwm
+2014-02-27 14:32:33	-->	hardcore (~hardcore@s15423758.onlinehome-server.info) has joined #bspwm
+2014-02-27 14:32:38	earsplit	# Presel window for splitting
+2014-02-27 14:32:40	earsplit	alt + ctrl + {h,j,k,l}
+2014-02-27 14:32:42	earsplit	        bspc window -p {left,down,up,right}
+2014-02-27 14:33:05	earsplit	or alternatively
+2014-02-27 14:33:25	earsplit	flip the tree 180 degrees and move window two into the larger spot
+2014-02-27 14:33:28	earsplit	there's a million ways to do that
+2014-02-27 14:34:01	earsplit	bspc desktop -F vertical
+2014-02-27 14:34:31	earsplit	then move the window where you want it to go, either with bspc window -s left / right
+2014-02-27 14:34:43	earsplit	or with bspc window -s biggest
+2014-02-27 14:34:55	earsplit	(move window to left right or move window into biggest space)
+2014-02-27 14:35:42	smrtz|nix	window -s biggest?  I want that.  Thanks.
+2014-02-27 14:39:42	earsplit	for some reason i've had this keybind in every WM i've ever used
+2014-02-27 14:39:43	earsplit	# Move current window to largest space
+2014-02-27 14:39:45	earsplit	alt + Return
+2014-02-27 14:39:47	earsplit	        bspc window -s biggest
+2014-02-27 14:39:50	earsplit	is that an xmonad default?
+2014-02-27 14:41:09	tuftedocelot	Looks like it? http://www.haskell.org/wikiupload/b/b8/Xmbindings.png
+2014-02-27 14:42:03	siwoti	earsplit: if I understand correctly preselection if for the next new window but in this case I want to move an existing window
+2014-02-27 14:43:35	siwoti	I tried all your commands but somehow I never get window 1 to be below window 3 on the left
+2014-02-27 14:45:49	earsplit	take your pick of methods
+2014-02-27 14:46:24	earsplit	i can think of like 4 ways to do it
+2014-02-27 14:46:24	earsplit	http://paste.unixhub.net/index.php/3Rny/
+2014-02-27 14:46:24	earsplit	option 1
+2014-02-27 14:46:24	earsplit	option 2
+2014-02-27 14:46:24	earsplit	http://paste.unixhub.net/index.php/rcR/
+2014-02-27 14:47:29	siwoti	ah yes I understand with the -F vertical
+2014-02-27 14:47:47	earsplit	this one is with -F vertical
+2014-02-27 14:47:48	earsplit	http://paste.unixhub.net/index.php/Jtd/
+2014-02-27 14:48:00	earsplit	the first one was with spawning a new window in that spot using presel
+2014-02-27 14:48:16	earsplit	the second one was moving an already spawned window into the preselcted space
+2014-02-27 14:48:46	earsplit	my natural instinct was to use method 3
+2014-02-27 14:48:56	earsplit	spawn 3 windows, preselect the first and move the window i wanted into that space
+2014-02-27 14:49:30	siwoti	<earsplit> the second one was moving an already spawned window into the preselcted space
+2014-02-27 14:49:37	siwoti	hwo do you do that is what I don't get
+2014-02-27 14:52:21	earsplit	# Move window into presel position
+2014-02-27 14:52:23	earsplit	alt + shift {a,s,d,f}
+2014-02-27 14:52:26	earsplit	        bspc window -w {left,down,up,right}
+2014-02-27 14:53:38	siwoti	ah thanks!
+2014-02-27 14:53:48	earsplit	i dont really know what else that is useful
+2014-02-27 14:54:01	earsplit	i dont quite understand how that command works
+2014-02-27 14:54:14	earsplit	i just use it to move a window in to a preselected space
+2014-02-27 14:54:34	earsplit	if you try to move it into a space that isn't preselected, it fucks with the tree
+2014-02-27 14:55:16	smrtz|nix	earsplit: yeah, I've noticed a lot of that.  I just installed bspwm like, 3 days ago, and I'm still trying to learn how this tree thing works....
+2014-02-27 14:55:56	earsplit	this is probably a safer alternative: # Move window into presel position
+2014-02-27 14:55:58	earsplit	alt + shift {a,s,d,f}
+2014-02-27 14:56:00	earsplit	        bspc window -w {left.manual,down.manual,up.manual,right.manual}
+2014-02-27 14:56:47	earsplit	so you dont fuck with your tree
+2014-02-27 15:05:33	smrtz|nix	earsplit: just tested that, it's weird, but I like it.
+2014-02-27 15:05:34	smrtz|nix	thanks.
+2014-02-27 15:10:27	earsplit	yeah there's a way to integrate it with the regular movement keys though
+2014-02-27 15:11:02	earsplit	so alt + shift hjkl will move the window into a presel space if its available
+2014-02-27 15:11:08	earsplit	otherwise it will just swap the window
+2014-02-27 15:11:09	smrtz|nix	Oh? just add a modifier like Ctrl and replace asdf with hjkl?
+2014-02-27 15:11:17	earsplit	nah hold on
+2014-02-27 15:11:21	earsplit	lemme figure it out
+2014-02-27 15:11:25	earsplit	its a little more elegant then that
+2014-02-27 15:18:43	earsplit	maybe not
+2014-02-27 15:18:55	smrtz|nix	 Lol.
+2014-02-27 15:21:08	china	earsplit: if a recording is shit, i can use that as an excuse if i can't get the mix to sound good right
+2014-02-27 16:18:43	<--	GigaG33k (~frakingch@rrcs-24-172-188-86.central.biz.rr.com) has quit (Quit: WeeChat 0.4.3)
+2014-02-27 16:28:58	<--	h41 (~h41@88-134-78-226-dynip.superkabel.de) has quit (Quit: Leaving)
+2014-02-27 16:46:35	earsplit	depends on the end goal
+2014-02-27 16:46:42	earsplit	china: if it sounds like shit re-record it?
+2014-02-27 16:46:58	china	i wish i was in charge of recording lol
+2014-02-27 16:47:03	earsplit	what are you recording?
+2014-02-27 16:47:10	earsplit	and it depends on what the end goal is
+2014-02-27 16:47:12	china	actually i don't wish that
+2014-02-27 16:47:20	earsplit	if you're paying someone to record it for you
+2014-02-27 16:47:21	china	it's my cousin's band, and he asked me to mix
+2014-02-27 16:47:31	earsplit	well then you can do the best you can
+2014-02-27 16:47:34	china	8)
+2014-02-27 16:47:36	china	ye
+2014-02-27 16:47:47	earsplit	when you do it, say "hey this fucking guitar was mic'd terribly can we redo it?"
+2014-02-27 16:48:11	china	i don't think any of them know how to figure out a metronome
+2014-02-27 16:48:12	earsplit	if he says, nah its chill, then you can't be blamed
+2014-02-27 16:48:20	china	particularly the drummer
+2014-02-27 16:48:21	earsplit	did you at least get seperate tracks?
+2014-02-27 16:48:23	china	yes
+2014-02-27 16:48:39	earsplit	yeah that sucks and its their fault
+2014-02-27 16:48:46	china	god if i didn't i would have just given up
+2014-02-27 16:49:08	china	i only started doing minor work today though, a little bit of cut and paste does wonders in many cases
+2014-02-27 16:49:21	china	though i wish i had gotten all of the takes as well, not just the current best
+2014-02-27 16:49:27	earsplit	well some bands can't play in time, it doesn't effect the mix that much
+2014-02-27 16:49:48	earsplit	there's onthing you can do to cover that in unless you go in and crossfade every hit
+2014-02-27 16:49:51	earsplit	which is a pain in the ass
+2014-02-27 16:49:54	earsplit	and takes hours
+2014-02-27 16:50:25	china	i've quantized stuff manually before
+2014-02-27 16:50:39	china	i'm not prepared to do any major witchcraft for this though
+2014-02-27 16:51:59	china	will probably just do a standard mix first and then see if i can easily improve on it after
+2014-02-27 16:52:26	earsplit	have you ever mixed anything before?
+2014-02-27 16:52:34	china	yea
+2014-02-27 16:52:59	earsplit	i was lucky to work with a pretty solid producer on everything i ever did
+2014-02-27 16:53:04	china	nothing large scale though, just local bands that ask for help
+2014-02-27 16:53:08	earsplit	got to know his technique pretty well
+2014-02-27 16:53:16	china	i prefer doing recordings over mix/master
+2014-02-27 16:53:24	earsplit	he did both for us
+2014-02-27 16:53:33	earsplit	we never used metronomes either
+2014-02-27 16:54:27	china	unless you're adding weird delays post-recording there's not really any particular need for that
+2014-02-27 16:55:02	china	doing cuts and stuff also helps with a set bpm but that can be done free hand anyway
+2014-02-27 16:56:36	earsplit	nah no cuts never
+2014-02-27 16:56:36	earsplit	i'm all for recording it all live
+2014-02-27 16:56:36	earsplit	amps in seperate rooms, bass di, everyone in the same room with the drummer with headphones
+2014-02-27 16:56:50	china	yeah that's an approach i like a lot as well
+2014-02-27 16:56:52	earsplit	overdub any guitar / bass parts that suck later
+2014-02-27 16:57:15	china	sadly this particular case was done incrementally
+2014-02-27 16:57:23	china	and pretty badly as well, oh well
+2014-02-27 16:58:21	china	also
+2014-02-27 16:58:28	china	http://osrc.dfm.io/chinatsun
+2014-02-27 16:58:30	china	>It seems like chinatsun is—or should be—friends with Bill Indelicato.
+2014-02-27 16:58:32	china	:D
+2014-02-27 16:58:52	earsplit	http://sunsmusic.tumblr.com/post/17404512489/crozxedilay
+2014-02-27 16:58:56	earsplit	i wish i had more documentation
+2014-02-27 17:01:51	china	video fails to load
+2014-02-27 17:02:14	china	oh, works in chrome
+2014-02-27 17:04:16	earsplit	i had a few pictures on my phone i think
+2014-02-27 17:04:28	earsplit	we had the sickest drum micing situation for the last one
+2014-02-27 17:05:32	earsplit	http://povertyhollow.bandcamp.com/track/rocks
+2014-02-27 17:05:41	china	oh do elaborate
+2014-02-27 17:05:41	earsplit	and
+2014-02-27 17:05:43	earsplit	http://povertyhollow.bandcamp.com/track/welter
+2014-02-27 17:05:49	earsplit	drums sounded pretty phat
+2014-02-27 17:05:52	china	i love setting up mics for drums
+2014-02-27 17:06:40	earsplit	i dont quite remember what we did but it sounded great
+2014-02-27 17:07:01	earsplit	a big thing was two overheads as room mics out of phase
+2014-02-27 17:07:10	earsplit	made the cymbals sound a lot more natural
+2014-02-27 17:07:49	china	neat
+2014-02-27 17:08:06	china	i've heard this album before
+2014-02-27 17:09:03	china	because i'm a scary stalker
+2014-02-27 17:09:07	earsplit	weeeee
+2014-02-27 17:11:01	earsplit	what are you using to mix it?
+2014-02-27 17:11:10	earsplit	i've been playing with FOSS recording tools
+2014-02-27 17:11:12	china	i use reaper
+2014-02-27 17:11:28	earsplit	no linuxies :(
+2014-02-27 17:11:28	china	which isn't exactly foss but they're good guys
+2014-02-27 17:11:31	china	yeah :(
+2014-02-27 17:11:53	earsplit	i think i'd only be able to use protools
+2014-02-27 17:13:46	china	i think both of my fav audio guys use protools
+2014-02-27 17:14:16	earsplit	yeah most everyone doing rock does
+2014-02-27 17:14:43	china	oh, no
+2014-02-27 17:14:52	china	magnus lindberg uses ssl soundscape
+2014-02-27 17:16:28	china	he mostly does mixing/mastering though, not so much recording
+2014-02-27 17:34:07	<--	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Quit: faiden)
+2014-02-27 18:15:52	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-02-27 18:25:59	<--	earsplit (~sunn@cpe-66-65-47-1.nyc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-02-27 19:37:36	<--	dunsmoreb (~dunsmoreb@intenselogic.com) has quit (Ping timeout: 240 seconds)
+2014-02-27 19:38:00	-->	dunsmoreb (~dunsmoreb@intenselogic.com) has joined #bspwm
+2014-02-27 19:42:25	<--	dimeshake (~mshade@unaffiliated/mshade) has quit (Ping timeout: 240 seconds)
+2014-02-27 19:47:02	<--	tbuck (~tbuck@silenceisdefeat.com) has quit (Ping timeout: 240 seconds)
+2014-02-27 19:50:53	-->	tbuck (~tbuck@silenceisdefeat.com) has joined #bspwm
+2014-02-27 20:28:39	-->	tbuck_ (~tbuck@silenceisdefeat.com) has joined #bspwm
+2014-02-27 20:29:13	-->	tuftedocelot_ (~tuftedoce@192.3.10.91) has joined #bspwm
+2014-02-27 20:29:44	<--	tbuck (~tbuck@silenceisdefeat.com) has quit (Ping timeout: 240 seconds)
+2014-02-27 20:29:47	<--	tuftedocelot (~tuftedoce@192.3.10.91) has quit (Ping timeout: 240 seconds)
+2014-02-27 20:29:49	--	tuftedocelot_ is now known as tuftedocelot
+2014-02-27 21:43:11	-->	dimeshake (~mshade@unaffiliated/mshade) has joined #bspwm
+2014-02-28 02:23:46	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-02-28 02:46:32	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-02-28 02:57:02	<--	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Ping timeout: 245 seconds)
+2014-02-28 05:00:05	--	irc: disconnected from server
+2014-03-05 23:32:25	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-05 23:32:25	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-05 23:32:25	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-05 23:32:25	--	Channel #bspwm: 18 nicks (0 ops, 0 voices, 18 normals)
+2014-03-05 23:32:25	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-05 23:32:25	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-05 23:32:26	--	Mode #bspwm [+cnt]
+2014-03-05 23:32:26	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-05 23:57:12	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-05 23:57:12	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-05 23:57:12	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-05 23:57:12	--	Channel #bspwm: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-03-05 23:57:13	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-05 23:57:13	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-05 23:57:16	--	Mode #bspwm [+cnt]
+2014-03-05 23:57:16	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-06 00:00:57	-->	dansbandit (~Johnny@dynamic.1.17.e8edf3b0a780.9cd36d9e9dc1.afb.bredband2.com) has joined #bspwm
+2014-03-06 00:06:06	--	irc: disconnected from server
+2014-03-06 02:05:26	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-06 02:05:26	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-06 02:05:26	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-06 02:05:26	--	Channel #bspwm: 18 nicks (0 ops, 0 voices, 18 normals)
+2014-03-06 02:05:26	--	Mode #bspwm [+cnt]
+2014-03-06 02:05:26	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-06 02:05:26	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-06 02:05:26	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-06 02:06:20	smrtz|nix	Hey, I just switched to zsh, and added that line to my /etc/zsh/zprofile, and relogged, but panel still isn't opening when I start x, any ideas?
+2014-03-06 02:06:25	--	irc: disconnected from server
+2014-03-06 02:07:27	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-06 02:07:27	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-06 02:07:27	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-06 02:07:27	--	Channel #bspwm: 18 nicks (0 ops, 0 voices, 18 normals)
+2014-03-06 02:07:27	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-06 02:07:27	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-06 02:07:29	--	Mode #bspwm [+cnt]
+2014-03-06 02:07:30	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-06 02:27:07	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-03-06 02:40:46	-->	h41 (~h41@88-134-78-226-dynip.superkabel.de) has joined #bspwm
+2014-03-06 04:30:26	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-03-06 06:32:01	<--	h41 (~h41@88-134-78-226-dynip.superkabel.de) has quit (Ping timeout: 264 seconds)
+2014-03-06 08:20:14	<--	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Remote host closed the connection)
+2014-03-06 08:42:49	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-03-06 09:52:17	-->	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-03-06 10:44:14	-->	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-06 12:18:47	faiden	How do i move a window into the foreground? Sometime my windows gets placed in the background of other windows. floating window that is
+2014-03-06 12:19:50	tuftedocelot	Assuming default keybinds, super + c might do the trick
+2014-03-06 12:20:05	tuftedocelot	Can't recall what the associated bspc command is
+2014-03-06 12:20:59	faiden	nope did not work
+2014-03-06 12:22:30	faiden	Did i press anything odd?
+2014-03-06 12:23:03	faiden	i can't seem to find anything in my sxhkd
+2014-03-06 12:44:09	faiden	what does super + c normaly do tuftedocelot  ?
+2014-03-06 13:04:12	tuftedocelot	bspc window -f {next,prev}
+2014-03-06 13:04:32	tuftedocelot	super + {_,shift + }c
+2014-03-06 13:07:47	faiden	hmm no that just switches focus on windows for me ;P I still cant get the floating windows to be ontop unless i restart :(
+2014-03-06 13:09:02	tuftedocelot	Aha, gotcha. For some reason, I thought that was the fix
+2014-03-06 13:09:06	tuftedocelot	Carry on
+2014-03-06 13:12:00	smrtz|nix	Why the hell is there a "T" in my panel, when using the default config?
+2014-03-06 13:14:50	tuftedocelot	L(tiled|monocle)
+2014-03-06 13:14:52	tuftedocelot	Layout of the focused desktop of the focused monitor.
+2014-03-06 13:15:27	smrtz|nix	tuftedocelot: Oh...  Thanks.  How can I change the layout?
+2014-03-06 13:16:49	tuftedocelot	https://github.com/baskerville/bspwm/blob/master/examples/sxhkdrc#L11
+2014-03-06 13:17:15	smrtz|nix	thanks.
+2014-03-06 14:54:56	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-03-06 14:59:13	-->	GigaG33k (~frakingch@65-116-221-195.dia.static.qwest.net) has joined #bspwm
+2014-03-06 15:03:15	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 15:34:56	-->	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-06 16:10:22	-->	upavshii (~upavshii@188.190.126.51) has joined #bspwm
+2014-03-06 16:15:45	<--	GigaG33k (~frakingch@65-116-221-195.dia.static.qwest.net) has quit (Quit: WeeChat 0.4.3)
+2014-03-06 16:30:26	<--	upavshii (~upavshii@188.190.126.51) has quit (Ping timeout: 265 seconds)
+2014-03-06 17:30:02	<--	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has quit (Quit: faiden)
+2014-03-06 19:20:53	-->	biruza (~biruza@91.207.116.226) has joined #bspwm
+2014-03-06 19:31:17	<--	tbuck (tbuck@silenceisdefeat.com) has left #bspwm
+2014-03-06 20:16:38	<--	biruza (~biruza@91.207.116.226) has quit (Remote host closed the connection)
+2014-03-06 20:24:46	-->	forgottenarcher (bae24a0a@gateway/web/freenode/ip.186.226.74.10) has joined #bspwm
+2014-03-06 20:27:41	forgottenarcher	Hello everyone, I have a few questions.
+2014-03-06 20:43:38	<--	forgottenarcher (bae24a0a@gateway/web/freenode/ip.186.226.74.10) has quit (Quit: Page closed)
+2014-03-06 21:04:19	-->	hardcore_ (~hardcore@s15423758.onlinehome-server.info) has joined #bspwm
+2014-03-06 21:06:21	-->	earsplit_ (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-06 21:06:48	<--	siwoti (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:48	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:06:48	<--	hardcore (~hardcore@s15423758.onlinehome-server.info) has quit (Ping timeout: 240 seconds)
+2014-03-06 21:07:11	-->	siwoti (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has joined #bspwm
+2014-03-06 21:59:44	<--	earsplit_ (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-03-06 22:00:22	-->	siwoti_ (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has joined #bspwm
+2014-03-06 22:06:12	<--	siwoti (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:06:12	<--	dunsmoreb (~dunsmoreb@intenselogic.com) has quit (Ping timeout: 244 seconds)
+2014-03-06 22:08:21	-->	dunsmoreb (~dunsmoreb@intenselogic.com) has joined #bspwm
+2014-03-06 22:24:08	-->	Mechanim1l (~kyle@184.75.214.163) has joined #bspwm
+2014-03-06 22:24:42	<--	dunsmoreb (~dunsmoreb@intenselogic.com) has quit (*.net *.split)
+2014-03-06 22:24:44	<--	hardcore_ (~hardcore@s15423758.onlinehome-server.info) has quit (*.net *.split)
+2014-03-06 22:24:46	<--	Mechanimal (~kyle@184.75.214.163) has quit (*.net *.split)
+2014-03-06 22:24:47	<--	thadood (~thadood@198.199.79.170) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	dimeshake (~mshade@unaffiliated/mshade) has quit (*.net *.split)
+2014-03-06 22:24:50	<--	tuftedocelot (~tuftedoce@192.3.10.91) has quit (*.net *.split)
+2014-03-06 22:25:13	-->	hardcore (~hardcore@s15423758.onlinehome-server.info) has joined #bspwm
+2014-03-06 22:32:23	-->	dunsmoreb (~dunsmoreb@intenselogic.com) has joined #bspwm
+2014-03-06 22:34:25	-->	olaqua (~olaqua@91.229.76.70) has joined #bspwm
+2014-03-06 22:44:10	-->	earsplit_ (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-06 22:48:19	<--	earsplit_ (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 23:13:19	<--	Mechanim1l (~kyle@184.75.214.163) has quit (Ping timeout: 240 seconds)
+2014-03-06 23:14:30	-->	Mechanimal (~kyle@184-175-54-218.cable.teksavvy.com) has joined #bspwm
+2014-03-07 00:01:54	--	irc: disconnected from server
+2014-03-14 17:51:45	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-14 17:51:45	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-14 17:51:45	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-14 17:51:45	--	Channel #bspwm: 21 nicks (0 ops, 0 voices, 21 normals)
+2014-03-14 17:51:45	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-14 17:51:45	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-14 17:51:47	--	Mode #bspwm [+cnt]
+2014-03-14 17:51:47	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-14 18:59:33	-->	smrtz|nix (~smrtz@137.155.209.61) has joined #bspwm
+2014-03-14 18:59:33	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-14 18:59:33	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-14 18:59:33	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-14 18:59:33	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-14 18:59:33	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-14 18:59:35	--	Mode #bspwm [+cnt]
+2014-03-14 18:59:35	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-14 20:45:22	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-14 20:45:22	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-14 20:45:22	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-14 20:45:22	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-14 20:45:22	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-14 20:45:22	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-14 20:45:24	--	Mode #bspwm [+cnt]
+2014-03-14 20:45:25	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-14 20:54:25	smrtz|nix	names
+2014-03-14 20:54:28	--	Nicks #bspwm: [aznblur belak Ceryn china cornu dansbandit|oj dotpyfe dunsmoreb Eisenhans hardcore Lopi Mapley Mechanim1l siwoti smrtz|nix tbuck_ thadood tuftedocelot tyil zoneo_]
+2014-03-14 20:54:28	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-14 20:55:25	--	irc: disconnected from server
+2014-03-16 16:23:55	-->	smrtz (~smrtz@unaffiliated/smrtz) has joined #bspwm
+2014-03-16 16:23:55	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-16 16:23:55	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-16 16:23:55	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-16 16:23:55	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-16 16:23:55	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-16 16:23:57	--	Mode #bspwm [+cnt]
+2014-03-16 16:23:57	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-16 16:38:49	-->	damian (~damian@80-238-74-3.internetia.net.pl) has joined #bspwm
+2014-03-16 16:39:07	--	damian is now known as Guest11930
+2014-03-16 16:39:29	<--	Guest11930 (~damian@80-238-74-3.internetia.net.pl) has left #bspwm
+2014-03-16 16:55:51	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-16 17:09:25	-->	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-03-16 17:41:34	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-17 15:01:19	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-17 15:01:19	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-17 15:01:19	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-17 15:01:19	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-17 15:01:19	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-17 15:01:19	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-17 15:01:21	--	Mode #bspwm [+cnt]
+2014-03-17 15:01:21	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-17 15:38:52	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-17 15:38:52	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-17 15:38:52	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-17 15:38:52	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-17 15:38:52	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-17 15:38:52	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-17 15:38:54	--	Mode #bspwm [+cnt]
+2014-03-17 15:38:54	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-17 15:42:54	smrtz|nix	I'm getting a fond error when I try to start panel manually.
+2014-03-17 15:43:30	smrtz|nix	When I startx, it starts the panel, but I can't see it.  After killing it and manually starting, I see an error complaning about terminus font.
+2014-03-17 15:44:56	tuftedocelot	https://wiki.archlinux.org/index.php/Font#Pacman
+2014-03-17 15:47:11	smrtz|nix	tuftedocelot: I've already installed terminus.
+2014-03-17 15:48:48	tuftedocelot	Read the whole section
+2014-03-17 15:48:57	tuftedocelot	It tells you exactly what you need to do
+2014-03-17 15:49:04	smrtz|nix	Ok, thanks.
+2014-03-17 16:03:15	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-17 16:03:15	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-17 16:03:15	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-17 16:03:15	--	Channel #bspwm: 20 nicks (0 ops, 0 voices, 20 normals)
+2014-03-17 16:03:17	--	Mode #bspwm [+cnt]
+2014-03-17 16:03:17	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-17 16:03:21	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-17 16:03:21	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-17 16:04:22	smrtz|nix	tuftedocelot: I've tried that, rebooted, and I'm still getting the same error.  Should I ask here, or in #archlinux?
+2014-03-17 16:29:51	tuftedocelot	What does your xinitrc look like?
+2014-03-17 16:32:20	--	Mapley is now known as IS_THIS_GREEN
+2014-03-17 16:32:23	<--	Mechanimal (~kyle@184.75.214.163) has quit (Ping timeout: 264 seconds)
+2014-03-17 16:32:53	--	IS_THIS_GREEN is now known as is_this_greener
+2014-03-17 16:33:49	--	is_this_greener is now known as Mapley
+2014-03-17 16:34:54	smrtz|nix	http://sprunge.us/ tuftedocelot 
+2014-03-17 16:35:10	smrtz|nix	tuftedocelot: sorry: http://sprunge.us/ATaJ
+2014-03-17 16:36:24	tuftedocelot	You're adding the path after bspwm has already started and launched the panel. Put the two lines above exec bspwm
+2014-03-17 16:37:13	smrtz|nix	oh, ok.
+2014-03-17 16:40:38	smrtz|nix	tuftedocelot: yep, that fixed it.
+2014-03-17 16:40:41	smrtz|nix	thanks for the help.
+2014-03-17 16:46:14	smrtz|nix	tuftedocelot: but now my curser is messed up, like, it's only the arrow on desktop one, it's an "x" on all the others.
+2014-03-17 16:49:27	tuftedocelot	try: xsetroot -cursor_name left_ptr &
+2014-03-17 16:50:24	smrtz|nix	thanks.
+2014-03-17 16:55:40	-->	shelvacu (~user@50-46-108-7.evrt.wa.frontiernet.net) has joined #bspwm
+2014-03-17 16:56:53	shelvacu	How do I set background color/image for bspwm?
+2014-03-17 17:00:20	smrtz|nix	awesome, thanks tuftedocelot 
+2014-03-17 17:03:47	shelvacu	Anyone? I haven't been able to figure it out.
+2014-03-17 17:05:37	shelvacu	I feel like I'm missing something obvious
+2014-03-17 17:09:00	shelvacu	A google search for "bspwm background image" gives a bunch of images of bspwm desktops with backgrounds
+2014-03-17 17:09:26	shelvacu	it's like google is just taunting me
+2014-03-17 17:11:54	tbuck	shelvacu: its becuase theres no specific way to do it for bspwm
+2014-03-17 17:12:07	tbuck	youre setting the background of the root X window
+2014-03-17 17:12:15	tbuck	check for some X background setters
+2014-03-17 17:13:19	tbuck	i prefer hsetroot, feh works too. for solid colors xsetroot works fine
+2014-03-17 17:13:31	shelvacu	thank you, that should get me in the right mindset
+2014-03-17 17:18:50	shelvacu	so many choices
+2014-03-17 17:31:50	<--	shelvacu (~user@50-46-108-7.evrt.wa.frontiernet.net) has quit (Remote host closed the connection)
+2014-03-17 18:37:23	<--	Mapley (Maple@gateway/shell/cadoth.net/x-ehyosozwkbomoruo) has quit (Quit: bai!)
+2014-03-17 18:37:48	-->	Mapley (Maple@gateway/shell/cadoth.net/x-qecknlimmvdrmwtr) has joined #bspwm

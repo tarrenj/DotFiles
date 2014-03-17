@@ -1,0 +1,508 @@
+2014-02-25 23:06:35	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-02-25 23:06:35	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-02-25 23:06:35	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-02-25 23:06:35	--	Nicks #weechat: [@ChanServ @FlashCode @kolter +weebot [lewellyn] [vaelen] ^s4r _flow_ abbel_ Ac-town adaptr Aexoden ahuemer ainmosni aitch aji alcazoid Alexis_Evo amospalla architekt arduix Arex arielch Artpicre arza arza` asakura0 Asenar asmodai aspiers astra05 atian_ auscompgeek axion azizLIGHTS bakingbread bananagram batrick bcode bernalex bizarro_1 bkero blackspark Blueness| BlueShark blueyed bocaneri bpeak bps brainproxy Brando753 brendenbus bronsen Bruners BullShark c_14 cajg Caleb candybar capsize CaveJohnson Cavil cewood chandan Chewtoy chridal Chrisje ChristianDC chris| cian1500ww CissWit codehero codehotter Colgate Conjuro consfear1 Cr0iX crazedpsyc croccydile Cronecker Cueball d33tah Dan39 dankles darkthrone de-vri-es debris` Defaulttinen Deltafire demize demure depesz Derprecator devolish Dewr DinCahill diniwed Disco DNS Dopefish dorftrottel_ draco Draggor drawkula drbean drdanick dregin drubin DrZaius_ dubf ecool ectospasm EgS eighty4 eightyeight elfoxx Elsi emid_ ente EpicCyndaquil ERROH eSgr excalibr Exio4 farn Fastolph felher felipe firebird fireglow FiXato FJKong flexd flocke fours frakturfreak frb Furai gardar- gb GermainZ GGMethos gigetoo GJdan grawity greeter grep0r gtmanfred guardian Guest17029 Guest63170 guntha` haaja haarg haasn habys happy0 Harbinger haste heavystorm heedypo heedypo1 heoyea hexagon hggdh hi117 higuita hohum hokkaido Hydrazine i7c iamtew iElectric Iota-Spencer iphar isAAAc ISF IvarB Ivo iXce_ ixti jamn jann jaset jayne JC_Denton jcomito jdstroy JeanSprouts jenic JeroenDeDauw jfield JimShoe jjacky jnbek johannes3 JPP_OVH jrib juanfra JyZyXEL JZTech101 k-man K0HAX Kaare Kabaka_ kaictl kalpik kalz kambiz Kanjizai katana_ ke5pcv keko_ KenjiE20 KindOne kInOzAwA kirin` klaas kloeri kludge` Ko koell KokaKiwi Koma koolfy kossy Kovensky ksa kylef lastebil lbatalha limon lkiesow lluchs loswillios Lurker3 luto luzie lyetz_ lzap m4v maggick1 majoh Mapley marjus marmalodak master_j MatheusOl mav mave_ mbreit meingtsla MentalBananas meskarune Mikaela mimieux mitz mixi ml| mnathani moetunes moju monokrome monty MooGoo morncd moyam01 MrC MrElendig mrtazz mugu mumixam musl mva myme mythmon Naama nailhead_ neferty Nei nemith nesthib newt newton nils_2 nioncode nitrix Nnel Nothing4You notori0us nullrouted numeral nyuszika7h Occi Ohnomynickexplod OnkelTem OODavo Ooglogput orbea ormaaj osse paperElectron passiveobserver PaulW2U pbos^ pdq peccu2 peeler pfsmorigo PhilK philo23 phlux Phyks pillow Piotrek|away pipework pipi Pixelz pks PLejeck pmo pr3d4t0r pragma- prattmic prime programmerq prurigro Psylo ptitlouis puish pvoigt R1cochet r3m random_cat Rasi Ratler RBecker rettigs RGamma rich- rivarun rnea rockfruit Rockj rofrol roidal ron_o ruuk rvalles rxcomm Rylee s00ner s_edrik sakkemo Sanchal Sanchal_ sanova sarlalian sascha sbine Scall ScottG scripter- seccccc SeekingFor Sembei semeion Serano setkeh SharkMa-san ShawnR simeng Simon- SirCmpwn sjihs sjl sjohnson skasturi sleo SlixPK slush smrtz|nix Soft Soliton soltys sorcix spacepluk spline sqrrl squinteye srhb ssedano starkhalo Starvirus staticsafe staticsafe-znc stfn Sthebig stingsay` STLBrian2 Stravy sudokode SuperTux88 sw4 sw_2 sybariten tapout tchan tdy technec tehlarsie_ Tekkharibo terbolous tg the-kenny thefinn93 thelamest2 ThePink thevdude Thor Tit0 tlonim tmr tomaw tomboy65 tomoe-mami TomServo torque Trashlord trens tribly tribut tstm tsukimori Ulrar v1adimir van77 velyks vertreko Vinylourson vith Voldenet vrklgn WakiMiko wayneeseguin wd webvictim weissbier whiskers75 WillyKaze write1 wysiwtf xales Xe xintron xnrand XoXoX xsteadfastx xt y2s82 yano yeled yokel yoklar yosafbridge YourBestFriend yrter Ytserman Yukikaze zaro zedsdeadbaby zertap zpatten Zucca zutto zx2c4 zymurgy]
+2014-02-25 23:06:35	--	Channel #weechat: 477 nicks (3 ops, 0 halfops, 1 voice, 473 normals)
+2014-02-25 23:06:35	--	URL for #weechat: http://www.weechat.org/
+2014-02-25 23:06:36	--	Mode #weechat [+cnt]
+2014-02-25 23:06:36	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-02-25 23:07:03	smrtz|nix	Hey, I'm trying to change tab to partial completion, can someone help me out please?
+2014-02-25 23:09:04	-->	swimmer (~swimmer@unaffiliated/swimmer) has joined #weechat
+2014-02-25 23:11:35	<--	YourBestFriend (~sam113101@ec2-54-245-205-180.us-west-2.compute.amazonaws.com) has quit (Changing host)
+2014-02-25 23:11:35	-->	YourBestFriend (~sam113101@unaffiliated/sam113101) has joined #weechat
+2014-02-25 23:13:58	<--	squinteye (~squinteye@unaffiliated/squinteye) has left #weechat ("WeeChat 0.4.1")
+2014-02-25 23:14:09	smrtz|nix	I'd also like to enable mouse, but only for scrolling through the nick list/log, can I somehow disable clicking?
+2014-02-25 23:16:20	nesthib	/iset completion
+2014-02-25 23:16:57	<--	OODavo (~OODavo@ppp121-44-126-116.lns20.syd6.internode.on.net) has quit (Ping timeout: 244 seconds)
+2014-02-25 23:17:28	<--	^s4r (siglar@wikimedia/ralgis) has left #weechat ("WeeChat 0.3.8, recommended by PRISM Break <prism-break.org>")
+2014-02-25 23:18:23	smrtz|nix	nesthib: /set completion doesn't work.  Do you mean /set weechat.completion.partial_completion_*?
+2014-02-25 23:18:41	nesthib	I meant iset, not set
+2014-02-25 23:18:56	nesthib	but yeah this is the option I was thinking about
+2014-02-25 23:19:14	smrtz|nix	nesthib: I'm getting unknown command 'iset' then...
+2014-02-25 23:19:20	nesthib	I just showed you the way to find it
+2014-02-25 23:19:27	nesthib	/script install iset.pl
+2014-02-25 23:19:40	smrtz|nix	nesthib: same thing with /script
+2014-02-25 23:20:13	nesthib	/plugin load script
+2014-02-25 23:20:15	nesthib	^^
+2014-02-25 23:20:23	smrtz|nix	I knew about partial_completion_*, but what do I do from there to switch tab from full completion to partial?
+2014-02-25 23:20:24	nesthib	hmmm
+2014-02-25 23:20:37	nesthib	you have an ooooold and obsolète version
+2014-02-25 23:20:59	nesthib	you should upgrade to 0.4.3/0.4.4
+2014-02-25 23:21:18	smrtz|nix	nesthib: Oh, I just grabbed the one from the debian repos...
+2014-02-25 23:21:37	smrtz|nix	I just ran a /upgrade, should that have fixed it?
+2014-02-25 23:21:39	nesthib	you have packages with the latest versions on weechat website
+2014-02-25 23:21:58	nesthib	no /upgrade will just resload
+2014-02-25 23:22:02	nesthib	*reload
+2014-02-25 23:22:16	smrtz|nix	Oh, damn.  Ok.
+2014-02-25 23:22:30	nesthib	you still need to upgrade the packages from debian first
+2014-02-25 23:22:46	smrtz|nix	Ok, I'll grab the one from the weechat website.
+2014-02-25 23:23:49	smrtz|nix	is .4.4 the right one?
+2014-02-25 23:24:02	nesthib	this is the development version
+2014-02-25 23:24:21	nesthib	I prefer this one, but if you want to go with stable, take the 0.4.3
+2014-02-25 23:24:23	<--	jamn (~jamn@c-50-156-216-57.hsd1.tn.comcast.net) has quit (Quit: WeeChat 0.4.1)
+2014-02-25 23:24:30	smrtz|nix	ahh ok.
+2014-02-25 23:24:32	smrtz|nix	thanks.
+2014-02-25 23:24:53	gb	smrtz|nix: if you want to use the dev you need to remove the others first
+2014-02-25 23:24:59	nesthib	(the devel is stable but you'll have to update often too keep it latest)
+2014-02-25 23:25:19	smrtz|nix	gb: I was planning on just going with stable
+2014-02-25 23:25:59	smrtz|nix	sec, installing new weechat
+2014-02-25 23:26:01		irc: disconnected from server
+2014-02-26 00:57:26	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-02-26 00:57:26	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-02-26 00:57:26	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-02-26 00:57:26	--	Channel #weechat: 472 nicks (3 ops, 1 voice, 468 normals)
+2014-02-26 00:57:26	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-02-26 00:57:26	--	URL for #weechat: http://www.weechat.org/
+2014-02-26 00:57:27	--	Mode #weechat [+cnt]
+2014-02-26 00:57:27	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-02-26 00:59:43	<--	cewood (~cewood@nat-gw1.syd4.anchor.net.au) has quit (Quit: WeeChat 0.4.2)
+2014-02-26 01:14:22	<--	Mikaela (mkaysi@trekweb/user/Mkaysi) has quit (Remote host closed the connection)
+2014-02-26 01:15:41	-->	Mikaela (mkaysi@trekweb/user/Mkaysi) has joined #weechat
+2014-02-26 01:28:59	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-02-26 01:28:59	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-02-26 01:28:59	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-02-26 01:28:59	--	Channel #weechat: 471 nicks (3 ops, 1 voice, 467 normals)
+2014-02-26 01:29:00	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-02-26 01:29:00	--	URL for #weechat: http://www.weechat.org/
+2014-02-26 01:29:01	--	Mode #weechat [+cnt]
+2014-02-26 01:29:01	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-02-26 01:30:42	smrtz|nix	Ok, now that I've got almost everything else set up, nesthib, is there a way to change the enable mouse command so that I can only scroll, but not click?
+2014-02-26 01:31:47	<--	xaviern (~xnaveira@195.81.145.2) has quit (Ping timeout: 246 seconds)
+2014-02-26 01:32:29	nesthib	alt+m or /mouse toggle
+2014-02-26 01:32:54	smrtz|nix	but is there away to leave it enabled for scrolling, but disabled for clicking?
+2014-02-26 01:33:00	nesthib	it will toggle between both
+2014-02-26 01:33:05	nesthib	no, you can't
+2014-02-26 01:33:28	Mikaela	I think that /key unbind something might be able to do that, but I don't know what are clicking buttons called.
+2014-02-26 01:33:31	smrtz|nix	you can't just delete the keybindings for clicking?
+2014-02-26 01:33:42	nesthib	you can try, I never did
+2014-02-26 01:33:48	smrtz|nix	ahh, ok, Mikaela I'll do some googleing.  Thanks.
+2014-02-26 01:33:59	Mikaela	You're welcome :)
+2014-02-26 01:34:56	<--	swimmer (~swimmer@unaffiliated/swimmer) has quit (Ping timeout: 246 seconds)
+2014-02-26 01:36:56	-->	trens (~trens@cpe-184-59-86-85.cinci.res.rr.com) has joined #weechat
+2014-02-26 01:41:12	-->	ferreum (~ferreus@p57A7EE1F.dip0.t-ipconnect.de) has joined #weechat
+2014-02-26 01:46:34	-->	Kilo`byte (~kilobyte@5.231.51.78) has joined #weechat
+2014-02-26 01:47:01	-->	xaviern (~xnaveira@195.81.145.2) has joined #weechat
+2014-02-26 01:49:46	@FlashCode	smrtz|nix: see user's guide for default keys (including mouse)
+2014-02-26 01:49:52	gb	smrtz|nix: you can probably disable it in your terminal/window manager but no clue how for only weechat
+2014-02-26 01:50:02	@FlashCode	you can remove some keys if needed
+2014-02-26 01:50:37	@FlashCode	!keys
+2014-02-26 01:50:37	+weebot	WeeChat default keys: http://weechat.org/files/doc/devel/weechat_user.en.html#key_bindings
+2014-02-26 01:53:06	gb	you can try pressing alt k and the mouse button to see what weechat has it set too
+2014-02-26 01:53:42	gb	then you should be able to disable set keys/scroll to whatever you want
+2014-02-26 01:54:49	gb	buttons rather
+2014-02-26 01:55:30	gb	but alt k is brilliant i reckon
+2014-02-26 01:59:49	<--	XoXoX (~XoXoX@gateway/tor-sasl/xoxox) has quit (Ping timeout: 240 seconds)
+2014-02-26 02:02:17	<--	starkhalo (~weechat@187.240.151.241) has quit (Ping timeout: 244 seconds)
+2014-02-26 02:02:47	<--	abbel_ (~rehfeld@e179117204.adsl.alicedsl.de) has quit (Quit: WeeChat 0.4.3-dev)
+2014-02-26 02:03:19	<--	Nnel (~Nnel@31.55.91.16) has quit (Ping timeout: 244 seconds)
+2014-02-26 02:05:22	gb	hmm /list is a bad idea
+2014-02-26 02:06:06	gb	anyway to kill it if you run it by miztook?
+2014-02-26 02:13:48	gb	FlashCode: is there any intent to make trigger server dependant so a trigger on one server can do something to the same trigger on a different server?
+2014-02-26 02:14:04	-->	diegoviola (~diego@unaffiliated/diegoviola) has joined #weechat
+2014-02-26 02:16:41	gb	one example which comes to mind is if sumone says *ello to me in any channel it runs an alert but i'd like the alert to be different depending on server and possibly channel
+2014-02-26 02:17:18	gb	or better yet depending on the nick if i know them
+2014-02-26 02:18:53	gb	it'd be good if i could disable those triggers i want off at the toggle of a key too
+2014-02-26 02:20:08	gb	it alt m perhaps to mute/unmute the hello trigger i have in beep presently across all servers/nicks/channels
+2014-02-26 02:20:36	gb	not too sure if any of this is doable because i only just installed it
+2014-02-26 02:24:00	<--	GJdan (~dan@154.5.205.24) has quit (Quit: WeeChat 0.4.3)
+2014-02-26 02:27:31	-->	cewood (~cewood@123-243-84-198.tpgi.com.au) has joined #weechat
+2014-02-26 02:27:40	-->	tarruda (~tarruda@177.41.7.76) has joined #weechat
+2014-02-26 02:29:01	<--	roidal (~roidal@unaffiliated/roidal) has quit (Ping timeout: 272 seconds)
+2014-02-26 02:29:07	smrtz|nix	FlashCode: is there a way to improve url handeling?
+2014-02-26 02:29:37	smrtz|nix	That's the main reason I want mouse disabled, so I can highlight urls, but don't have to scroll with page up/down...
+2014-02-26 02:31:46	-->	MangledBlue (~USER@unaffiliated/mangledblue) has joined #weechat
+2014-02-26 02:33:17	<--	Guest63170 (~lsme@s01.84081.pw) has quit (Ping timeout: 244 seconds)
+2014-02-26 02:34:42	-->	swimmer (~swimmer@unaffiliated/swimmer) has joined #weechat
+2014-02-26 02:37:12	<--	xsteadfastx (~marv@2001:a60:f000:81a2::1) has quit (Quit: WeeChat 0.4.2)
+2014-02-26 02:37:45	-->	xsteadfastx (~marv@2001:a60:f000:81a2::1) has joined #weechat
+2014-02-26 02:40:51	-->	Guest14581 (~lsme@s01.84081.pw) has joined #weechat
+2014-02-26 02:42:27	<--	yrter (~yrter@unaffiliated/yrter) has quit (Remote host closed the connection)
+2014-02-26 02:44:28	--	irc: disconnected from server
+2014-03-08 16:58:26	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-08 16:58:26	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-08 16:58:26	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-08 16:58:26	--	Channel #weechat: 492 nicks (4 ops, 1 voice, 487 normals)
+2014-03-08 16:58:26	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-08 16:58:26	--	URL for #weechat: http://www.weechat.org/
+2014-03-08 16:58:27	<--	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has quit (Remote host closed the connection)
+2014-03-08 16:58:28	--	Mode #weechat [+cnt]
+2014-03-08 16:58:28	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-08 16:59:06	-->	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has joined #weechat
+2014-03-08 16:59:12	smrtz|nix	I want to push my weechat config to my github, but I don't want post my nickserv password.  Where's that stored?  I ran an ack-grep for it, but couldn't find it...
+2014-03-08 17:00:20	-->	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has joined #weechat
+2014-03-08 17:01:52	<--	azizLIGHTS (~azizLIGHT@c-50-154-34-44.hsd1.fl.comcast.net) has quit (Quit: leaving)
+2014-03-08 17:02:39	-->	azizLIGHTS (~azizLIGHT@c-50-154-34-44.hsd1.fl.comcast.net) has joined #weechat
+2014-03-08 17:02:58	<--	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Remote host closed the connection)
+2014-03-08 17:04:14	<--	seschwar (~seschwar@unaffiliated/seschwar) has quit (Read error: Operation timed out)
+2014-03-08 17:04:49	-->	tigrfluff (6c52b65c@archlinux/op/tigrmesh) has joined #weechat
+2014-03-08 17:04:56	tigrfluff	hi
+2014-03-08 17:04:59	-->	frakturfreak (fraktur@unaffiliated/frakturfreak) has joined #weechat
+2014-03-08 17:05:16	<--	frakturfreak (fraktur@unaffiliated/frakturfreak) has quit (Client Quit)
+2014-03-08 17:05:40	-->	frakturfreak (fraktur@unaffiliated/frakturfreak) has joined #weechat
+2014-03-08 17:06:45	smrtz|nix	Nevermind, it's line 148 of irc.conf, well probobly around there, your conf might be a bit diffrent.
+2014-03-08 17:06:47	smrtz|nix	q
+2014-03-08 17:07:22	@FlashCode	smrtz|nix: see /help secure
+2014-03-08 17:11:47	tigrfluff	i've taken a bit of a linux vacation, and been using hexchat (on windows).  so i have 4 months of irc logs i'd like to convert to weechat format so i can conctatenate them and can just parse each chan with less instead of grepping all over.  plus i have some duplicates from connecting from other machines with various irc clients
+2014-03-08 17:12:23	tigrfluff	have any of you done that?  got any scripts lying around you're willing to share?
+2014-03-08 17:12:34	<--	pvl1 (~pvl1@pool-98-114-41-207.phlapa.fios.verizon.net) has quit (Quit: WeeChat 0.4.4-dev)
+2014-03-08 17:14:13	--	irc: disconnected from server
+2014-03-08 17:16:05	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-08 17:16:05	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-08 17:16:05	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-08 17:16:06	--	Channel #weechat: 493 nicks (4 ops, 1 voice, 488 normals)
+2014-03-08 17:16:06	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-08 17:16:06	--	URL for #weechat: http://www.weechat.org/
+2014-03-08 17:16:07	--	Mode #weechat [+cnt]
+2014-03-08 17:16:07	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-08 17:16:43	tigrfluff	have any of you ever converted your irc logs to a new format when you've switched irc clients?  got any scripts lying around you're willing to share?
+2014-03-08 17:17:12	--	irc: disconnected from server
+2014-03-08 17:19:45	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-08 17:19:45	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-08 17:19:45	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-08 17:19:45	--	Channel #weechat: 493 nicks (4 ops, 1 voice, 488 normals)
+2014-03-08 17:19:45	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-08 17:19:45	--	URL for #weechat: http://www.weechat.org/
+2014-03-08 17:19:46	--	Mode #weechat [+cnt]
+2014-03-08 17:19:46	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-08 17:20:29	-->	seschwar (~seschwar@unaffiliated/seschwar) has joined #weechat
+2014-03-14 18:55:08	-->	smrtz|nix (~smrtz@137.155.209.61) has joined #weechat
+2014-03-14 18:55:08	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-14 18:55:08	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-14 18:55:08	--	Channel #weechat: 473 nicks (4 ops, 1 voice, 468 normals)
+2014-03-14 18:55:08	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-14 18:55:08	--	URL for #weechat: http://www.weechat.org/
+2014-03-14 18:55:10	--	Mode #weechat [+cnt]
+2014-03-14 18:55:10	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-14 18:55:21	-->	nuun (~me@72.27.152.70) has joined #weechat
+2014-03-14 18:55:46	nuun	greetings. How do I clear/cancel text in the input line?
+2014-03-14 18:57:17	talisein	^A ^K seems to work
+2014-03-14 18:59:25	smrtz|nix	talisein: thanks!  I was wondering that too,
+2014-03-14 19:00:07	nuun	thank you
+2014-03-14 19:24:24	r3m	tehlarsie: you could use a trigger
+2014-03-14 19:24:36	tehlarsie	how do I do that?
+2014-03-14 19:25:02	tehlarsie	http://weechat.org/scripts/source/old/response.py.html/ ?
+2014-03-14 19:25:17	tehlarsie	that actually looks like it'd do the job
+2014-03-14 19:25:30	smrtz|nix	r3m: Hey!  I was just using your config.
+2014-03-14 19:25:41	r3m	smrtz|nix: you like it?
+2014-03-14 19:26:09	smrtz|nix	Well, I was only pulling bits from it, but what I pulled out I really liked.
+2014-03-14 19:26:20	r3m	tehlarsie: trigger will replace many script
+2014-03-14 19:26:29	r3m	smrtz|nix: thanks
+2014-03-14 19:26:37	r3m	smrtz|nix: can i see a screenshot?
+2014-03-14 19:26:49	talisein	triggers are so complex to write they might need their own repository like /script lol
+2014-03-14 19:27:03	r3m	i agree
+2014-03-14 19:27:06	r3m	very complex
+2014-03-14 19:27:34	smrtz|nix	r3m: I don't have that setup yet, actually, I don't have anything set up yet, I just switched distros... again...
+2014-03-14 19:27:35	r3m	tehlarsie: if you ask flashcode or nils_2 they can write the trigger for you
+2014-03-14 19:27:44	r3m	smrtz|nix: ah ok
+2014-03-14 19:27:46	smrtz|nix	but checkout my github.  tarrenj/dotfiles
+2014-03-14 19:27:50	tehlarsie	that seems a stretch
+2014-03-14 19:28:09	tehlarsie	don't wanna bother those guys with petty autoreplies
+2014-03-14 19:28:15	tehlarsie	you know :p
+2014-03-14 19:28:31	r3m	use responsy.py then
+2014-03-14 19:28:32	talisein	there are examples on https://github.com/weechat/weechat/wiki/Triggers
+2014-03-14 19:28:50	smrtz|nix	I was playing with yours when I was figuring out how to set it up, but now I think I've messed with it enough to make it unrecognizeable.
+2014-03-14 19:28:55	r3m	talisein: the modifier example look so complicated
+2014-03-14 19:29:07	r3m	smrtz|nix: hehe
+2014-03-14 19:29:13	talisein	thats just the regex
+2014-03-14 19:29:26	r3m	yes
+2014-03-14 19:29:30	smrtz|nix	But I defenatly learned way more then I did reading man pages/guides.
+2014-03-14 19:29:39	smrtz|nix	It was actually a pretty awesome tutorial, haha.
+2014-03-14 19:30:00	r3m	smrtz|nix: dunno if you read some of my post, my english is pretty bad no?:P
+2014-03-14 19:30:24	tehlarsie	will look into it, thank you
+2014-03-14 19:30:41	<--	mljsimone (~hashdogs@hashdogs.org) has left #weechat ("WeeChat 0.3.7")
+2014-03-14 19:30:45	smrtz|nix	r3m: not really, it was good enough for me.
+2014-03-14 19:30:55	r3m	thanks again :)
+2014-03-14 19:31:40	r3m	talisein: do you use some trigger yet
+2014-03-14 19:31:58	r3m	i use urlcolor and one for beep on highlight and one for beep on pv
+2014-03-14 19:32:04	talisein	no, I keep to C for my modifications ;)
+2014-03-14 19:32:43	talisein	when i write the dbus plugin I will make a trigger to replace anotify tho
+2014-03-14 19:33:08	r3m	damn most weechat user are programmers
+2014-03-14 19:33:14	r3m	im not, im shy
+2014-03-14 19:33:23	r3m	already coded a bit of perl but im not a programemr
+2014-03-14 19:34:00	talisein	i think programmers are just more likely to want to hang out in #weechat vs regular user
+2014-03-14 19:34:16	r3m	yes probably
+2014-03-14 19:36:29	<--	pks (~pks@g225053003.adsl.alicedsl.de) has quit (Ping timeout: 255 seconds)
+2014-03-14 19:38:58	-->	pks (~pks@f052174217.adsl.alicedsl.de) has joined #weechat
+2014-03-14 19:40:18	-->	SunilJoshi (~joshi_sun@122.161.242.24) has joined #weechat
+2014-03-14 19:40:28	-->	terbolous (~erik@terbolo.us) has joined #weechat
+2014-03-14 19:46:51	smrtz|nix	r3m: one line I don't understand:  /set irc.server.freenode.password r3m/freenode:${sec.data.bncpass}   why do you have your nick in there?
+2014-03-14 19:48:03	r3m	smrtz|nix: with znc you can precise yourid/network:password it let znc know which network you want to connect
+2014-03-14 19:48:08	r3m	when you have more than one
+2014-03-14 19:48:26	smrtz|nix	r3m: is ZNC a bouncer?
+2014-03-14 19:48:30	r3m	yes
+2014-03-14 19:48:33	smrtz|nix	ahh ok.
+2014-03-14 19:48:46	r3m	a very good one
+2014-03-14 19:49:04	smrtz|nix	so for me, I'd do "/set irc.server.freenode.password ${sec.data.bncpass}"
+2014-03-14 19:49:06	smrtz|nix	right?
+2014-03-14 19:49:22	-->	freeroute (~le@de3x.mullvad.net) has joined #weechat
+2014-03-14 19:49:50	r3m	if your znc is connect to only one network yes
+2014-03-14 19:50:36	r3m	otherwise use yourzncaccount/network:pass
+2014-03-14 19:51:01	nuun	how may I mark more in scrollback search?
+2014-03-14 19:51:40	<--	akiva (~akiva@S010608606e20ed69.gv.shawcable.net) has quit (Ping timeout: 240 seconds)
+2014-03-14 19:55:23	<--	appa2 (~appa@p54B7FDF7.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2014-03-14 19:56:51	smrtz|nix	r3m: thanks.
+2014-03-14 20:00:21	<--	Gazpaxxo (~bizarro_1@253.Red-193-152-191.dynamicIP.rima-tde.net) has quit (Quit: Leaving)
+2014-03-14 20:04:23	<--	mgue (~mgue@p54B35B38.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2014-03-14 20:07:36	-->	appa2 (~appa@p54B7FAC6.dip0.t-ipconnect.de) has joined #weechat
+2014-03-14 20:10:03	-->	Apasmara (~Apasmara@212.255.247.8) has joined #weechat
+2014-03-14 20:10:06	-->	felher_ (~whitedrag@fasel.nerd2nerd.org) has joined #weechat
+2014-03-14 20:12:02	<--	Apasmara_ (~Apasmara@212.255.252.138) has quit (Ping timeout: 255 seconds)
+2014-03-14 20:22:27	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-14 20:22:27	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-14 20:22:27	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-14 20:22:27	--	Channel #weechat: 473 nicks (4 ops, 1 voice, 468 normals)
+2014-03-14 20:22:27	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-14 20:22:27	--	URL for #weechat: http://www.weechat.org/
+2014-03-14 20:22:29	--	Mode #weechat [+cnt]
+2014-03-14 20:22:30	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-14 20:22:47	smrtz|nix	is there a way to set the maximum size for the nick list/bar?
+2014-03-14 20:23:08	nuun	smrtz|nix: you want to scroll it?
+2014-03-14 20:23:21	smrtz|nix	I'm tired of having |   time  |chat|   nicks|
+2014-03-14 20:23:31	smrtz|nix	no I just want it to be narrower.
+2014-03-14 20:23:44	smrtz|nix	same with whatever is on on the left side.
+2014-03-14 20:24:32	talisein	i keep the nick bar hidden
+2014-03-14 20:25:33	smrtz|nix	talisein: I like it, I just don't want it to be so wide..
+2014-03-14 20:26:26	smrtz|nix	any ideas?
+2014-03-14 20:27:14	talisein	Set weechat.bar.nicklist.size_max to an acceptable value?
+2014-03-14 20:27:58	smrtz|nix	ahh, thanks
+2014-03-14 20:28:40	smrtz|nix	And what about the bar on the left?
+2014-03-14 20:28:55	smrtz|nix	I guess I can find that actually, nevermind.
+2014-03-14 20:28:56	smrtz|nix	thanks.
+2014-03-14 20:31:17	smrtz|nix	talisein: hmm, I can't find the bar name.
+2014-03-14 20:31:33	nuun	smrtz|nix: you have iset?
+2014-03-14 20:31:37	talisein	I think you'll want weechat.look.prefix_align_max
+2014-03-14 20:32:08	smrtz|nix	nuun, yeah, but I've no idea how to use it.
+2014-03-14 20:32:40	talisein	you can also set the time format
+2014-03-14 20:32:51	talisein	to be just hours:minutes instead of including seconds
+2014-03-14 20:33:10	<--	jerrytgarcia (~jerrytgar@112.209.227.212) has quit (Quit: WeeChat 0.4.3)
+2014-03-14 20:33:17	smrtz|nix	talisein: that didn't change it, I'll remove seconds.
+2014-03-14 20:33:18	talisein	i usually just /set *whatever* to see what I can do
+2014-03-14 20:34:32	talisein	its weechat.look.item_time_format
+2014-03-14 20:34:38	smrtz|nix	thanks.
+2014-03-14 20:34:53	talisein	no wait
+2014-03-14 20:34:58	talisein	its weechat.look.buffer_time_format
+2014-03-14 20:40:08	smrtz|nix	talisein: yeah, I found it.
+2014-03-14 20:40:44	smrtz|nix	nuun: How do I scroll in things like iset or script?  Like, I hit the end of my screen before the line ends.
+2014-03-14 20:41:24	nuun	page up
+2014-03-14 20:41:26	nuun	page down
+2014-03-14 20:41:38	torque	or your scroll wheel if you have mouse enabled
+2014-03-14 20:41:47	smrtz|nix	nuun: scroll left and and right...
+2014-03-14 20:41:53	smrtz|nix	I should have clerified.
+2014-03-14 20:42:17	-->	Caleb (~Caleb@cpe-098-121-133-015.nc.res.rr.com) has joined #weechat
+2014-03-14 20:42:17	<--	Caleb (~Caleb@cpe-098-121-133-015.nc.res.rr.com) has quit (Changing host)
+2014-03-14 20:42:17	-->	Caleb (~Caleb@archlinux/op/caleb) has joined #weechat
+2014-03-14 20:42:20	torque	uh
+2014-03-14 20:42:32	torque	you can't as far as I know
+2014-03-14 20:42:38	<--	_Caleb_ (~Caleb@archlinux/op/caleb) has quit (Read error: Connection reset by peer)
+2014-03-14 20:42:44	nuun	smrtz|nix: what's your terminal?
+2014-03-14 20:42:47	torque	the description for the selected item should display in the box at the top of the screen
+2014-03-14 20:43:02	smrtz|nix	nuun: right now? urxvt.
+2014-03-14 20:43:06	smrtz|nix	torque: oh, awesome!
+2014-03-14 20:43:31	nuun	for the description at the top f9, f10
+2014-03-14 20:43:48	torque	I dunno about horizontal scrolling in the script buffer
+2014-03-14 20:43:53	torque	never tried it
+2014-03-14 20:44:00	nuun	there should be none
+2014-03-14 20:44:42	-->	luz1 (~ne@unaffiliated/ne) has joined #weechat
+2014-03-14 20:45:04	smrtz|nix	nuun, thanks.  
+2014-03-14 20:45:28	<--	po||ux (~alex@arthur.barton.de) has quit (Read error: Connection reset by peer)
+2014-03-14 20:45:53	-->	JohnReese (~I@ip-126.net-89-3-215.rev.numericable.fr) has joined #weechat
+2014-03-14 20:46:14	-->	po||ux (alex@2a01:198:33d:1:202:b3ff:feb6:255) has joined #weechat
+2014-03-14 20:46:25	-->	AngryFool (~Thunderbi@ip-126.net-89-3-215.rev.numericable.fr) has joined #weechat
+2014-03-14 20:46:41	smrtz|nix	And what's the variable to set the color of the selected line?/iset
+2014-03-14 20:47:22	-->	semeion (~semeion@unaffiliated/semeion) has joined #weechat
+2014-03-14 20:47:30	<--	luzie (~ne@unaffiliated/ne) has quit (Read error: Operation timed out)
+2014-03-14 20:47:35	nuun	smrtz|nix: you can filter by typing a term
+2014-03-14 20:47:38	nuun	like color
+2014-03-14 20:47:46	nuun	type color in the input
+2014-03-14 20:48:35	smrtz|nix	yeah, I'm learning that.
+2014-03-14 20:49:19	<--	AngryFool (~Thunderbi@ip-126.net-89-3-215.rev.numericable.fr) has left #weechat
+2014-03-14 20:50:03	-->	jerrytgarcia (~jerrytgar@112.209.227.212) has joined #weechat
+2014-03-14 20:51:16	-->	cyx^ (~cyx@unaffiliated/rafi/x-9332275) has joined #weechat
+2014-03-14 20:55:25	--	irc: disconnected from server
+2014-03-16 16:26:24	-->	smrtz (~smrtz@unaffiliated/smrtz) has joined #weechat
+2014-03-16 16:26:24	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-16 16:26:24	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-16 16:26:24	--	Channel #weechat: 476 nicks (4 ops, 1 voice, 471 normals)
+2014-03-16 16:26:24	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-16 16:26:24	--	URL for #weechat: http://www.weechat.org/
+2014-03-16 16:26:26	--	Mode #weechat [+cnt]
+2014-03-16 16:26:26	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-16 16:27:12	<--	o-o (xnrand@unaffiliated/xy) has quit (Quit: <3)
+2014-03-16 16:27:34	-->	cypherman (~jarvis@r190-135-138-73.dialup.adsl.anteldata.net.uy) has joined #weechat
+2014-03-16 16:27:36	-->	xnrand (xnrand@unaffiliated/xy) has joined #weechat
+2014-03-16 16:30:35	<--	kiviuq (~mo@aftr-37-24-150-57.unity-media.net) has quit (Ping timeout: 264 seconds)
+2014-03-16 16:32:06	<--	freeroute (~le@de1x.mullvad.net) has quit (Read error: Operation timed out)
+2014-03-16 16:35:32	-->	freeroute (~le@de2x.mullvad.net) has joined #weechat
+2014-03-16 16:36:42	<--	arza (arza@unaffiliated/arza) has quit (Ping timeout: 240 seconds)
+2014-03-16 16:37:16	-->	arza (arza@unaffiliated/arza) has joined #weechat
+2014-03-16 16:39:07	<--	blackmesa (~blackmesa@aftr-37-201-226-43.unity-media.net) has quit (Read error: Operation timed out)
+2014-03-16 16:39:16	kgb	For anyone interested, you can clean history @http://paste.ubuntu.com/7105455/ after /buffer clear -all
+2014-03-16 16:40:09	kgb	for anyone interested, you can clean history @http://paste.ubuntu.com/7105455/ after /buffer clear -all
+2014-03-16 16:40:11	kgb	oops
+2014-03-16 16:42:45	<--	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2014-03-16 16:46:44	<--	Brando753 (~Brando753@unaffiliated/brando753) has quit (Read error: Connection reset by peer)
+2014-03-16 16:47:57	<--	cypherman (~jarvis@r190-135-138-73.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 252 seconds)
+2014-03-16 16:48:26	-->	Brando753 (~Brando753@unaffiliated/brando753) has joined #weechat
+2014-03-16 16:55:23	<--	ISF (~ivan@201.82.72.64) has quit (Ping timeout: 264 seconds)
+2014-03-16 16:55:51	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-16 16:56:05	<--	maattdd (~matthieu@esc31-1-78-245-92-71.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-03-16 17:01:22	<--	Nastrahl (~Amuria@130.78.207.77.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2014-03-16 17:06:54	<--	Apasmara_ (~Apasmara@212.255.127.120) has quit (Remote host closed the connection)
+2014-03-16 17:08:21	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 17:08:38	<--	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Ping timeout: 246 seconds)
+2014-03-16 17:09:25	-->	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #weechat
+2014-03-16 17:10:21	R0b0t1	How can I disable all CTCP replies?
+2014-03-16 17:11:52	-->	ISF (~ivan@201.82.72.64) has joined #weechat
+2014-03-16 17:15:40	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 17:21:09	-->	PowerSchill (~PowerSchi@c-50-147-242-244.hsd1.ga.comcast.net) has joined #weechat
+2014-03-16 17:27:29	-->	koell (~galactica@77.119.130.213.wireless.dyn.drei.com) has joined #weechat
+2014-03-16 17:36:18	smrtz	I'm having issues setting a dictionary with aspell, I think it's set to english, but it's still labeling everything as wrong.
+2014-03-16 17:37:21	-->	Moonlightning (~blackl@unaffiliated/moonlightning) has joined #weechat
+2014-03-16 17:38:14	Moonlightning	weechat just disconnected from (here and) another network; now I can't reconnect to that other network.
+2014-03-16 17:38:19	Moonlightning	I get =!= irc: IP address not found
+2014-03-16 17:38:34	Moonlightning	I have the hostname and IP in a line in /etc/hosts, though, and I haven't changed anything.
+2014-03-16 17:39:05	Moonlightning	I would /really rather not/ restart weechat, though I suspect it'll work if I do.
+2014-03-16 17:39:33	Caleb	try reconnecting
+2014-03-16 17:41:07	Moonlightning	I did.
+2014-03-16 17:41:17	Moonlightning	A bunch of autoreconnects failed, too.
+2014-03-16 17:41:34	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-16 17:44:51	<--	ffog (~fog@107-198-124-99.lightspeed.hstntx.sbcglobal.net) has left #weechat ("WeeChat 0.3.8")
+2014-03-16 17:48:22	-->	chandan (~chandan@106.51.173.108) has joined #weechat
+2014-03-16 17:48:42	--	chandan is now known as Guest77441
+2014-03-16 17:53:23	<--	sceox (~weechat@c-24-18-183-160.hsd1.wa.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-03-16 17:53:36	<--	jerrytgarcia (~jerrytgar@112.209.191.77) has quit (Quit: WeeChat 0.4.3)
+2014-03-16 17:58:56	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 17:59:06	R0b0t1	Is there a way to disable all CTCP replies?
+2014-03-16 17:59:56	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 18:05:50	-->	sceox (~weechat@c-24-18-183-160.hsd1.wa.comcast.net) has joined #weechat
+2014-03-16 18:06:09	Moonlightning	Now it's complaining that there isn't enough memory.
+2014-03-16 18:14:05	Moonlightning	This is really anoying.
+2014-03-16 18:14:07	Moonlightning	annoying *
+2014-03-16 18:15:11	Moonlightning	Sometimes it also says the connection is lagging, but if I `/quote PING`, suddenly it's fine.
+2014-03-16 18:15:25	-->	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has joined #weechat
+2014-03-16 18:15:25	<--	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has quit (Changing host)
+2014-03-16 18:15:25	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 18:15:29	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 18:16:33	<--	talisein (~talisein@april-fools/sixth/talisein) has quit (Ping timeout: 240 seconds)
+2014-03-16 18:16:50	-->	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has joined #weechat
+2014-03-16 18:16:50	<--	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has quit (Changing host)
+2014-03-16 18:16:50	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 18:18:17	<--	Hydrazine (hydrazine@2001:67c:2564:ab03::9) has quit (Ping timeout: 246 seconds)
+2014-03-16 18:23:49	-->	{shawn} (Elite7741@gateway/shell/elitebnc/x-dusemocftyqcshfu) has joined #weechat
+2014-03-16 18:23:59	-->	diegoviola (~diego@unaffiliated/diegoviola) has joined #weechat
+2014-03-16 18:24:08	-->	Hydrazine (hydrazine@2001:67c:2564:ab03::9) has joined #weechat
+2014-03-16 18:24:22	{shawn}	is it possible to put aspell suggestions after the cursor in the text entry box?
+2014-03-16 18:25:02	{shawn}	that way the cursor is led by it
+2014-03-16 18:27:15	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 18:28:26	-->	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has joined #weechat
+2014-03-16 18:28:28	<--	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has quit (Changing host)
+2014-03-16 18:28:29	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 18:29:17	<--	Guest77441 (~chandan@106.51.173.108) has quit (Quit: WeeChat 0.4.3)
+2014-03-16 18:29:38	-->	chandan_ (~chandan@106.51.173.108) has joined #weechat
+2014-03-16 18:35:01	--	chandan_ is now known as chandan
+2014-03-16 18:39:55	-->	bananagram (~bot@pool-108-56-214-116.washdc.fios.verizon.net) has joined #weechat
+2014-03-16 18:42:29	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 18:46:48	-->	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has joined #weechat
+2014-03-16 18:46:48	<--	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has quit (Changing host)
+2014-03-16 18:46:48	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 18:47:07	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 18:48:32	-->	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has joined #weechat
+2014-03-16 18:48:33	<--	R0b0t1 (~dev@64-136-219-55.dyn.everestkc.net) has quit (Changing host)
+2014-03-16 18:48:33	-->	R0b0t1 (~dev@unaffiliated/r0b0t1) has joined #weechat
+2014-03-16 18:50:45	-->	Apasmara (~Apasmara@212.255.127.120) has joined #weechat
+2014-03-16 18:53:29	<--	R0b0t1 (~dev@unaffiliated/r0b0t1) has quit (Read error: Connection reset by peer)
+2014-03-16 19:02:46	<--	ruuk (~ruuk@c-67-185-156-7.hsd1.wa.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-03-16 19:08:12	<--	Apasmara (~Apasmara@212.255.127.120) has quit (Ping timeout: 252 seconds)
+2014-03-16 19:09:12	mozzarella	is this where the weechat bugs are?: https://github.com/weechat/weechat/issues
+2014-03-16 19:11:04	torque	yes
+2014-03-16 19:12:47	mozzarella	what about this
+2014-03-16 19:12:52	mozzarella	https://savannah.nongnu.org/bugs/?group=weechat
+2014-03-16 19:12:59	torque	those are older bugs
+2014-03-16 19:13:05	torque	weechat recently moved to github
+2014-03-16 19:13:17	mozzarella	recently, how long ago?
+2014-03-16 19:13:17	tomoe-mami	i just noticed /window scroll_bottom and scroll_top no longer work with free content buffer. is that intentional?
+2014-03-16 19:13:35	torque	uh, a few weeks, I think
+2014-03-16 19:13:50	torque	the news update says march 4th
+2014-03-16 19:14:15	<--	bananagram (~bot@pool-108-56-214-116.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-03-16 19:15:15	gb	ahh you must be in the same time rift FlashCode encountered with the copyright notice
+2014-03-16 19:16:12	tomoe-mami	/window scroll +100% also doesn't work. damn it
+2014-03-16 19:16:36	mozzarella	I want to start working on weechat
+2014-03-16 19:16:45	mozzarella	anything I should read/be aware of?
+2014-03-16 19:19:02	gb	FlashCode: whats a tag i can smart filter the /exec output on
+2014-03-16 19:20:24	-->	talisein (~talisein@april-fools/sixth/talisein) has joined #weechat
+2014-03-16 19:20:27	gb	i don't want to get rid of it completely in case i need to see what's going on when something breaks but for the tts i don't really need the exec: end of command 0....
+2014-03-16 19:21:50	tomoe-mami	can anyone else test with my scrolling issue? try alt+end in iset, does it go to the very bottom of list (containing xfer.* options)?
+2014-03-16 19:25:50	gb	hmm after my upgrade i have no xfer options
+2014-03-16 19:26:12	gb	and no alt end don't seem to work here either
+2014-03-16 19:27:45	tomoe-mami	ah, ok. thanks gb. i don't know why i have xfer options i never load that plugin
+2014-03-16 19:28:12	--	FJKong_afk is now known as FJKong
+2014-03-16 19:28:22	gb	well after upgrade it got unloaded automagically
+2014-03-16 19:28:39	gb	i got the options back after loading
+2014-03-16 19:29:26	gb	oh btw alt pgdown goes to the bottom of my iset though
+2014-03-16 19:29:35	-->	pks1 (~pks@f052167215.adsl.alicedsl.de) has joined #weechat
+2014-03-16 19:30:19	gb	ahh no it doesn't i just had weechat lagging
+2014-03-16 19:32:59	<--	pks (~pks@e179165249.adsl.alicedsl.de) has quit (Ping timeout: 264 seconds)
+2014-03-16 19:39:06	-->	e^0 (~e^0@unaffiliated/e0/x-7387528) has joined #weechat
+2014-03-16 19:40:59	-->	cypherman (~jarvis@r190-135-138-73.dialup.adsl.anteldata.net.uy) has joined #weechat
+2014-03-16 19:42:36	-->	chandan_ (~chandan@106.51.173.108) has joined #weechat
+2014-03-16 19:53:21	<--	appa2 (~appa@p4FF1D8BF.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-03-16 19:54:00	gb	oh found a bug in trigger/exec
+2014-03-16 19:54:43	gb	if i have a long line in trigger split by format_lines it will /exec the second part of the line before the first
+2014-03-16 19:56:14	gb	anyway of making my trigger /exec stuff in sequence?
+2014-03-16 19:57:21	gb	might need to retrn to shell.py for the moment
+2014-03-16 19:59:20	gb	i still need a way to mask the text output from either process spilling into the buffer output via an error smart filter i can toggle on/off with alt e or similar
+2014-03-16 20:02:14	<--	{shawn} (Elite7741@gateway/shell/elitebnc/x-dusemocftyqcshfu) has left #weechat ("WeeChat 0.4.3")
+2014-03-16 20:04:12	<--	mgue (~mgue@p54B34984.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-03-16 20:06:23	-->	appa2 (~appa@p54B46DAF.dip0.t-ipconnect.de) has joined #weechat
+2014-03-16 20:07:04	gb	probably need a fifo buffer option for /exec
+2014-03-16 20:07:48	<--	cypherman (~jarvis@r190-135-138-73.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 264 seconds)
+2014-03-16 20:08:27	-->	swollenmember (nixon@97-84-222-188.dhcp.bycy.mi.charter.com) has joined #weechat
+2014-03-16 20:09:50	<--	Kryptron (~Kryptron@unaffiliated/kryptron) has quit (Ping timeout: 252 seconds)
+2014-03-16 20:12:39	<--	johannes4 (johannes@2600:3c03::f03c:91ff:feae:8f) has quit (Ping timeout: 245 seconds)
+2014-03-16 20:12:54	talisein	soon weechat will be more versitile than emacs
+2014-03-16 20:16:24	gb	talisein: sebastien already is thinking of a name change to weeos
+2014-03-16 20:16:56	-->	mgue (~mgue@p54B35EB4.dip0.t-ipconnect.de) has joined #weechat
+2014-03-16 20:29:03	talisein	Wee/Linux
+2014-03-16 20:29:04	<--	asakura0 (~asakura@gateway/tor-sasl/asakura) has quit (Quit: asakura0)
+2014-03-16 20:30:54	gb	too wordy :P
+2014-03-16 20:31:23	gb	whats that command to grab weechat after it's backgrounded?
+2014-03-16 20:31:29	<--	numeral (~numeral@198.23.228.15) has quit (Read error: Operation timed out)
+2014-03-16 20:32:07	gb	it would seem that bit of my logfile has been logrotated into /dev/null
+2014-03-16 20:33:55	-->	numeral (~numeral@198.23.228.15) has joined #weechat
+2014-03-16 20:41:10	tomoe-mami	talisein: I'd just like to interject for a moment. What you're referring to as Wee/Linux, is in fact GNU/Wee/Linux, or as I’ve recently taken to calling it, GNU plus Wee plus Linux :)
+2014-03-16 20:41:24	talisein	lol
+2014-03-16 20:41:35	tomoe-mami	too lazy to ctrl+c the whole copypasta
+2014-03-16 20:54:19	gb	whatabout curses?
+2014-03-16 20:54:53	gb	or ncurses rather :)
+2014-03-16 20:57:33	gb	and tinm this is not mirc :)
+2014-03-16 20:59:52	gb	for those people who think wee ahould behave and have the flaws of mirc
+2014-03-16 21:00:12	<--	diniwed (~gavron@ool-44c537b4.dyn.optonline.net) has quit (Read error: Operation timed out)
+2014-03-16 21:03:37	talisein	what about curses?
+2014-03-17 15:08:18	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-17 15:08:18	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-17 15:08:18	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-17 15:08:19	--	Channel #weechat: 482 nicks (4 ops, 1 voice, 477 normals)
+2014-03-17 15:08:20	--	Mode #weechat [+cnt]
+2014-03-17 15:08:20	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-17 15:08:22	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-17 15:08:22	--	URL for #weechat: http://www.weechat.org/
+2014-03-17 15:11:08	-->	K0HAX (~michael@2001:470:c298:1001:e043:edff:fe01:eeb9) has joined #weechat
+2014-03-17 15:13:08	-->	VoidAtValhalla (~void@unaffiliated/voidatvalhalla) has joined #weechat
+2014-03-17 15:14:02	<--	GoshaZa (~Gosha@h-61-117.a163.priv.bahnhof.se) has quit (Ping timeout: 264 seconds)
+2014-03-17 15:14:38	<--	TomServo (sewandsew@light1.net) has quit (Ping timeout: 264 seconds)
+2014-03-17 15:14:46	-->	GoshaZa (~Gosha@h-61-117.a163.priv.bahnhof.se) has joined #weechat
+2014-03-17 15:15:13	-->	TomServo (sewandsew@light1.net) has joined #weechat
+2014-03-17 15:15:25	smrtz|nix	I think my aspell doesn't have any dictionarys, thanks to /aspell listdict.  How can I add the default english dictionary back in?
+2014-03-17 15:17:04	ectospasm	This time I'm testing with a BD rip of Raging Bull
+2014-03-17 15:17:19	ectospasm	oops, wrong channel
+2014-03-17 15:18:28	farn	smrtz|nix: by installing the aspell-en package
+2014-03-17 15:19:23	<--	GJdan_ (~dan@154.5.205.24) has quit (Quit: WeeChat 0.4.4-dev)
+2014-03-17 15:19:36	<--	sleo (~sleo@unaffiliated/sleo) has quit (Ping timeout: 255 seconds)
+2014-03-17 15:19:43	-->	ISF (~ivan@201.82.72.64) has joined #weechat
+2014-03-17 15:21:27	-->	GJdan (~dan@154.5.205.24) has joined #weechat
+2014-03-17 15:21:41	--	GJdan is now known as GJdan_
+2014-03-17 15:21:59	smrtz|nix	farn: thansk, wowl.
+2014-03-17 15:23:41	<--	GJdan_ (~dan@154.5.205.24) has quit (Client Quit)
+2014-03-17 15:24:06	-->	sleo (~sleo@unaffiliated/sleo) has joined #weechat
+2014-03-17 15:24:13	<--	HarryMudd (~jon@c-24-91-232-151.hsd1.ct.comcast.net) has left #weechat ("WeeChat 0.4.3")
+2014-03-17 15:25:20	<--	maattdd (~matthieu@esc31-1-78-245-92-71.fbx.proxad.net) has quit (Ping timeout: 240 seconds)

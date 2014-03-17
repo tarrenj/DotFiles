@@ -14,10 +14,10 @@ cp tmux.conf ~/tmux.conf
 
 mkdir ~/.config
 mkdir ~/.config/bspwm
-mkdir ~/.config/sxhd
+mkdir ~/.config/sxhkd
 
 cp bspwmrc ~/.config/bspwm/
-cp sxhdrc ~/.config/sxhd/
+cp sxhdrc ~/.config/sxhkd/
 
 mkdir ~/Documents
 mkdir ~/Builds
