@@ -10,7 +10,7 @@ cp .Xdefaults ~/.Xdefaults
 cp .zshrc ~/.zshrc
 cp .gitconfig ~/.gitconfig
 
-cp tmux.conf ~/tmux.conf
+sudo cp tmux.conf /etc/tmux.conf
 
 mkdir ~/.config
 mkdir ~/.config/bspwm
