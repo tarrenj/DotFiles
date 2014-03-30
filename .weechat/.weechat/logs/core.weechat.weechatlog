@@ -13595,3 +13595,25 @@
 2014-03-17 16:00:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, perl, relay, rmodifier, ruby, script, tcl, xfer
 2014-03-17 16:00:55	=!=	script: error downloading list of scripts: Error with URL 'http://www.weechat.org/files/plugins.xml.gz'
 2014-03-17 16:01:06	=!=	irc: command "join" must be executed on connected irc server
+2014-03-25 15:11:35		script: downloading list of scripts...
+2014-03-25 15:11:35		perl scripts loaded: iset
+2014-03-25 15:11:36	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/lua.so": liblua.so.5.2: cannot open shared object file: No such file or directory
+2014-03-25 15:11:36	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2014-03-25 15:11:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-25 15:11:36		script: 274 scripts for WeeChat 0.4.3
+2014-03-29 12:27:21		script: downloading list of scripts...
+2014-03-29 12:27:21		perl scripts loaded: iset
+2014-03-29 12:27:23	=!=	Error: unable to load plugin "/usr/lib/weechat/plugins/lua.so": liblua.so.5.2: cannot open shared object file: No such file or directory
+2014-03-29 12:27:23	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2014-03-29 12:27:24		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-29 12:27:25		script: 275 scripts for WeeChat 0.4.3
+2014-03-30 16:24:59		script: downloading list of scripts...
+2014-03-30 16:25:00		script: 275 scripts for WeeChat 0.4.3
+2014-03-30 16:26:12		URL server listening on ('137.155.209.61', 44187)
+2014-03-30 16:26:20		URL server stopped
+2014-03-30 16:28:15	=!=	python: script "urlserver.py" not found
+2014-03-30 16:28:30		URL server listening on ('137.155.209.61', 42161)
+2014-03-30 16:28:35	=!=	python: unable to register script "urlserver" (another script already exists with this name)
+2014-03-30 16:28:35	=!=	python: function "register" not found (or failed) in file "/home/smrtz/.weechat/python/autoload/urlserver.py"
+2014-03-30 16:29:04		URL server stopped
+2014-03-30 16:29:04		URL server listening on ('137.155.209.61', 39330)

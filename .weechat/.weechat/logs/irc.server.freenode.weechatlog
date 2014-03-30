@@ -3721,3 +3721,268 @@
 2014-03-17 16:02:16	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
 2014-03-17 16:02:16	--	NickServ (NickServ@services.): You are now identified for smrtz|nix.
 2014-03-17 16:02:16	--	unaffiliated/smrtznix/x-9775867 :is now your hidden host (set by services.)
+2014-03-18 14:44:08	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2014-03-18 14:44:08	--	irc: disconnecting from server...
+2014-03-18 14:44:09	--	irc: disconnected from server
+2014-03-18 14:44:09	--	irc: reconnecting to server in 10 seconds
+2014-03-18 14:44:19	--	irc: reconnecting to server...
+2014-03-18 14:44:19	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-18 14:44:20	--	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2014-03-18 14:44:20	--	gnutls: receiving 2 certificates
+2014-03-18 14:44:20	--	 - certificate[1] info:
+2014-03-18 14:44:20	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-01-13 00:00:00 UTC', expires `2015-01-14 23:59:59 UTC', SHA-1 fingerprint `f664309a3e209eeff4e2eb0bbdd7a541fdc25e73'
+2014-03-18 14:44:20	--	 - certificate[2] info:
+2014-03-18 14:44:20	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2014-03-18 14:44:20	--	gnutls: peer's certificate is trusted
+2014-03-18 14:44:20	--	irc: connected to chat.freenode.net/6697 (82.96.64.4)
+2014-03-18 14:44:20	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Looking up your hostname...
+2014-03-18 14:44:20	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Checking Ident
+2014-03-18 14:44:20	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Couldn't look up your hostname
+2014-03-18 14:44:29	--	kornbluth.freenode.net (kornbluth.freenode.net): *** No Ident response
+2014-03-18 14:44:29	--	Welcome to the freenode Internet Relay Chat Network smrtz|nix
+2014-03-18 14:44:29	--	Your host is kornbluth.freenode.net[82.96.64.4/6697], running version ircd-seven-1.1.3
+2014-03-18 14:44:29	--	This server was created Mon Dec 31 2012 at 22:38:44 CET
+2014-03-18 14:44:29	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-03-18 14:44:29	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-03-18 14:44:29	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-03-18 14:44:29	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-03-18 14:44:29	--	There are 201 users and 90733 invisible on 28 servers
+2014-03-18 14:44:29	--	32 :IRC Operators online
+2014-03-18 14:44:29	--	22 :unknown connection(s)
+2014-03-18 14:44:29	--	51435 :channels formed
+2014-03-18 14:44:29	--	I have 13201 clients and 1 servers
+2014-03-18 14:44:29	--	13201 15001 :Current local users 13201, max 15001
+2014-03-18 14:44:29	--	90934 101329 :Current global users 90934, max 101329
+2014-03-18 14:44:29	--	Highest connection count: 15002 (15001 clients) (979031 connections received)
+2014-03-18 14:44:29	--	- kornbluth.freenode.net Message of the Day -
+2014-03-18 14:44:29	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2014-03-18 14:44:29	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2014-03-18 14:44:29	--	- sponsoring this server!
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2014-03-18 14:44:29	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2014-03-18 14:44:29	--	- first story professionally at age 15.  By the 1940's his
+2014-03-18 14:44:29	--	- stories appeared widely under several pennames, including
+2014-03-18 14:44:29	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2014-03-18 14:44:29	--	- studies in Chicago to serve in the Army in Europe during
+2014-03-18 14:44:29	--	- WWII, then returned to school and work in Chicago until he
+2014-03-18 14:44:29	--	- began writing full-time in 1951.  The author of The Marching
+2014-03-18 14:44:29	--	- Morons and the novels The Space Merchants (with Frederik
+2014-03-18 14:44:29	--	- Pohl) and The Syndic, he's best known for his biting social
+2014-03-18 14:44:29	--	- satire and his collaborations with Pohl and with Judith
+2014-03-18 14:44:29	--	- Merril.
+2014-03-18 14:44:29	--	- Welcome to freenode - supporting the free and open source
+2014-03-18 14:44:29	--	- software communities since 1998.
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- By connecting to freenode you indicate that you have read and
+2014-03-18 14:44:29	--	- accept our policies as set out on http://www.freenode.net
+2014-03-18 14:44:29	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-03-18 14:44:29	--	- any network-related questions or queries, where a number of
+2014-03-18 14:44:29	--	- volunteer staff and helpful users will be happy to assist you.
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-03-18 14:44:29	--	- together with like-minded FOSS enthusiasts for talks and
+2014-03-18 14:44:29	--	- real-life collaboration, if you're more keen on the outdoors why
+2014-03-18 14:44:29	--	- not attend or arrange a local geeknic (http://www.geeknic.org).
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- We would like to thank Private Internet Access
+2014-03-18 14:44:29	--	- (https://www.privateinternetaccess.com/) and the other
+2014-03-18 14:44:29	--	- organisations that help keep freenode and our other projects
+2014-03-18 14:44:29	--	- running for their sustained support.
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- In particular we would like to thank the sponsor
+2014-03-18 14:44:29	--	- of this server, details of which can be found above.
+2014-03-18 14:44:29	--	-
+2014-03-18 14:44:29	--	- ***************************************************************
+2014-03-18 14:44:29	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2014-03-18 14:44:29	--	- ***************************************************************
+2014-03-18 14:44:29	--	End of /MOTD command.
+2014-03-18 14:44:29	--	User mode [+Zi] by smrtz|nix
+2014-03-18 14:44:29	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-03-18 14:44:29	--	NickServ (NickServ@services.): You are now identified for smrtz|nix.
+2014-03-18 14:44:29	--	unaffiliated/smrtznix/x-9775867 :is now your hidden host (set by services.)
+2014-03-25 15:11:36	--	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2014-03-25 15:11:36	--	gnutls: receiving 2 certificates
+2014-03-25 15:11:36	--	 - certificate[1] info:
+2014-03-25 15:11:36	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-01-13 00:00:00 UTC', expires `2015-01-14 23:59:59 UTC', SHA-1 fingerprint `f664309a3e209eeff4e2eb0bbdd7a541fdc25e73'
+2014-03-25 15:11:36	--	 - certificate[2] info:
+2014-03-25 15:11:36	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2014-03-25 15:11:36	--	gnutls: peer's certificate is trusted
+2014-03-25 15:11:36	--	irc: connected to chat.freenode.net/6697 (185.30.166.38)
+2014-03-25 15:11:37	--	orwell.freenode.net (orwell.freenode.net): *** Looking up your hostname...
+2014-03-25 15:11:37	--	orwell.freenode.net (orwell.freenode.net): *** Checking Ident
+2014-03-25 15:11:37	--	orwell.freenode.net (orwell.freenode.net): *** Couldn't look up your hostname
+2014-03-25 15:11:43	--	orwell.freenode.net (orwell.freenode.net): *** No Ident response
+2014-03-25 15:11:43	--	irc: nickname "smrtz" is already in use, trying nickname "smrtz1"
+2014-03-25 15:11:43	--	Welcome to the freenode Internet Relay Chat Network smrtz1
+2014-03-25 15:11:43	--	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.3
+2014-03-25 15:11:43	--	This server was created Sat Feb 22 2014 at 16:03:54 BRT
+2014-03-25 15:11:43	--	orwell.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-03-25 15:11:43	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-03-25 15:11:43	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-03-25 15:11:43	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-03-25 15:11:43	--	There are 176 users and 90446 invisible on 30 servers
+2014-03-25 15:11:43	--	33 :IRC Operators online
+2014-03-25 15:11:43	--	26 :unknown connection(s)
+2014-03-25 15:11:43	--	52202 :channels formed
+2014-03-25 15:11:43	--	I have 5087 clients and 1 servers
+2014-03-25 15:11:43	--	5087 5772 :Current local users 5087, max 5772
+2014-03-25 15:11:43	--	90622 98064 :Current global users 90622, max 98064
+2014-03-25 15:11:43	--	Highest connection count: 5773 (5772 clients) (103904 connections received)
+2014-03-25 15:11:43	--	- orwell.freenode.net Message of the Day -
+2014-03-25 15:11:43	--	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2014-03-25 15:11:43	--	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2014-03-25 15:11:43	--	- this server!
+2014-03-25 15:11:43	--	-
+2014-03-25 15:11:43	--	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2014-03-25 15:11:43	--	- moved him to England when he was one year old, and it
+2014-03-25 15:11:43	--	- was in England where he was educated and spent most of
+2014-03-25 15:11:44	--	- his life.  Orwell is perhaps best known for his novels
+2014-03-25 15:11:44	--	- Nineteen Eighty-Four and Animal Farm.
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- Welcome to freenode - supporting the free and open source
+2014-03-25 15:11:44	--	- software communities since 1998.
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- By connecting to freenode you indicate that you have read and
+2014-03-25 15:11:44	--	- accept our policies as set out on http://www.freenode.net
+2014-03-25 15:11:44	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-03-25 15:11:44	--	- any network-related questions or queries, where a number of
+2014-03-25 15:11:44	--	- volunteer staff and helpful users will be happy to assist you.
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-03-25 15:11:44	--	- together with like-minded FOSS enthusiasts for talks and
+2014-03-25 15:11:44	--	- real-life collaboration, if you're more keen on the outdoors why
+2014-03-25 15:11:44	--	- not attend or arrange a local geeknic (http://www.geeknic.org).
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- We would like to thank Private Internet Access
+2014-03-25 15:11:44	--	- (https://www.privateinternetaccess.com/) and the other
+2014-03-25 15:11:44	--	- organisations that help keep freenode and our other projects
+2014-03-25 15:11:44	--	- running for their sustained support.
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- In particular we would like to thank the sponsor
+2014-03-25 15:11:44	--	- of this server, details of which can be found above.
+2014-03-25 15:11:44	--	-
+2014-03-25 15:11:44	--	- ***************************************************************
+2014-03-25 15:11:44	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2014-03-25 15:11:44	--	- ***************************************************************
+2014-03-25 15:11:44	--	End of /MOTD command.
+2014-03-25 15:11:44	--	User mode [+Zi] by smrtz1
+2014-03-25 15:11:44	--	NickServ (NickServ@services.): smrtz1 is not a registered nickname.
+2014-03-25 15:11:50	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-03-25 15:12:06	--	MSG(nickserv): identify <D7g4k4.>Freenode
+2014-03-25 15:12:06	--	NickServ (NickServ@services.): You are now identified for smrtz|nix.
+2014-03-25 15:12:06	--	unaffiliated/smrtznix/x-9775867 :is now your hidden host (set by services.)
+2014-03-25 17:37:16	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2014-03-25 17:37:16	--	irc: disconnecting from server...
+2014-03-25 17:37:16	--	irc: disconnected from server
+2014-03-25 17:37:16	--	irc: reconnecting to server in 10 seconds
+2014-03-25 17:37:26	--	irc: reconnecting to server...
+2014-03-25 17:37:26	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:37:26	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:37:26	=!=	irc: error: Name or service not known
+2014-03-25 17:37:26	--	irc: reconnecting to server in 20 seconds
+2014-03-25 17:37:46	--	irc: reconnecting to server...
+2014-03-25 17:37:46	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:37:46	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:37:46	=!=	irc: error: Name or service not known
+2014-03-25 17:37:46	--	irc: reconnecting to server in 40 seconds
+2014-03-25 17:38:26	--	irc: reconnecting to server...
+2014-03-25 17:38:26	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:38:26	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:38:26	=!=	irc: error: Name or service not known
+2014-03-25 17:38:26	--	irc: reconnecting to server in 1 minute, 20 seconds
+2014-03-25 17:39:46	--	irc: reconnecting to server...
+2014-03-25 17:39:46	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:39:46	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:39:46	=!=	irc: error: Name or service not known
+2014-03-25 17:39:46	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2014-03-25 17:42:26	--	irc: reconnecting to server...
+2014-03-25 17:42:26	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:42:26	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:42:26	=!=	irc: error: Name or service not known
+2014-03-25 17:42:26	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2014-03-25 17:47:46	--	irc: reconnecting to server...
+2014-03-25 17:47:46	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:47:46	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:47:46	=!=	irc: error: Name or service not known
+2014-03-25 17:47:46	--	irc: reconnecting to server in 10 minutes, 40 seconds
+2014-03-25 17:58:26	--	irc: reconnecting to server...
+2014-03-25 17:58:26	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 17:58:26	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 17:58:26	=!=	irc: error: Name or service not known
+2014-03-25 17:58:26	--	irc: reconnecting to server in 21 minutes, 20 seconds
+2014-03-25 18:19:46	--	irc: reconnecting to server...
+2014-03-25 18:19:46	--	irc: connecting to server chat.freenode.net/6697 (SSL)...
+2014-03-25 18:19:46	=!=	irc: address "chat.freenode.net" not found
+2014-03-25 18:19:46	=!=	irc: error: Name or service not known
+2014-03-25 18:19:46	--	irc: reconnecting to server in 30 minutes
+2014-03-29 12:27:25	--	gnutls: connected using 1024-bit Diffie-Hellman shared secret exchange
+2014-03-29 12:27:25	--	gnutls: receiving 2 certificates
+2014-03-29 12:27:25	--	 - certificate[1] info:
+2014-03-29 12:27:25	--	   - subject `OU=Domain Control Validated,OU=Gandi Standard Wildcard SSL,CN=*.freenode.net', issuer `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2014-01-13 00:00:00 UTC', expires `2015-01-14 23:59:59 UTC', SHA-1 fingerprint `f664309a3e209eeff4e2eb0bbdd7a541fdc25e73'
+2014-03-29 12:27:25	--	 - certificate[2] info:
+2014-03-29 12:27:25	--	   - subject `C=FR,O=GANDI SAS,CN=Gandi Standard SSL CA', issuer `C=US,ST=UT,L=Salt Lake City,O=The USERTRUST Network,OU=http://www.usertrust.com,CN=UTN-USERFirst-Hardware', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-10-23 00:00:00 UTC', expires `2020-05-30 10:48:38 UTC', SHA-1 fingerprint `a9f79883a075ce82d20d274d1368e876140d33b3'
+2014-03-29 12:27:25	--	gnutls: peer's certificate is trusted
+2014-03-29 12:27:25	--	irc: connected to chat.freenode.net/6697 (84.240.3.129)
+2014-03-29 12:27:25	--	cameron.freenode.net (cameron.freenode.net): *** Looking up your hostname...
+2014-03-29 12:27:25	--	cameron.freenode.net (cameron.freenode.net): *** Checking Ident
+2014-03-29 12:27:25	--	cameron.freenode.net (cameron.freenode.net): *** Couldn't look up your hostname
+2014-03-29 12:27:28	--	cameron.freenode.net (cameron.freenode.net): *** No Ident response
+2014-03-29 12:27:28	--	irc: nickname "smrtz" is already in use, trying nickname "smrtz1"
+2014-03-29 12:27:28	--	Welcome to the freenode Internet Relay Chat Network smrtz1
+2014-03-29 12:27:28	--	Your host is cameron.freenode.net[84.240.3.129/6697], running version ircd-seven-1.1.3
+2014-03-29 12:27:28	--	This server was created Mon Dec 31 2012 at 23:38:16 EET
+2014-03-29 12:27:28	--	cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2014-03-29 12:27:28	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2014-03-29 12:27:28	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2014-03-29 12:27:28	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2014-03-29 12:27:28	--	There are 190 users and 86807 invisible on 30 servers
+2014-03-29 12:27:28	--	30 :IRC Operators online
+2014-03-29 12:27:28	--	11 :unknown connection(s)
+2014-03-29 12:27:28	--	52211 :channels formed
+2014-03-29 12:27:28	--	I have 2883 clients and 3 servers
+2014-03-29 12:27:28	--	2883 3468 :Current local users 2883, max 3468
+2014-03-29 12:27:28	--	86997 99160 :Current global users 86997, max 99160
+2014-03-29 12:27:28	--	Highest connection count: 3471 (3468 clients) (58515 connections received)
+2014-03-29 12:27:28	--	- cameron.freenode.net Message of the Day -
+2014-03-29 12:27:28	--	- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania.
+2014-03-29 12:27:28	--	- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has
+2014-03-29 12:27:28	--	- been involved in the production of many of the film "greatest hits"
+2014-03-29 12:27:28	--	- of the past 25 years, including the Terminator movies and the 3D
+2014-03-29 12:27:28	--	- blockbuster Avatar.
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- Welcome to freenode - supporting the free and open source
+2014-03-29 12:27:28	--	- software communities since 1998.
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- By connecting to freenode you indicate that you have read and
+2014-03-29 12:27:28	--	- accept our policies as set out on http://www.freenode.net
+2014-03-29 12:27:28	--	- freenode runs an open proxy scanner. Please join #freenode for
+2014-03-29 12:27:28	--	- any network-related questions or queries, where a number of
+2014-03-29 12:27:28	--	- volunteer staff and helpful users will be happy to assist you.
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2014-03-29 12:27:28	--	- together with like-minded FOSS enthusiasts for talks and
+2014-03-29 12:27:28	--	- real-life collaboration, if you're more keen on the outdoors why
+2014-03-29 12:27:28	--	- not attend or arrange a local geeknic (http://www.geeknic.org).
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- We would like to thank Private Internet Access
+2014-03-29 12:27:28	--	- (https://www.privateinternetaccess.com/) and the other
+2014-03-29 12:27:28	--	- organisations that help keep freenode and our other projects
+2014-03-29 12:27:28	--	- running for their sustained support.
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- In particular we would like to thank the sponsor
+2014-03-29 12:27:28	--	- of this server, details of which can be found above.
+2014-03-29 12:27:28	--	-
+2014-03-29 12:27:28	--	- ***************************************************************
+2014-03-29 12:27:28	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2014-03-29 12:27:28	--	- ***************************************************************
+2014-03-29 12:27:28	--	End of /MOTD command.
+2014-03-29 12:27:28	--	User mode [+Zi] by smrtz1
+2014-03-29 12:27:28	--	NickServ (NickServ@services.): smrtz1 is not a registered nickname.
+2014-03-29 12:27:41	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2014-03-29 12:27:58	--	MSG(nickserv): identify <D7g4k4.>Freenode
+2014-03-29 12:27:58	--	NickServ (NickServ@services.): You are now identified for smrtz|nix.
+2014-03-29 12:27:58	--	unaffiliated/smrtznix/x-9775867 :is now your hidden host (set by services.)

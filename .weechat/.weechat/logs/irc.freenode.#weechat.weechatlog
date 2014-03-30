@@ -506,3 +506,20 @@
 2014-03-17 15:24:06	-->	sleo (~sleo@unaffiliated/sleo) has joined #weechat
 2014-03-17 15:24:13	<--	HarryMudd (~jon@c-24-91-232-151.hsd1.ct.comcast.net) has left #weechat ("WeeChat 0.4.3")
 2014-03-17 15:25:20	<--	maattdd (~matthieu@esc31-1-78-245-92-71.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-03-30 16:21:48	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #weechat
+2014-03-30 16:21:48	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-30 16:21:48	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-30 16:21:49	--	Channel #weechat: 500 nicks (3 ops, 1 voice, 496 normals)
+2014-03-30 16:21:49	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-30 16:21:49	--	URL for #weechat: http://www.weechat.org/
+2014-03-30 16:21:51	--	Mode #weechat [+cnt]
+2014-03-30 16:21:51	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-30 16:22:22	smrtz|nix	I'm trying to add better link support in my weechat, I think I want multiline support via http://www.weechat.org/scripts/source/multiline.pl.html/   Would this help at all?
+2014-03-30 16:23:49	smrtz|nix	Or would I want urlserver.py?
+2014-03-30 16:24:42	smrtz|nix	iset
+2014-03-30 16:26:33	tomoe-mami	you want to be able to select long url? in weechat devel, there's bare mode where you can easily select multiline links
+2014-03-30 16:27:53	smrtz|nix	tomoe-mami: Actually, I'd like to just click the url and have it open.
+2014-03-30 16:28:00	-->	morenoh149 (~morenoh14@99-43-253-109.lightspeed.sntcca.sbcglobal.net) has joined #weechat
+2014-03-30 16:31:18	<--	rvalles (~rvalles@unaffiliated/rvalles) has quit (Ping timeout: 268 seconds)
+2014-03-30 16:32:27	smrtz|nix	nevermind, Now that I've got a good url shortener set up I'm happy.
+2014-03-30 16:32:45	<--	Ketsa (~matt@28-189.199-178.cust.bluewin.ch) has quit (Quit: WeeChat 0.4.3)

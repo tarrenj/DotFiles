@@ -275,3 +275,53 @@
 2014-03-17 18:33:03	jdkellylaptop	That wasnt the problem.  
 2014-03-17 18:33:15	jdkellylaptop	Screw it I am going to install linux on a thumbdrive
 2014-03-17 18:35:13	@smrtz|nix	good idea.
+2014-03-17 18:42:12	jdkellylaptop	Out of curiosity, are there compatibility issues when SSHing into different types of linux OS?
+2014-03-17 18:45:46	@smrtz|nix	nope.
+2014-03-17 18:45:57	@smrtz|nix	ssh just works.
+2014-03-17 18:46:29	jdkellylaptop	Sweet
+2014-03-17 18:53:44	jdkellylaptop	Gotta love the CNU internet.
+2014-03-17 19:04:13	<--	jkelly (~jkelly@137.155.193.16) has quit (Remote host closed the connection)
+2014-03-17 20:14:05	<--	jdkellylaptop (899bc14e@gateway/web/freenode/ip.137.155.193.78) has quit (Quit: Page closed)
+2014-03-17 20:18:17	<--	Suhler (~Suhler@137.155.209.34) has quit
+2014-03-17 20:25:20	-->	jkelly (~jkelly@137.155.193.16) has joined #cnuuaslab
+2014-03-17 20:27:31	jkelly	@smrtz|nix Nigel and I are experimenting.  Could we SSH into the linux box in the lab or something? 
+2014-03-17 20:29:13	-->	legoNigel (~legonigel@137.155.255.254) has joined #cnuuaslab
+2014-03-17 20:29:55	jkelly	Hi Nigel.
+2014-03-17 21:01:07	<--	Smrtz (~Jake@137.155.209.49) has quit (Quit: Leaving)
+2014-03-17 21:37:27	<--	jkelly (~jkelly@137.155.193.16) has quit (Quit: Leaving)
+2014-03-17 22:26:33	<--	legoNigel (~legonigel@137.155.255.254) has quit (Quit: Goodby)
+2014-03-18 11:04:57	-->	jkelly (~jkelly@137.155.193.16) has joined #cnuuaslab
+2014-03-18 11:23:38	<--	jkelly (~jkelly@137.155.193.16) has quit (Quit: Leaving)
+2014-03-18 13:43:19	-->	legoNigel (~legonigel@137.155.255.254) has joined #cnuuaslab
+2014-03-18 13:43:25	legoNigel	smrtz|nix, 
+2014-03-18 13:43:26	legoNigel	hey
+2014-03-18 13:43:29	legoNigel	you here?
+2014-03-18 13:48:08	<--	legoNigel (~legonigel@137.155.255.254) has quit (Client Quit)
+2014-03-18 14:44:08	--	irc: disconnected from server
+2014-03-18 14:44:35	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #cnuuaslab
+2014-03-18 14:44:35	--	Mode #cnuuaslab [+ns] by kornbluth.freenode.net
+2014-03-18 14:44:35	--	Channel #cnuuaslab: 1 nick (1 op, 0 voices, 0 normals)
+2014-03-18 14:44:35	--	Mode #cnuuaslab [-o smrtz|nix] by services.
+2014-03-18 14:44:35	--	Notice(kornbluth.freenode.net): *** Notice -- TS for #cnuuaslab changed from 1395182650 to 1381879917
+2014-03-18 14:44:35	--	Mode #cnuuaslab [+t-s] by services.
+2014-03-18 14:44:35	-->	ChanServ (ChanServ@services.) has joined #cnuuaslab
+2014-03-18 14:44:35	--	Mode #cnuuaslab [+o ChanServ] by services.
+2014-03-18 14:44:35	--	Mode #cnuuaslab [+o smrtz|nix] by ChanServ
+2014-03-18 14:44:43	--	Mode #cnuuaslab [+nt]
+2014-03-18 14:44:43	--	Channel created on Tue, 15 Oct 2013 19:31:57
+2014-03-18 15:03:57	@smrtz|nix	yes
+2014-03-25 15:12:32	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #cnuuaslab
+2014-03-25 15:12:32	--	Channel #cnuuaslab: 3 nicks (1 op, 0 voices, 2 normals)
+2014-03-25 15:12:32	--	Mode #cnuuaslab [+o smrtz|nix] by ChanServ
+2014-03-25 15:12:34	--	Mode #cnuuaslab [+nt]
+2014-03-25 15:12:34	--	Channel created on Tue, 15 Oct 2013 19:31:57
+2014-03-25 16:12:59	@smrtz|nix	http://www.l-com.com/coaxial-coaxial-adapter-sma-male-n-female
+2014-03-25 16:16:13	-->	Suhler (~Suhler@137.155.255.254) has joined #cnuuaslab
+2014-03-25 16:17:04	@smrtz|nix	http://www.l-com.com/coaxial-coaxial-adapter-sma-male-n-female
+2014-03-25 16:17:11	@smrtz|nix	http://www.amazon.com/Gino-Bulkhead-Coaxial-Connector-Straight/dp/B006Z95LVI/ref=sr_1_2?s=electronics&ie=UTF8&qid=1395792461&sr=1-2&keywords=sma+connector
+2014-03-25 17:37:16	--	irc: disconnected from server
+2014-03-29 12:28:22	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #cnuuaslab
+2014-03-29 12:28:22	--	Channel #cnuuaslab: 2 nicks (1 op, 0 voices, 1 normal)
+2014-03-29 12:28:22	--	Mode #cnuuaslab [+o smrtz|nix] by ChanServ
+2014-03-29 12:28:24	--	Mode #cnuuaslab [+nt]
+2014-03-29 12:28:24	--	Channel created on Tue, 15 Oct 2013 19:31:57

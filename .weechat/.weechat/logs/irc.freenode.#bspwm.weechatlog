@@ -595,3 +595,113 @@
 2014-03-17 17:31:50	<--	shelvacu (~user@50-46-108-7.evrt.wa.frontiernet.net) has quit (Remote host closed the connection)
 2014-03-17 18:37:23	<--	Mapley (Maple@gateway/shell/cadoth.net/x-ehyosozwkbomoruo) has quit (Quit: bai!)
 2014-03-17 18:37:48	-->	Mapley (Maple@gateway/shell/cadoth.net/x-qecknlimmvdrmwtr) has joined #bspwm
+2014-03-17 20:51:14	belak	Is there anyone here who's good with dzen2?
+2014-03-17 20:51:36	belak	I'm having issues with dzen2 not drawing where I tell it... any common reasons why that might be?
+2014-03-17 20:55:06	belak	Ok, adding a ^pa(screen_width) fixed it?
+2014-03-17 20:57:05	belak	I don't know if I will ever understand why that worked
+2014-03-18 04:18:39	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-03-18 04:34:55	-->	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-03-18 04:48:37	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 04:57:00	-->	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-18 05:40:59	-->	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-03-18 05:41:39	-->	ravenx (~ravenx@dhcp-128-189-84-130.ubcsecure.wireless.ubc.ca) has joined #bspwm
+2014-03-18 05:42:45	<--	ravenx (~ravenx@dhcp-128-189-84-130.ubcsecure.wireless.ubc.ca) has quit (Client Quit)
+2014-03-18 05:42:58	-->	ravenx (~ravenx@dhcp-128-189-84-130.ubcsecure.wireless.ubc.ca) has joined #bspwm
+2014-03-18 05:54:00	-->	GigaG33k (~frakingch@65-116-221-195.dia.static.qwest.net) has joined #bspwm
+2014-03-18 06:11:27	-->	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has joined #bspwm
+2014-03-18 06:24:32	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2014-03-18 07:06:41	-->	earsplit (~sunn@cpe-66-65-47-1.nyc.res.rr.com) has joined #bspwm
+2014-03-18 07:17:59	-->	h41 (~h41@f051014050.adsl.alicedsl.de) has joined #bspwm
+2014-03-18 07:32:44	<--	ravenx (~ravenx@dhcp-128-189-84-130.ubcsecure.wireless.ubc.ca) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 07:50:35	<--	siwoti (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2014-03-18 08:18:31	<--	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has quit (Ping timeout: 246 seconds)
+2014-03-18 08:22:56	-->	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has joined #bspwm
+2014-03-18 08:54:45	-->	nurax (~nurax@unaffiliated/nurax) has joined #bspwm
+2014-03-18 09:53:55	-->	ravenx (~ravenx@dhcp-128-189-86-147.ubcsecure.wireless.ubc.ca) has joined #bspwm
+2014-03-18 10:04:52	<--	ravenx (~ravenx@dhcp-128-189-86-147.ubcsecure.wireless.ubc.ca) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 10:07:46	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 10:07:56	-->	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-03-18 10:31:23	<--	nurax (~nurax@unaffiliated/nurax) has quit (Ping timeout: 255 seconds)
+2014-03-18 10:45:13	-->	Mechanimal (~kyle@184.75.214.163) has joined #bspwm
+2014-03-18 10:46:20	<--	Mechanimal (~kyle@184.75.214.163) has quit (Client Quit)
+2014-03-18 10:47:42	-->	Mechanimal (~kyle@184.75.214.163) has joined #bspwm
+2014-03-18 10:54:22	<--	h41 (~h41@f051014050.adsl.alicedsl.de) has quit (Quit: Leaving)
+2014-03-18 10:59:15	<--	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-03-18 11:30:39	-->	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has joined #bspwm
+2014-03-18 11:39:59	<--	GigaG33k (~frakingch@65-116-221-195.dia.static.qwest.net) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 12:07:58	-->	nurax (~nurax@unaffiliated/nurax) has joined #bspwm
+2014-03-18 12:18:00	<--	exm (~exm@cpe-142-105-232-74.twcny.res.rr.com) has quit (Ping timeout: 252 seconds)
+2014-03-18 12:31:59	<--	belak (~belak@encoded/developer/belak) has left #bspwm ("WeeChat 0.4.3")
+2014-03-18 12:33:48	-->	siwoti (~siwoti@jul74-1-88-186-231-243.fbx.proxad.net) has joined #bspwm
+2014-03-18 12:44:57	-->	faiden (~faiden@c83-252-166-48.bredband.comhem.se) has joined #bspwm
+2014-03-18 12:45:47	faiden	Hi, how do i move a focused window to a workspace and focus on that workspace in one command?
+2014-03-18 13:01:49	-->	tyil_ (~quassel@why.cant.i.hold.all.these.niggers.nl) has joined #bspwm
+2014-03-18 13:02:18	<--	tyil (~quassel@why.cant.i.hold.all.these.niggers.nl) has quit (Ping timeout: 264 seconds)
+2014-03-18 13:42:04	earsplit	hi
+2014-03-18 13:42:17	tuftedocelot	Long time, no see
+2014-03-18 13:42:22	earsplit	chain the commands together!
+2014-03-18 13:43:17	earsplit	i was on vacation last week :)
+2014-03-18 13:43:56	dotpyfe	sweet, where at?
+2014-03-18 13:44:30	earsplit	roadtrip to florida
+2014-03-18 13:46:29	dotpyfe	sweet
+2014-03-18 13:46:29	dotpyfe	i got back from 3 weeks in nz recently
+2014-03-18 13:46:29	earsplit	bspc window -d {____} && bspc desktop -f {___}
+2014-03-18 13:46:29	earsplit	ctrl + {1-9,0} for me and {i,ii,iii,iv,v,vi,vii,viii,ix,x}
+2014-03-18 13:46:29	earsplit	where those _____ are
+2014-03-18 13:46:29	earsplit	gotta head out
+2014-03-18 13:46:29	earsplit	peace
+2014-03-18 13:51:07	<--	earsplit (~sunn@cpe-66-65-47-1.nyc.res.rr.com) has quit (Ping timeout: 246 seconds)
+2014-03-18 14:44:08	--	irc: disconnected from server
+2014-03-18 14:44:37	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-18 14:44:37	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-18 14:44:37	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-18 14:44:37	--	Channel #bspwm: 21 nicks (0 ops, 0 voices, 21 normals)
+2014-03-18 14:44:37	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-18 14:44:37	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-18 14:44:47	--	Mode #bspwm [+cnt]
+2014-03-18 14:44:47	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-18 15:02:32	<--	Mossepo (~mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: WeeChat 0.4.3)
+2014-03-18 15:14:36	<--	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-03-18 15:27:55	-->	guns (~guns@c-98-228-72-208.hsd1.il.comcast.net) has joined #bspwm
+2014-03-18 15:28:25	-->	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has joined #bspwm
+2014-03-18 16:10:19	<--	guns (~guns@c-98-228-72-208.hsd1.il.comcast.net) has quit (Quit: guns)
+2014-03-30 16:02:07	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #bspwm
+2014-03-30 16:02:07	--	Topic for #bspwm is ""BSPWM support channel""
+2014-03-30 16:02:07	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-03-30 16:02:07	--	Channel #bspwm: 21 nicks (0 ops, 0 voices, 21 normals)
+2014-03-30 16:02:07	--	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-03-30 16:02:07	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-03-30 16:02:09	--	Mode #bspwm [+cnt]
+2014-03-30 16:02:09	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-03-30 16:02:54	smrtz|nix	Can someone help me figure out how to make all my windows rotate 90Degrees to the left please?
+2014-03-30 16:03:13	smrtz|nix	I had it a while ago, but apparently I lost my config...
+2014-03-30 16:04:22	o_caino	bspc desktop -R {90,270}
+2014-03-30 16:04:26	o_caino	this?
+2014-03-30 16:06:09	smrtz|nix	o_caino: probobly, let me add it to my config and try it.
+2014-03-30 16:07:52	smrtz|nix	o_caino: hm, it's not doing anything when I'm calling it.
+2014-03-30 16:08:39	smrtz|nix	when I run it from a terminal window, I get: "zsh: no matches found: (90,270)" o_caino 
+2014-03-30 16:09:39	o_caino	hehe note that this is two commands at the same time: 'bspc desktop -R 90' and 'bspc desktop -R 270'
+2014-03-30 16:09:56	smrtz|nix	Oh, haha
+2014-03-30 16:10:02	o_caino	;)
+2014-03-30 16:11:32	smrtz|nix	Yep, thanks!
+2014-03-30 16:12:22	smrtz|nix	Hmm, but it's not working when I add it to my sxhkdrc...
+2014-03-30 16:13:15	o_caino	It's set like this in my sxhkdrc
+2014-03-30 16:13:31	o_caino	alt + shift + {comma,period}
+2014-03-30 16:13:44	o_caino	    bspc desktop -R {90,270}
+2014-03-30 16:14:11	smrtz|nix	Ahh, thanks.  That fixed it.
+2014-03-30 16:14:55	smrtz|nix	do you have a good battery widget in your panel?
+2014-03-30 16:15:01	smrtz|nix	I;
+2014-03-30 16:15:07	smrtz|nix	I'd like to add one to mine.
+2014-03-30 16:15:58	o_caino	sorry, I have no panels
+2014-03-30 16:16:06	smrtz|nix	ahh, ok.
+2014-03-30 16:16:24	smrtz|nix	How do you keep track of what desktop your on, or the time, or anything?
+2014-03-30 16:18:58	o_caino	I usually use the first desktop for browsing, the second for tmux with irssi and other things, and the 10th desktop for thunderbird. I also have a little conky script on the desktop for the clock
+2014-03-30 16:19:07	o_caino	take a look at this https://github.com/windelicato/dotfiles/tree/master/.config/bspwm/panel
+2014-03-30 16:19:26	o_caino	he has a script for battery monitoring
+2014-03-30 16:20:02	smrtz|nix	Thanks!
+2014-03-30 16:23:38	o_caino	you'll need to adapt it tough
+2014-03-30 16:23:44	o_caino	though*
+2014-03-30 16:23:57	smrtz|nix	I will, I'm working on that now.
+2014-03-30 16:29:28	smrtz|nix	Hmm, I just lost my channel buffer... Can you repost that link please?
+2014-03-30 16:29:42	o_caino	https://github.com/windelicato/dotfiles/tree/master/.config/bspwm/panel
+2014-03-30 16:29:51	smrtz|nix	Awesome, thanks.
