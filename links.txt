@@ -1,0 +1,6 @@
+http://robots.thoughtbot.com/a-tmux-crash-course
+
+https://github.com/windelicato/dotfiles
+
+http://pcottle.github.io/learnGitBranching/
+
