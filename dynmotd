@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#colors
+    green=$(tput setaf 2)
+    purple=$(tput setaf 5)
+    red=$(tput setaf 1)
+    reset=$(tput sgr 0)
+
+#standard vars
+    ProCount=$(pgrep -c '.')
+    Groups=$(groups)
+
+if [[ $Groups == *irc* ]]; then
+    Privs="IRC Account"
+else
+    Privs="Regular Account"
+fi
+ 
+printf '%b\n' "$red CNU_UAS_LAB $reset 
+$purple +++++++++++++++++: $reset System Data $purple :+++++++++++++++++++
+$purple +  $reset Hostname $purple = $green $HOSTNAME
+$purple +  $reset Address  $purple = $green $(awk '/[0-9]/ {printf $1"\n"}' /proc/net/arp)
+$purple +  $reset Kernel   $purple = $green $(uname -r)
+$purple +  $reset Uptime   $purple = $green$(uptime | sed 's/.*up ([^,]*), .*/1/')
+$purple +  $reset Memory   $purple = $green $(cat /proc/meminfo | grep MemFree | awk {'print $2'}) $reset of $green $(cat /proc/meminfo | grep MemTotal | awk {'print $2'}) 
+$purple ++++++++++++++++++: $reset User Data $purple :++++++++++++++++++++
+$purple +  $reset Username $purple = $green $(whoami)
+$purple +  $reset Privlages$purple = $green $Privs
+$purple +  $reset Processes$purple = $green $ProCount $reset of $green $(ulimit -u) MAX
+$purple +++++++++++++++++++++++++++++++++++++++++++++++++++
+"
