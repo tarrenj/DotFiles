@@ -2,7 +2,10 @@ sudo cp ssh/ssh_config /etc/ssh/ssh_config
 sudo cp ssh/sshd_config /etc/ssh/sshd_config
 sudo cp ssh/id_ecdsa.pub /etc/authorized_keys
 
+sudo touch usr/share/X11/xorg.conf.d/20-thinkpad.conf
 sudo cp 20-thinkpad.conf /usr/share/X11/xorg.conf.d/20-thinkpad.conf
+
+sudo cp zprofile /etc/zsh/zprofile
 
 cp .vimrc ~/.vimrc
 cp .xinitrc ~/.xinitrc
