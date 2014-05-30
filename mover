@@ -20,7 +20,7 @@ mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
 
 cp bspwmrc ~/.config/bspwm/
-cp sxhdrc ~/.config/sxhkd/
+cp sxhkdrc ~/.config/sxhkd/
 
 rm -rf ~/.weechat
 cp weechat ~/.weechat
