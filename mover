@@ -8,6 +8,7 @@ sudo cp 20-thinkpad.conf /usr/share/X11/xorg.conf.d/20-thinkpad.conf
 sudo cp zprofile /etc/zsh/zprofile
 
 cp .vimrc ~/.vimrc
+cp -r .vim ~/.vim
 cp .xinitrc ~/.xinitrc
 cp .Xdefaults ~/.Xdefaults
 cp .zshrc ~/.zshrc
