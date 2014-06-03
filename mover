@@ -13,6 +13,7 @@ cp .xinitrc ~/.xinitrc
 cp .Xdefaults ~/.Xdefaults
 cp .zshrc ~/.zshrc
 cp .gitconfig ~/.gitconfig
+cp .blockify_list ~/.blockify_list
 
 sudo cp tmux.conf ~/.tmux.conf
 
