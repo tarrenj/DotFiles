@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/smrtz/git/wm/bspwm/examples/panel'
+let g:netrw_dirhist_2='/home/smrtz/git/DotFiles/panelScripts'
+let g:netrw_dirhist_3='/home/smrtz/Builds/UAS/rPi'
+let g:netrw_dirhist_4='/home/smrtz/.vim'
