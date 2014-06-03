@@ -15,7 +15,9 @@ cp .zshrc ~/.zshrc
 cp .gitconfig ~/.gitconfig
 cp .blockify_list ~/.blockify_list
 
-sudo cp tmux.conf ~/.tmux.conf
+cp tmux.conf ~/.tmux.conf
+
+sudo cp pacman.conf /etc/pacman.conf
 
 mkdir ~/.config
 mkdir ~/.config/bspwm
