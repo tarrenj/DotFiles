@@ -6,5 +6,6 @@ xsetroot -cursor_name left_ptr
 # xset fp rehash
 
 panel &
+xautolock -time 10 -locker lock &
 
 exec bspwm

@@ -5,6 +5,10 @@ sudo touch usr/share/X11/xorg.conf.d/20-thinkpad.conf
 sudo cp 20-thinkpad.conf /usr/share/X11/xorg.conf.d/20-thinkpad.conf
 
 sudo cp zprofile /etc/zsh/zprofile
+sudo cp pacman.conf /etc/pacman.conf
+
+sudo cp lock /bin/lock
+sudo chmod +x /bin/lock
 
 cp .vimrc ~/.vimrc
 cp -r .vim ~/.vim
@@ -15,8 +19,6 @@ cp .gitconfig ~/.gitconfig
 cp .blockify_list ~/.blockify_list
 
 cp tmux.conf ~/.tmux.conf
-
-sudo cp pacman.conf /etc/pacman.conf
 
 mkdir ~/.config
 mkdir ~/.config/bspwm
