@@ -10,8 +10,7 @@ sudo cp pacman.conf /etc/pacman.conf
 sudo cp lock /bin/lock
 sudo chmod +x /bin/lock
 
-cp .vimrc ~/.vimrc
-cp -r .vim ~/.vim
+cp -r .vim* ~/
 cp .xinitrc ~/.xinitrc
 cp .Xdefaults ~/.Xdefaults
 cp .zshrc ~/.zshrc
