@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "et"
+   },
+   "qs_about_close_button": {
+      "message": "Sule"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Pärast Google'i otsingutulemusel klõpsamist võidakse kiirkerimine kuvada lehe all paremas nurgas, kus näidatakse üht või mitut tekstiosa lehelt, mis on teie päringu suhtes asjakohane. Tekstil klõpsamine viib lehe sellesse ossa."
+   },
+   "qs_about_explanation2": {
+      "message": "Kiirkerimine kuvatakse ainult juhul, kui sellest võib olla kasu. Saate selle minimeerida, kui klõpsate paremal ülal asuval minimeerimisnupul."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Teave Google'i kohta\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Privaatsuseeskirjad\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Teenusetingimused\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Kuidas kiirkerimine toimib?"
+   },
+   "qs_about_installed": {
+      "message": "Google'i kiirkerimine on nüüd installitud."
+   },
+   "qs_about_introduction": {
+      "message": "Google'i kiirkerimine on brauseri laiendus, mis aitab otsitava kiiremini leida."
+   },
+   "qs_about_only_useful": {
+      "message": "Kiirkerimine kuvatakse vaid siis, kui see on kasulik. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Lisateave\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Valikud on salvestatud"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Aidake Google'i kiirkerimist parandada Google'ile automaatse kasutusstatistika saatmisega."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Privaatsusvalikud"
+   },
+   "qs_about_step_1": {
+      "message": "Tehke Google'i otsing."
+   },
+   "qs_about_step_2": {
+      "message": "Klõpsake otsingutulemusel."
+   },
+   "qs_about_step_3": {
+      "message": "Klõpsake kiirkerimisel, et avada lehe asjakohane osa."
+   },
+   "qs_about_support_instructions": {
+      "message": "Kui teil on kiirkerimise kohta küsimusi või probleeme selle kasutamisega, siis vaadake meie \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">tugilehte\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Täname teid Google'i kiirkerimise installimise eest!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Proovige seda!\u003C/b> Otsige [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] ja klõpsake tulemusel „dark matter brown dwarfs”."
+   },
+   "qs_about_try_queries": {
+      "message": "Proovige järgmisi päringuid:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google'i kiirkerimise desinstallimiseks kasutage Chrome'i menüü Tööriistad&nbsp;>&nbsp;menüüvalikut Laiendused ja klõpsake Google'i kiirkerimise laienduse lingil Desinstallimine."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Desinstallimine"
+   },
+   "qs_description": {
+      "message": "Kiirkerimine võimaldab teil siirduda otse Google'i otsingutulemuste asjakohastele osadele."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Vähem vasteid"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Vaadake oma päringu algseid vasteid"
+   },
+   "qs_gallery_description": {
+      "message": "Google'i kiirkerimine on brauseri laiendus, mis aitab teil otsitu kiiremini leida.\u003Cbr/>\u003Cbr/>Pärast Google'i otsingutulemusel klõpsamist võib lehe all paremas nurgas ilmuda kiirkerimine, mis näitab teie päringu suhtes asjakohaseid tekstilõike lehelt. Tekstil klõpsates viiakse teid lehe sellesse ossa.\u003Cbr/>\u003Cbr/>Kiirkerimine püüab teil mitte ees olla ja ilmub vaid juhul, kui see on tõenäoliselt kasulik."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Kiirkerimine ei leidnud lehelt vasteid päringule \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Lisateave.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Kogu leht on seotud päringuga \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Kiirkerimine ilmub juhul, kui vaid lehe mõni osa on asjakohane. \u003Cspan class=\"goog_qs-learn-more\">Lisateave.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Kiirkerimine ei ilmunud, kuna kogu leht on päringu suhtes asjakohane."
+   },
+   "qs_info_on_search": {
+      "message": "Kiirkerimine ilmub pärast Google'i otsingutulemusel klõpsamist. \u003Cspan class=\"goog_qs-learn-more\">Lisateave.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Klõpsates käsul „Installi”, nõustute nende teenusetingimustega: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Rohkem vasteid \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Vaadake rohkem vasteid oma päringule"
+   },
+   "qs_name": {
+      "message": "Google'i kiirkerimine"
+   },
+   "qs_page_action_active": {
+      "message": "Kiirkerimine leidis lehelt vasteid."
+   },
+   "qs_page_action_inactive": {
+      "message": "Kiirkerimine on lubatud. Klõpsake lisateabe saamiseks."
+   },
+   "qs_page_action_running": {
+      "message": "Kiirkerimine on lehe laadimise ootel ..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Avage abi ja valikute leht"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Vasted lehel päringule \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Vasted lehel päringule \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimeerimine"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Avage Google'i kiirkerimine"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klõpsake, et vaadata teksti lehel"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Liigu teksti juurde $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Parimad vasted päringule \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

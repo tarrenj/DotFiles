@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "zh-CN"
+   },
+   "qs_about_close_button": {
+      "message": "关闭"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "点击 Google 搜索结果后，您会在网页右下角看到 Quick Scroll，其中显示了与您的查询相关的网页中的一段或多段文本。点击该文本即可转至网页的相应部分。"
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll 只会在可能对用户有所帮助时显示。点击右上角的最小化按钮即可将其最小化。"
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Google 大全\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">隐私权政策\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">服务条款\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll 的工作原理："
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll 现已安装完毕。"
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll 是一款浏览器扩展程序，可帮您更快地找到要搜索的内容。"
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll 只会在对用户有帮助时显示。\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">了解详情\u003C/a>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "选项已保存"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "将使用情况统计信息自动发送给 Google，帮助完善 Google Quick Scroll。"
+   },
+   "qs_about_privacy_options_title": {
+      "message": "隐私设置选项"
+   },
+   "qs_about_step_1": {
+      "message": "执行 Google 搜索。"
+   },
+   "qs_about_step_2": {
+      "message": "点击搜索结果。"
+   },
+   "qs_about_step_3": {
+      "message": "点击 Quick Scroll 即可跳转到网页的相关部分。"
+   },
+   "qs_about_support_instructions": {
+      "message": "如果您对 Google Quick Scroll 的使用有疑问或问题，请访问我们的\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">支持页面\u003C/a>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "感谢您安装 Google Quick Scroll！"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>赶快试试\u003C/b>吧！搜索 [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>]，然后点击“dark matter brown dwarfs”结果。"
+   },
+   "qs_about_try_queries": {
+      "message": "试试以下查询："
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "要卸载 Google Quick Scroll，请使用 Chrome 浏览器的“工具”&nbsp;>&nbsp;“扩展程序”菜单选项，然后点击 Google Quick Scroll 扩展程序的“卸载”链接。"
+   },
+   "qs_about_uninstall_title": {
+      "message": "卸载"
+   },
+   "qs_description": {
+      "message": "Google Quick Scroll 可让您直接跳转到 Google 搜索结果中的相关内容。"
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  隐藏部分匹配项"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "显示与您的查询匹配的原始项"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll 是一款浏览器扩展程序，可帮您更快地找到要搜索的内容。\u003Cbr/>\u003Cbr/>点击 Google 搜索结果后，您会在网页右下角看到 Quick Scroll，其中显示了与您的查询相关的网页中的一段或多段文本。点击该文本即可转至网页的相应部分。\u003Cbr/>\u003Cbr/>Quick Scroll 会尽量避免影响用户浏览，因此只会在可能对用户有所帮助时显示。"
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "抱歉，Quick Scroll 无法在该网页上找到任何与“\u003Cspan class=\"goog_qs-query\">$1\u003C/span>”匹配的项。\u003Cspan class=\"goog_qs-learn-more\">了解详情\u003C/span>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "该网页的所有内容似乎都与“\u003Cspan class=\"goog_qs-query\">$1\u003C/span>”相关。Quick Scroll 只会在网页中的部分内容与查询相关时显示。\u003Cspan class=\"goog_qs-learn-more\">了解详情\u003C/span>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "由于该网页的所有内容都与您的查询相关，因此 Quick Scroll 未显示。"
+   },
+   "qs_info_on_search": {
+      "message": "点击 Google 搜索结果后，您就会看到 Quick Scroll。\u003Cspan class=\"goog_qs-learn-more\">了解详情\u003C/span>。"
+   },
+   "qs_long_description_url": {
+      "message": "点击“安装”即表示您同意以下服务条款：https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "显示更多匹配项 \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "显示更多与您的查询匹配的项"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Google Quick Scroll 在该网页上找到了匹配项。"
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll 已启用。点击以了解详情。"
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll 正在等待网页加载..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "打开帮助与选项页面"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "网页中与“\u003Cspan class=\"goog_qs-query\">\u003C/span>”匹配的项"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "网页上与“\u003Cspan class=\"goog_qs-query\">\u003C/span>”匹配的项"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "最小化"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "打开 Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "点击以查看网页中的相应文本"
+   },
+   "qs_toolbar_go_label": {
+      "message": "跳转到文本部分 $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "“\u003Cspan class=\"goog_qs-query\">\u003C/span>”的最佳匹配项"
+   }
+}

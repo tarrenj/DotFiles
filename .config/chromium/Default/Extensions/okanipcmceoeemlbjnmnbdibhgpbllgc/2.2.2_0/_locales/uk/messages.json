@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "uk"
+   },
+   "qs_about_close_button": {
+      "message": "Закрити"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Якщо натиснути результат пошуку Google, Quick Scroll з’явиться в нижньому правому куті сторінки, відображаючи один або декілька уривків тексту з цієї сторінки, які відповідають вашому запиту. Натиснувши цей текст, можна перейти до відповідної частини сторінки."
+   },
+   "qs_about_explanation2": {
+      "message": "Розширення Quick Scroll з’являється лише тоді, коли воно потрібне. Його можна згорнути, натиснувши кнопку згортання в правому верхньому куті."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Про Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Політика конфіденційності\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Загальні положення та умови Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Як працює Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Розширення Google Quick Scroll установлено."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll – це розширення для веб-переглядача, яке допомагає швидше знаходити те, що ви шукаєте."
+   },
+   "qs_about_only_useful": {
+      "message": "Розширення Quick Scroll з’являється лише тоді, коли воно потрібне. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Докладніше\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Параметри збережено"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Допоможіть покращити розширення Google Quick Scroll, автоматично надсилаючи статистику використання в Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Параметри конфіденційності"
+   },
+   "qs_about_step_1": {
+      "message": "Задайте пошук Google."
+   },
+   "qs_about_step_2": {
+      "message": "Натисніть результат пошуку."
+   },
+   "qs_about_step_3": {
+      "message": "Натисніть кнопку Quick Scroll, щоб перейти до відповідної частини сторінки."
+   },
+   "qs_about_support_instructions": {
+      "message": "Якщо у вас виникли запитання чи проблеми під час користування Quick Scroll, завітайте на нашу \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">сторінку підтримки\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Дякуємо, що встановили Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Спробуйте!\u003C/b> Задайте пошук [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] і натисніть результат \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Спробуйте ці запити:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Щоб видалити розширення Google Quick Scroll, скористайтеся пунктом&nbsp;>&nbsp;\"Розширення\" в меню інструментів Chrome і натисніть посилання \"Видалити\" для розширення Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Видалення"
+   },
+   "qs_description": {
+      "message": "Quick Scroll дозволяє переходити безпосередньо до відповідних уривків із результату пошуку Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Менше збігів"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Показати оригінальні збіги для вашого запита"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll – це розширення для веб-переглядача, яке допомагає швидше знаходити те, що ви шукаєте.\u003Cbr/>\u003Cbr/>Якщо натиснути результат пошуку Google, Quick Scroll з’явиться в нижньому правому куті сторінки, відображаючи один або декілька уривків тексту з цієї сторінки, які відповідають вашому запиту. Натиснувши цей текст, можна перейти до відповідної частини сторінки.\u003Cbr/>\u003Cbr/>Розширення Quick Scroll не заважає вашій роботі та з’являється лише тоді, коли воно потрібне."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "На жаль, розширення Quick Scroll не може знайти на цій сторінці збіги для запита \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Докладніше\u003C/span>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Схоже, на всій цій сторінці йдеться про \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Кнопка Quick Scroll з’являється, лише якщо частини сторінки відповідають запиту. \u003Cspan class=\"goog_qs-learn-more\">Докладніше\u003C/span>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll не з’являється, оскільки вся сторінка відповідає вашому запиту."
+   },
+   "qs_info_on_search": {
+      "message": "Розширення Quick Scroll з’являється після натискання результату пошуку Google. \u003Cspan class=\"goog_qs-learn-more\">Докладніше\u003C/span>."
+   },
+   "qs_long_description_url": {
+      "message": "Натискаючи кнопку \"Установити\", ви приймаєте ці Загальні положення та умови Google: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Більше збігів \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Показати більше збігів для вашого запита"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Розширення Quick Scroll знайшло збіги на цій сторінці."
+   },
+   "qs_page_action_inactive": {
+      "message": "Розширення Quick Scroll увімкнено. Натисніть, щоб дізнатися більше."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll очікує завантаження сторінки..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Відкрити сторінку довідки та параметрів"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Збіги на сторінці для запита \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Збіги на сторінці для запита \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Зменшити"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Відкрити Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Натисніть, щоб побачити цей текст на сторінці"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Перейти до тексту $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Найкращі збіги для запита \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

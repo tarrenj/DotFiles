@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "cs"
+   },
+   "qs_about_close_button": {
+      "message": "Zavřít"
+   },
+   "qs_about_copy": {
+      "message": "&copy; 2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Po kliknutí na výsledek vyhledávání na Googlu se v pravém dolním rohu stránky může zobrazit Rychlý přesun s jednou nebo více částmi textu z dané stránky, které jsou relevantní pro váš dotaz. Kliknutím na text přejdete na příslušnou část stránky."
+   },
+   "qs_about_explanation2": {
+      "message": "Rychlý přesun se zobrazí pouze tehdy, pokud je pravděpodobné, že ho využijete. Můžete je minimalizovat kliknutím na příslušné tlačítko v pravém horním rohu."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">O společnosti Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Zásady ochrany soukromí\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Smluvní podmínky\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Jak Rychlý přesun funguje:"
+   },
+   "qs_about_installed": {
+      "message": "Rychlý přesun Google byl nainstalován."
+   },
+   "qs_about_introduction": {
+      "message": "Rychlý přesun Google je rozšíření prohlížeče, které umožňuje rychleji najít to, co hledáte."
+   },
+   "qs_about_only_useful": {
+      "message": "Rychlý přesun se zobrazí pouze v případě, že je užitečné. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Další informace\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Možnosti byly uloženy"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pomozte nám se zlepšením Rychlého přesunu Google tím, že povolíte automatické odesílání statistik použití do Googlu."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Možnosti ochrany osobních údajů"
+   },
+   "qs_about_step_1": {
+      "message": "Zkuste vyhledávat na Googlu."
+   },
+   "qs_about_step_2": {
+      "message": "Klikněte na výsledek vyhledávání."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknutím na Rychlý přesun se dostanete na relevantní část stránky."
+   },
+   "qs_about_support_instructions": {
+      "message": "Pokud máte problémy nebo dotazy týkající se Rychlého přesunu, navštivte prosím naši \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">stránku podpory\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Děkujeme, že jste si nainstalovali Rychlý přesun Google."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Vyzkoušejte to!\u003C/b> Vyhledejte výraz [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] a klikněte na výsledek „dark matter brown dwarfs“."
+   },
+   "qs_about_try_queries": {
+      "message": "Vyzkoušejte tyto dotazy:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Chcete-li Rychlý přesun Google odinstalovat, přejděte v prohlížeči Chrome na možnosti Nástroje&nbsp;>&nbsp;Rozšíření a klikněte na odkaz Odinstalovat u rozšíření Rychlý přesun Google."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Odinstalovat"
+   },
+   "qs_description": {
+      "message": "Rychlý přesun umožňuje přejít ve výsledku vyhledávání Google přímo na relevantní část."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Méně shod"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Zobrazit původní výsledky pro dotaz"
+   },
+   "qs_gallery_description": {
+      "message": "Rychlý přesun Google je rozšíření prohlížeče, které umožňuje rychleji najít to, co hledáte.\u003Cbr/>\u003Cbr/>Po kliknutí na výsledek vyhledávání Google se v pravém dolním rohu stránky může objevit symbol Rychlého přesunu. Kliknutím na jednu nebo více označených částí textu relevantních pro váš dotaz se dostanete na příslušnou část stránky.\u003Cbr/>\u003Cbr/>Snahou je, aby Rychlý přesun nepřekážel a objevuje se proto pouze, pokud je pravděpodobné, že ho využijete."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Litujeme, Rychlý přesun nenalezl na této stránce žádné shody pro dotaz \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Další informace.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Zdá se, že se celá tato stránka týká dotazu \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Rychlý přesun se zobrazí, pokud jsou relevantní pouze části stránky. \u003Cspan class=\"goog_qs-learn-more\">Další informace.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Rychlý přesun se nezobrazil, protože je pro váš dotaz relevantní celá stránka."
+   },
+   "qs_info_on_search": {
+      "message": "Rychlý přesun se zobrazí po kliknutí na výsledek vyhledávání Google. \u003Cspan class=\"goog_qs-learn-more\">Další informace.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Kliknutím na tlačítko Nainstalovat vyjadřujete souhlas s těmito smluvními podmínkami: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Více shod \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Zobrazit více výsledků pro hledaný výraz"
+   },
+   "qs_name": {
+      "message": "Rychlý přesun Google"
+   },
+   "qs_page_action_active": {
+      "message": "Rychlý přesun našel na této stránce shody."
+   },
+   "qs_page_action_inactive": {
+      "message": "Rychlý přesun je aktivní. Další informace zobrazíte kliknutím."
+   },
+   "qs_page_action_running": {
+      "message": "Rychlý přesun čeká na načtení stránky..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Otevřít stránku s nápovědou a možnostmi"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Shody na stránce pro dotaz \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Shody na stránce pro dotaz \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimalizovat"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Otevřít Rychlý přesun Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknutím zobrazíte tento text na stránce"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Přeskočit na text $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Nejlepší shody pro dotaz \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

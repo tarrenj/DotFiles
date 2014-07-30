@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "id"
+   },
+   "qs_about_close_button": {
+      "message": "Tutup"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Setelah mengeklik hasil penelusuran Google, Quick Scroll dapat muncul di pojok kanan bawah laman, dengan memperlihatkan satu bagian teks atau lebih dari laman yang relevan dengan kueri Anda. Dengan mengeklik teks, Anda akan dibawa ke bagian laman tersebut."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll hanya muncul jika diperlukan. Anda dapat memperkecilnya dengan mengeklik tombol perkecil di kanan atas."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Tentang Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Kebijakan Privasi\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Persyaratan Layanan\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Cara kerja Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll telah dipasang."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll adalah ekstensi browser yang membantu Anda melakukan penelusuran dengan lebih cepat."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll hanya muncul jika diperlukan. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Pelajari lebih lanjut\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opsi disimpan"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Bantu membuat Google Quick Scroll jadi lebih baik dengan mengirimkan statistik penggunaan ke Google secara otomatis."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Opsi privasi"
+   },
+   "qs_about_step_1": {
+      "message": "Lakukan penelusuran Google."
+   },
+   "qs_about_step_2": {
+      "message": "Klik hasil penelusuran."
+   },
+   "qs_about_step_3": {
+      "message": "Klik Quick Scroll untuk melompat ke bagian laman yang relevan."
+   },
+   "qs_about_support_instructions": {
+      "message": "Jika ada pertanyaan atau masalah saat menggunakan Quick Scroll, lihat \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">laman dukungan\u003C/a> kami.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Terima kasih telah memasang Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Cobalah!\u003C/b> Telusuri [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] dan klik pada hasil \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Coba kueri ini:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Untuk mencopot pemasangan Google Quick Scroll, gunakan opsi menu Ekstensi&nbsp;>&nbsp;Alat Chrome, lalu klik tautan Copot Pemasangan untuk ekstensi Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Copot pemasangan"
+   },
+   "qs_description": {
+      "message": "Dengan Quick Scroll, Anda dapat melompat langsung ke bagian hasil penelusuran Google yang relevan."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Kecocokan lebih sedikit"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Tampilkan kecocokan asli untuk kueri Anda"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll adalah ekstensi browser yang membantu Anda melakukan penelusuran dengan lebih cepat.\u003Cbr/>\u003Cbr/>Setelah mengeklik hasil penelusuran Google, Quick Scroll dapat muncul di pojok kanan bawah laman, memperlihatkan satu bagian teks atau lebih dari laman yang relevan dengan kueri Anda. Dengan mengeklik teks, Anda akan dibawa ke bagian laman itu.\u003Cbr/>\u003Cbr/>Quick Scroll berupaya agar tidak mengganggu Anda, dan hanya muncul jika diperlukan."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Maaf, Quick Scroll tidak dapat menemukan kecocokan di laman ini untuk \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Pelajari lebih lanjut.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Seluruh laman ini tampaknya tentang \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Quick Scroll hanya muncul jika bagian dari laman tersebut relevan. \u003Cspan class=\"goog_qs-learn-more\">Pelajari lebih lanjut.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll tidak muncul karena seluruh laman relevan dengan kueri Anda."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll muncul setelah Anda mengeklik hasil penelusuran Google. \u003Cspan class=\"goog_qs-learn-more\">Pelajari lebih lanjut.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Dengan mengeklik \"Pasang\", berarti Anda menyetujui Persyaratan Layanan ini: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Kecocokan lebih banyak \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Tampilkan lebih banyak kecocokan untuk kueri Anda"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll menemukan kecocokan pada laman ini."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll diaktifkan. Klik untuk informasi selengkapnya."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll menunggu laman dimuat..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Buka laman bantuan dan opsi"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Cocok di laman untuk \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Cocok di laman untuk \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Perkecil"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Buka Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klik untuk melihat teks ini di laman"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Lompat ke teks $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Hasil paling cocok untuk \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

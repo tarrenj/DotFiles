@@ -1,0 +1,1798 @@
+{
+   "1023033940742649280": {
+      "message": "$START_PARAGRAPH$ Jūsu dators nevar sazināties ar Chromecast ierīci, ja ir izveidots VPN savienojums. $END_PARAGRAPH$ $START_PARAGRAPH$ Lai pabeigtu iestatīšanu, lūdzu, atvienojiet VPN un noklikšķiniet uz “Mēģināt vēlreiz”. $END_PARAGRAPH$",
+      "placeholders": {
+         "END_PARAGRAPH": {
+            "content": "$1"
+         },
+         "START_PARAGRAPH": {
+            "content": "$2"
+         }
+      }
+   },
+   "1023033940742649280_ph": {
+      "message": "\u003C/p>\u003Cp>"
+   },
+   "1029164020836817256": {
+      "message": "Nevarēja autentificēt jūsu Chromecast ierīci.$BREAK$ Lūdzu, izvēlieties citu Chromecast ierīci.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "1029164020836817256_ph": {
+      "message": "\u003Cbr>"
+   },
+   "1049877458571060222": {
+      "message": "Tiek atskaņots šeit: $START_SPAN$$END_SPAN$",
+      "placeholders": {
+         "END_SPAN": {
+            "content": "$1"
+         },
+         "START_SPAN": {
+            "content": "$2"
+         }
+      }
+   },
+   "1049877458571060222_ph": {
+      "message": "\u003C/span>\u003Cspan class=\"device-name\" ng-bind-html=\"selectedActivity.receiver.name\">"
+   },
+   "1104234694810969409": {
+      "message": "Nevar veikt apraidi uz ierīci."
+   },
+   "1189144544819350763": {
+      "message": "Apraidīt šo cilni (audio) ierīcē..."
+   },
+   "1202779209944619898": {
+      "message": "IP adrese: $_IPADDRESS_$",
+      "placeholders": {
+         "_IPADDRESS_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1202779209944619898_ph": {
+      "message": "{{IPAddress}}"
+   },
+   "1213957982723875920": {
+      "message": "Kurš no tālāk minētajiem apgalvojumiem vislabāk raksturo jūsu tīklu?"
+   },
+   "1253789643716245859": {
+      "message": "$START_PARAGRAPH$Iespējams, izmantojat maršrutētāju ar paplašinātām funkcijām. Ja nemainīsiet maršrutētāja iestatījumus, no dažām ierīcēm, iespējams, nevarēs apraidīt saturu Chromecast ierīcē.$END_PARAGRAPH$$START_PARAGRAPH$ Ja jums rodas problēmas, lūdzu, apmeklējiet vietni $START_LINK$support.google.com/chromecast$END_LINK$, kurā varēsiet saņemt palīdzību šīs problēmas novēršanā.$END_PARAGRAPH$",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "END_PARAGRAPH": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         },
+         "START_PARAGRAPH": {
+            "content": "$4"
+         }
+      }
+   },
+   "1253789643716245859_ph": {
+      "message": "\u003C/a>\u003C/p>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">\u003Cp>"
+   },
+   "130855611855008194": {
+      "message": "Izbaudiet kvalitatīvu apraidi, noklikšķinot uz apraides ikonas šajā vietnē."
+   },
+   "1312042186374481668": {
+      "message": "Pilnekrāna tālummaiņa"
+   },
+   "1318160328466758792": {
+      "message": "Mēģināt vēlreiz"
+   },
+   "1346986642756520594": {
+      "message": "Notiek Chromecast ierīces iestatīšana..."
+   },
+   "1403598074357445300": {
+      "message": "Ļoti augsta (720p ar lielu bitu pārraides ātrumu)"
+   },
+   "1443898800503846063": {
+      "message": "Chrome versija ir novecojusi"
+   },
+   "145446834822743302": {
+      "message": "Parole:"
+   },
+   "1510649369757220975": {
+      "message": "Labi"
+   },
+   "1640106120035505383": {
+      "message": "Lūdzu, uzgaidiet, līdz jūsu Chromecast ierīce tiek atiestatīta un restartēta."
+   },
+   "1643334553790893729": {
+      "message": "Chromecast ierīce tiek atkārtoti palaista..."
+   },
+   "1699650875987066968": {
+      "message": "Ierīces $_DEVICETOSETUP_$ iestatīšana",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1699650875987066968_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "1717149362663359343": {
+      "message": "Apraidīt $V2_APP_DOMAIN$",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "1736891338067720192": {
+      "message": "Vai esat pārliecināts, ka nepieciešams atiestatīt Chromecast ierīci? Tādējādi no jūsu Chromecast ierīces tiks dzēsti visi iestatījumi."
+   },
+   "1795930891833597883": {
+      "message": "Vai esat gatavs iestatīt ierīci $_DEVICETOSETUP_$?",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1795930891833597883_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "1800259609671125324": {
+      "message": "Atkārtoti palaist"
+   },
+   "1877856983727558507": {
+      "message": "Apraidīt šo cilni (optimizēt audio atskaņošanai)"
+   },
+   "1878608156765601563": {
+      "message": "Lai konfigurētu Chromecast ierīci, atlasiet savu valsti."
+   },
+   "1892665409887570919": {
+      "message": "Izveidot savienojumu ar citu..."
+   },
+   "1942272259363289202": {
+      "message": "Izstrādātāja iestatījumi"
+   },
+   "195942478059587765": {
+      "message": "Lai iestatītu jaunu ierīci, noklikšķiniet uz vienas no tālāk esošajām pogām."
+   },
+   "2009563581399507712": {
+      "message": "Video vienmērība:"
+   },
+   "2016072788708608077": {
+      "message": "“Pievienot paplašinājuma Cast žurnālus” — lūdzu, atzīmējiet šo izvēles rūtiņu, lai palīdzētu atkļūdot problēmas."
+   },
+   "2076488708707463944": {
+      "message": "Ierīces atrašana"
+   },
+   "2081143677025752994": {
+      "message": "Nerādīt"
+   },
+   "2083306153840951484": {
+      "message": "(jāaizpilda obligāti)"
+   },
+   "2159130950882492111": {
+      "message": "Atcelt"
+   },
+   "222617673884818958": {
+      "message": "Nav atrasta neviena Chromecast ierīce"
+   },
+   "2267050368954737517": {
+      "message": "Wi-Fi tīkli jūsu Chromecast ierīcei ($_NETWORKNAME_$) un šai ierīcei ($_INITIALNETWORKNAME_$) atšķiras. Pēc iestatīšanas šī ierīce tiks savienota ar tīklu $_NETWORKNAME_$, lai jūs varētu izmantot Chromecast ierīci.",
+      "placeholders": {
+         "_INITIALNETWORKNAME_": {
+            "content": "$1"
+         },
+         "_NETWORKNAME_": {
+            "content": "$2"
+         }
+      }
+   },
+   "2267050368954737517_ph": {
+      "message": "{{initialNetworkName}}{{networkName}}"
+   },
+   "2305903324116609221": {
+      "message": "Saglabāt"
+   },
+   "2352372781778823685": {
+      "message": "Zināma problēma ar noteiktiem Intel procesoriem"
+   },
+   "2377419936291389581": {
+      "message": "Zema"
+   },
+   "2400591522298944337": {
+      "message": "Apsveicam! Iestatīšana bija veiksmīga."
+   },
+   "2417890821034476139": {
+      "message": "Kamēr notiks jūsu ierīces $_DEVICETOSETUP_$ iestatīšana jūsu tīklā, datora savienojums ar internetu īslaicīgi nebūs pieejams.$BREAK$$BREAK$Taču neuztraucieties — savienojums tiks atjaunots, tiklīdz iestatīšana būs pabeigta.$BREAK$",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "_DEVICETOSETUP_": {
+            "content": "$2"
+         }
+      }
+   },
+   "2417890821034476139_ph": {
+      "message": "\u003Cbr>{{deviceToSetup}}"
+   },
+   "2438859709710567679": {
+      "message": "Cilnes/darbvirsmas projekcijas kvalitāte"
+   },
+   "2477948008132782458": {
+      "message": "Jūsu dators nevar izveidot savienojumu ar to pašu Wi-Fi tīklu, kuram ir pievienota jūsu Chromecast ierīce. Varat manuāli mainīt sava datora Wi-Fi tīklu uz $_NETWORKNAME_$ un mēģināt vēlreiz. Varat arī atgriezties un mainīt Chromecast ierīces Wi-Fi tīklu.",
+      "placeholders": {
+         "_NETWORKNAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2477948008132782458_ph": {
+      "message": "{{networkName}}"
+   },
+   "2480373522051304868": {
+      "message": "Tīkla veiktspējas problēma"
+   },
+   "2517473004427269018": {
+      "message": "Jūsu sesija bija ilgāka par minūti, tādēļ mēs vēlamies, lai jūsu sniegtu mūsu komandai atsauksmes par savu pieredzi. Ja radās kādas problēmas, lūdzu, atzīmējiet attiecīgās izvēles rūtiņas, lai pievienotu paplašinājuma Cast un ārējos žurnālus."
+   },
+   "2530715062873398013": {
+      "message": "Chromecast ierīces nosaukums nedrīkst pārsniegt 24 rakstzīmes."
+   },
+   "2554687737930512120": {
+      "message": "Nevar izgūt žurnālus no ierīces."
+   },
+   "2581331321407676861": {
+      "message": "Atcelt"
+   },
+   "2594966871221697125": {
+      "message": "Atlasiet valsti..."
+   },
+   "2635975979003647889": {
+      "message": "Valsts:"
+   },
+   "2638991638737993114": {
+      "message": "Veiktās izmaiņas stāsies spēkā nākamajā cilnes apraides reizē."
+   },
+   "2654829603233013743": {
+      "message": "Būvējuma versija: $_BUILDVERSION_$",
+      "placeholders": {
+         "_BUILDVERSION_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2654829603233013743_ph": {
+      "message": "{{buildVersion}}"
+   },
+   "2673108145745625398": {
+      "message": "Pārlūkā Chrome nevarēja atrast pievienotu ierīci."
+   },
+   "2780948202169029885": {
+      "message": "Nav"
+   },
+   "2798807656507405918": {
+      "message": "Standarta"
+   },
+   "2807800733729323332": {
+      "message": "Jā"
+   },
+   "2884726392788153618": {
+      "message": "Radās neparedzēta kļūda. Lūdzu, izmēģiniet tālāk norādītās darbības.\u003Cul>\u003Cli>Mēģiniet vēlreiz veikt apraidi.\u003C/li>\u003Cli>Pārbaudiet tīkla savienojumu.\u003C/li>\u003C/ul>"
+   },
+   "2928514560669916125": {
+      "message": "Nevar izveidot savienojumu ar $_DEVICETOSETUP_$. Lūdzu, pārbaudiet, vai jūsu Chromecast ierīce ir ieslēgta un atrodas netālu.",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2928514560669916125_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "2932348398128569497": {
+      "message": "Apraidīt šo cilni"
+   },
+   "2942203478948533213": {
+      "message": "Lūdzu, atlasiet citu ierīci."
+   },
+   "3056813071145570503": {
+      "message": "Atlasiet tīklu..."
+   },
+   "3115970523539316807": {
+      "message": "Uzlabots (eksperimentāls; tikai Chrome 36 vai jaunākai versijai)"
+   },
+   "3130594885131965585": {
+      "message": "Lietot 12 stundu formātu"
+   },
+   "3188239202899052784": {
+      "message": "Vai vēlaties uzlabot Cast darbību, kopīgojot anonīmu informāciju par lietojumu ar uzņēmumu Google? Mums ir svarīga jūsu konfidencialitāte, un jebkurā brīdī varat mainīt šo iestatījumu sadaļā Opcijas."
+   },
+   "3198788114822821268": {
+      "message": "Pieejamās Cast ierīces"
+   },
+   "3201699132833978353": {
+      "message": "Lai nodrošinātu optimālu apraidi, noklikšķiniet uz apraides ikonas šajā lapā ietvertajā atskaņotājā."
+   },
+   "3202350311251778009": {
+      "message": "Izmantojot paplašinājumu Google Cast, varat atrast un atskaņot saturu no pārlūka Chrome savā Chromecast ierīcē.\nPaplašinājuma Cast darbībai optimizētās vietnēs ir pieejamas jaunas iespējas video atskaņošanai televizorā ar Chromecast palīdzību — izmantojot datoru kā tālvadības ierīci videoklipu pārlūkošanai un atskaņošanas vadībai.\nVarat arī apraidīt jebkuru pārlūka Chrome cilni savā televizorā, lai lielā ekrānā skatītu vietnes, fotoattēlus vai pat video. Ņemiet vērā, ka šī funkcija vēl darbojas beta versijā un tās darbībai ir nepieciešams jaudīgs dators un Wi-Fi tīkls.\nLai izmantotu šo paplašinājumu, ir nepieciešama Chromecast aparatūra. Plašāku informāciju skatiet vietnē http://google.com/chromecast.\nInstalējot šo vienumu, jūs piekrītat Google pakalpojumu sniegšanas noteikumiem un konfidencialitātes politikai (vietnē https://www.google.com/intl/lv/policies/)."
+   },
+   "3268013795447421317": {
+      "message": "Tīkla veiktspēja var ietekmēt atskaņošanas kvalitāti."
+   },
+   "3278102219211539720": {
+      "message": "Apraidīt šo cilni"
+   },
+   "3285083186787942734": {
+      "message": "Šķiet, ka jūsu tīklā jau ir iestatītas un darbam gatavas Chromecast ierīces. Lai skatītu izmantojamo Chromecast ierīču sarakstu, noklikšķiniet uz Cast paplašinājuma."
+   },
+   "3314869243569608808": {
+      "message": "Turpināt"
+   },
+   "3354474128773194784": {
+      "message": "Lai iestatītu Chromecast ierīci, ieslēdziet Wi-Fi šajā datorā, noklikšķiniet uz “Mēģināt vēlreiz” un turpiniet iestatīšanu."
+   },
+   "3374149466144554646": {
+      "message": "Apturēt apraidi tūlīt"
+   },
+   "3430817026795535765": {
+      "message": "Apraidīt visu ekrānu ierīcē..."
+   },
+   "3507952913562640185": {
+      "message": "Cilnes apraide šajā datorā, iespējams, darbosies ar traucējumiem."
+   },
+   "3533191964283341369": {
+      "message": "WEP"
+   },
+   "3542042671420335679": {
+      "message": "Nē"
+   },
+   "3562313862283849921": {
+      "message": "Valsts kods: $_DEVICECOUNTRYCODE_$",
+      "placeholders": {
+         "_DEVICECOUNTRYCODE_": {
+            "content": "$1"
+         }
+      }
+   },
+   "3562313862283849921_ph": {
+      "message": "{{deviceCountryCode}}"
+   },
+   "3570815481247986721": {
+      "message": "Kāpēc mana Chromecast ierīce nav redzama iestatīšanas sarakstā?"
+   },
+   "3593576714633990163": {
+      "message": "Pateicamies, ka izmēģinājāt Cast spoguļošanu!"
+   },
+   "3630200699826211171": {
+      "message": "Tiek pievienoti žurnāli no: $_EXTERNALDEVICENAME_$.",
+      "placeholders": {
+         "_EXTERNALDEVICENAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "3630200699826211171_ph": {
+      "message": "{{externalDeviceName}}"
+   },
+   "3633167042592070329": {
+      "message": "Mēs novērtējam jūsu atsauksmes — tās palīdz mums uzlabot paplašinājumu Google Cast. Ņemiet vērā, ka mēs nevaram sniegt personiskas atbildes uz iesniegtajām atsauksmēm un jautājumiem. Ja jums ir jautājumi par Chromecast un vēlaties tieši sazināties ar Google, lūdzu, skatiet $START_LINK$šo lapu$END_LINK$, lai iegūtu plašāku informāciju.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "3633167042592070329_ph": {
+      "message": "\u003C/a>\u003Ca href=\"https://support.google.com/chromecast/troubleshooter/2995236?hl=en&ref_topic=2994245\">"
+   },
+   "3634893929360744610": {
+      "message": "Augstas kvalitātes apraide"
+   },
+   "3646478976134536443": {
+      "message": "Nevar savienot jūsu Chromecast ierīci ar izvēlēto Wi-Fi tīklu. Lūdzu, pārbaudiet savu tīkla nosaukumu un paroli, kā arī pārbaudiet, vai jūsu tīkls ļauj pievienot jaunas ierīces."
+   },
+   "3681271501407987946": {
+      "message": "Augsta (720p)"
+   },
+   "3740458508418680243": {
+      "message": "Lietot 24 stundu formātu"
+   },
+   "3771614655693813994": {
+      "message": "Jūsu Chromecast ierīcei un datoram jābūt savienotiem tajā pašā tīklā"
+   },
+   "3789857023572978851": {
+      "message": "Iestatīt"
+   },
+   "3795763563772103881": {
+      "message": "Lūdzu, uzgaidiet, līdz Chromecast ierīce ir restartēta."
+   },
+   "3844709005265884931": {
+      "message": "Neregulāra raustīšanās"
+   },
+   "3876918464251814494": {
+      "message": "Nevarēja atrast jaunas Chromecast ierīces, kuras iestatīt"
+   },
+   "3885666702463386029": {
+      "message": "(Vai nevarat atrast ierīci?)"
+   },
+   "3894950702316166331": {
+      "message": "Notiek ielāde..."
+   },
+   "3996247341169314250": {
+      "message": "Cits"
+   },
+   "4000242504764673307": {
+      "message": "Nevarēja konfigurēt jūsu ierīci.$BREAK$ Noklikšķiniet uz “Mēģināt vēlreiz”, lai atsāktu iestatīšanu.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "4000242504764673307_ph": {
+      "message": "\u003Cbr>"
+   },
+   "4012724710893432966": {
+      "message": "Neizdodas sazināties ar Chromecast ierīci.$BREAK$ Iespējams, jums būs jāmēģina vēlreiz.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "4012724710893432966_ph": {
+      "message": "\u003Cbr>"
+   },
+   "4014224501758376361": {
+      "message": "Notiek apraide uz ierīci $RECEIVER_NAME$.",
+      "placeholders": {
+         "RECEIVER_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "4044189874405410369": {
+      "message": "Radās problēma. Jūsu Chromecast ierīce netika atrasta tīklā."
+   },
+   "4089994756445820175": {
+      "message": "Kļūda"
+   },
+   "4157951843472785441": {
+      "message": "Atjauniniet Chrome, lai apraidītu šo vietni."
+   },
+   "4187599066116404890": {
+      "message": "Labi"
+   },
+   "4199262278004738231": {
+      "message": "Atlasiet valsti"
+   },
+   "4223394109936547558": {
+      "message": "Labi"
+   },
+   "4224760847878375792": {
+      "message": "Vienmērīgs attēls"
+   },
+   "4272010402571776761": {
+      "message": "Zema"
+   },
+   "4300512446110878511": {
+      "message": "Tīkls:"
+   },
+   "4324962226715124466": {
+      "message": "Pieņemama"
+   },
+   "4341893090014533479": {
+      "message": "Iespējams, jau esat iestatījis Chromecast ierīci. Lai to pārbaudītu, noklikšķiniet uz Cast paplašinājuma. Ja jūsu Chromecast ierīce ir redzama sarakstā, varat nekavējoties sākt apraidi, neveicot papildu iestatīšanu.$BREAK$$BREAK$Ja jūsu Chromecast ierīce nav redzama sarakstā, lūdzu, pārbaudiet, vai tā ir pievienota, ieslēgta un atrodas ne vairāk kā 6 metru attālumā no šī datora.$BREAK$$BREAK$Ja joprojām neredzat savu Chromecast ierīci, varat atiestatīt rūpnīcas datus — 15 sekundes turiet nospiestu ierīces atiestatīšanas pogu.$BREAK$$BREAK$Lai saņemtu papildu palīdzību, apmeklējiet vietni $START_LINK$support.google.com/chromecast$END_LINK$.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "END_LINK": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         }
+      }
+   },
+   "4341893090014533479_ph": {
+      "message": "\u003Cbr>\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "4437601670693716588": {
+      "message": "Piešķiriet šai Chromecast ierīcei atbilstošu nosaukumu (piemēram, “Dzīvojamā istaba”)."
+   },
+   "4557090113839282401": {
+      "message": "Lūdzu, pārbaudiet, vai jūsu Chromecast ierīce ir tuvumā un pareizi pievienota."
+   },
+   "4563873836363331434": {
+      "message": "Procesors:"
+   },
+   "4584454172263179470": {
+      "message": "Nevainojami vienmērīgs attēls"
+   },
+   "4585326301657856848": {
+      "message": "Palīdzība Cast uzlabošanā"
+   },
+   "4586172406334707448": {
+      "message": "Iespējota — novērš melnu joslu rādīšanu, atskaņojot platekrāna videoklipus"
+   },
+   "4602775656969243139": {
+      "message": "Jaunas Chromecast ierīces iestatīšana"
+   },
+   "4625206607880030589": {
+      "message": "Ierīces nosaukums:"
+   },
+   "464916539454098167": {
+      "message": "Sapratu!"
+   },
+   "4687947362658561907": {
+      "message": "Atlasītā ierīce vairs neatrodas tiešsaistē."
+   },
+   "4741643884742469674": {
+      "message": "Audio kvalitāte:"
+   },
+   "4785540115752720023": {
+      "message": "Notiek Chromecast ierīču meklēšana..."
+   },
+   "4822504808490979258": {
+      "message": "Automātiski nosūtīt paplašinājuma Cast lietojuma statistiku uz Google tīklu"
+   },
+   "482442943064110817": {
+      "message": "Pieņemama — FM"
+   },
+   "4840042422099634973": {
+      "message": "Šķiet, ka radās kļūda."
+   },
+   "4865676252029097872": {
+      "message": "Nevar nosūtīt atsauksmes. Lūdzu, vēlāk mēģiniet vēlreiz."
+   },
+   "5056298333685549098": {
+      "message": "Apraidīt $V2_APP_DOMAIN$ uz...",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "5107389855082704624": {
+      "message": "“Pievienot ierīces žurnālus” — lūdzu, atzīmējiet šo izvēles rūtiņu, lai palīdzētu atkļūdot problēmas."
+   },
+   "5115837021587904245": {
+      "message": "Nevar izveidot savienojumu ar tīklu"
+   },
+   "5117041129279104336": {
+      "message": "Chromecast ierīces iestatīšanai ir nepieciešama operētājsistēma Chrome OS 28 vai jaunāka versija. Lai Chromecast ierīces iestatīšanai varētu izmantot Chromecast paplašinājumu, lūdzu, veiciet atjaunināšanu uz jaunāko Chrome OS versiju."
+   },
+   "513131801569652489": {
+      "message": "Notiek Chromecast ierīces atiestatīšana..."
+   },
+   "5202323856319464688": {
+      "message": "Ierīcē, kuru lietojat, netiek nodrošināti žurnāli."
+   },
+   "5223596009139859839": {
+      "message": "Nevar saglabāt iestatījumus jūsu Chromecast ierīcē. Lūdzu, apmeklējiet vietni $START_LINK$support.google.com/chromecast$END_LINK$, lai saņemtu palīdzību šīs problēmas novēršanā.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "5223596009139859839_ph": {
+      "message": "\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "5229573508420009298": {
+      "message": "(Izvēles) Kādu saturu/URL jūs apraidījāt?"
+   },
+   "5247472409430022291": {
+      "message": "Pievienojiet Chromecast ierīci televizoram un atlasiet televizora ekrānā rādīto Chromecast ierīces nosaukumu."
+   },
+   "5339913305209531244": {
+      "message": "Nav atrasta neviena apraides ierīce."
+   },
+   "5380722061726010200": {
+      "message": "Jūsu Chromecast ierīces iestatīšana netiks pabeigta, jo jūs neapstiprinājāt, ka televizorā tiek rādīts attiecīgais kods.$BREAK$$BREAK$Pastāv arī iespēja, ka nejauši esat izveidojis savienojumu ar citu Chromecast ierīci. Lūdzu, nodrošiniet, ka ir pievienota jūsu Chromecast ierīce un televizorā ir izvēlēta pareizā ieeja.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "5380722061726010200_ph": {
+      "message": "\u003Cbr>"
+   },
+   "5385436389563925676": {
+      "message": "Dators un Chromecast ierīce ir vienā Wi-Fi tīklā."
+   },
+   "5395332831907227403": {
+      "message": "Video kvalitāte:"
+   },
+   "5453859777568475949": {
+      "message": "Datora veiktspēja var ietekmēt atskaņošanas kvalitāti."
+   },
+   "5458275569533528575": {
+      "message": "Atspējota — parāda saturu tieši tā, kā tas redzams šajā ekrānā"
+   },
+   "5497667907660111182": {
+      "message": "Atlasiet valodu..."
+   },
+   "5517251763786548986": {
+      "message": "Viss pabeigts! Atiestatītā ierīce tagad tiek dēvēta par “$_NAMEAFTERFACTORYRESET_$”, turklāt tā nav savienota ar tīklu.$BREAK$$BREAK$Ja vēlaties to iestatīt savā tīklā, vienkārši atlasiet Chromecast paplašinājuma opciju lapā esošo vienumu “Pievienot Chromecast”.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "_NAMEAFTERFACTORYRESET_": {
+            "content": "$2"
+         }
+      }
+   },
+   "5517251763786548986_ph": {
+      "message": "\u003Cbr>{{nameAfterFactoryReset}}"
+   },
+   "5666603068038740045": {
+      "message": "(UTC–$HOURS$:$MINUTES$) $NAME$",
+      "placeholders": {
+         "HOURS": {
+            "content": "$1"
+         },
+         "MINUTES": {
+            "content": "$2"
+         },
+         "NAME": {
+            "content": "$3"
+         }
+      }
+   },
+   "5671949584911040143": {
+      "message": "Papildu komentāri:"
+   },
+   "5745355507138230213": {
+      "message": "Laba"
+   },
+   "5823878688587296398": {
+      "message": "Nav piemērojams"
+   },
+   "5849296180435940955": {
+      "message": "Uzziniet vairāk"
+   },
+   "5890429238996349901": {
+      "message": "Cilnes apraides režīms"
+   },
+   "5901090897529226506": {
+      "message": "Manas Chromecast ierīces nosaukums netiek rādīts"
+   },
+   "5909681494194871956": {
+      "message": "MAC adrese: $_MACADDRESS_$",
+      "placeholders": {
+         "_MACADDRESS_": {
+            "content": "$1"
+         }
+      }
+   },
+   "5909681494194871956_ph": {
+      "message": "{{MACAddress}}"
+   },
+   "5971299147202640199": {
+      "message": "WPA, iepriekš kopīgota atslēga"
+   },
+   "6018881802001125637": {
+      "message": "Notiek atsauksmju sūtīšana..."
+   },
+   "6039331491778328245": {
+      "message": "Laba — DVD"
+   },
+   "6046507125919556913": {
+      "message": "Apraidīt šo cilni ierīcē..."
+   },
+   "6098003662202355499": {
+      "message": "Atiestatīt rūpnīcas datus"
+   },
+   "6118473811359442709": {
+      "message": "Nesaklausāma skaņa"
+   },
+   "6174790240916002622": {
+      "message": "Jūsu Chromecast ierīce tiek atiestatīta"
+   },
+   "6214031582604719501": {
+      "message": "Atgriezties pie ierīču saraksta"
+   },
+   "6228766303262090274": {
+      "message": "WPA2, iepriekš kopīgota atslēga"
+   },
+   "6236792503803747284": {
+      "message": "Standarta (480p)"
+   },
+   "6295154563386647404": {
+      "message": "Neizdevās nosūtīt atsauksmes. Notiek atkārtots mēģinājums (šis ir $ATTEMPT_NUMBER$. mēģinājums)...",
+      "placeholders": {
+         "ATTEMPT_NUMBER": {
+            "content": "$1"
+         }
+      }
+   },
+   "6392158336204151356": {
+      "message": "Atpakaļ"
+   },
+   "6392731103614271560": {
+      "message": "Nosūtiet saturu uz savu Chromecast ierīci un citām ierīcēm, kurās tiek atbalstīta funkcija Google Cast."
+   },
+   "6393885837084531991": {
+      "message": "$START_PARAGRAPH$ No šī datora nevarēja sazināties ar jūsu Chromecast ierīci. Iespējams, jūsu Chromecast ierīce un dators ir pievienoti tīkliem, kas savstarpēji nevar sazināties. $END_PARAGRAPH$ $START_PARAGRAPH$ Var būt nepieciešams veikt nelielas izmaiņas jūsu Wi-Fi maršrutētāja iestatījumos. Lūdzu, apmeklējiet vietni $START_LINK$support.google.com/chromecast$END_LINK$, lai saņemtu palīdzību šīs problēmas novēršanā. $END_PARAGRAPH$",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "END_PARAGRAPH": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         },
+         "START_PARAGRAPH": {
+            "content": "$4"
+         }
+      }
+   },
+   "6393885837084531991_ph": {
+      "message": "\u003C/a>\u003C/p>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">\u003Cp>"
+   },
+   "641484418525870522": {
+      "message": "Wi-Fi ir jābūt ieslēgtam"
+   },
+   "6585975561839203683": {
+      "message": "Nemēģināju skatīt"
+   },
+   "6604600094360523853": {
+      "message": "Google Cast atsauksmes"
+   },
+   "6678977886592726172": {
+      "message": "WEP, koplietota atslēga"
+   },
+   "6681204353063647200": {
+      "message": "Savienojuma izveide ar ierīci $_DEVICETOSETUP_$",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "6681204353063647200_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "6689796877662016136": {
+      "message": "Automātiski sūtīt lietojuma statistiku un avāriju pārskatus Google serveriem"
+   },
+   "6714111755007279544": {
+      "message": "Pievienot Chromecast ierīci..."
+   },
+   "6760572486503438987": {
+      "message": "Valoda:"
+   },
+   "6869607025130454293": {
+      "message": "Jūsu Chromecast ierīce ir atiestatīta"
+   },
+   "6940187082832386692": {
+      "message": "Jūsu Chromecast ierīces nosaukums ir pārāk garš"
+   },
+   "6988652234001902672": {
+      "message": "Paldies, ka nosūtījāt atsauksmes!"
+   },
+   "6997602168024654529": {
+      "message": "Neesmu pārliecināts"
+   },
+   "7008828272760191653": {
+      "message": "Video nav skatāms"
+   },
+   "7011099479208813570": {
+      "message": "Noraidīt"
+   },
+   "7028436125721806572": {
+      "message": "Detalizēta informācija par spoguļošanas kvalitāti"
+   },
+   "7029426286291560071": {
+      "message": "Nevainojama"
+   },
+   "7032219081611940207": {
+      "message": "Wi-Fi tīkla maiņa"
+   },
+   "7053128562708856478": {
+      "message": "“Iesaldēts” attēls"
+   },
+   "7075073555752965346": {
+      "message": "Brīdinājums — ir iespējota detalizēta reģistrēšana; tālāk norādītajos žurnālos var būt iekļauti vietrāži URL vai cita sensitīva informācija. Lūdzu, pārskatiet to un izlemiet, vai vēlaties iesniegt šo informāciju."
+   },
+   "7102649289752747375": {
+      "message": "Sūtīt atsauksmes"
+   },
+   "7344649529753624682": {
+      "message": "Apraidīt $V2_APP_DOMAIN$",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "734932170823984208": {
+      "message": "Chromecast ierīces atkārtota palaišana"
+   },
+   "7353352715326499943": {
+      "message": "Mēģināt vēlreiz"
+   },
+   "7385388755069522729": {
+      "message": "Diemžēl iestatīšana no paplašinājuma pašlaik tiek atbalstīta tikai operētājsistēmā Chrome OS."
+   },
+   "7411261365841051403": {
+      "message": "Chromecast ierīci nevar savienot ar tīklu"
+   },
+   "7429199670762070717": {
+      "message": "Lai skatītu konfigurētās Cast ierīces, lūdzu, izveidojiet savienojumu ar Wi-Fi tīklu."
+   },
+   "7431988162709364473": {
+      "message": "Notiek savienojuma izveide ar ierīci $_DEVICETOSETUP_$...",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "7431988162709364473_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "7484752158248863804": {
+      "message": "Apturēt apraidi"
+   },
+   "7512888817044182839": {
+      "message": "Papildus jebkurai informācijai, ko iepriekš izvēlējāties iekļaut, tiks iesniegti arī dati par jūsu pārlūka Chrome versiju, operētājsistēmas versiju un paplašinājuma Cast opcijām, kā arī WebRTC veiktspējas statistika. Šīs atsauksmes tiek izmantotas, lai atklātu problēmas un palīdzētu uzlabot paplašinājumu. Jebkāda personas informācija, ko iesniedzat tieši vai nejauši, tiks aizsargāta saskaņā ar mūsu konfidencialitātes politikām. $START_BOLD$Iesniedzot šīs atsauksmes, jūs piekrītat, ka Google var tās izmantot, lai uzlabotu jebkuru Google produktu vai pakalpojumu.$END_BOLD$",
+      "placeholders": {
+         "END_BOLD": {
+            "content": "$1"
+         },
+         "START_BOLD": {
+            "content": "$2"
+         }
+      }
+   },
+   "7512888817044182839_ph": {
+      "message": "\u003C/b>\u003Cb>"
+   },
+   "7594287593369134847": {
+      "message": "Chromecast ierīces iestatīšana ir gandrīz pabeigta"
+   },
+   "7603459055013836218": {
+      "message": "Nepareiza parole."
+   },
+   "760978735208256393": {
+      "message": "Apraidīt visu ekrānu"
+   },
+   "7638769793803084423": {
+      "message": "Laika formāts:"
+   },
+   "7658112972707584352": {
+      "message": "Nevar izveidot savienojumu ar Chromecast ierīci"
+   },
+   "7658849483698059550": {
+      "message": "Izvēlieties Wi-Fi tīklu šai Chromecast ierīcei"
+   },
+   "7661531377295243900": {
+      "message": "Lūdzu, atsāknējiet ierīci. Ja problēma ar to nav novērsta, sazinieties ar ražotāju."
+   },
+   "7786163844034528352": {
+      "message": "Google Cast atsauksmes"
+   },
+   "780135806192376347": {
+      "message": "Funkcijas pieprasījums"
+   },
+   "7820166559915208245": {
+      "message": "Laika josla:"
+   },
+   "7824803162979416790": {
+      "message": "Dators un Chromecast ierīce ir dažādos Wi-Fi tīklos (piemēram, 2,4 GHz un 5 GHz)."
+   },
+   "7864119253243497594": {
+      "message": "Lūdzu, pārbaudiet, vai ierīce atrodas tiešsaistē."
+   },
+   "7867182504906675090": {
+      "message": "Cilnes apraides kvalitāte"
+   },
+   "7878303393719404217": {
+      "message": "Rediģēt..."
+   },
+   "7885431863671390745": {
+      "message": "Automātiski nosūtīt paplašinājuma Cast lietojuma statistiku uz Google tīklu"
+   },
+   "7911416166208830577": {
+      "message": "Palīdzība"
+   },
+   "801495004830452095": {
+      "message": "Pievienoti žurnāli no: $_EXTERNALDEVICENAME_$",
+      "placeholders": {
+         "_EXTERNALDEVICENAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "801495004830452095_ph": {
+      "message": "{{externalDeviceName}}"
+   },
+   "8025420827457681102": {
+      "message": "Vai jūsu Chromecast ierīce ir redzama Windows/Mac iestatīšanas lietojumprogrammā?"
+   },
+   "8119187687393606810": {
+      "message": "Sistēmas veiktspējas problēma"
+   },
+   "8189622236075700665": {
+      "message": "Vai vēlaties atmest atsauksmes?"
+   },
+   "819996403327805209": {
+      "message": "Uzziniet vairāk"
+   },
+   "8242882361224206357": {
+      "message": "Par ko sniedzat atsauksmes?"
+   },
+   "8273142536049992075": {
+      "message": "(UTC+$HOURS$:$MINUTES$) $NAME$",
+      "placeholders": {
+         "HOURS": {
+            "content": "$1"
+         },
+         "MINUTES": {
+            "content": "$2"
+         },
+         "NAME": {
+            "content": "$3"
+         }
+      }
+   },
+   "8288732448265345962": {
+      "message": "Atcelt"
+   },
+   "8300469553732521822": {
+      "message": "Ierīces $_DEVICETOSETUP_$ iestatījumi",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "8300469553732521822_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "8304164664901068767": {
+      "message": "Izmantojot paplašinājumu Google Cast, varat atrast un atskaņot saturu no pārlūka Chrome savā Chromecast ierīcē.\nŠī ir paplašinājuma Google Cast *BETA* versija. Tā ir paredzēta izstrādātājiem un pieredzējušiem lietotājiem, kuri vēlas piekļūt gaidāmajām saskarnēm API un funkcijām pirms to vispārējas izlaišanas. Lielākajai daļai lietotāju jāinstalē paplašinājuma Google Cast stabilā versija (https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd). Beta versija bieži būs nestabila, un tajā būs vairāk kļūdu.\nInstalējot šo vienumu, jūs piekrītat Google pakalpojumu sniegšanas noteikumiem un konfidencialitātes politikai, kas norādīta vietnē https://www.google.com/intl/en/policies/."
+   },
+   "8351230089123629067": {
+      "message": "Grafikas karte/grafikas procesors:"
+   },
+   "8432562579042371182": {
+      "message": "Opcijas"
+   },
+   "8436497523209458720": {
+      "message": "Sūtīt atsauksmes..."
+   },
+   "845494741086179740": {
+      "message": "Datoram ir vadu pieslēgums, bet Chromecast ierīce ir Wi-Fi tīklā."
+   },
+   "8489968480602452361": {
+      "message": "Cast ierīces tīklā “$_ACTIVENETWORKNAME_$”",
+      "placeholders": {
+         "_ACTIVENETWORKNAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "8489968480602452361_ph": {
+      "message": "{{activeNetworkName}}"
+   },
+   "8492868760738700855": {
+      "message": "Vai neredzat savu ierīci?"
+   },
+   "8500110749168055241": {
+      "message": "Raustīgs attēls"
+   },
+   "8590884059033243193": {
+      "message": "Lūdzu, dodieties atpakaļ un atlasiet citu Wi-Fi tīklu savai Chromecast ierīcei vai apmeklējiet vietni $START_LINK$ support.google.com/chromecast $END_LINK$, lai saņemtu palīdzību šīs problēmas novēršanā.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "8590884059033243193_ph": {
+      "message": "\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "8605368940343039116": {
+      "message": "Pārbaudot atjauninājumus, izmantot šīs Chromecast ierīces sērijas numuru"
+   },
+   "8674892226531837727": {
+      "message": "Drošība:"
+   },
+   "8700054488486244094": {
+      "message": "Paplašinājuma Google Cast opcijas"
+   },
+   "872641383564597641": {
+      "message": "Tika zaudēts savienojums ar ierīci."
+   },
+   "8808326359642865369": {
+      "message": "(eksperimentāls)"
+   },
+   "8847227464712783239": {
+      "message": "Atlasītā ierīce ir bojāta."
+   },
+   "8848631234926754401": {
+      "message": "Atlasiet laika joslu..."
+   },
+   "8856112728107888349": {
+      "message": "Apstiprināt"
+   },
+   "8879729374562274188": {
+      "message": "Veicot šo darbību, radās kļūda."
+   },
+   "8887833628383960193": {
+      "message": "Lieliska — HD"
+   },
+   "8948441291106678529": {
+      "message": "Paplašinājuma Google Cast opcijas"
+   },
+   "897566596634286067": {
+      "message": "Lūdzu, ievadiet savas atsauksmes šeit (obligāti)."
+   },
+   "8998179362936748717": {
+      "message": "Labi"
+   },
+   "9059560719840598868": {
+      "message": "Sūtīt atsauksmes"
+   },
+   "9120942669794506861": {
+      "message": "Vai ir instalēta īpaša VPN, starpniekservera, ugunsmūra vai NAS programmatūra?"
+   },
+   "9217039427324387516": {
+      "message": "Lūdzu, pārbaudiet:\u003Cul>\u003Cli>vai ierīce atrodas bezvadu piekļuves punkta tuvumā;\u003C/li>\u003Cli>vai ierīcē tiek atbalstīta ciļņu projekcija.\u003C/li>\u003C/ul>Pēc tam mēģiniet vēlreiz."
+   },
+   "942595326489680668": {
+      "message": "Lūdzu, apstipriniet, ka televizorā tiek rādīts šis kods:"
+   },
+   "MSG_CHROME_TOO_OLD_FOR_V2": {
+      "message": "1443898800503846063"
+   },
+   "MSG_CHROME_TOO_OLD_FOR_V2_DESCRIPTION": {
+      "message": "4157951843472785441"
+   },
+   "MSG_GC_ACCEPT_BUTTON_LABEL": {
+      "message": "8856112728107888349"
+   },
+   "MSG_GC_AUTH_OPTION_NONE": {
+      "message": "2780948202169029885"
+   },
+   "MSG_GC_AUTH_OPTION_WEP": {
+      "message": "3533191964283341369"
+   },
+   "MSG_GC_AUTH_OPTION_WEP_SHARED": {
+      "message": "6678977886592726172"
+   },
+   "MSG_GC_AUTH_OPTION_WPA2_PSK": {
+      "message": "6228766303262090274"
+   },
+   "MSG_GC_AUTH_OPTION_WPA_PSK": {
+      "message": "5971299147202640199"
+   },
+   "MSG_GC_BAD_INTEL_CPU": {
+      "message": "2352372781778823685"
+   },
+   "MSG_GC_BAD_INTEL_CPU_DESCRIPTION": {
+      "message": "3507952913562640185"
+   },
+   "MSG_GC_BETA_EXTENSION_DESCRIPTION": {
+      "message": "8304164664901068767"
+   },
+   "MSG_GC_CANCEL_BUTTON": {
+      "message": "8288732448265345962"
+   },
+   "MSG_GC_CANCEL_BUTTON_LABEL": {
+      "message": "2581331321407676861"
+   },
+   "MSG_GC_CASTING_LABEL": {
+      "message": "4014224501758376361"
+   },
+   "MSG_GC_CAST_APP": {
+      "message": "5056298333685549098"
+   },
+   "MSG_GC_CAST_APP_OPTION": {
+      "message": "7344649529753624682"
+   },
+   "MSG_GC_CAST_ENTIRE_SCREEN": {
+      "message": "3430817026795535765"
+   },
+   "MSG_GC_CAST_TAB": {
+      "message": "6046507125919556913"
+   },
+   "MSG_GC_CAST_TAB_AUDIO": {
+      "message": "1189144544819350763"
+   },
+   "MSG_GC_CAST_THIS_APP": {
+      "message": "1717149362663359343"
+   },
+   "MSG_GC_CAST_THIS_TAB": {
+      "message": "3278102219211539720"
+   },
+   "MSG_GC_CONTINUE_BUTTON_LABEL": {
+      "message": "3314869243569608808"
+   },
+   "MSG_GC_DEVICE_BAD": {
+      "message": "8847227464712783239"
+   },
+   "MSG_GC_DEVICE_BAD_RESOLUTION": {
+      "message": "7661531377295243900"
+   },
+   "MSG_GC_DEVICE_CONNECTION_CHECK_ONLINE": {
+      "message": "7864119253243497594"
+   },
+   "MSG_GC_DEVICE_CONNECTION_ERROR_FIXING": {
+      "message": "9217039427324387516"
+   },
+   "MSG_GC_DEVICE_CONNECTION_LOST": {
+      "message": "872641383564597641"
+   },
+   "MSG_GC_DEVICE_NETWORK_PERFORMANCE": {
+      "message": "2480373522051304868"
+   },
+   "MSG_GC_DEVICE_NETWORK_PERFORMANCE_DESCRIPTION": {
+      "message": "3268013795447421317"
+   },
+   "MSG_GC_DEVICE_NOT_ONLINE": {
+      "message": "4687947362658561907"
+   },
+   "MSG_GC_DEVICE_NOT_ONLINE_RESOLUTION": {
+      "message": "2942203478948533213"
+   },
+   "MSG_GC_DEVICE_SYSTEM_PERFORMANCE": {
+      "message": "8119187687393606810"
+   },
+   "MSG_GC_DEVICE_SYSTEM_PERFORMANCE_DESCRIPTION": {
+      "message": "5453859777568475949"
+   },
+   "MSG_GC_DEVICE_UNABLE_TO_CAST": {
+      "message": "1104234694810969409"
+   },
+   "MSG_GC_DEVICE_UNABLE_TO_CAST_RESOLUTION": {
+      "message": "2884726392788153618"
+   },
+   "MSG_GC_DISMISS_BUTTON": {
+      "message": "2081143677025752994"
+   },
+   "MSG_GC_ERROR_TITLE_CHROEMCAST_DISCONNECTED": {
+      "message": "7658112972707584352"
+   },
+   "MSG_GC_ERROR_TITLE_CHROMECAST_CONNECTION_FAILED": {
+      "message": "7411261365841051403"
+   },
+   "MSG_GC_ERROR_TITLE_CHROMECAST_NAME_TOO_LONG": {
+      "message": "6940187082832386692"
+   },
+   "MSG_GC_ERROR_TITLE_CONNECT_TO_SETUP_NETWORK": {
+      "message": "3771614655693813994"
+   },
+   "MSG_GC_ERROR_TITLE_DEFAULT": {
+      "message": "4840042422099634973"
+   },
+   "MSG_GC_ERROR_TITLE_DUAL_BAND_WARNING": {
+      "message": "2400591522298944337"
+   },
+   "MSG_GC_ERROR_TITLE_NO_CHROMECASTS": {
+      "message": "222617673884818958"
+   },
+   "MSG_GC_ERROR_TITLE_NO_CHROMECASTS_SOME_SETUP": {
+      "message": "3876918464251814494"
+   },
+   "MSG_GC_ERROR_TITLE_NO_WIFI": {
+      "message": "641484418525870522"
+   },
+   "MSG_GC_ERROR_TITLE_SETUP_CHROMECAST_NOT_FOUND": {
+      "message": "4044189874405410369"
+   },
+   "MSG_GC_ERROR_TITLE_VPN_CONNECTED": {
+      "message": "7594287593369134847"
+   },
+   "MSG_GC_ERROR_TTITLE_CHANGING_NETWORK": {
+      "message": "7032219081611940207"
+   },
+   "MSG_GC_EXTENSION_DESCRIPTION": {
+      "message": "3202350311251778009"
+   },
+   "MSG_GC_EXTENSION_SHORT_DESCRIPTION": {
+      "message": "6392731103614271560"
+   },
+   "MSG_GC_FACTORY_RESET_BUTTON_LABEL": {
+      "message": "6098003662202355499"
+   },
+   "MSG_GC_FACTORY_RESET_CONFIRM": {
+      "message": "1736891338067720192"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_ACCEPTABLE": {
+      "message": "482442943064110817"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_GOOD": {
+      "message": "5745355507138230213"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_PERFECT": {
+      "message": "7029426286291560071"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_POOR": {
+      "message": "4272010402571776761"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_UNINTELLIGIBLE": {
+      "message": "6118473811359442709"
+   },
+   "MSG_GC_FEEDBACK_DISCARD_CONFIRMATION": {
+      "message": "8189622236075700665"
+   },
+   "MSG_GC_FEEDBACK_NA": {
+      "message": "5823878688587296398"
+   },
+   "MSG_GC_FEEDBACK_PAGE_TITLE": {
+      "message": "7786163844034528352"
+   },
+   "MSG_GC_FEEDBACK_RESENDING": {
+      "message": "6295154563386647404"
+   },
+   "MSG_GC_FEEDBACK_SENDING": {
+      "message": "6018881802001125637"
+   },
+   "MSG_GC_FEEDBACK_SEND_FAIL": {
+      "message": "4865676252029097872"
+   },
+   "MSG_GC_FEEDBACK_SEND_SUCCESS": {
+      "message": "6988652234001902672"
+   },
+   "MSG_GC_FEEDBACK_TYPE_BUG_OR_ERROR": {
+      "message": "4089994756445820175"
+   },
+   "MSG_GC_FEEDBACK_TYPE_DISCOVERY": {
+      "message": "2076488708707463944"
+   },
+   "MSG_GC_FEEDBACK_TYPE_FEATURE_REQUEST": {
+      "message": "780135806192376347"
+   },
+   "MSG_GC_FEEDBACK_TYPE_OTHER": {
+      "message": "3996247341169314250"
+   },
+   "MSG_GC_FEEDBACK_TYPE_PROJECTION_QUALITY": {
+      "message": "2438859709710567679"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_ACCEPTABLE": {
+      "message": "4324962226715124466"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_FREEZES": {
+      "message": "7053128562708856478"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_GOOD": {
+      "message": "6039331491778328245"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_GREAT": {
+      "message": "8887833628383960193"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_JERKY": {
+      "message": "8500110749168055241"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_PERFECT": {
+      "message": "4584454172263179470"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_POOR": {
+      "message": "2377419936291389581"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_SMOOTH": {
+      "message": "4224760847878375792"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_STUTTER": {
+      "message": "3844709005265884931"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_UNWATCHABLE": {
+      "message": "7008828272760191653"
+   },
+   "MSG_GC_GENERIC_ERROR": {
+      "message": "8879729374562274188"
+   },
+   "MSG_GC_GO_BACK_BUTTON_LABEL": {
+      "message": "6392158336204151356"
+   },
+   "MSG_GC_INPUT_LABEL_COUNTRY": {
+      "message": "2635975979003647889"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_COUNTRY_NAME": {
+      "message": "2594966871221697125"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_LOCALE_NAME": {
+      "message": "5497667907660111182"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_NETWORK_NAME": {
+      "message": "3056813071145570503"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_TIME_ZONE_NAME": {
+      "message": "8848631234926754401"
+   },
+   "MSG_GC_INPUT_LABEL_DEVICE_NAME": {
+      "message": "4625206607880030589"
+   },
+   "MSG_GC_INPUT_LABEL_JOIN_OTHER_OPTION": {
+      "message": "1892665409887570919"
+   },
+   "MSG_GC_INPUT_LABEL_LOCALE": {
+      "message": "6760572486503438987"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_NAME": {
+      "message": "4300512446110878511"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_PASSWORD": {
+      "message": "145446834822743302"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_SECURITY": {
+      "message": "8674892226531837727"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_SETTINGS": {
+      "message": "7658849483698059550"
+   },
+   "MSG_GC_INPUT_LABEL_SELECT_COUNTRY_DESC": {
+      "message": "1878608156765601563"
+   },
+   "MSG_GC_INPUT_LABEL_TIME_FORMAT": {
+      "message": "7638769793803084423"
+   },
+   "MSG_GC_INPUT_LABEL_TIME_ZONE": {
+      "message": "7820166559915208245"
+   },
+   "MSG_GC_LEARN_MORE_LINK": {
+      "message": "5849296180435940955"
+   },
+   "MSG_GC_MIRROR_QUALITY_HIGH": {
+      "message": "3681271501407987946"
+   },
+   "MSG_GC_MIRROR_QUALITY_HIGHEST": {
+      "message": "1403598074357445300"
+   },
+   "MSG_GC_MIRROR_QUALITY_LOW": {
+      "message": "6236792503803747284"
+   },
+   "MSG_GC_OK_BUTTON": {
+      "message": "4223394109936547558"
+   },
+   "MSG_GC_OK_BUTTON_LABEL": {
+      "message": "1510649369757220975"
+   },
+   "MSG_GC_OPTIONS_PAGE_TITLE": {
+      "message": "8700054488486244094"
+   },
+   "MSG_GC_REBOOT_BUTTON_LABEL": {
+      "message": "1800259609671125324"
+   },
+   "MSG_GC_REJECT_BUTTON_LABEL": {
+      "message": "7011099479208813570"
+   },
+   "MSG_GC_RETRY_BUTTON": {
+      "message": "1318160328466758792"
+   },
+   "MSG_GC_SAVE_BUTTON_LABEL": {
+      "message": "2305903324116609221"
+   },
+   "MSG_GC_SET_UP_BUTTON_LABEL": {
+      "message": "3789857023572978851"
+   },
+   "MSG_GC_STOP_CASTING": {
+      "message": "7484752158248863804"
+   },
+   "MSG_GC_TIMEZONE_FORMAT_NEGATIVE_OFFSET": {
+      "message": "5666603068038740045"
+   },
+   "MSG_GC_TIMEZONE_FORMAT_POSITIVE_OFFSET": {
+      "message": "8273142536049992075"
+   },
+   "MSG_GC_TIME_FORMAT_12_HOUR": {
+      "message": "3130594885131965585"
+   },
+   "MSG_GC_TIME_FORMAT_24_HOUR": {
+      "message": "3740458508418680243"
+   },
+   "MSG_GC_TRY_AGAIN_BUTTON_LABEL": {
+      "message": "7353352715326499943"
+   },
+   "auto_stats_collection_description": {
+      "message": "3188239202899052784"
+   },
+   "auto_stats_collection_dismiss": {
+      "message": "8998179362936748717"
+   },
+   "auto_stats_collection_title": {
+      "message": "4585326301657856848"
+   },
+   "cast_feedback_audio_quality": {
+      "message": "4741643884742469674"
+   },
+   "cast_feedback_comments": {
+      "message": "5671949584911040143"
+   },
+   "cast_feedback_description_required_label": {
+      "message": "897566596634286067"
+   },
+   "cast_feedback_discovery_did_not_try": {
+      "message": "6585975561839203683"
+   },
+   "cast_feedback_discovery_network": {
+      "message": "1213957982723875920"
+   },
+   "cast_feedback_discovery_network_wifi_diff_networks": {
+      "message": "7824803162979416790"
+   },
+   "cast_feedback_discovery_network_wifi_same": {
+      "message": "5385436389563925676"
+   },
+   "cast_feedback_discovery_network_wifi_wired": {
+      "message": "845494741086179740"
+   },
+   "cast_feedback_discovery_no": {
+      "message": "3542042671420335679"
+   },
+   "cast_feedback_discovery_not_sure": {
+      "message": "6997602168024654529"
+   },
+   "cast_feedback_discovery_setup": {
+      "message": "8025420827457681102"
+   },
+   "cast_feedback_discovery_vpn": {
+      "message": "9120942669794506861"
+   },
+   "cast_feedback_discovery_yes": {
+      "message": "2807800733729323332"
+   },
+   "cast_feedback_general_description": {
+      "message": "3633167042592070329"
+   },
+   "cast_feedback_gpu": {
+      "message": "8351230089123629067"
+   },
+   "cast_feedback_mirroring_cancel": {
+      "message": "2159130950882492111"
+   },
+   "cast_feedback_mirroring_disclaimer": {
+      "message": "7512888817044182839"
+   },
+   "cast_feedback_mirroring_ok": {
+      "message": "4187599066116404890"
+   },
+   "cast_feedback_mirroring_submit": {
+      "message": "9059560719840598868"
+   },
+   "cast_feedback_processor": {
+      "message": "4563873836363331434"
+   },
+   "cast_feedback_quality_details": {
+      "message": "7028436125721806572"
+   },
+   "cast_feedback_request": {
+      "message": "2517473004427269018"
+   },
+   "cast_feedback_required_parens": {
+      "message": "2083306153840951484"
+   },
+   "cast_feedback_thankyou": {
+      "message": "3593576714633990163"
+   },
+   "cast_feedback_title": {
+      "message": "6604600094360523853"
+   },
+   "cast_feedback_topic": {
+      "message": "8242882361224206357"
+   },
+   "cast_feedback_url": {
+      "message": "5229573508420009298"
+   },
+   "cast_feedback_video_quality": {
+      "message": "5395332831907227403"
+   },
+   "cast_feedback_video_smoothness": {
+      "message": "2009563581399507712"
+   },
+   "cast_popup_back_to_list": {
+      "message": "6214031582604719501"
+   },
+   "cast_popup_cast_audio": {
+      "message": "1877856983727558507"
+   },
+   "cast_popup_cast_screen": {
+      "message": "760978735208256393"
+   },
+   "cast_popup_cast_screen_experimental": {
+      "message": "8808326359642865369"
+   },
+   "cast_popup_cast_tab": {
+      "message": "2932348398128569497"
+   },
+   "cast_popup_device_missing": {
+      "message": "3885666702463386029"
+   },
+   "cast_popup_feedback_link": {
+      "message": "8436497523209458720"
+   },
+   "cast_popup_help_link": {
+      "message": "7911416166208830577"
+   },
+   "cast_popup_high_quality_video": {
+      "message": "3634893929360744610"
+   },
+   "cast_popup_high_quality_video_details": {
+      "message": "130855611855008194"
+   },
+   "cast_popup_high_quality_video_dismiss": {
+      "message": "464916539454098167"
+   },
+   "cast_popup_loading": {
+      "message": "3894950702316166331"
+   },
+   "cast_popup_optimal_experience": {
+      "message": "3201699132833978353"
+   },
+   "cast_popup_optimal_experience_learn_more": {
+      "message": "819996403327805209"
+   },
+   "cast_popup_options_link": {
+      "message": "8432562579042371182"
+   },
+   "cast_popup_playing_on": {
+      "message": "1049877458571060222"
+   },
+   "donge_no_cast_device_found": {
+      "message": "5339913305209531244"
+   },
+   "dongle_add_chromecast_button_label": {
+      "message": "6714111755007279544"
+   },
+   "dongle_cast_device_list_title": {
+      "message": "8489968480602452361"
+   },
+   "dongle_cast_device_list_title_no_wifi": {
+      "message": "3198788114822821268"
+   },
+   "dongle_edit_button_label": {
+      "message": "7878303393719404217"
+   },
+   "dongle_error_chromecast_connection_failed": {
+      "message": "3646478976134536443"
+   },
+   "dongle_error_chromecast_disconnected": {
+      "message": "2928514560669916125"
+   },
+   "dongle_error_chromecast_unreachable": {
+      "message": "4012724710893432966"
+   },
+   "dongle_error_connect_to_setup_network": {
+      "message": "2477948008132782458"
+   },
+   "dongle_error_fail_dual_band": {
+      "message": "6393885837084531991"
+   },
+   "dongle_error_generic": {
+      "message": "4000242504764673307"
+   },
+   "dongle_error_invalid_chromecast": {
+      "message": "1029164020836817256"
+   },
+   "dongle_error_name_too_long": {
+      "message": "2530715062873398013"
+   },
+   "dongle_error_no_chromecasts": {
+      "message": "4557090113839282401"
+   },
+   "dongle_error_no_chromecasts_some_setup": {
+      "message": "3285083186787942734"
+   },
+   "dongle_error_no_wifi": {
+      "message": "3354474128773194784"
+   },
+   "dongle_error_save_failed": {
+      "message": "5223596009139859839"
+   },
+   "dongle_error_setup_changing_network": {
+      "message": "2267050368954737517"
+   },
+   "dongle_error_setup_chromecast_not_found": {
+      "message": "8590884059033243193"
+   },
+   "dongle_error_success_dual_band_warning": {
+      "message": "1253789643716245859"
+   },
+   "dongle_error_vpn_connected": {
+      "message": "1023033940742649280"
+   },
+   "dongle_flow_confirm_pin_dismissed_message": {
+      "message": "5380722061726010200"
+   },
+   "dongle_flow_confirm_pin_request": {
+      "message": "942595326489680668"
+   },
+   "dongle_flow_connecting_title": {
+      "message": "6681204353063647200"
+   },
+   "dongle_flow_connection_content": {
+      "message": "7431988162709364473"
+   },
+   "dongle_flow_edit_device_send_stats": {
+      "message": "6689796877662016136"
+   },
+   "dongle_flow_edit_device_serial_num": {
+      "message": "8605368940343039116"
+   },
+   "dongle_flow_edit_device_title": {
+      "message": "8300469553732521822"
+   },
+   "dongle_flow_edit_info_build_version": {
+      "message": "2654829603233013743"
+   },
+   "dongle_flow_edit_info_country_code": {
+      "message": "3562313862283849921"
+   },
+   "dongle_flow_edit_info_ip_address": {
+      "message": "1202779209944619898"
+   },
+   "dongle_flow_edit_info_mac_address": {
+      "message": "5909681494194871956"
+   },
+   "dongle_flow_error_send_feedback_link": {
+      "message": "7102649289752747375"
+   },
+   "dongle_flow_factory_reset_done_content": {
+      "message": "5517251763786548986"
+   },
+   "dongle_flow_factory_reset_done_title": {
+      "message": "6869607025130454293"
+   },
+   "dongle_flow_factory_reset_in_progress_content": {
+      "message": "1640106120035505383"
+   },
+   "dongle_flow_factory_reset_in_progress_title": {
+      "message": "6174790240916002622"
+   },
+   "dongle_flow_factory_reset_progress_status": {
+      "message": "513131801569652489"
+   },
+   "dongle_flow_invalid_password_title": {
+      "message": "5115837021587904245"
+   },
+   "dongle_flow_invalid_password_warning": {
+      "message": "7603459055013836218"
+   },
+   "dongle_flow_networking_api_unavailable_cros": {
+      "message": "5117041129279104336"
+   },
+   "dongle_flow_networking_api_unavailable_non_cros": {
+      "message": "7385388755069522729"
+   },
+   "dongle_flow_no_device_help_content": {
+      "message": "4341893090014533479"
+   },
+   "dongle_flow_no_device_help_title": {
+      "message": "3570815481247986721"
+   },
+   "dongle_flow_reboot_in_progress_content": {
+      "message": "3795763563772103881"
+   },
+   "dongle_flow_reboot_in_progress_title": {
+      "message": "734932170823984208"
+   },
+   "dongle_flow_reboot_progress_status": {
+      "message": "1643334553790893729"
+   },
+   "dongle_flow_selec_device_chromecast_name_on_TV": {
+      "message": "5247472409430022291"
+   },
+   "dongle_flow_select_country_title": {
+      "message": "4199262278004738231"
+   },
+   "dongle_flow_select_device_no_device_help": {
+      "message": "5901090897529226506"
+   },
+   "dongle_flow_select_device_title": {
+      "message": "4602775656969243139"
+   },
+   "dongle_flow_select_network_frinedly_name": {
+      "message": "4437601670693716588"
+   },
+   "dongle_flow_select_network_title": {
+      "message": "1699650875987066968"
+   },
+   "dongle_flow_setup_notice_content": {
+      "message": "2417890821034476139"
+   },
+   "dongle_flow_setup_notice_title": {
+      "message": "1795930891833597883"
+   },
+   "dongle_no_cast_device_link": {
+      "message": "8492868760738700855"
+   },
+   "dongle_no_cast_devices_add_new_message": {
+      "message": "195942478059587765"
+   },
+   "dongle_no_cast_devices_connect_wifi_message": {
+      "message": "7429199670762070717"
+   },
+   "dongle_progress_searching": {
+      "message": "4785540115752720023"
+   },
+   "dongle_progress_setting_up": {
+      "message": "1346986642756520594"
+   },
+   "goog_cast_feedback_fine_logs_warning": {
+      "message": "7075073555752965346"
+   },
+   "goog_cast_feedback_get_external_logs_error": {
+      "message": "2554687737930512120"
+   },
+   "goog_cast_feedback_got_external_logs": {
+      "message": "801495004830452095"
+   },
+   "goog_cast_feedback_mirroring_external_logs_button": {
+      "message": "5107389855082704624"
+   },
+   "goog_cast_feedback_mirroring_external_logs_error_device_not_found": {
+      "message": "2673108145745625398"
+   },
+   "goog_cast_feedback_mirroring_external_logs_error_device_not_supported": {
+      "message": "5202323856319464688"
+   },
+   "goog_cast_feedback_mirroring_logs_button": {
+      "message": "2016072788708608077"
+   },
+   "goog_cast_feedback_retrieving_external_logs": {
+      "message": "3630200699826211171"
+   },
+   "options_change_effect": {
+      "message": "2638991638737993114"
+   },
+   "options_developer_settings_sesison_title": {
+      "message": "1942272259363289202"
+   },
+   "options_fullscreen_zoom": {
+      "message": "1312042186374481668"
+   },
+   "options_fullscreen_zoom_off": {
+      "message": "5458275569533528575"
+   },
+   "options_fullscreen_zoom_on": {
+      "message": "4586172406334707448"
+   },
+   "options_send_usage": {
+      "message": "7885431863671390745"
+   },
+   "options_stop_casting": {
+      "message": "3374149466144554646"
+   },
+   "options_tab_cast_enhanced_mode": {
+      "message": "3115970523539316807"
+   },
+   "options_tab_cast_mode": {
+      "message": "5890429238996349901"
+   },
+   "options_tab_cast_standard_mode": {
+      "message": "2798807656507405918"
+   },
+   "options_tab_proj_quality": {
+      "message": "7867182504906675090"
+   },
+   "options_title": {
+      "message": "8948441291106678529"
+   },
+   "stats_collect_prompt_option": {
+      "message": "4822504808490979258"
+   }
+}

@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "it"
+   },
+   "qs_about_close_button": {
+      "message": "Chiudi"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Una volta fatto clic su un risultato di ricerca di Google, nell'angolo inferiore destro della pagina potrebbe essere visualizzato Quick Scroll, che mostra uno o più frammenti di testo provenienti dalla pagina e pertinenti alla tua query. Fai clic sul testo per passare direttamente a quella parte della pagina."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll viene visualizzato solo quando è probabile che sia utile. Puoi ridurlo a icona facendo clic sul pulsante di riduzione in alto a destra."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Tutto su Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Norme sulla privacy\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Termini di servizio\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Come funziona Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "L'estensione Google Quick Scroll è stata installata."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll è un'estensione del browser che ti consente di trovare più rapidamente ciò che stai cercando."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll viene visualizzata soltanto quando è utile. Leggi \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">ulteriori informazioni\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opzioni salvate"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Aiutaci a migliorare Google Quick Scroll inviando automaticamente le statistiche di utilizzo a Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Opzioni di privacy"
+   },
+   "qs_about_step_1": {
+      "message": "Esegui una ricerca su Google."
+   },
+   "qs_about_step_2": {
+      "message": "Fai clic su un risultato di ricerca."
+   },
+   "qs_about_step_3": {
+      "message": "Fai clic su Quick Scroll per passare alle parti pertinenti della pagina."
+   },
+   "qs_about_support_instructions": {
+      "message": "In caso di domande o problemi nell'uso di Quick Scroll, consulta la nostra \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">pagina di assistenza\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Grazie per aver installato Google Quick Scroll."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Provalo!\u003C/b> Cerca [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] e fai clic sul risultato \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Prova queste query:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Per disinstallare Google Quick Scroll, utilizza l'opzione di menu Strumenti&nbsp;>&nbsp;Estensioni di Chrome, quindi fai clic sul link \"Disinstalla\" relativo all'estensione Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Disinstalla"
+   },
+   "qs_description": {
+      "message": "Quick Scroll ti consente di passare direttamente alle parti pertinenti di un risultato di ricerca di Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Meno corrispondenze"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Mostra le corrispondenze originali per la query"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll è un'estensione del browser che ti consente di trovare più rapidamente ciò che stai cercando.\u003Cbr/>\u003Cbr/>Una volta fatto clic su un risultato di ricerca di Google, nell'angolo inferiore destro della pagina potrebbe essere visualizzata Quick Scroll, che mostra uno o più frammenti di testo provenienti dalla pagina e pertinenti alla tua query. Fai clic sul testo per passare direttamente a quella parte della pagina.\u003Cbr/>\u003Cbr/>Quick Scroll tenta di non intralciarti e viene visualizzata soltanto quando potrebbe essere utile."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Spiacenti, Quick Scroll non è riuscita a trovare corrispondenze per \u003Cspan class=\"goog_qs-query\">$1\u003C/span> in questa pagina. Leggi \u003Cspan class=\"goog_qs-learn-more\">ulteriori informazioni\u003C/span>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "L'intera pagina sembra riguardare \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. La casella di Quick Scroll viene visualizzata quando sono pertinenti soltanto alcune parti della pagina. Leggi \u003Cspan class=\"goog_qs-learn-more\">ulteriori informazioni\u003C/span>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "La casella di Quick Scroll non è stata visualizzata perché tutta la pagina è pertinente alla tua query."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll viene visualizzata dopo che hai fatto clic su un risultato di ricerca di Google. Leggi \u003Cspan class=\"goog_qs-learn-more\">ulteriori informazioni\u003C/span>."
+   },
+   "qs_long_description_url": {
+      "message": "Se fai clic su \"Installa\", accetti i presenti Termini di servizio: https://chrome.google.com/extensions/intl/en/gallery_tos.html."
+   },
+   "qs_more_matches": {
+      "message": "Più corrispondenze \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Mostra altre corrispondenze per la query"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll ha trovato corrispondenze in questa pagina."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll è attiva. Fai clic per avere ulteriori informazioni."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll è in attesa del caricamento della pagina..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Apri la pagina di assistenza e delle opzioni"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Corrispondenze nella pagina per \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Corrispondenze nella pagina per \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Riduci a icona"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Apri Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Fai clic per visualizzare questo testo nella pagina"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Passa al testo $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Corrispondenze migliori per \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

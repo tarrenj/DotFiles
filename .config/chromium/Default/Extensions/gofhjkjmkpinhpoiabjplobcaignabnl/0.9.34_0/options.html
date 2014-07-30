@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Flash Block</title>	
+		<link type="text/css" href="/options/custom.css" rel="stylesheet"/>		
+		<link type="text/css" href="/options/options.css" rel="stylesheet"/>
+		<script src="/options/core.js"></script>
+		<script src="/options/ui.js"></script>
+		<script src="chromelib.js"></script>
+		<script src="prefs.js"></script>
+		<style>
+			#title {
+				float:left;
+				top:40px;
+				margin-left:10px;
+				text-align:center;
+				font-family:arial;
+				font-size:28px;
+				color:#2f0e17;
+				font-weight:normal;
+			}
+			#logo {
+				float:left;
+			}
+		</style>
+		<script src="options.js"></script>
+		
+	</head>
+	<body>
+		<div id="editBox" style="display:none;top:0px;left:0px;width:100%;height:100%;position:fixed;background-color:rgba(0,0,0,0.75);z-index:1">
+			<div id="editBox-s" style="-webkit-box-shadow: 0px 0px 25px rgba(250,250,250,1);border:1px solid black;position:relative;width:450px;margin:auto;top:30%;height:100px;background-color:white;">
+				<label style="font-size:12px;top:10px;position:relative;padding-left:10px">Host Name</label>
+				<input spellcheck="false" id="hostBox" type="text" style="height:20px;position:relative;top:14px;width:94%;margin-left:10px">
+				<br>
+				<div style="font-size:10px;display:inline-block;position:relative;vertical-alight:bottom;left:8px;top:25px;">
+				<button id="addEditOkbtn" style="font-size:12px;">OK</button>
+				<button style="font-size:12px;" id="cancelAddEdit">Cancel</button>
+				<label id="labelHostExists" style="display:none;padding-left:20px;font-size:14px;color:red">Host Already exists</label>
+				</div>
+			</div>
+		</div>
+		<div style="width:80%;margin:auto;position:relative;top:40px;height:60%;padding:2px;">
+			<div>
+			  <img id="logo" src="icons/icon32.png" width="32" height="32">
+			  <div id="title">Flash Block <font style="font-size:13px">- Settings</font></div>
+			</div>
+			<div style="margin-top:45px">
+				<div id="tabs" style="height:100%">
+					<ul>
+						<li><a href="#settings">Settings</a></li>
+						<li><a href="#filters">White List</a></li>				
+					</ul>			
+					<div id="filters">
+						<div style="border:1px solid rgba(150,150,150,0.25);width:100%;height:50%;overflow:auto">
+						<table class="whiteList" style="overflow:hidden" id='whiteList'>
+							<thead>
+								<tr>
+									<th width="100px">Allow Flash</th>
+									<th>Website</th>
+								</tr>
+							</thead>
+						</table>
+						</div>
+						<button style="position:relative;top:4px;font-size:11px" id="add">Add</button>
+						<button style="position:relative;top:4px;font-size:11px" id="remove">Remove</button>
+						<button style="position:relative;top:4px;font-size:11px" id="clear">Clear</button>
+						<br><br><hr>
+					</div>
+					<div id="settings">
+						<form>
+							<input class='_pref_' name='general_enabled' type="checkbox"><span style="position:relative;top:-2px">Enabled</span><br>
+							<input class='_pref_' name='pageAction_enabled' type="checkbox"><span style="position:relative;top:-2px">Show icon on address bar</span>
+							<hr>
+							<input value="0" class='_pref_' name='display_showInd' type="radio">Always show placeholder icon
+							<br>					
+							<input value="1" class='_pref_' name='display_showInd' type="radio">Show placeholder icon on mouse over
+							<br>
+							<input value="2" class='_pref_' name='display_showInd' type="radio">Do not show placeholder icon			
+							<br>
+							<label>Placeholder icon position</label>
+							<select style="margin-left:10px;width:130px" title='Flash Indicator' class='_pref_' name='display_indPosition'>
+								<option value='0'>Top-Left</option>
+								<option value='1'>Center</option>
+								<option value='2'>Top</option>
+								<option value='3'>Bottom</option>
+							</select>
+							<br>
+							<label>Placeholder Transparency</label>
+							<select style="width:130px;margin-left:5px;" class='_pref_' name='display_opacity'>
+								<option value='0'>Transparent</option>
+								<option value='0.25'>25%</option>
+								<option value='0.5'>50%</option>
+								<option value='0.75'>75%</option>
+								<option value='1'>Opaque</option>
+							</select>
+							<hr>
+							<input type="checkbox" checked disabled><span style="position:relative;top:-2px;">Block Adobe Flash</span><br>
+							<input class='_pref_' name='general_silverLight' type="checkbox"><span style="position:relative;top:-2px">Block Microsoft SilverLight</span><br>
+						</form>					
+					</div>
+					<div style="position:absolute;top:100%;display:inline-block;padding-left:20px;">
+						<button style="margin-left:4px;height:24px;font-size:14px;" id="okBtn" >OK</button>
+						<button style="height:24px;font-size:14px;" id="cancel">Cancel</button>
+						<button style="height:24px;font-size:14px;" id="applyBtn">Apply</button>
+						<!--button style="height:24px;font-size:14px;" onclick="prefs.reset(function(name){return name != 'data.whiteList'})">Default Settings</button-->
+					</div>					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

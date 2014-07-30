@@ -1,0 +1,89 @@
+2014-06-30 13:45:14	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #python
+2014-06-30 13:45:14	--	Topic for #python is "NO LOL | NO PROJECT EULER | Don't paste, use http://bpaste.net/+python | 2.x or 3.x? http://bit.ly/py2vs3k | Tutorial: http://bit.ly/MCAhYx | New programmer? http://goo.gl/c170V | Find your nearest Python User Group: http://goo.gl/S1Zsq | #python-fr #python.dev #python-es #python.tw #python.pl #python-br #python-nl #python-ir #python-fi #python.it #python-india"
+2014-06-30 13:45:14	--	Topic set by Yhg1s (~thomas@python/psf/thomas) on Thu, 01 May 2014 11:48:13
+2014-06-30 13:45:15	--	Channel #python: 1462 nicks (0 ops, 0 voices, 1462 normals)
+2014-06-30 13:45:15	--	PvNotice(ChanServ): Welcome to #python, puny fleshlings. Please see our website, http://pound-python.org/ , for information about the channel and Python.
+2014-06-30 13:45:16	--	Mode #python [+CLcnrtf #python-unregistered]
+2014-06-30 13:45:16	--	Channel created on Sun, 26 Nov 2006 06:42:41
+2014-06-30 13:45:29	smrtz|nix	Anyone here use cython?  My boss just told me to learn it...
+2014-06-30 13:45:35	sproingie	(and that sentence made sense to how many people?)
+2014-06-30 13:45:42	ssbr_at_work	smrtz|nix: cython is pretty awesome
+2014-06-30 13:45:42	therealfakemoot	smrtz|nix: Probably. What's your real question?
+2014-06-30 13:45:45	ssbr_at_work	sproingie: noooooobyd.
+2014-06-30 13:45:48	ssbr_at_work	nobody, even.
+2014-06-30 13:46:03	philsnow	I have a pyc that I know was compiled containing a function call like foo(None, True);  I want to change the pyc such that that True is a False, without recompiling from the source .py file.  is this trivial ?
+2014-06-30 13:46:08	<--	taz1232 (~taz1232@bl9-169-212.dsl.telepac.pt) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140605174243])
+2014-06-30 13:46:17	simpson	sproingie: I, too, miss Goats.
+2014-06-30 13:46:17	smrtz|nix	therealfakemoot: Well, I don't even know python, so I'm hoping for a good tut on getting started with it.
+2014-06-30 13:46:20	whg	sproingie KirkMcDonald With Jon and Toothgnip?
+2014-06-30 13:46:21	sproingie	ssbr_at_work: goats.com, was an epically awesome comic til the writer burned out
+2014-06-30 13:46:31	Yhg1s	philsnow: not exactly trivial, no.
+2014-06-30 13:46:37	-->	mijicd (~mijicd@cable-188-246-51-84.dynamic.kdsinter.net) has joined #python
+2014-06-30 13:46:37	sproingie	there's tales from a multiverse, but it's not the same
+2014-06-30 13:46:39	smrtz|nix	ssbr_at_work: can you give me some good resources on learning it please?
+2014-06-30 13:46:40	-->	ntrope (4475769a@gateway/web/freenode/ip.68.117.118.154) has joined #python
+2014-06-30 13:46:45	whg	sproingie at all
+2014-06-30 13:46:48	Yhg1s	philsnow: it's doable, especially if you understand the format of .pyc files and CPython's bytecode format.
+2014-06-30 13:46:53	simpson	smrtz|nix: Well, do you know Python already?
+2014-06-30 13:47:02	smrtz|nix	simpson: not really...
+2014-06-30 13:47:13	-->	hell_razer (~textual@host-176-38-97-10.la.net.ua) has joined #python
+2014-06-30 13:47:16	ssbr_at_work	philsnow: aren't you at airbnb or something now?
+2014-06-30 13:47:25	sproingie	whg: my favorite was diablo's rambling stories, which is how we get the likes of gregor mendel and the mutant cheese
+2014-06-30 13:47:27	simpson	smrtz|nix: Okay. Well, I personally would not recommend the dive into Cython without learning Python first, but that's just me.
+2014-06-30 13:47:39	-->	sboudrias (~sboudrias@2601:9:3480:11b9:b82a:29e5:491e:8b9a) has joined #python
+2014-06-30 13:47:40	drobban_	http://open.spotify.com/track/6g1PQiyoaop6ktk2TLchtR
+2014-06-30 13:47:41	dash	sproingie: gregor mendel vs gregor samsa was an excellent concept
+2014-06-30 13:47:52	sproingie	vs sansa stark
+2014-06-30 13:47:53	simpson	smrtz|nix: Cython is a language that is almost, but not quite, entirely unlike Python but can be made to compile to a CPython extension module.
+2014-06-30 13:47:56	dash	sproingie: har
+2014-06-30 13:48:02	-->	eeriegeek (~eeriegeek@c-98-244-112-229.hsd1.va.comcast.net) has joined #python
+2014-06-30 13:48:03	philsnow	i understand neither of those things, but i'm looking at e.g. Uncompyler, and I suspect that True and False are similar things (singleton-y objects)
+2014-06-30 13:48:09	nedbat	philsnow: it sounds like you are in an unusual situation: why do you need to do this with the .pyc file?
+2014-06-30 13:48:09	--	bivab is now known as bivab_away
+2014-06-30 13:48:10	-->	kaiserpa_ (~kaiserpat@50.97.94.57-static.reverse.softlayer.com) has joined #python
+2014-06-30 13:48:23	<--	yuhan (~yuhan@unaffiliated/yuhan) has quit (Quit: Leaving...)
+2014-06-30 13:48:27	smrtz|nix	simpson: Yeah, I'm planning on getting started with python later tonight.
+2014-06-30 13:48:30	sproingie	philsnow: they're just constants for 1 and 0
+2014-06-30 13:48:32	-->	alexsnake (~alexsnake@187.153.73.100) has joined #python
+2014-06-30 13:48:33	philsnow	ssbr_at_work: yes, i am
+2014-06-30 13:48:34	Yhg1s	philsnow: it depends on the Python version.
+2014-06-30 13:48:37	<--	kaiserpathos (~kaiserpat@66.28.223.242) has quit (Ping timeout: 252 seconds)
+2014-06-30 13:48:41	<--	innertracks (~Thunderbi@c-50-135-138-138.hsd1.wa.comcast.net) has quit (Quit: innertracks)
+2014-06-30 13:48:41	<--	balboah (~balboah@air.joonix.se) has quit (Quit: balboah)
+2014-06-30 13:48:41	Yhg1s	sproingie: not in any recent Python versions.
+2014-06-30 13:48:42	sproingie	actually subclasses that are 1 and 0, so not quite the same
+2014-06-30 13:48:47	-->	BenB (~Ben@pla83-1-78-214-66-61.fbx.proxad.net) has joined #python
+2014-06-30 13:48:50	drobban_	smrtz|nix: just do it... and put your ass into it
+2014-06-30 13:48:51	-->	Macuser (~textual@unaffiliated/macuser) has joined #python
+2014-06-30 13:48:54	Yhg1s	sproingie: but how they're stored in the .pyc file depends.
+2014-06-30 13:48:58	smrtz|nix	drobban_: I will.
+2014-06-30 13:48:58	 *	ssbr_at_work feels successfully creepy
+2014-06-30 13:49:01	drobban_	:)
+2014-06-30 13:49:03	philsnow	heh
+2014-06-30 13:49:05	ssbr_at_work	philsnow: I'm devinj at youtube :)
+2014-06-30 13:49:08	philsnow	ahh
+2014-06-30 13:49:19	sproingie	subclassing int for boolean was one of those things that sounded great til you find True + True == 2
+2014-06-30 13:49:21	philsnow	say hi to kgm
+2014-06-30 13:49:27	ssbr_at_work	good to hear you're fighting the good fight to do incredibly evil things to code
+2014-06-30 13:49:31	-->	wombawomba (~wombawomb@193.240.40.163) has joined #python
+2014-06-30 13:49:32	dash	sproingie: it means you can get rid of conditionals!
+2014-06-30 13:49:33	ssbr_at_work	KirkMcDonald: hi
+2014-06-30 13:49:39	philsnow	ah there he is
+2014-06-30 13:49:39	Yhg1s	sproingie: if only we didn't have backward compatibility issues.
+2014-06-30 13:49:41	<--	lamar (~Adium@AAnnecy-158-1-121-219.w86-200.abo.wanadoo.fr) has quit (Ping timeout: 260 seconds)
+2014-06-30 13:50:01	sproingie	i'm just not sure the subclass needed existing
+2014-06-30 13:50:05	dash	[ifTrueFunction, ifFalseFunction][conditional]
+2014-06-30 13:50:11	KirkMcDonald	philsnow: Oh hey you're that guy.
+2014-06-30 13:50:21	Yhg1s	sproingie: it really did.
+2014-06-30 13:50:21	dash	()
+2014-06-30 13:50:23	sproingie	dash: forth live if honk then
+2014-06-30 13:50:27	sproingie	*love
+2014-06-30 13:50:30	dash	yep
+2014-06-30 13:50:52	<--	sh0ne (~Unknown@79-101-90-132.dynamic.isp.telekom.rs) has quit (Ping timeout: 264 seconds)
+2014-06-30 13:50:56	dash	(also this is an good example of why you should ignore variable names much of the time)
+2014-06-30 13:50:58	ntrope	Could somebody help me with a noob scope problem? I have a function like this but lines 11/12 give local variable referenced before assignment: http://codepad.org/35VHOQjU Is just saying global c_x, global c_y the best way to fix this?
+2014-06-30 13:51:04	-->	PyDon (~PyDon@aftr-37-201-225-90.unity-media.net) has joined #python
+2014-06-30 13:51:06	<--	mlncn (~mlncn@c-71-192-161-31.hsd1.nh.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-06-30 13:51:12	<--	Cuppa_coffee (~Beast@5ED4E377.cm-7-5d.dynamic.ziggo.nl) has quit (Quit: Leaving)
+2014-06-30 13:51:12	ssbr_at_work	dash: hahahaha
+2014-06-30 13:51:13	philsnow	i'm doing evil things, true, but i'm not doing them in the line of work

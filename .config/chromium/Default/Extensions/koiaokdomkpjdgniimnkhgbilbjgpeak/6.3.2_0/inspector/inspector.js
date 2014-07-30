@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage({method:"track",name:"Inspector",label:"P"});

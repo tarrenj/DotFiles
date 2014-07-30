@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "rtl"
+   },
+   "locale": {
+      "message": "iw"
+   },
+   "qs_about_close_button": {
+      "message": "סגור"
+   },
+   "qs_about_copy": {
+      "message": "‏&copy;‏2009 Google‏‏"
+   },
+   "qs_about_explanation": {
+      "message": "‏לאחר שתלחץ על תוצאות החיפוש של Google‏, Quick Scroll עשוי להופיע בפינה השמאלית התחתונה של הדף ולהראות קטע אחד או כמה קטעים של טקסט מהדף שהם רלוונטיים לשאילתה שלך. לחיצה על הטקסט תעביר אותך לחלק זה של הדף."
+   },
+   "qs_about_explanation2": {
+      "message": "‏Quick Scroll מופיע רק כאשר יש סבירות שיהיה לו שימוש. תוכל למזער אותו על ידי לחיצה על לחצן המזעור למעלה בצד ימין."
+   },
+   "qs_about_footer_about_google": {
+      "message": "‏\u003Ca href=\"http://www.google.com/intl/$1/about.html\">מידע על Google‏\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">מדיניות פרטיות\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">תנאים והגבלות\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "‏אופן הפעולה של Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "‏Google Quick Scroll מותקן כעת."
+   },
+   "qs_about_introduction": {
+      "message": "‏Google Quick Scroll הוא תוסף דפדפן שעוזר לך למצוא את מה שאתה מחפש מהר יותר."
+   },
+   "qs_about_only_useful": {
+      "message": "‏Quick Scroll מופיע רק כאשר הוא שימושי. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">למידע נוסף\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "האפשרויות נשמרו"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "‏עזור לשפר את Google Quick Scroll על ידי שליחה אוטומטית של סטטיסטיקת שימוש ל-Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "אפשרויות פרטיות"
+   },
+   "qs_about_step_1": {
+      "message": "‏בצע חיפוש ב-Google."
+   },
+   "qs_about_step_2": {
+      "message": "לחץ על תוצאת חיפוש."
+   },
+   "qs_about_step_3": {
+      "message": "‏לחץ על Quick Scroll כדי לדלג לחלקים הרלוונטיים בדף."
+   },
+   "qs_about_support_instructions": {
+      "message": "‏אם יש לך שאלות או בעיות בשימוש ב-Quick Scroll‏, עיין ב\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">דף התמיכה\u003C/a> שלנו.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "‏תודה שהתקנת את Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "‏\u003Cb>נסה את זה!\u003C/ b> חפש את [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] ולחץ על התוצאה \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "נסה שאילתות אלה:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "‏כדי להסיר את ההתקנה של Google Quick Scroll, השתמש באפשרות התפריט 'כלים'&nbsp;>&nbsp;'תוספים' של Chrome, ולחץ על הקישור 'הסר התקנה' של התוסף Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "הסר התקנה"
+   },
+   "qs_description": {
+      "message": "‏Quick Scroll מאפשר לך לקפוץ ישירות לקטעים הרלוונטיים בתוצאות החיפוש של Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  פחות התאמות"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "הצג את ההתאמות המקוריות עבור השאילתה שלך"
+   },
+   "qs_gallery_description": {
+      "message": "‏Google Quick Scroll הוא תוסף לדפדפן שמסייע לך למצוא את מה שאתה מחפש מהר יותר.\u003Cbr/>\u003Cbr/>לאחר לחיצה על תוצאה של חיפוש Google‏, Quick Scroll עשוי להופיע בפינה השמאלית התחתונה של הדף, ולהראות קטע אחד או כמה קטעים של טקסט מהדף שהם רלוונטיים לשאילתה שלך. לחיצה על הטקסט תעביר אותך לחלק זה של הדף.\u003Cbr/>\u003Cbr/>Quick Scroll‏ אינו אמור להפריע לך ומופיע רק כאשר הוא עשוי להיות שימושי."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "‏מצטערים, Quick Scroll לא הצליח למצוא שום התאמות בדף זה עבור \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">למידע נוסף.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "‏נראה שכל הדף הוא בנושא \u003Cspan class=\"goog_qs-query\">$1\u003C/span>.‏ Quick Scroll מופיע כאשר רק חלקים בדף הם רלוונטיים. \u003Cspan class=\"goog_qs-learn-more\">למידע נוסף.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "‏Quick Scroll לא הופיע מכיוון שכל הדף רלוונטי לשאילתה שלך."
+   },
+   "qs_info_on_search": {
+      "message": "‏Quick Scroll מופיע לאחר לחיצה על תוצאות החיפוש של Google‏. \u003Cspan class=\"goog_qs-learn-more\">למידע נוסף.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "על ידי לחיצה על \"התקן\", אתה מסכים לתנאים וההגבלות הבאים: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "יותר התאמות \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "הצג התאמות נוספות עבור השאילתה שלך"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "‏Quick Scroll מצא התאמות בדף זה."
+   },
+   "qs_page_action_inactive": {
+      "message": "‏Quick Scroll מופעל. לחץ לקבלת מידע נוסף."
+   },
+   "qs_page_action_running": {
+      "message": "‏Quick Scroll ממתין לטעינת הדף..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "פתח את דף העזרה והאפשרויות"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "התאמות בדף עבור \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "התאמות בדף עבור \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "מזער"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "‏פתח את Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "לחץ כדי להציג את הטקסט שבדף"
+   },
+   "qs_toolbar_go_label": {
+      "message": "עבור לטקסט $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "התוצאות הטובות ביותר עבור \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

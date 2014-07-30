@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "lv"
+   },
+   "qs_about_close_button": {
+      "message": "Aizvērt"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Noklikšķinot uz Google meklēšanas rezultāta, lapas apakšējā labajā stūrī var tikt parādīts paplašinājums Ātrā ritināšana, kurā būs redzams viens vai vairāki teksta fragmenti no vaicājumam atbilstoša teksta. Noklikšķinot uz teksta, tiksiet novirzīts uz attiecīgo lapas daļu."
+   },
+   "qs_about_explanation2": {
+      "message": "Paplašinājums Ātrā ritināšana tiek parādīts tikai tad, kad tas var būt noderīgs. Varat to minimizēt, noklikšķinot uz minimizēšanas pogas augšējā labajā stūrī."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Par Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Konfidencialitātes politika\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Pakalpojumu sniegšanas noteikumi\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Ātrās ritināšanas darbības veids:"
+   },
+   "qs_about_installed": {
+      "message": "Paplašinājums Google ātrā ritināšana ir instalēts."
+   },
+   "qs_about_introduction": {
+      "message": "Google ātrā ritināšana ir pārlūka paplašinājums, kas palīdz jums ātrāk atrast meklēto."
+   },
+   "qs_about_only_useful": {
+      "message": "Paplašinājums Ātrā ritināšana parādās tikai tad, kad tas ir noderīgs. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Uzziniet vairāk\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opcijas ir saglabātas"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Palīdzēt uzlabot Google ātro ritināšanu, automātiski nosūtot lietojuma statistiku uzņēmumam Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Konfidencialitātes opcijas"
+   },
+   "qs_about_step_1": {
+      "message": "Izmantojiet Google meklēšanu."
+   },
+   "qs_about_step_2": {
+      "message": "Noklikšķiniet uz meklēšanas rezultāta."
+   },
+   "qs_about_step_3": {
+      "message": "Lai pārietu pie lapas atbilstošajām daļām, noklikšķiniet uz paplašinājuma Ātrā ritināšana."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ja jums ir jautājumi vai problēmas saistībā ar paplašinājuma Ātrā ritināšana lietošanu, skatiet mūsu \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">atbalsta lapu\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Pateicamies par paplašinājuma Google ātrā ritināšana instalēšanu!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Izmēģiniet to!\u003C/b> Ierakstiet vaicājumu [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] un noklikšķiniet uz rezultāta dark matter brown dwarfs."
+   },
+   "qs_about_try_queries": {
+      "message": "Pamēģiniet šos vaicājumus:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Lai atinstalētu paplašinājumu Google ātrā ritināšana, atveriet pārlūka Chrome izvēlnes opciju Rīki&nbsp;>&nbsp; Paplašinājumi un blakus paplašinājumam Google ātrā ritināšana noklikšķiniet uz saites Atinstalēt."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Atinstalēt"
+   },
+   "qs_description": {
+      "message": "Izmantojot Ātro ritināšanu, varat tieši pāriet pie teksta, kas atbilst Google meklēšanas rezultātiem."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Mazāk atbilstību"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Rādīt sākotnējās atbilstības jūsu vaicājumam"
+   },
+   "qs_gallery_description": {
+      "message": "Google ātrā ritināšana ir pārlūka paplašinājums, kas palīdz ātrāk atrast meklēto.\u003Cbr/>\u003Cbr/>Noklikšķinot uz Google meklēšanas rezultāta, lapas apakšējā labajā stūrī var tikt parādīta Ātrā ritināšana, kurā būs redzams viens vai vairāki teksta fragmenti no vaicājumam atbilstoša teksta. Noklikšķinot uz teksta, tiksiet novirzīts uz attiecīgo lapas daļu.\u003Cbr/>\u003Cbr/>Paplašinājums Ātrā ritināšana mēģinās netraucēt jūsu darbu un parādīsies tikai tad, kad, visticamāk, būs nepieciešams."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Diemžēl paplašinājums Ātrā ritināšana nevarēja atrast šajā lapā nevienu atbilstību vaicājumam \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Uzziniet vairāk.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Šķiet, ka visa šī lapa ir par vaicājumu \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Paplašinājums Ātrā ritināšana ir redzams tikai tad, ja lapas daļas ir atbilstošas. \u003Cspan class=\"goog_qs-learn-more\">Uzziniet vairāk.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Ātrā ritināšana neparādījās, jo jūsu vaicājumam atbilst visa lapa."
+   },
+   "qs_info_on_search": {
+      "message": "Paplašinājums Ātrā ritināšana parādās pēc noklikšķināšanas uz Google meklēšanas rezultāta. \u003Cspan class=\"goog_qs-learn-more\">Uzziniet vairāk.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Noklikšķinot uz Instalēt, jūs piekrītat šiem pakalpojumu sniegšanas noteikumiem: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Vairāk atbilstību \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Rādīt vēl atbilstības jūsu vaicājumam"
+   },
+   "qs_name": {
+      "message": "Google ātrā ritināšana"
+   },
+   "qs_page_action_active": {
+      "message": "Ātrā ritināšana atrada atbilstības šajā lapā."
+   },
+   "qs_page_action_inactive": {
+      "message": "Paplašinājums Ātrā ritināšana ir iespējots. Noklikšķiniet, lai uzzinātu vairāk."
+   },
+   "qs_page_action_running": {
+      "message": "Ātrā ritināšana gaida, kamēr notiek lapas ielāde..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Atvērt palīdzības un opciju lapu"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Atbilstības lapā vaicājumam \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Atbilstības lapā vaicājumam \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimizēt"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Atvērt Google ātro ritināšanu"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Noklikšķiniet, lai skatītu šo tekstu lapā"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Pāriet uz tekstu $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Precīzākās atbilstības vaicājumam \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

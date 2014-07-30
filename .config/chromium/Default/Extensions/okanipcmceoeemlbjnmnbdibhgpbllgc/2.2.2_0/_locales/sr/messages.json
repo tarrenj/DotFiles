@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sr"
+   },
+   "qs_about_close_button": {
+      "message": "Затвори"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009. Google"
+   },
+   "qs_about_explanation": {
+      "message": "Када кликнете на резултат Google претраге, Брза навигација ће се можда појавити у доњем десном углу странице и приказати један или више делова текста са странице релевантних за упит. Ако кликнете на текст, бићете преусмерени на тај део странице."
+   },
+   "qs_about_explanation2": {
+      "message": "Брза навигација се појављује само када може да вам буде од користи. Можете да га умањите тако што ћете кликнути на дугме за умањивање у горњем десном углу."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">О Google-у\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Политика приватности\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Услови коришћења услуге\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Како функционише Брза навигација:"
+   },
+   "qs_about_installed": {
+      "message": "Google брза навигација је инсталирана."
+   },
+   "qs_about_introduction": {
+      "message": "Google брза навигација је додатак за прегледач који вам омогућава да брже пронађете оно што тражите."
+   },
+   "qs_about_only_useful": {
+      "message": "Брза навигација се појављује само када ће вам бити од користи. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Сазнајте више\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Опција је сачувана"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Допринесите побољшању Google брзе навигације аутоматским слањем статистике коришћења Google-у."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Опције за приватност"
+   },
+   "qs_about_step_1": {
+      "message": "Обавите Google претрагу."
+   },
+   "qs_about_step_2": {
+      "message": "Кликните на резултат претраге."
+   },
+   "qs_about_step_3": {
+      "message": "Кликните на Брзу навигацију да бисте се пребацили на релевантне делове странице."
+   },
+   "qs_about_support_instructions": {
+      "message": "Уколико имате питања или наилазите на проблеме приликом употребе Брзе навигације, погледајте нашу \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">страницу за подршку\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Хвала вам што сте инсталирали Google брзу навигацију!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Испробајте!\u003C/b> Потражите [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] и кликните на резултат „dark matter brown dwarfs“."
+   },
+   "qs_about_try_queries": {
+      "message": "Испробајте следеће упите:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Да бисте деинсталирали Google брзу навигацију, користите мени Алатке&nbsp;>&nbsp;Додаци у Chrome прегледачу, а затим кликните на везу Деинсталирај за додатак Google брза навигација."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Деинсталирање"
+   },
+   "qs_description": {
+      "message": "Брза навигација вам омогућава да директно прелазите на релевантне делове резултата Google претраге."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Мање подударања"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Прикажите првобитна подударања за упит"
+   },
+   "qs_gallery_description": {
+      "message": "Google брза навигација је додатак за прегледач који вам омогућава да брже пронађете оно што тражите.\u003Cbr/>\u003Cbr/>Када кликнете на резултат Google претраге, Брза навигација ће се можда појавити у доњем десном углу странице и приказати један или више делова текста са странице релевантних за упит. Ако кликнете на текст, бићете преусмерени на тај део странице.\u003Cbr/>\u003Cbr/>Брза навигација је осмишљена тако да вас не омета и појављује се само када може да вам буде од користи."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Нажалост, Брза навигација на овој страници није пронашла ниједно подударање за упит \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Сазнајте више.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Изгледа да се читава страница односи на упит \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Брза навигација се појављује  када су релевантни само делови странице. \u003Cspan class=\"goog_qs-learn-more\">Сазнајте више.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Брза навигација се није појавила јер је цела страница релевантна за упит."
+   },
+   "qs_info_on_search": {
+      "message": "Брза навигација се појављује када кликнете на резултат Google претраге. \u003Cspan class=\"goog_qs-learn-more\">Сазнајте више.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Кликом на „Инсталирај“ прихватате следеће Услове коришћења услуге: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Више подударања \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Прикажите више подударања за упит"
+   },
+   "qs_name": {
+      "message": "Google брза навигација"
+   },
+   "qs_page_action_active": {
+      "message": "Брза навигација је пронашла подударања на овој страници."
+   },
+   "qs_page_action_inactive": {
+      "message": "Брза навигација је омогућена. Кликните за више информација."
+   },
+   "qs_page_action_running": {
+      "message": "Брза навигација чека да се страница учита..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Отворите страницу за помоћ и опције"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Подударања на страници за: \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Подударања на страници за: \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Умањи"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Отворите Google брзу навигацију"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Кликните да бисте видели овај текст на страници"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Пређи на текст $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Најбоља подударања за: \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

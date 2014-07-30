@@ -1,0 +1,1798 @@
+{
+   "1023033940742649280": {
+      "message": "$START_PARAGRAPH$ Tu ordenador no puede establecer comunicación con tu Chromecast cuando está conectado a la red VPN. $END_PARAGRAPH$ $START_PARAGRAPH$ Para completar la configuración, desconéctate de la red VPN y haz clic en la opción para volverlo a intentar. $END_PARAGRAPH$",
+      "placeholders": {
+         "END_PARAGRAPH": {
+            "content": "$1"
+         },
+         "START_PARAGRAPH": {
+            "content": "$2"
+         }
+      }
+   },
+   "1023033940742649280_ph": {
+      "message": "\u003C/p>\u003Cp>"
+   },
+   "1029164020836817256": {
+      "message": "No hemos podido autenticar tu Chromecast.$BREAK$ Selecciona un Chromecast diferente.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "1029164020836817256_ph": {
+      "message": "\u003Cbr>"
+   },
+   "1049877458571060222": {
+      "message": "Reproduciendo en $START_SPAN$$END_SPAN$",
+      "placeholders": {
+         "END_SPAN": {
+            "content": "$1"
+         },
+         "START_SPAN": {
+            "content": "$2"
+         }
+      }
+   },
+   "1049877458571060222_ph": {
+      "message": "\u003C/span>\u003Cspan class=\"device-name\" ng-bind-html=\"selectedActivity.receiver.name\">"
+   },
+   "1104234694810969409": {
+      "message": "Error al enviar contenido al dispositivo."
+   },
+   "1189144544819350763": {
+      "message": "Enviar esta pestaña (audio) a..."
+   },
+   "1202779209944619898": {
+      "message": "Dirección IP $_IPADDRESS_$",
+      "placeholders": {
+         "_IPADDRESS_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1202779209944619898_ph": {
+      "message": "{{IPAddress}}"
+   },
+   "1213957982723875920": {
+      "message": "¿Cuál de las siguientes respuestas describe mejor tu red?"
+   },
+   "1253789643716245859": {
+      "message": "$START_PARAGRAPH$ Aunque tengas un router avanzado, es posible que algunos de tus dispositivos no puedan enviar contenido a tu Chromecast a menos que modifiques la configuración del router. $END_PARAGRAPH$ $START_PARAGRAPH$ Si se produce algún problema, accede a la página $START_LINK$support.google.com/chromecast$END_LINK$ para obtener ayuda para solucionarlo. $END_PARAGRAPH$",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "END_PARAGRAPH": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         },
+         "START_PARAGRAPH": {
+            "content": "$4"
+         }
+      }
+   },
+   "1253789643716245859_ph": {
+      "message": "\u003C/a>\u003C/p>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">\u003Cp>"
+   },
+   "130855611855008194": {
+      "message": "Para conseguir la mejor experiencia de vídeo, haz clic en el icono de enviar en este sitio."
+   },
+   "1312042186374481668": {
+      "message": "Zoom a pantalla completa"
+   },
+   "1318160328466758792": {
+      "message": "Volver a intentar"
+   },
+   "1346986642756520594": {
+      "message": "Configurando Chromecast..."
+   },
+   "1403598074357445300": {
+      "message": "Muy alta (720p, tasa de bits alta)"
+   },
+   "1443898800503846063": {
+      "message": "Chrome no está actualizado"
+   },
+   "145446834822743302": {
+      "message": "Contraseña:"
+   },
+   "1510649369757220975": {
+      "message": "Aceptar"
+   },
+   "1640106120035505383": {
+      "message": "Espera mientras se restablecen los datos de fábrica del Chromecast y se reinicia el dispositivo."
+   },
+   "1643334553790893729": {
+      "message": "Reiniciando tu Chromecast..."
+   },
+   "1699650875987066968": {
+      "message": "Configurar $_DEVICETOSETUP_$",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1699650875987066968_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "1717149362663359343": {
+      "message": "Enviar $V2_APP_DOMAIN$",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "1736891338067720192": {
+      "message": "¿Seguro que quieres restablecer los datos de fábrica del Chromecast? Si lo haces, se borrará toda la configuración del Chromecast."
+   },
+   "1795930891833597883": {
+      "message": "Listos para configurar $_DEVICETOSETUP_$",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "1795930891833597883_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "1800259609671125324": {
+      "message": "Reiniciar"
+   },
+   "1877856983727558507": {
+      "message": "Enviar esta pestaña (optimizar audio)"
+   },
+   "1878608156765601563": {
+      "message": "Para configurar el Chromecast, selecciona tu país."
+   },
+   "1892665409887570919": {
+      "message": "Conectarse a otra red..."
+   },
+   "1942272259363289202": {
+      "message": "Ajustes de desarrollador"
+   },
+   "195942478059587765": {
+      "message": "Haz clic en uno de los botones que aparecen a continuación para configurar un nuevo dispositivo."
+   },
+   "2009563581399507712": {
+      "message": "Fluidez del vídeo:"
+   },
+   "2016072788708608077": {
+      "message": "Adjuntar registros de extensión Cast (activa esta opción para ayudarnos a resolver los problemas)"
+   },
+   "2076488708707463944": {
+      "message": "Detección de dispositivo"
+   },
+   "2081143677025752994": {
+      "message": "Ignorar"
+   },
+   "2083306153840951484": {
+      "message": "(obligatorio)"
+   },
+   "2159130950882492111": {
+      "message": "Cancelar"
+   },
+   "222617673884818958": {
+      "message": "No se han encontrado Chromecasts"
+   },
+   "2267050368954737517": {
+      "message": "Las redes Wi-Fi de tu Chromecast ($_NETWORKNAME_$) y de este dispositivo ($_INITIALNETWORKNAME_$) son diferentes. Después de la configuración, este dispositivo se conectará a $_NETWORKNAME_$ para que puedas usar tu Chromecast.",
+      "placeholders": {
+         "_INITIALNETWORKNAME_": {
+            "content": "$1"
+         },
+         "_NETWORKNAME_": {
+            "content": "$2"
+         }
+      }
+   },
+   "2267050368954737517_ph": {
+      "message": "{{initialNetworkName}}{{networkName}}"
+   },
+   "2305903324116609221": {
+      "message": "Guardar"
+   },
+   "2352372781778823685": {
+      "message": "Problema conocido con algunos procesadores Intel"
+   },
+   "2377419936291389581": {
+      "message": "Mala"
+   },
+   "2400591522298944337": {
+      "message": "¡Enhorabuena! La instalación se ha realizado correctamente."
+   },
+   "2417890821034476139": {
+      "message": "Se perderá temporalmente la conexión a Internet de tu ordenador mientras se configura $_DEVICETOSETUP_$ en la red.$BREAK$ $BREAK$ No te preocupes: la conexión se restablecerá en cuanto finalice el proceso de configuración.$BREAK$",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "_DEVICETOSETUP_": {
+            "content": "$2"
+         }
+      }
+   },
+   "2417890821034476139_ph": {
+      "message": "\u003Cbr>{{deviceToSetup}}"
+   },
+   "2438859709710567679": {
+      "message": "Calidad de proyección de escritorio/pestaña"
+   },
+   "2477948008132782458": {
+      "message": "Tu ordenador no puede conectarse a la misma red Wi-Fi que tu Chromecast. Puedes cambiar manualmente la red Wi-Fi del ordenador a $_NETWORKNAME_$ e intentarlo de nuevo o puedes volver y cambiar la red Wi-Fi de tu Chromecast.",
+      "placeholders": {
+         "_NETWORKNAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2477948008132782458_ph": {
+      "message": "{{networkName}}"
+   },
+   "2480373522051304868": {
+      "message": "Problema relacionado con el funcionamiento de la red"
+   },
+   "2517473004427269018": {
+      "message": "Como tu sesión ha durado más de un minuto, nos gustaría conocer tu opinión sobre el producto. Si has tenido algún problema, haz clic en las casillas para adjuntar los registros de la extensión Cast y los registros externos."
+   },
+   "2530715062873398013": {
+      "message": "El nombre del Chromecast no debe superar los 24 caracteres."
+   },
+   "2554687737930512120": {
+      "message": "No se pueden recuperar los registros del dispositivo."
+   },
+   "2581331321407676861": {
+      "message": "Cancelar"
+   },
+   "2594966871221697125": {
+      "message": "Seleccionar país..."
+   },
+   "2635975979003647889": {
+      "message": "País:"
+   },
+   "2638991638737993114": {
+      "message": "Los cambios se aplicarán la próxima vez que envíes una pestaña."
+   },
+   "2654829603233013743": {
+      "message": "Compilación $_BUILDVERSION_$",
+      "placeholders": {
+         "_BUILDVERSION_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2654829603233013743_ph": {
+      "message": "{{buildVersion}}"
+   },
+   "2673108145745625398": {
+      "message": "Chrome no ha encontrado ningún dispositivo conectado."
+   },
+   "2780948202169029885": {
+      "message": "Ninguna"
+   },
+   "2798807656507405918": {
+      "message": "Estándar"
+   },
+   "2807800733729323332": {
+      "message": "Sí"
+   },
+   "2884726392788153618": {
+      "message": "Se ha producido un error inesperado. Prueba estos pasos:\u003Cul>\u003Cli>vuelve a enviar el contenido,\u003C/li>\u003Cli>comprueba la conexión de red.\u003C/li>\u003C/ul>"
+   },
+   "2928514560669916125": {
+      "message": "No se puede establecer conexión con $_DEVICETOSETUP_$. Asegúrate de que tu Chromecast está encendido y se encuentra cerca.",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "2928514560669916125_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "2932348398128569497": {
+      "message": "Enviar esta pestaña"
+   },
+   "2942203478948533213": {
+      "message": "Selecciona otro dispositivo."
+   },
+   "3056813071145570503": {
+      "message": "Seleccionar red..."
+   },
+   "3115970523539316807": {
+      "message": "Mejorado (experimental; solo en Chrome 36 y versiones posteriores)"
+   },
+   "3130594885131965585": {
+      "message": "Utilizar formato de 12 horas"
+   },
+   "3188239202899052784": {
+      "message": "¿Quieres mejorar Cast compartiendo información de uso anónima con Google? Valoramos tu privacidad, por eso, siempre puedes cambiar esta configuración en Opciones."
+   },
+   "3198788114822821268": {
+      "message": "Dispositivos de Cast disponibles"
+   },
+   "3201699132833978353": {
+      "message": "Haz clic en el icono de envío situado en el reproductor en esta página para disfrutar de una experiencia óptima."
+   },
+   "3202350311251778009": {
+      "message": "La extensión Google Cast te permite encontrar y reproducir contenido en tu dispositivo Chromecast desde el navegador Chrome.\nCuando estés en un sitio optimizado para Cast, podrás ver nuevas opciones que te permiten reproducir vídeo en tu televisor a través de Chromecast, utilizando tu ordenador como control remoto para explorar vídeos y controlar la reproducción.\nTambién puedes enviar cualquier pestaña de Chrome a tu televisor para disfrutar de sitios, fotos o vídeos en la mejor pantalla de tu casa. Ten en cuenta que esta función aún es experimental y necesita un ordenador rápido y una red Wi-Fi estable.\nPara utilizar esta extensión necesitas el dispositivo Chromecast. Para obtener más información, accede a la página http://google.com/chromecast.\nAl instalar este elemento, aceptas las Condiciones de servicio y la Política de privacidad de Google disponibles en la página https://www.google.com/intl/es/policies/."
+   },
+   "3268013795447421317": {
+      "message": "Es posible que el funcionamiento de la red afecte a la calidad de reproducción."
+   },
+   "3278102219211539720": {
+      "message": "Enviar esta pestaña"
+   },
+   "3285083186787942734": {
+      "message": "Parece que ya existen Chromecasts configurados en la red y listos para utilizarse. Para ver la lista de Chromecasts que puedes utilizar, haz clic en la extensión de Cast."
+   },
+   "3314869243569608808": {
+      "message": "Continuar"
+   },
+   "3354474128773194784": {
+      "message": "Para configurar tu Chromecast, activa la red Wi-Fi en el ordenador y haz clic en la opción para volverlo a intentar para continuar con la configuración."
+   },
+   "3374149466144554646": {
+      "message": "Dejar de enviar contenido"
+   },
+   "3430817026795535765": {
+      "message": "Enviar toda la pantalla a..."
+   },
+   "3507952913562640185": {
+      "message": "Es posible que el envío de pestañas no funcione correctamente en este ordenador."
+   },
+   "3533191964283341369": {
+      "message": "WEP"
+   },
+   "3542042671420335679": {
+      "message": "No"
+   },
+   "3562313862283849921": {
+      "message": "Código de país $_DEVICECOUNTRYCODE_$",
+      "placeholders": {
+         "_DEVICECOUNTRYCODE_": {
+            "content": "$1"
+         }
+      }
+   },
+   "3562313862283849921_ph": {
+      "message": "{{deviceCountryCode}}"
+   },
+   "3570815481247986721": {
+      "message": "¿Por qué no aparece mi Chromecast en la lista de configuración?"
+   },
+   "3593576714633990163": {
+      "message": "Gracias por probar la proyección con Cast."
+   },
+   "3630200699826211171": {
+      "message": "Incluyendo los registros de $_EXTERNALDEVICENAME_$",
+      "placeholders": {
+         "_EXTERNALDEVICENAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "3630200699826211171_ph": {
+      "message": "{{externalDeviceName}}"
+   },
+   "3633167042592070329": {
+      "message": "Agradecemos y valoramos tus observaciones, que nos ayudan a mejorar Google Cast. Ten en cuenta que no podemos ofrecer respuestas individuales a los problemas relativos a las observaciones que recibimos. Si quieres ponerte en contacto con Google directamente para comunicar algún problema relacionado con Chromecast, puedes consultar la información necesaria en $START_LINK$esta página$END_LINK$.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "3633167042592070329_ph": {
+      "message": "\u003C/a>\u003Ca href=\"https://support.google.com/chromecast/troubleshooter/2995236?hl=en&ref_topic=2994245\">"
+   },
+   "3634893929360744610": {
+      "message": "Vídeo de alta calidad"
+   },
+   "3646478976134536443": {
+      "message": "Tu Chromecast no se puede conectar la red Wi-Fi seleccionada. Comprueba el nombre y la contraseña de la red y asegúrate de que la red permite que los nuevos dispositivos se conecten."
+   },
+   "3681271501407987946": {
+      "message": "Alta (720p)"
+   },
+   "3740458508418680243": {
+      "message": "Utilizar formato de 24 horas"
+   },
+   "3771614655693813994": {
+      "message": "Asegúrate de que el Chromecast y el ordenador están conectados a la misma red"
+   },
+   "3789857023572978851": {
+      "message": "Configurar"
+   },
+   "3795763563772103881": {
+      "message": "Espera mientras tu Chromecast se reinicia."
+   },
+   "3844709005265884931": {
+      "message": "Movimiento entrecortado ocasional"
+   },
+   "3876918464251814494": {
+      "message": "No se han podido encontrar nuevos Chromecasts para configurar"
+   },
+   "3885666702463386029": {
+      "message": "(¿Falta el dispositivo?)"
+   },
+   "3894950702316166331": {
+      "message": "Cargando..."
+   },
+   "3996247341169314250": {
+      "message": "Otros"
+   },
+   "4000242504764673307": {
+      "message": "No podemos configurar el dispositivo.$BREAK$ Haz clic en la opción para volverlo a intentar y se reiniciará la configuración.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "4000242504764673307_ph": {
+      "message": "\u003Cbr>"
+   },
+   "4012724710893432966": {
+      "message": "No hemos podido establecer comunicación con tu Chromecast.$BREAK$ Es posible que tengas que volver a intentarlo.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "4012724710893432966_ph": {
+      "message": "\u003Cbr>"
+   },
+   "4014224501758376361": {
+      "message": "Enviando contenido a $RECEIVER_NAME$",
+      "placeholders": {
+         "RECEIVER_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "4044189874405410369": {
+      "message": "Algo ha salido mal. No hemos podido encontrar tu Chromecast en la red."
+   },
+   "4089994756445820175": {
+      "message": "Fallo o error"
+   },
+   "4157951843472785441": {
+      "message": "Actualiza Chrome para enviar este sitio."
+   },
+   "4187599066116404890": {
+      "message": "Aceptar"
+   },
+   "4199262278004738231": {
+      "message": "Selecciona tu país"
+   },
+   "4223394109936547558": {
+      "message": "Aceptar"
+   },
+   "4224760847878375792": {
+      "message": "Vídeo fluido"
+   },
+   "4272010402571776761": {
+      "message": "Mala"
+   },
+   "4300512446110878511": {
+      "message": "Red:"
+   },
+   "4324962226715124466": {
+      "message": "Aceptable"
+   },
+   "4341893090014533479": {
+      "message": "Es posible que ya hayas configurado un Chromecast. Para comprobarlo, haz clic en la extensión Cast. Si aparece tu Chromecast, puedes empezar a enviar contenido inmediatamente sin tener que realizar ninguna configuración adicional.$BREAK$ $BREAK$ Si no, asegúrate de que el Chromecast esté conectado y encendido y de que no se encuentre a más de 6 metros de distancia del ordenador.$BREAK$ $BREAK$ Si el dispositivo sigue sin aparecer, puedes restablecer los datos de fábrica manteniendo pulsado el botón de reinicio del Chromecast durante 15 segundos.$BREAK$ $BREAK$ Para obtener más ayuda, accede a la siguiente página: $START_LINK$ support.google.com/chromecast $END_LINK$",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "END_LINK": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         }
+      }
+   },
+   "4341893090014533479_ph": {
+      "message": "\u003Cbr>\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "4437601670693716588": {
+      "message": "Asigna un nombre descriptivo al Chromecast (p. ej., salón)"
+   },
+   "4557090113839282401": {
+      "message": "Comprueba que tu Chromecast está cerca y conectado correctamente."
+   },
+   "4563873836363331434": {
+      "message": "Procesador:"
+   },
+   "4584454172263179470": {
+      "message": "Vídeo perfecto"
+   },
+   "4585326301657856848": {
+      "message": "Ayudar a mejorar Cast"
+   },
+   "4586172406334707448": {
+      "message": "Habilitado: no aparecen barras negras al reproducir vídeos en pantalla panorámica"
+   },
+   "4602775656969243139": {
+      "message": "Configurar un nuevo Chromecast"
+   },
+   "4625206607880030589": {
+      "message": "Nombre del dispositivo:"
+   },
+   "464916539454098167": {
+      "message": "¡Listo!"
+   },
+   "4687947362658561907": {
+      "message": "El dispositivo seleccionado ya no está conectado."
+   },
+   "4741643884742469674": {
+      "message": "Calidad de audio:"
+   },
+   "4785540115752720023": {
+      "message": "Buscando Chromecasts..."
+   },
+   "4822504808490979258": {
+      "message": "Enviar automáticamente estadísticas de uso de la extensión Cast a Google"
+   },
+   "482442943064110817": {
+      "message": "Aceptable (FM)"
+   },
+   "4840042422099634973": {
+      "message": "Vaya, algo ha salido mal"
+   },
+   "4865676252029097872": {
+      "message": "No se pueden enviar los comentarios. Vuelve a intentarlo más tarde."
+   },
+   "5056298333685549098": {
+      "message": "Enviar $V2_APP_DOMAIN$ a...",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "5107389855082704624": {
+      "message": "Adjuntar registros del dispositivo (activa esta opción para ayudarnos a resolver los problemas)"
+   },
+   "5115837021587904245": {
+      "message": "No se puede establecer conexión con la red."
+   },
+   "5117041129279104336": {
+      "message": "Para configurar Chromecast, se debe utilizar como mínimo la versión 28 de Chrome OS. Instala la última versión de Chrome OS para configurar tu Chromecast con la extensión Chromecast."
+   },
+   "513131801569652489": {
+      "message": "Restableciendo Chromecast..."
+   },
+   "5202323856319464688": {
+      "message": "El dispositivo que has estado utilizando no ofrece registros."
+   },
+   "5223596009139859839": {
+      "message": "No hemos podido guardar tu configuración en el Chromecast. Si quieres obtener ayuda para solucionar este problema, accede a la página $START_LINK$support.google.com/chromecast$END_LINK$.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "5223596009139859839_ph": {
+      "message": "\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "5229573508420009298": {
+      "message": "(Opcional) ¿Qué contenido o URL has proyectado?"
+   },
+   "5247472409430022291": {
+      "message": "Conecta el Chromecast a la televisión y selecciona el nombre de Chromecast que aparece en la pantalla del televisor."
+   },
+   "5339913305209531244": {
+      "message": "No se han encontrado dispositivos de Cast."
+   },
+   "5380722061726010200": {
+      "message": "No podemos completar la configuración del Chromecast porque no has confirmado si aparece el código en tu televisor.$BREAK$ $BREAK$ También es posible que hayas realizado la conexión con otro Chromecast por error. Asegúrate de que tu Chromecast esté conectado y de que esté establecida la entrada correcta en el televisor.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         }
+      }
+   },
+   "5380722061726010200_ph": {
+      "message": "\u003Cbr>"
+   },
+   "5385436389563925676": {
+      "message": "PC y Chromecast en la misma red Wi-Fi"
+   },
+   "5395332831907227403": {
+      "message": "Calidad de vídeo:"
+   },
+   "5453859777568475949": {
+      "message": "Es posible que el rendimiento del ordenador afecte a la calidad de reproducción."
+   },
+   "5458275569533528575": {
+      "message": "Inhabilitado: muestra el contenido tal como aparece en esta pantalla"
+   },
+   "5497667907660111182": {
+      "message": "Seleccionar idioma..."
+   },
+   "5517251763786548986": {
+      "message": "Todo listo: el dispositivo que has restablecido se denomina ahora \"$_NAMEAFTERFACTORYRESET_$\" y no está conectado a ninguna red.$BREAK$ $BREAK$ Si quieres configurarlo en tu red, solo tienes que seleccionar \"Añadir Chromecast\" en la página de opciones de la extensión Chromecast.",
+      "placeholders": {
+         "BREAK": {
+            "content": "$1"
+         },
+         "_NAMEAFTERFACTORYRESET_": {
+            "content": "$2"
+         }
+      }
+   },
+   "5517251763786548986_ph": {
+      "message": "\u003Cbr>{{nameAfterFactoryReset}}"
+   },
+   "5666603068038740045": {
+      "message": "$NAME$ (UTC-$HOURS$:$MINUTES$)",
+      "placeholders": {
+         "HOURS": {
+            "content": "$1"
+         },
+         "MINUTES": {
+            "content": "$2"
+         },
+         "NAME": {
+            "content": "$3"
+         }
+      }
+   },
+   "5671949584911040143": {
+      "message": "Comentarios adicionales:"
+   },
+   "5745355507138230213": {
+      "message": "Buena"
+   },
+   "5823878688587296398": {
+      "message": "NS/NC"
+   },
+   "5849296180435940955": {
+      "message": "Más información"
+   },
+   "5890429238996349901": {
+      "message": "Modo de envío de pestaña"
+   },
+   "5901090897529226506": {
+      "message": "¡Ayuda! No aparece mi Chromecast"
+   },
+   "5909681494194871956": {
+      "message": "Dirección MAC $_MACADDRESS_$",
+      "placeholders": {
+         "_MACADDRESS_": {
+            "content": "$1"
+         }
+      }
+   },
+   "5909681494194871956_ph": {
+      "message": "{{MACAddress}}"
+   },
+   "5971299147202640199": {
+      "message": "WPA PSK"
+   },
+   "6018881802001125637": {
+      "message": "Enviando comentarios..."
+   },
+   "6039331491778328245": {
+      "message": "Buena (DVD)"
+   },
+   "6046507125919556913": {
+      "message": "Enviar esta pestaña a..."
+   },
+   "6098003662202355499": {
+      "message": "Restablecer datos de fábrica"
+   },
+   "6118473811359442709": {
+      "message": "Ininteligible"
+   },
+   "6174790240916002622": {
+      "message": "Se están restableciendo los datos de fábrica del Chromecast"
+   },
+   "6214031582604719501": {
+      "message": "Volver a la lista de dispositivos"
+   },
+   "6228766303262090274": {
+      "message": "WPA2 PSK"
+   },
+   "6236792503803747284": {
+      "message": "Estándar (480p)"
+   },
+   "6295154563386647404": {
+      "message": "Error al enviar comentarios. Nuevo intento (número $ATTEMPT_NUMBER$)...",
+      "placeholders": {
+         "ATTEMPT_NUMBER": {
+            "content": "$1"
+         }
+      }
+   },
+   "6392158336204151356": {
+      "message": "Volver"
+   },
+   "6392731103614271560": {
+      "message": "Permite enviar contenido al Chromecast y a otros dispositivos que admitan Google Cast."
+   },
+   "6393885837084531991": {
+      "message": "$START_PARAGRAPH$ No podemos establecer comunicación con tu Chromecast desde este ordenador. Es posible que el Chromecast y el ordenador estén conectados a redes que no se pueden comunicar entre sí. $END_PARAGRAPH$ $START_PARAGRAPH$ También es posible que sea necesario realizar un pequeño cambio en la configuración del router Wi-Fi. Si quieres obtener ayuda para solucionar este problema, accede a la página $START_LINK$support.google.com/chromecast$END_LINK$. $END_PARAGRAPH$",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "END_PARAGRAPH": {
+            "content": "$2"
+         },
+         "START_LINK": {
+            "content": "$3"
+         },
+         "START_PARAGRAPH": {
+            "content": "$4"
+         }
+      }
+   },
+   "6393885837084531991_ph": {
+      "message": "\u003C/a>\u003C/p>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">\u003Cp>"
+   },
+   "641484418525870522": {
+      "message": "La red Wi-Fi debe estar activada"
+   },
+   "6585975561839203683": {
+      "message": "No lo he intentado"
+   },
+   "6604600094360523853": {
+      "message": "Comentarios sobre Google Cast"
+   },
+   "6678977886592726172": {
+      "message": "WEP compartido"
+   },
+   "6681204353063647200": {
+      "message": "Estableciendo conexión con $_DEVICETOSETUP_$",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "6681204353063647200_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "6689796877662016136": {
+      "message": "Enviar automáticamente estadísticas de uso e informes sobre fallos a Google"
+   },
+   "6714111755007279544": {
+      "message": "Añadir Chromecast..."
+   },
+   "6760572486503438987": {
+      "message": "Idioma:"
+   },
+   "6869607025130454293": {
+      "message": "Se han restablecido los datos de fábrica del Chromecast"
+   },
+   "6940187082832386692": {
+      "message": "Vaya, el nombre de tu Chromecast es demasiado largo"
+   },
+   "6988652234001902672": {
+      "message": "Gracias por enviar tus comentarios."
+   },
+   "6997602168024654529": {
+      "message": "No estoy seguro/a"
+   },
+   "7008828272760191653": {
+      "message": "Pésima"
+   },
+   "7011099479208813570": {
+      "message": "Rechazar"
+   },
+   "7028436125721806572": {
+      "message": "Detalles sobre calidad de la proyección"
+   },
+   "7029426286291560071": {
+      "message": "Perfecta"
+   },
+   "7032219081611940207": {
+      "message": "Cambiando red Wi-Fi"
+   },
+   "7053128562708856478": {
+      "message": "Congelación de imágenes"
+   },
+   "7075073555752965346": {
+      "message": "Advertencia: la función de registros detallados está habilitada; los registros que se muestran a continuación pueden incluir URLs u otros datos confidenciales. Revísalos y asegúrate de que no tienes inconveniente en que se envíe esta información."
+   },
+   "7102649289752747375": {
+      "message": "Danos tu opinión"
+   },
+   "7344649529753624682": {
+      "message": "Enviar $V2_APP_DOMAIN$",
+      "placeholders": {
+         "V2_APP_DOMAIN": {
+            "content": "$1"
+         }
+      }
+   },
+   "734932170823984208": {
+      "message": "Tu Chromecast se está reiniciando"
+   },
+   "7353352715326499943": {
+      "message": "Reintentar"
+   },
+   "7385388755069522729": {
+      "message": "De momento solo se puede realizar la configuración desde la extensión en Chrome OS."
+   },
+   "7411261365841051403": {
+      "message": "No se ha podido conectar tu Chromecast a la red"
+   },
+   "7429199670762070717": {
+      "message": "Establece conexión con una red Wi-Fi para ver los dispositivos de Cast configurados."
+   },
+   "7431988162709364473": {
+      "message": "Estableciendo conexión con $_DEVICETOSETUP_$...",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "7431988162709364473_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "7484752158248863804": {
+      "message": "Detener el envío"
+   },
+   "7512888817044182839": {
+      "message": "Se enviarán los datos sobre versión de Chrome, versión del sistema operativo, opciones de la extensión Cast y estadísticas de rendimiento de WebRTC, junto con cualquier información que decidas incluir arriba. Estos datos se utilizarán para el diagnóstico de problemas y para mejorar la extensión. Cualquier información personal que envíes, ya sea de forma explícita o casual, se protegerá de acuerdo con las disposiciones de nuestras políticas de privacidad. $START_BOLD$Al enviar estos comentarios, aceptas que Google podrá utilizarlos para mejorar cualquiera de sus productos y servicios.$END_BOLD$",
+      "placeholders": {
+         "END_BOLD": {
+            "content": "$1"
+         },
+         "START_BOLD": {
+            "content": "$2"
+         }
+      }
+   },
+   "7512888817044182839_ph": {
+      "message": "\u003C/b>\u003Cb>"
+   },
+   "7594287593369134847": {
+      "message": "La configuración de tu Chromecast casi ha terminado"
+   },
+   "7603459055013836218": {
+      "message": "La contraseña es incorrecta."
+   },
+   "760978735208256393": {
+      "message": "Enviar toda la pantalla"
+   },
+   "7638769793803084423": {
+      "message": "Formato de hora:"
+   },
+   "7658112972707584352": {
+      "message": "No se ha podido establecer conexión con el Chromecast"
+   },
+   "7658849483698059550": {
+      "message": "Elige la red Wi-Fi que debe usar este Chromecast"
+   },
+   "7661531377295243900": {
+      "message": "Reinicia el dispositivo. Si el problema persiste, ponte en contacto con el fabricante."
+   },
+   "7786163844034528352": {
+      "message": "Comentarios sobre Google Cast"
+   },
+   "780135806192376347": {
+      "message": "Solicitud de función"
+   },
+   "7820166559915208245": {
+      "message": "Zona horaria:"
+   },
+   "7824803162979416790": {
+      "message": "PC y Chromecast en distintas redes Wi-Fi (p. ej., una de 2,4 GHz y otra de 5 GHz)"
+   },
+   "7864119253243497594": {
+      "message": "Comprueba que el dispositivo esté conectado."
+   },
+   "7867182504906675090": {
+      "message": "Calidad de envío de pestaña"
+   },
+   "7878303393719404217": {
+      "message": "Editar..."
+   },
+   "7885431863671390745": {
+      "message": "Enviar automáticamente a Google estadísticas de uso de la extensión Cast."
+   },
+   "7911416166208830577": {
+      "message": "Ayuda"
+   },
+   "801495004830452095": {
+      "message": "Se han incluido los registros de $_EXTERNALDEVICENAME_$",
+      "placeholders": {
+         "_EXTERNALDEVICENAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "801495004830452095_ph": {
+      "message": "{{externalDeviceName}}"
+   },
+   "8025420827457681102": {
+      "message": "¿Puedes ver tu Chromecast con la aplicación de instalación de Windows/Mac?"
+   },
+   "8119187687393606810": {
+      "message": "Problema relacionado con el rendimiento del sistema"
+   },
+   "8189622236075700665": {
+      "message": "¿Quieres descartar los comentarios?"
+   },
+   "819996403327805209": {
+      "message": "Más información"
+   },
+   "8242882361224206357": {
+      "message": "¿Con qué están relacionados tus comentarios?"
+   },
+   "8273142536049992075": {
+      "message": "$NAME$ (UTC+$HOURS$:$MINUTES$)",
+      "placeholders": {
+         "HOURS": {
+            "content": "$1"
+         },
+         "MINUTES": {
+            "content": "$2"
+         },
+         "NAME": {
+            "content": "$3"
+         }
+      }
+   },
+   "8288732448265345962": {
+      "message": "Cancelar"
+   },
+   "8300469553732521822": {
+      "message": "Configuración de $_DEVICETOSETUP_$",
+      "placeholders": {
+         "_DEVICETOSETUP_": {
+            "content": "$1"
+         }
+      }
+   },
+   "8300469553732521822_ph": {
+      "message": "{{deviceToSetup}}"
+   },
+   "8304164664901068767": {
+      "message": "La extensión Google Cast te permite encontrar y reproducir contenido en tu dispositivo Chromecast desde el navegador Chrome.\nEste es el canal *BETA* de la extensión Google Cast y está destinado a desarrolladores y usuarios avanzados que quieran acceder a próximas API y funciones antes de que estén disponibles para el resto de usuarios. La mayoría de usuarios deben instalar la extensión Google Cast estable (https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd). Normalmente, el canal beta será menos estable e incluirá más errores.\nAl instalar este elemento, aceptas las Condiciones de servicio y la Política de privacidad de Google disponibles en la página https://www.google.com/intl/es/policies/."
+   },
+   "8351230089123629067": {
+      "message": "Tarjeta gráfica/GPU:"
+   },
+   "8432562579042371182": {
+      "message": "Opciones"
+   },
+   "8436497523209458720": {
+      "message": "Danos tu opinión..."
+   },
+   "845494741086179740": {
+      "message": "PC con conexión alámbrica y Chromecast con conexión Wi-Fi"
+   },
+   "8489968480602452361": {
+      "message": "Dispositivos Cast de la red \"$_ACTIVENETWORKNAME_$\"",
+      "placeholders": {
+         "_ACTIVENETWORKNAME_": {
+            "content": "$1"
+         }
+      }
+   },
+   "8489968480602452361_ph": {
+      "message": "{{activeNetworkName}}"
+   },
+   "8492868760738700855": {
+      "message": "¿No aparece tu dispositivo?"
+   },
+   "8500110749168055241": {
+      "message": "Movimiento irregular"
+   },
+   "8590884059033243193": {
+      "message": "Retrocede y selecciona una red Wi-Fi diferente para tu Chromecast o accede a la página $START_LINK$ support.google.com/chromecast $END_LINK$ si quieres obtener ayuda para solucionar este problema.",
+      "placeholders": {
+         "END_LINK": {
+            "content": "$1"
+         },
+         "START_LINK": {
+            "content": "$2"
+         }
+      }
+   },
+   "8590884059033243193_ph": {
+      "message": "\u003C/a>\u003Ca href=\"http://support.google.com/chromecast\" target=\"_blank\">"
+   },
+   "8605368940343039116": {
+      "message": "Utilizar el número de serie de este Chromecast al buscar actualizaciones"
+   },
+   "8674892226531837727": {
+      "message": "Seguridad:"
+   },
+   "8700054488486244094": {
+      "message": "Opciones de la extensión Google Cast"
+   },
+   "872641383564597641": {
+      "message": "Se ha perdido la conexión con el dispositivo."
+   },
+   "8808326359642865369": {
+      "message": "(experimental)"
+   },
+   "8847227464712783239": {
+      "message": "El dispositivo seleccionado no funciona correctamente"
+   },
+   "8848631234926754401": {
+      "message": "Seleccionar zona horaria..."
+   },
+   "8856112728107888349": {
+      "message": "Aceptar"
+   },
+   "8879729374562274188": {
+      "message": "Se ha producido un error en la actividad."
+   },
+   "8887833628383960193": {
+      "message": "Fantástica (HD)"
+   },
+   "8948441291106678529": {
+      "message": "Opciones de la extensión Google Cast"
+   },
+   "897566596634286067": {
+      "message": "Introduce tus observaciones aquí (obligatorio)."
+   },
+   "8998179362936748717": {
+      "message": "Aceptar"
+   },
+   "9059560719840598868": {
+      "message": "Enviar comentarios"
+   },
+   "9120942669794506861": {
+      "message": "¿Tienes instalado algún tipo especial de software NAS, cortafuegos, proxy o red VPN?"
+   },
+   "9217039427324387516": {
+      "message": "Comprueba que tu dispositivo:\u003Cul>\u003Cli>esté situado cerca del punto de acceso inalámbrico,\u003C/li>\u003Cli>admita la proyección de pestañas.\u003C/li>\u003C/ul>A continuación, vuelve a intentarlo."
+   },
+   "942595326489680668": {
+      "message": "Confirma que aparezca este código en tu televisor:"
+   },
+   "MSG_CHROME_TOO_OLD_FOR_V2": {
+      "message": "1443898800503846063"
+   },
+   "MSG_CHROME_TOO_OLD_FOR_V2_DESCRIPTION": {
+      "message": "4157951843472785441"
+   },
+   "MSG_GC_ACCEPT_BUTTON_LABEL": {
+      "message": "8856112728107888349"
+   },
+   "MSG_GC_AUTH_OPTION_NONE": {
+      "message": "2780948202169029885"
+   },
+   "MSG_GC_AUTH_OPTION_WEP": {
+      "message": "3533191964283341369"
+   },
+   "MSG_GC_AUTH_OPTION_WEP_SHARED": {
+      "message": "6678977886592726172"
+   },
+   "MSG_GC_AUTH_OPTION_WPA2_PSK": {
+      "message": "6228766303262090274"
+   },
+   "MSG_GC_AUTH_OPTION_WPA_PSK": {
+      "message": "5971299147202640199"
+   },
+   "MSG_GC_BAD_INTEL_CPU": {
+      "message": "2352372781778823685"
+   },
+   "MSG_GC_BAD_INTEL_CPU_DESCRIPTION": {
+      "message": "3507952913562640185"
+   },
+   "MSG_GC_BETA_EXTENSION_DESCRIPTION": {
+      "message": "8304164664901068767"
+   },
+   "MSG_GC_CANCEL_BUTTON": {
+      "message": "8288732448265345962"
+   },
+   "MSG_GC_CANCEL_BUTTON_LABEL": {
+      "message": "2581331321407676861"
+   },
+   "MSG_GC_CASTING_LABEL": {
+      "message": "4014224501758376361"
+   },
+   "MSG_GC_CAST_APP": {
+      "message": "5056298333685549098"
+   },
+   "MSG_GC_CAST_APP_OPTION": {
+      "message": "7344649529753624682"
+   },
+   "MSG_GC_CAST_ENTIRE_SCREEN": {
+      "message": "3430817026795535765"
+   },
+   "MSG_GC_CAST_TAB": {
+      "message": "6046507125919556913"
+   },
+   "MSG_GC_CAST_TAB_AUDIO": {
+      "message": "1189144544819350763"
+   },
+   "MSG_GC_CAST_THIS_APP": {
+      "message": "1717149362663359343"
+   },
+   "MSG_GC_CAST_THIS_TAB": {
+      "message": "3278102219211539720"
+   },
+   "MSG_GC_CONTINUE_BUTTON_LABEL": {
+      "message": "3314869243569608808"
+   },
+   "MSG_GC_DEVICE_BAD": {
+      "message": "8847227464712783239"
+   },
+   "MSG_GC_DEVICE_BAD_RESOLUTION": {
+      "message": "7661531377295243900"
+   },
+   "MSG_GC_DEVICE_CONNECTION_CHECK_ONLINE": {
+      "message": "7864119253243497594"
+   },
+   "MSG_GC_DEVICE_CONNECTION_ERROR_FIXING": {
+      "message": "9217039427324387516"
+   },
+   "MSG_GC_DEVICE_CONNECTION_LOST": {
+      "message": "872641383564597641"
+   },
+   "MSG_GC_DEVICE_NETWORK_PERFORMANCE": {
+      "message": "2480373522051304868"
+   },
+   "MSG_GC_DEVICE_NETWORK_PERFORMANCE_DESCRIPTION": {
+      "message": "3268013795447421317"
+   },
+   "MSG_GC_DEVICE_NOT_ONLINE": {
+      "message": "4687947362658561907"
+   },
+   "MSG_GC_DEVICE_NOT_ONLINE_RESOLUTION": {
+      "message": "2942203478948533213"
+   },
+   "MSG_GC_DEVICE_SYSTEM_PERFORMANCE": {
+      "message": "8119187687393606810"
+   },
+   "MSG_GC_DEVICE_SYSTEM_PERFORMANCE_DESCRIPTION": {
+      "message": "5453859777568475949"
+   },
+   "MSG_GC_DEVICE_UNABLE_TO_CAST": {
+      "message": "1104234694810969409"
+   },
+   "MSG_GC_DEVICE_UNABLE_TO_CAST_RESOLUTION": {
+      "message": "2884726392788153618"
+   },
+   "MSG_GC_DISMISS_BUTTON": {
+      "message": "2081143677025752994"
+   },
+   "MSG_GC_ERROR_TITLE_CHROEMCAST_DISCONNECTED": {
+      "message": "7658112972707584352"
+   },
+   "MSG_GC_ERROR_TITLE_CHROMECAST_CONNECTION_FAILED": {
+      "message": "7411261365841051403"
+   },
+   "MSG_GC_ERROR_TITLE_CHROMECAST_NAME_TOO_LONG": {
+      "message": "6940187082832386692"
+   },
+   "MSG_GC_ERROR_TITLE_CONNECT_TO_SETUP_NETWORK": {
+      "message": "3771614655693813994"
+   },
+   "MSG_GC_ERROR_TITLE_DEFAULT": {
+      "message": "4840042422099634973"
+   },
+   "MSG_GC_ERROR_TITLE_DUAL_BAND_WARNING": {
+      "message": "2400591522298944337"
+   },
+   "MSG_GC_ERROR_TITLE_NO_CHROMECASTS": {
+      "message": "222617673884818958"
+   },
+   "MSG_GC_ERROR_TITLE_NO_CHROMECASTS_SOME_SETUP": {
+      "message": "3876918464251814494"
+   },
+   "MSG_GC_ERROR_TITLE_NO_WIFI": {
+      "message": "641484418525870522"
+   },
+   "MSG_GC_ERROR_TITLE_SETUP_CHROMECAST_NOT_FOUND": {
+      "message": "4044189874405410369"
+   },
+   "MSG_GC_ERROR_TITLE_VPN_CONNECTED": {
+      "message": "7594287593369134847"
+   },
+   "MSG_GC_ERROR_TTITLE_CHANGING_NETWORK": {
+      "message": "7032219081611940207"
+   },
+   "MSG_GC_EXTENSION_DESCRIPTION": {
+      "message": "3202350311251778009"
+   },
+   "MSG_GC_EXTENSION_SHORT_DESCRIPTION": {
+      "message": "6392731103614271560"
+   },
+   "MSG_GC_FACTORY_RESET_BUTTON_LABEL": {
+      "message": "6098003662202355499"
+   },
+   "MSG_GC_FACTORY_RESET_CONFIRM": {
+      "message": "1736891338067720192"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_ACCEPTABLE": {
+      "message": "482442943064110817"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_GOOD": {
+      "message": "5745355507138230213"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_PERFECT": {
+      "message": "7029426286291560071"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_POOR": {
+      "message": "4272010402571776761"
+   },
+   "MSG_GC_FEEDBACK_AUDIO_UNINTELLIGIBLE": {
+      "message": "6118473811359442709"
+   },
+   "MSG_GC_FEEDBACK_DISCARD_CONFIRMATION": {
+      "message": "8189622236075700665"
+   },
+   "MSG_GC_FEEDBACK_NA": {
+      "message": "5823878688587296398"
+   },
+   "MSG_GC_FEEDBACK_PAGE_TITLE": {
+      "message": "7786163844034528352"
+   },
+   "MSG_GC_FEEDBACK_RESENDING": {
+      "message": "6295154563386647404"
+   },
+   "MSG_GC_FEEDBACK_SENDING": {
+      "message": "6018881802001125637"
+   },
+   "MSG_GC_FEEDBACK_SEND_FAIL": {
+      "message": "4865676252029097872"
+   },
+   "MSG_GC_FEEDBACK_SEND_SUCCESS": {
+      "message": "6988652234001902672"
+   },
+   "MSG_GC_FEEDBACK_TYPE_BUG_OR_ERROR": {
+      "message": "4089994756445820175"
+   },
+   "MSG_GC_FEEDBACK_TYPE_DISCOVERY": {
+      "message": "2076488708707463944"
+   },
+   "MSG_GC_FEEDBACK_TYPE_FEATURE_REQUEST": {
+      "message": "780135806192376347"
+   },
+   "MSG_GC_FEEDBACK_TYPE_OTHER": {
+      "message": "3996247341169314250"
+   },
+   "MSG_GC_FEEDBACK_TYPE_PROJECTION_QUALITY": {
+      "message": "2438859709710567679"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_ACCEPTABLE": {
+      "message": "4324962226715124466"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_FREEZES": {
+      "message": "7053128562708856478"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_GOOD": {
+      "message": "6039331491778328245"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_GREAT": {
+      "message": "8887833628383960193"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_JERKY": {
+      "message": "8500110749168055241"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_PERFECT": {
+      "message": "4584454172263179470"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_POOR": {
+      "message": "2377419936291389581"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_SMOOTH": {
+      "message": "4224760847878375792"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_STUTTER": {
+      "message": "3844709005265884931"
+   },
+   "MSG_GC_FEEDBACK_VIDEO_UNWATCHABLE": {
+      "message": "7008828272760191653"
+   },
+   "MSG_GC_GENERIC_ERROR": {
+      "message": "8879729374562274188"
+   },
+   "MSG_GC_GO_BACK_BUTTON_LABEL": {
+      "message": "6392158336204151356"
+   },
+   "MSG_GC_INPUT_LABEL_COUNTRY": {
+      "message": "2635975979003647889"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_COUNTRY_NAME": {
+      "message": "2594966871221697125"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_LOCALE_NAME": {
+      "message": "5497667907660111182"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_NETWORK_NAME": {
+      "message": "3056813071145570503"
+   },
+   "MSG_GC_INPUT_LABEL_DEFAULT_TIME_ZONE_NAME": {
+      "message": "8848631234926754401"
+   },
+   "MSG_GC_INPUT_LABEL_DEVICE_NAME": {
+      "message": "4625206607880030589"
+   },
+   "MSG_GC_INPUT_LABEL_JOIN_OTHER_OPTION": {
+      "message": "1892665409887570919"
+   },
+   "MSG_GC_INPUT_LABEL_LOCALE": {
+      "message": "6760572486503438987"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_NAME": {
+      "message": "4300512446110878511"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_PASSWORD": {
+      "message": "145446834822743302"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_SECURITY": {
+      "message": "8674892226531837727"
+   },
+   "MSG_GC_INPUT_LABEL_NETWORK_SETTINGS": {
+      "message": "7658849483698059550"
+   },
+   "MSG_GC_INPUT_LABEL_SELECT_COUNTRY_DESC": {
+      "message": "1878608156765601563"
+   },
+   "MSG_GC_INPUT_LABEL_TIME_FORMAT": {
+      "message": "7638769793803084423"
+   },
+   "MSG_GC_INPUT_LABEL_TIME_ZONE": {
+      "message": "7820166559915208245"
+   },
+   "MSG_GC_LEARN_MORE_LINK": {
+      "message": "5849296180435940955"
+   },
+   "MSG_GC_MIRROR_QUALITY_HIGH": {
+      "message": "3681271501407987946"
+   },
+   "MSG_GC_MIRROR_QUALITY_HIGHEST": {
+      "message": "1403598074357445300"
+   },
+   "MSG_GC_MIRROR_QUALITY_LOW": {
+      "message": "6236792503803747284"
+   },
+   "MSG_GC_OK_BUTTON": {
+      "message": "4223394109936547558"
+   },
+   "MSG_GC_OK_BUTTON_LABEL": {
+      "message": "1510649369757220975"
+   },
+   "MSG_GC_OPTIONS_PAGE_TITLE": {
+      "message": "8700054488486244094"
+   },
+   "MSG_GC_REBOOT_BUTTON_LABEL": {
+      "message": "1800259609671125324"
+   },
+   "MSG_GC_REJECT_BUTTON_LABEL": {
+      "message": "7011099479208813570"
+   },
+   "MSG_GC_RETRY_BUTTON": {
+      "message": "1318160328466758792"
+   },
+   "MSG_GC_SAVE_BUTTON_LABEL": {
+      "message": "2305903324116609221"
+   },
+   "MSG_GC_SET_UP_BUTTON_LABEL": {
+      "message": "3789857023572978851"
+   },
+   "MSG_GC_STOP_CASTING": {
+      "message": "7484752158248863804"
+   },
+   "MSG_GC_TIMEZONE_FORMAT_NEGATIVE_OFFSET": {
+      "message": "5666603068038740045"
+   },
+   "MSG_GC_TIMEZONE_FORMAT_POSITIVE_OFFSET": {
+      "message": "8273142536049992075"
+   },
+   "MSG_GC_TIME_FORMAT_12_HOUR": {
+      "message": "3130594885131965585"
+   },
+   "MSG_GC_TIME_FORMAT_24_HOUR": {
+      "message": "3740458508418680243"
+   },
+   "MSG_GC_TRY_AGAIN_BUTTON_LABEL": {
+      "message": "7353352715326499943"
+   },
+   "auto_stats_collection_description": {
+      "message": "3188239202899052784"
+   },
+   "auto_stats_collection_dismiss": {
+      "message": "8998179362936748717"
+   },
+   "auto_stats_collection_title": {
+      "message": "4585326301657856848"
+   },
+   "cast_feedback_audio_quality": {
+      "message": "4741643884742469674"
+   },
+   "cast_feedback_comments": {
+      "message": "5671949584911040143"
+   },
+   "cast_feedback_description_required_label": {
+      "message": "897566596634286067"
+   },
+   "cast_feedback_discovery_did_not_try": {
+      "message": "6585975561839203683"
+   },
+   "cast_feedback_discovery_network": {
+      "message": "1213957982723875920"
+   },
+   "cast_feedback_discovery_network_wifi_diff_networks": {
+      "message": "7824803162979416790"
+   },
+   "cast_feedback_discovery_network_wifi_same": {
+      "message": "5385436389563925676"
+   },
+   "cast_feedback_discovery_network_wifi_wired": {
+      "message": "845494741086179740"
+   },
+   "cast_feedback_discovery_no": {
+      "message": "3542042671420335679"
+   },
+   "cast_feedback_discovery_not_sure": {
+      "message": "6997602168024654529"
+   },
+   "cast_feedback_discovery_setup": {
+      "message": "8025420827457681102"
+   },
+   "cast_feedback_discovery_vpn": {
+      "message": "9120942669794506861"
+   },
+   "cast_feedback_discovery_yes": {
+      "message": "2807800733729323332"
+   },
+   "cast_feedback_general_description": {
+      "message": "3633167042592070329"
+   },
+   "cast_feedback_gpu": {
+      "message": "8351230089123629067"
+   },
+   "cast_feedback_mirroring_cancel": {
+      "message": "2159130950882492111"
+   },
+   "cast_feedback_mirroring_disclaimer": {
+      "message": "7512888817044182839"
+   },
+   "cast_feedback_mirroring_ok": {
+      "message": "4187599066116404890"
+   },
+   "cast_feedback_mirroring_submit": {
+      "message": "9059560719840598868"
+   },
+   "cast_feedback_processor": {
+      "message": "4563873836363331434"
+   },
+   "cast_feedback_quality_details": {
+      "message": "7028436125721806572"
+   },
+   "cast_feedback_request": {
+      "message": "2517473004427269018"
+   },
+   "cast_feedback_required_parens": {
+      "message": "2083306153840951484"
+   },
+   "cast_feedback_thankyou": {
+      "message": "3593576714633990163"
+   },
+   "cast_feedback_title": {
+      "message": "6604600094360523853"
+   },
+   "cast_feedback_topic": {
+      "message": "8242882361224206357"
+   },
+   "cast_feedback_url": {
+      "message": "5229573508420009298"
+   },
+   "cast_feedback_video_quality": {
+      "message": "5395332831907227403"
+   },
+   "cast_feedback_video_smoothness": {
+      "message": "2009563581399507712"
+   },
+   "cast_popup_back_to_list": {
+      "message": "6214031582604719501"
+   },
+   "cast_popup_cast_audio": {
+      "message": "1877856983727558507"
+   },
+   "cast_popup_cast_screen": {
+      "message": "760978735208256393"
+   },
+   "cast_popup_cast_screen_experimental": {
+      "message": "8808326359642865369"
+   },
+   "cast_popup_cast_tab": {
+      "message": "2932348398128569497"
+   },
+   "cast_popup_device_missing": {
+      "message": "3885666702463386029"
+   },
+   "cast_popup_feedback_link": {
+      "message": "8436497523209458720"
+   },
+   "cast_popup_help_link": {
+      "message": "7911416166208830577"
+   },
+   "cast_popup_high_quality_video": {
+      "message": "3634893929360744610"
+   },
+   "cast_popup_high_quality_video_details": {
+      "message": "130855611855008194"
+   },
+   "cast_popup_high_quality_video_dismiss": {
+      "message": "464916539454098167"
+   },
+   "cast_popup_loading": {
+      "message": "3894950702316166331"
+   },
+   "cast_popup_optimal_experience": {
+      "message": "3201699132833978353"
+   },
+   "cast_popup_optimal_experience_learn_more": {
+      "message": "819996403327805209"
+   },
+   "cast_popup_options_link": {
+      "message": "8432562579042371182"
+   },
+   "cast_popup_playing_on": {
+      "message": "1049877458571060222"
+   },
+   "donge_no_cast_device_found": {
+      "message": "5339913305209531244"
+   },
+   "dongle_add_chromecast_button_label": {
+      "message": "6714111755007279544"
+   },
+   "dongle_cast_device_list_title": {
+      "message": "8489968480602452361"
+   },
+   "dongle_cast_device_list_title_no_wifi": {
+      "message": "3198788114822821268"
+   },
+   "dongle_edit_button_label": {
+      "message": "7878303393719404217"
+   },
+   "dongle_error_chromecast_connection_failed": {
+      "message": "3646478976134536443"
+   },
+   "dongle_error_chromecast_disconnected": {
+      "message": "2928514560669916125"
+   },
+   "dongle_error_chromecast_unreachable": {
+      "message": "4012724710893432966"
+   },
+   "dongle_error_connect_to_setup_network": {
+      "message": "2477948008132782458"
+   },
+   "dongle_error_fail_dual_band": {
+      "message": "6393885837084531991"
+   },
+   "dongle_error_generic": {
+      "message": "4000242504764673307"
+   },
+   "dongle_error_invalid_chromecast": {
+      "message": "1029164020836817256"
+   },
+   "dongle_error_name_too_long": {
+      "message": "2530715062873398013"
+   },
+   "dongle_error_no_chromecasts": {
+      "message": "4557090113839282401"
+   },
+   "dongle_error_no_chromecasts_some_setup": {
+      "message": "3285083186787942734"
+   },
+   "dongle_error_no_wifi": {
+      "message": "3354474128773194784"
+   },
+   "dongle_error_save_failed": {
+      "message": "5223596009139859839"
+   },
+   "dongle_error_setup_changing_network": {
+      "message": "2267050368954737517"
+   },
+   "dongle_error_setup_chromecast_not_found": {
+      "message": "8590884059033243193"
+   },
+   "dongle_error_success_dual_band_warning": {
+      "message": "1253789643716245859"
+   },
+   "dongle_error_vpn_connected": {
+      "message": "1023033940742649280"
+   },
+   "dongle_flow_confirm_pin_dismissed_message": {
+      "message": "5380722061726010200"
+   },
+   "dongle_flow_confirm_pin_request": {
+      "message": "942595326489680668"
+   },
+   "dongle_flow_connecting_title": {
+      "message": "6681204353063647200"
+   },
+   "dongle_flow_connection_content": {
+      "message": "7431988162709364473"
+   },
+   "dongle_flow_edit_device_send_stats": {
+      "message": "6689796877662016136"
+   },
+   "dongle_flow_edit_device_serial_num": {
+      "message": "8605368940343039116"
+   },
+   "dongle_flow_edit_device_title": {
+      "message": "8300469553732521822"
+   },
+   "dongle_flow_edit_info_build_version": {
+      "message": "2654829603233013743"
+   },
+   "dongle_flow_edit_info_country_code": {
+      "message": "3562313862283849921"
+   },
+   "dongle_flow_edit_info_ip_address": {
+      "message": "1202779209944619898"
+   },
+   "dongle_flow_edit_info_mac_address": {
+      "message": "5909681494194871956"
+   },
+   "dongle_flow_error_send_feedback_link": {
+      "message": "7102649289752747375"
+   },
+   "dongle_flow_factory_reset_done_content": {
+      "message": "5517251763786548986"
+   },
+   "dongle_flow_factory_reset_done_title": {
+      "message": "6869607025130454293"
+   },
+   "dongle_flow_factory_reset_in_progress_content": {
+      "message": "1640106120035505383"
+   },
+   "dongle_flow_factory_reset_in_progress_title": {
+      "message": "6174790240916002622"
+   },
+   "dongle_flow_factory_reset_progress_status": {
+      "message": "513131801569652489"
+   },
+   "dongle_flow_invalid_password_title": {
+      "message": "5115837021587904245"
+   },
+   "dongle_flow_invalid_password_warning": {
+      "message": "7603459055013836218"
+   },
+   "dongle_flow_networking_api_unavailable_cros": {
+      "message": "5117041129279104336"
+   },
+   "dongle_flow_networking_api_unavailable_non_cros": {
+      "message": "7385388755069522729"
+   },
+   "dongle_flow_no_device_help_content": {
+      "message": "4341893090014533479"
+   },
+   "dongle_flow_no_device_help_title": {
+      "message": "3570815481247986721"
+   },
+   "dongle_flow_reboot_in_progress_content": {
+      "message": "3795763563772103881"
+   },
+   "dongle_flow_reboot_in_progress_title": {
+      "message": "734932170823984208"
+   },
+   "dongle_flow_reboot_progress_status": {
+      "message": "1643334553790893729"
+   },
+   "dongle_flow_selec_device_chromecast_name_on_TV": {
+      "message": "5247472409430022291"
+   },
+   "dongle_flow_select_country_title": {
+      "message": "4199262278004738231"
+   },
+   "dongle_flow_select_device_no_device_help": {
+      "message": "5901090897529226506"
+   },
+   "dongle_flow_select_device_title": {
+      "message": "4602775656969243139"
+   },
+   "dongle_flow_select_network_frinedly_name": {
+      "message": "4437601670693716588"
+   },
+   "dongle_flow_select_network_title": {
+      "message": "1699650875987066968"
+   },
+   "dongle_flow_setup_notice_content": {
+      "message": "2417890821034476139"
+   },
+   "dongle_flow_setup_notice_title": {
+      "message": "1795930891833597883"
+   },
+   "dongle_no_cast_device_link": {
+      "message": "8492868760738700855"
+   },
+   "dongle_no_cast_devices_add_new_message": {
+      "message": "195942478059587765"
+   },
+   "dongle_no_cast_devices_connect_wifi_message": {
+      "message": "7429199670762070717"
+   },
+   "dongle_progress_searching": {
+      "message": "4785540115752720023"
+   },
+   "dongle_progress_setting_up": {
+      "message": "1346986642756520594"
+   },
+   "goog_cast_feedback_fine_logs_warning": {
+      "message": "7075073555752965346"
+   },
+   "goog_cast_feedback_get_external_logs_error": {
+      "message": "2554687737930512120"
+   },
+   "goog_cast_feedback_got_external_logs": {
+      "message": "801495004830452095"
+   },
+   "goog_cast_feedback_mirroring_external_logs_button": {
+      "message": "5107389855082704624"
+   },
+   "goog_cast_feedback_mirroring_external_logs_error_device_not_found": {
+      "message": "2673108145745625398"
+   },
+   "goog_cast_feedback_mirroring_external_logs_error_device_not_supported": {
+      "message": "5202323856319464688"
+   },
+   "goog_cast_feedback_mirroring_logs_button": {
+      "message": "2016072788708608077"
+   },
+   "goog_cast_feedback_retrieving_external_logs": {
+      "message": "3630200699826211171"
+   },
+   "options_change_effect": {
+      "message": "2638991638737993114"
+   },
+   "options_developer_settings_sesison_title": {
+      "message": "1942272259363289202"
+   },
+   "options_fullscreen_zoom": {
+      "message": "1312042186374481668"
+   },
+   "options_fullscreen_zoom_off": {
+      "message": "5458275569533528575"
+   },
+   "options_fullscreen_zoom_on": {
+      "message": "4586172406334707448"
+   },
+   "options_send_usage": {
+      "message": "7885431863671390745"
+   },
+   "options_stop_casting": {
+      "message": "3374149466144554646"
+   },
+   "options_tab_cast_enhanced_mode": {
+      "message": "3115970523539316807"
+   },
+   "options_tab_cast_mode": {
+      "message": "5890429238996349901"
+   },
+   "options_tab_cast_standard_mode": {
+      "message": "2798807656507405918"
+   },
+   "options_tab_proj_quality": {
+      "message": "7867182504906675090"
+   },
+   "options_title": {
+      "message": "8948441291106678529"
+   },
+   "stats_collect_prompt_option": {
+      "message": "4822504808490979258"
+   }
+}

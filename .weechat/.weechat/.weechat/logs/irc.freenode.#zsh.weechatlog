@@ -1,0 +1,578 @@
+2014-02-27 00:07:50	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #zsh
+2014-02-27 00:07:50	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-02-27 00:07:50	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-02-27 00:07:50	--	Channel #zsh: 317 nicks (0 ops, 0 voices, 317 normals)
+2014-02-27 00:07:50	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-02-27 00:07:50	--	URL for #zsh: http://www.zsh.org/
+2014-02-27 00:07:52	--	Mode #zsh [+cnt]
+2014-02-27 00:07:52	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-02-27 00:08:16	smrtz|nix	Hey, everyone's telling me how zsh is better than bash, but no one will tell me why.  What improvments does it make?
+2014-02-27 00:09:43	OODavo	http://zsh.sourceforge.net/FAQ/zshfaq03.html#31 is the initial biggest boon for scripting. Interactively, the extremely powerful completion system would be the first big selling point.
+2014-02-27 00:10:21	smrtz|nix	Ahh, ok.  Thanks OODavo, I'll check the link.
+2014-02-27 00:10:23	OODavo	Then there's things like the supercharged file globbing -- nearly everything you do with the 'find' command can be written using a zsh glob instead.
+2014-02-27 00:11:03	smrtz|nix	why would you want that?  Wouldn't it make more since to use something more cross compatable?
+2014-02-27 00:12:26	OODavo	Interactively, concision in expression wins over compatibility.
+2014-02-27 00:13:03	OODavo	In scripts, it's a bit of a different story, but if you need POSIX-compliant scripts anyway you aren't going to get a scripting benefit from *any* shell besides /bin/sh.
+2014-02-27 00:14:36	<--	druonysus (~drew@unaffiliated/druonysus) has quit (Remote host closed the connection)
+2014-02-27 00:17:18	IAmTheClaw	smrtz|nix: you can complete paths like this in zsh: /u/l/e/ng/ng<tab> -> /usr/local/etc/nginx/nginx.conf
+2014-02-27 00:17:28	IAmTheClaw	instead of doing each directory at a time
+2014-02-27 00:17:43	OODavo	^
+2014-02-27 00:18:18	OODavo	Also, completion possibilities appear in a menu you can cycle through, unlike bash's approach of just printing them all out.
+2014-02-27 00:21:26	OODavo	And you can do this in your .zshrc: zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+2014-02-27 00:21:44	OODavo	Which makes the completion menu colour directories/files/executables/etc. the same way ls --color=auto would.
+2014-02-27 00:23:38	<--	DaveQB (~quassel@ppp255-134.static.internode.on.net) has quit (Ping timeout: 264 seconds)
+2014-02-27 00:23:55	OODavo	It's a little thing but also a really, really useful one.
+2014-02-27 00:25:28	-->	DaveQB (~quassel@ppp255-134.static.internode.on.net) has joined #zsh
+2014-02-27 00:29:20	<--	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has quit (Remote host closed the connection)
+2014-02-27 00:30:18	-->	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has joined #zsh
+2014-02-27 00:32:25	<--	polyzen (~poly@unaffiliated/polyzen) has quit (Quit: polyzen)
+2014-02-27 01:00:50	<--	Jesin (~Jesin@pool-96-255-140-87.washdc.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-02-27 01:03:50	<--	tureba (~tureba@187.57.52.236) has quit (Ping timeout: 264 seconds)
+2014-02-27 01:04:02	-->	hahuang65 (~hahuang65@c-50-136-152-183.hsd1.ca.comcast.net) has joined #zsh
+2014-02-27 01:04:37	<--	DaveQB (~quassel@ppp255-134.static.internode.on.net) has quit (Ping timeout: 252 seconds)
+2014-02-27 01:13:16	-->	Jesin (~Jesin@pool-96-255-140-87.washdc.fios.verizon.net) has joined #zsh
+2014-02-27 01:13:29	<--	willmarshall (~textual@203-206-208-20.perm.iinet.net.au) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-02-27 01:33:36	<--	raw (~raw@f049193222.adsl.alicedsl.de) has quit (Ping timeout: 240 seconds)
+2014-02-27 01:38:49	-->	chavezgu (~chavezgu@as67-10.tontut.fi) has joined #zsh
+2014-02-27 01:38:50	<--	chavezgu (~chavezgu@as67-10.tontut.fi) has quit (Client Quit)
+2014-02-27 01:39:05	-->	chavezgu (~chavezgu@as67-10.tontut.fi) has joined #zsh
+2014-03-05 23:59:35	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #zsh
+2014-03-05 23:59:35	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-05 23:59:35	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-05 23:59:35	--	Channel #zsh: 334 nicks (0 ops, 0 voices, 334 normals)
+2014-03-05 23:59:35	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-05 23:59:35	--	URL for #zsh: http://www.zsh.org/
+2014-03-05 23:59:37	--	Mode #zsh [+cnt]
+2014-03-05 23:59:37	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-05 23:59:57	smrtz|nix	What's that zsh config I always get linked to?  I've decided to finally switch...
+2014-03-06 00:01:11	smrtz|nix	It's "oh-my-zsh"
+2014-03-06 00:01:16	-->	chandan (~chandan@122.248.161.59) has joined #zsh
+2014-03-06 00:01:19	[arx]	!omz
+2014-03-06 00:01:19	corbenik	[arx]: "omz" is shorthand for "oh-my-zsh", an extension which the consensus of this channel recommends against using.  If you see odd behaviour using omz, please try disabling omz and see if the issue remains.
+2014-03-06 00:01:19	<--	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has quit (Ping timeout: 240 seconds)
+2014-03-06 00:01:53	smrtz|nix	arx, why does evryone here say you shouldn't use it?
+2014-03-06 00:02:07	bro	guys
+2014-03-06 00:02:14	bro	does zsh have ranges?
+2014-03-06 00:02:26	bro	like 1..461
+2014-03-06 00:02:39	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 00:03:14	[arx]	smrtz|nix: it finds pretty nifty ways of breaking stuff.
+2014-03-06 00:03:30	<--	koell (~galactica@91.141.1.202.wireless.dyn.drei.com) has quit (Read error: No route to host)
+2014-03-06 00:03:48	smrtz|nix	[arx]: Oh, ok.  Can you recommend a guide on getting started with zsh then?
+2014-03-06 00:04:43	[arx]	http://www.bash2zsh.com/
+2014-03-06 00:04:56	[arx]	or man zshall
+2014-03-06 00:05:27	smrtz|nix	thanks
+2014-03-06 00:05:34	bro	does zsh have ranges?
+2014-03-06 00:06:02	[arx]	in what context?
+2014-03-06 00:06:06	--	irc: disconnected from server
+2014-03-06 00:28:33	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #zsh
+2014-03-06 00:28:33	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-06 00:28:33	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-06 00:28:34	--	Channel #zsh: 333 nicks (0 ops, 0 voices, 333 normals)
+2014-03-06 00:28:34	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-06 00:28:34	--	URL for #zsh: http://www.zsh.org/
+2014-03-06 00:28:34	--	Mode #zsh [+cnt]
+2014-03-06 00:28:34	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-06 00:28:51	smrtz|nix	[arx]: can you tell me more about the extendglob option please?
+2014-03-06 00:29:10	<--	jwpierce3 (~jwpierce@mbd2d36d0.tmodns.net) has quit (Remote host closed the connection)
+2014-03-06 00:31:06	-->	rihbyne (~rihbyne@114.143.229.205) has joined #zsh
+2014-03-06 00:31:38	[arx]	the man page could explain better than i could. zshexpn, under 'FILENAME GENERATION'
+2014-03-06 00:32:18	smrtz|nix	thanks.
+2014-03-06 00:32:58	--	Guest22082 is now known as raw
+2014-03-06 00:33:03	<--	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has quit (Ping timeout: 244 seconds)
+2014-03-06 00:33:31	--	raw is now known as Guest47233
+2014-03-06 00:35:39	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 00:37:05	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 00:39:50	smrtz|nix	[arx]: if I don't set notify, it won't return important output while I'm having the terminal window doing something, like install something right?
+2014-03-06 00:43:23	<--	akim (~akim@nat/cisco/x-afbmzzulnxjviqkn) has quit (Ping timeout: 244 seconds)
+2014-03-06 00:47:19	-->	akim (~akim@nat/cisco/x-ddmgisatqrkfikza) has joined #zsh
+2014-03-06 00:49:48	<--	zacts (~zacts@freebsd/lover/zacts) has quit (Remote host closed the connection)
+2014-03-06 00:49:58	-->	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has joined #zsh
+2014-03-06 00:56:30	<--	DaveQB (~quassel@ppp255-134.static.internode.on.net) has quit (Ping timeout: 240 seconds)
+2014-03-06 01:03:08	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 01:03:42	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 01:04:12	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 01:04:15	--	irc: disconnected from server
+2014-03-06 01:04:30	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #zsh
+2014-03-06 01:04:30	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-06 01:04:30	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-06 01:04:30	--	Channel #zsh: 332 nicks (0 ops, 0 voices, 332 normals)
+2014-03-06 01:04:30	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-06 01:04:30	--	URL for #zsh: http://www.zsh.org/
+2014-03-06 01:04:32	--	Mode #zsh [+cnt]
+2014-03-06 01:04:32	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-06 01:06:01	-->	shurizzle (~mandolino@unaffiliated/shurizzle) has joined #zsh
+2014-03-06 01:06:43	smrtz|nix	[arx]: I've installed omz so I can play with it a bit, and figure out how I want my zsh to work, then I'll configure it manually without omz.  I'm trying to pick a theme now, from here: 
+2014-03-06 01:07:54	smrtz|nix	but I'm confused on what the themes do, like, does it change what I've set in my .Xdefaults?  or what?
+2014-03-06 01:08:39	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 01:09:11	smrtz|nix	Does the theme control transparency? I'm confused...
+2014-03-06 01:10:11	smrtz|nix	Oh wait, the theme file is just the prompt.
+2014-03-06 01:10:12	smrtz|nix	I get it.
+2014-03-06 01:12:11	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 01:18:01	<--	yngwin (~yngwin@gentoo/developer/yngwin) has quit (Ping timeout: 252 seconds)
+2014-03-06 01:19:24	-->	yngwin (~yngwin@gentoo/developer/yngwin) has joined #zsh
+2014-03-06 01:20:21	-->	torjus (~torjus@82.109-247-173.customer.lyse.net) has joined #zsh
+2014-03-06 01:21:13	<--	jefflyne (~jefflyne@71-90-84-199.dhcp.ftbg.wi.charter.com) has quit (Ping timeout: 264 seconds)
+2014-03-06 01:24:30	-->	jefflyne (~jefflyne@71-90-84-199.dhcp.ftbg.wi.charter.com) has joined #zsh
+2014-03-06 01:24:43	<--	torjus (~torjus@82.109-247-173.customer.lyse.net) has quit (Ping timeout: 244 seconds)
+2014-03-06 01:26:02	<--	jefflyne (~jefflyne@71-90-84-199.dhcp.ftbg.wi.charter.com) has quit (Read error: Connection reset by peer)
+2014-03-06 01:27:21	<--	viranch (~quassel@192.241.205.222) has quit (Read error: Connection reset by peer)
+2014-03-06 01:28:14	-->	viranch (~quassel@192.241.205.222) has joined #zsh
+2014-03-06 01:31:29	--	irc: disconnected from server
+2014-03-06 02:08:32	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #zsh
+2014-03-06 02:08:32	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-06 02:08:32	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-06 02:08:32	--	Channel #zsh: 332 nicks (0 ops, 0 voices, 332 normals)
+2014-03-06 02:08:32	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-06 02:08:32	--	URL for #zsh: http://www.zsh.org/
+2014-03-06 02:08:34	--	Mode #zsh [+cnt]
+2014-03-06 02:08:35	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-06 02:08:37	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 253 seconds)
+2014-03-06 02:10:03	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 02:10:57	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 02:15:47	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 02:16:02	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 02:28:46	<--	Deesl (~bsdboy@unaffiliated/deesl) has quit (Remote host closed the connection)
+2014-03-06 02:34:14	<--	vravn (~vravn@syn.rook.sx) has quit (Excess Flood)
+2014-03-06 02:35:27	-->	vravn (~vravn@syn.rook.sx) has joined #zsh
+2014-03-06 02:39:01	-->	ferreum (~ferreus@p5DC6DCF2.dip0.t-ipconnect.de) has joined #zsh
+2014-03-06 02:43:54	<--	nullpuppy (~dustin@freematrix/staff/nullpuppy) has quit (Read error: Operation timed out)
+2014-03-06 02:44:45	-->	hahuang65 (~hahuang65@2601:9:7e00:b97:bc30:7ad5:71b5:2c35) has joined #zsh
+2014-03-06 02:46:18	-->	MindlessDrone (~MindlessD@unaffiliated/mindlessdrone) has joined #zsh
+2014-03-06 02:46:49	-->	goldkatze (~nobody@unaffiliated/goldkatze) has joined #zsh
+2014-03-06 02:48:14	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 02:49:23	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 02:49:54	<--	ccxlap (~ccxCZ@156.200.broadband11.iol.cz) has quit (Quit: →ccxCZ)
+2014-03-06 03:01:08	-->	rihbyne (~rihbyne@114.143.229.205) has joined #zsh
+2014-03-06 03:01:50	<--	hahuang65 (~hahuang65@2601:9:7e00:b97:bc30:7ad5:71b5:2c35) has quit (Ping timeout: 245 seconds)
+2014-03-06 03:04:27	-->	tsdh (~user@tsdh.uni-koblenz.de) has joined #zsh
+2014-03-06 03:08:28	-->	torjus (~torjus@2a01:79d:b7de:b548:7c9a:fe5c:7da8:e072) has joined #zsh
+2014-03-06 03:09:27	-->	strull (~strull@pD9FBBDBB.dip0.t-ipconnect.de) has joined #zsh
+2014-03-06 03:13:05	<--	torjus (~torjus@2a01:79d:b7de:b548:7c9a:fe5c:7da8:e072) has quit (Ping timeout: 245 seconds)
+2014-03-06 03:14:58	-->	badshaah (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 03:16:26	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 240 seconds)
+2014-03-06 03:17:53	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 03:23:19	<--	hpt (~hpt@202.108.130.193) has quit (Ping timeout: 240 seconds)
+2014-03-06 03:23:25	-->	xlinkz0 (~xlinkz0@84.247.84.110) has joined #zsh
+2014-03-06 03:35:33	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 03:35:56	<--	Ivo (~ivo@unaffiliated/ivoz) has left #zsh ("WeeChat 0.4.3")
+2014-03-06 03:36:36	--	dshoreman|Gone is now known as dshoreman
+2014-03-06 03:36:56	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 03:40:01	-->	Xeago (~Xeago@unaffiliated/xeago) has joined #zsh
+2014-03-06 03:41:07	<--	badshaah (~badshaah@121.244.199.142) has quit (Ping timeout: 244 seconds)
+2014-03-06 03:42:42	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 03:43:08	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 03:46:03	-->	pld_ (~mikar@ip-176-198-98-154.unitymediagroup.de) has joined #zsh
+2014-03-06 03:46:07	-->	pld (~mikar@ip-176-198-98-154.unitymediagroup.de) has joined #zsh
+2014-03-06 03:56:00	<--	Xeago (~Xeago@unaffiliated/xeago) has quit (Remote host closed the connection)
+2014-03-06 03:56:27	-->	Xeago (~Xeago@unaffiliated/xeago) has joined #zsh
+2014-03-06 04:01:42	-->	badshaah (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 04:12:25	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 04:12:25	<--	badshaah (~badshaah@121.244.199.142) has quit (Read error: Connection reset by peer)
+2014-03-06 04:12:29	-->	badshaah_ (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 04:12:57	-->	crees (crees@81.170.81.54) has joined #zsh
+2014-03-06 04:13:00	<--	cads (~m@24-159-101-83.dhcp.gwnt.ga.charter.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:13:01	<--	crees (crees@81.170.81.54) has quit (Changing host)
+2014-03-06 04:13:01	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 04:13:53	-->	CcxCZ (~ccxCZ@asterix.te2000.cz) has joined #zsh
+2014-03-06 04:14:00	<--	zacts (~zacts@freebsd/lover/zacts) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:17:25	<--	scottj (~scott@206.212.250.58) has left #zsh
+2014-03-06 04:18:34	<--	badshaah_ (~badshaah@121.244.199.142) has quit (Read error: No route to host)
+2014-03-06 04:18:46	-->	badshaah (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 04:19:28	<--	ndrei (~avo@83.142.149.227) has quit (Read error: Operation timed out)
+2014-03-06 04:22:41	-->	badshaah_ (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 04:23:19	<--	badshaah (~badshaah@121.244.199.142) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:24:59	<--	crees (crees@freebsd/developer/crees) has quit (Read error: Connection reset by peer)
+2014-03-06 04:25:20	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 04:26:22	-->	badshaah (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 04:26:50	<--	badshaah_ (~badshaah@121.244.199.142) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:29:04	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 04:31:38	<--	badshaah (~badshaah@121.244.199.142) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:31:39	-->	crees_ (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 04:32:13	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 04:35:36	<--	MindlessDrone (~MindlessD@unaffiliated/mindlessdrone) has quit (Quit: MindlessDrone)
+2014-03-06 04:37:27	<--	mitz (~mitz@rt.miraclelinux.com) has quit (Read error: Connection reset by peer)
+2014-03-06 04:38:47	-->	mitz (~mitz@rt.miraclelinux.com) has joined #zsh
+2014-03-06 04:39:38	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 240 seconds)
+2014-03-06 04:40:28	<--	crees_ (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 04:40:47	-->	crees_ (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 04:41:51	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 04:42:49	<--	kerrick (~kerrick@75-144-29-34-novato.ca.sfba.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2014-03-06 04:44:33	-->	Guest98150 (~tarruda@177.98.128.146) has joined #zsh
+2014-03-06 04:44:38	guide	I have a situation where zsh (most recent version from homebrew under osx) forgets part of its history. As far as I see, the loss is after the first n (n=8537) of a larger N (N=19037) lines of the history file. The probably relevant variables are SAVEHIST=19000 & HISTSIZE=20000 & setopt hist_expire_dups_first. I remember to have had this once a few years before, but didn't doo too much about it; as this shrunk the history size, the problem did not ...
+2014-03-06 04:44:41	-->	rolfb (~rolfb@fou-fw.ella.no) has joined #zsh
+2014-03-06 04:44:44	guide	... reoccur. I only recently got a history of more than 19k lines and now am afraid this will happen again. Any ideas / suggestions?
+2014-03-06 04:45:58	<--	crees_ (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 04:47:45	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 04:56:27	-->	Xeago_ (~Xeago@unaffiliated/xeago) has joined #zsh
+2014-03-06 04:56:45	-->	torjus (~torjus@2a01:79d:b7de:b548:69ef:bfbb:393f:9fb1) has joined #zsh
+2014-03-06 04:56:58	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 04:58:47	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 05:00:00	<--	Xeago (~Xeago@unaffiliated/xeago) has quit (Ping timeout: 240 seconds)
+2014-03-06 05:00:26	<--	m0viefreak (~asdf@unaffiliated/m0viefreak) has quit (Ping timeout: 240 seconds)
+2014-03-06 05:01:25	<--	torjus (~torjus@2a01:79d:b7de:b548:69ef:bfbb:393f:9fb1) has quit (Ping timeout: 245 seconds)
+2014-03-06 05:01:43	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 244 seconds)
+2014-03-06 05:05:13	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 05:05:19	-->	badshaah (~badshaah@121.244.199.142) has joined #zsh
+2014-03-06 05:05:31	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 05:09:37	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 05:10:00	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 05:11:54	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 05:20:21	-->	eto (~eto@unaffiliated/eto) has joined #zsh
+2014-03-06 05:20:32	-->	TheBrayn (~TheBrayn@americangirlscouts.org) has joined #zsh
+2014-03-06 05:20:35	<--	badshaah (~badshaah@121.244.199.142) has quit (Remote host closed the connection)
+2014-03-06 05:20:35	TheBrayn	hi
+2014-03-06 05:20:42	eto	hello when i have defined function ls /defined to overload ls command
+2014-03-06 05:20:51	eto	sorry
+2014-03-06 05:20:57	eto	hello when i have defined function ls to overload ls command
+2014-03-06 05:21:05	eto	can i somehow make it work with pipes?
+2014-03-06 05:21:18	<--	vravn (~vravn@syn.rook.sx) has quit (Excess Flood)
+2014-03-06 05:21:20	eto	or do i need to use alias?
+2014-03-06 05:22:28	-->	vravn (~vravn@syn.rook.sx) has joined #zsh
+2014-03-06 05:23:50	eto	nevermind error was on my part
+2014-03-06 05:23:56	eto	solved it thanks
+2014-03-06 05:28:33	TheBrayn	I have a prompt with two lines, how can I make the rprompt be in the first line?
+2014-03-06 05:31:42	vifon	You can't. You'll need to insert it into the regular prompt and pad its first line with spaces.
+2014-03-06 05:32:07	TheBrayn	how can I pad it?
+2014-03-06 05:32:27	vifon	Protip: don't do it. You'll suffer each and every time you resize the terminal window.
+2014-03-06 05:32:41	TheBrayn	ok
+2014-03-06 05:33:29	vifon	Just calculate how many spaces you need and insert them before the "rprompt". But don't. ;)
+2014-03-06 05:33:45	vifon	Been there, done that.
+2014-03-06 05:34:26	-->	grc (~user@host81-142-89-185.in-addr.btopenworld.com) has joined #zsh
+2014-03-06 05:36:41	<--	grc (~user@host81-142-89-185.in-addr.btopenworld.com) has quit (Remote host closed the connection)
+2014-03-06 05:39:54	<--	rihbyne (~rihbyne@114.143.229.205) has quit (Quit: Konversation terminated!)
+2014-03-06 05:41:24	-->	DaisyTheCow (~andy@host86-141-225-254.range86-141.btcentralplus.com) has joined #zsh
+2014-03-06 05:48:16	<--	sharkz_ (r02922070@linux7.csie.ntu.edu.tw) has quit (Read error: Connection reset by peer)
+2014-03-06 05:48:25	-->	sharkz (r02922070@linux7.csie.ntu.edu.tw) has joined #zsh
+2014-03-06 05:49:00	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 240 seconds)
+2014-03-06 05:50:53	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 05:51:15	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 05:53:00	-->	hpt (~hpt@123.114.130.3) has joined #zsh
+2014-03-06 05:54:26	<--	Guest98150 (~tarruda@177.98.128.146) has quit (Ping timeout: 240 seconds)
+2014-03-06 06:04:01	<--	goldkatze (~nobody@unaffiliated/goldkatze) has quit (Ping timeout: 265 seconds)
+2014-03-06 06:04:24	-->	goldkatze (~nobody@unaffiliated/goldkatze) has joined #zsh
+2014-03-06 06:09:31	-->	foredoomed (~foredoome@101.228.85.136) has joined #zsh
+2014-03-06 06:10:09	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 06:10:42	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 06:12:54	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 06:21:06	-->	timewa1ker (~timewalke@eth0.nu) has joined #zsh
+2014-03-06 06:28:22	<--	qwerty (~root@unaffiliated/qwerty) has quit (Quit: User banned (K-lined) reason: Evading bans (last warning))
+2014-03-06 06:30:19	<--	ferreum (~ferreus@p5DC6DCF2.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-03-06 06:36:59	--	karupanerura is now known as zz_karupanerura
+2014-03-06 06:40:00	<--	msx (~quassel@unaffiliated/msx) has quit (Ping timeout: 240 seconds)
+2014-03-06 06:40:11	-->	Guest98150 (~tarruda@177.98.128.146) has joined #zsh
+2014-03-06 06:43:12	-->	ferreum (~ferreus@p5DC6C477.dip0.t-ipconnect.de) has joined #zsh
+2014-03-06 06:44:09	-->	msx (~quassel@181.167.239.149) has joined #zsh
+2014-03-06 06:44:09	<--	msx (~quassel@181.167.239.149) has quit (Changing host)
+2014-03-06 06:44:09	-->	msx (~quassel@unaffiliated/msx) has joined #zsh
+2014-03-06 06:44:57	-->	torjus (~torjus@2a01:79d:b7de:b548:c93c:9448:d5f3:32e5) has joined #zsh
+2014-03-06 06:47:41	<--	DaisyTheCow (~andy@host86-141-225-254.range86-141.btcentralplus.com) has quit (Quit: leaving)
+2014-03-06 06:49:56	<--	torjus (~torjus@2a01:79d:b7de:b548:c93c:9448:d5f3:32e5) has quit (Ping timeout: 265 seconds)
+2014-03-06 06:54:09	--	bro is now known as DickIsFree
+2014-03-06 06:56:13	<--	hpt (~hpt@123.114.130.3) has quit (Ping timeout: 265 seconds)
+2014-03-06 06:56:50	-->	hpt (~hpt@123.114.130.3) has joined #zsh
+2014-03-06 06:58:46	-->	hahuang65 (~hahuang65@2601:9:7e00:b97:5167:937c:f49f:7132) has joined #zsh
+2014-03-06 07:03:14	<--	hahuang65 (~hahuang65@2601:9:7e00:b97:5167:937c:f49f:7132) has quit (Ping timeout: 240 seconds)
+2014-03-06 07:11:56	-->	tessellated (~mih@178.165.130.107.wireless.dyn.drei.com) has joined #zsh
+2014-03-06 07:12:49	<--	Jesin (~Jesin@pool-96-255-140-87.washdc.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-03-06 07:16:10	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 07:17:13	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 07:18:56	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 265 seconds)
+2014-03-06 07:19:00	<--	ISF (~ivan@201.82.72.64) has quit (Ping timeout: 240 seconds)
+2014-03-06 07:24:25	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 07:25:11	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 07:26:00	-->	Jesin (~Jesin@pool-96-255-140-87.washdc.fios.verizon.net) has joined #zsh
+2014-03-06 07:28:08	-->	pr0ggie (~p@095-097-155-171.static.chello.nl) has joined #zsh
+2014-03-06 07:28:35	-->	badshaah (~badshaah@124.124.217.83) has joined #zsh
+2014-03-06 07:30:17	-->	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has joined #zsh
+2014-03-06 07:40:00	-->	bitmasher (bit@miyu.godless-internets.org) has joined #zsh
+2014-03-06 07:40:27	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 07:44:50	<--	tsdh (~user@tsdh.uni-koblenz.de) has quit (Quit: Goodbye guys!)
+2014-03-06 07:44:51	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 07:44:59	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Max SendQ exceeded)
+2014-03-06 07:45:57	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 07:49:11	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 07:50:11	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Client Quit)
+2014-03-06 07:50:56	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 07:53:13	<--	gm152 (~ridout@unaffiliated/ridout) has quit (Quit: WeeChat 0.4.1)
+2014-03-06 07:55:51	<--	chandan (~chandan@122.248.161.59) has quit (Quit: WeeChat 0.4.2)
+2014-03-06 07:57:32	<--	badshaah (~badshaah@124.124.217.83) has quit (Read error: Connection reset by peer)
+2014-03-06 07:57:45	-->	badshaah (~badshaah@124.124.217.83) has joined #zsh
+2014-03-06 07:58:02	-->	umpacu (~umpacu@host141.190-139-27.telecom.net.ar) has joined #zsh
+2014-03-06 07:58:09	<--	umpacu (~umpacu@host141.190-139-27.telecom.net.ar) has quit (Changing host)
+2014-03-06 07:58:09	-->	umpacu (~umpacu@unaffiliated/umpacu) has joined #zsh
+2014-03-06 08:00:50	-->	meh` (~meh@adsl-ull-90-54.42-151.net24.it) has joined #zsh
+2014-03-06 08:10:05	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 08:10:10	<--	badshaah (~badshaah@124.124.217.83) has quit (Remote host closed the connection)
+2014-03-06 08:10:25	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:14:47	-->	badshaah (~badshaah@124.124.217.83) has joined #zsh
+2014-03-06 08:18:53	-->	chavezgu (~chavezgu@as66-186.tontut.fi) has joined #zsh
+2014-03-06 08:23:23	--	dean|away is now known as dean
+2014-03-06 08:24:23	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 08:27:13	-->	DaisyTheCow (~andy@host31-49-74-153.range31-49.btcentralplus.com) has joined #zsh
+2014-03-06 08:27:13	<--	DaisyTheCow (~andy@host31-49-74-153.range31-49.btcentralplus.com) has quit (Client Quit)
+2014-03-06 08:27:45	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 08:28:28	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:29:26	<--	badshaah (~badshaah@124.124.217.83) has quit (Read error: Connection reset by peer)
+2014-03-06 08:29:51	-->	badshaah (~badshaah@124.124.217.83) has joined #zsh
+2014-03-06 08:30:41	<--	yells_ (~yells@chello080108101183.24.11.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2014-03-06 08:31:48	<--	badshaah (~badshaah@124.124.217.83) has quit (Remote host closed the connection)
+2014-03-06 08:33:06	<--	crees (crees@freebsd/developer/crees) has quit (Read error: Connection reset by peer)
+2014-03-06 08:33:18	-->	torjus (~torjus@82.109-247-173.customer.lyse.net) has joined #zsh
+2014-03-06 08:33:20	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:36:32	-->	yells (~yells@chello080108101183.24.11.vie.surfer.at) has joined #zsh
+2014-03-06 08:38:12	<--	torjus (~torjus@82.109-247-173.customer.lyse.net) has quit (Ping timeout: 265 seconds)
+2014-03-06 08:38:41	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 08:39:31	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:40:38	-->	cads (~m@24-159-101-83.dhcp.gwnt.ga.charter.com) has joined #zsh
+2014-03-06 08:46:24	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 08:48:17	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:48:41	<--	goldkatze (~nobody@unaffiliated/goldkatze) has quit
+2014-03-06 08:50:32	<--	rolfb (~rolfb@fou-fw.ella.no) has quit (Quit: Leaving...)
+2014-03-06 08:50:56	-->	polyzen (~poly@unaffiliated/polyzen) has joined #zsh
+2014-03-06 08:52:26	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 08:56:03	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 240 seconds)
+2014-03-06 08:56:17	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 08:56:22	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 08:56:49	-->	nullpuppy (~dustin@freematrix/staff/nullpuppy) has joined #zsh
+2014-03-06 09:00:42	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 09:01:03	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 09:02:02	-->	goldkatze (~nobody@unaffiliated/goldkatze) has joined #zsh
+2014-03-06 09:05:25	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-06 09:05:54	-->	MindlessDrone (~MindlessD@unaffiliated/mindlessdrone) has joined #zsh
+2014-03-06 09:21:02	-->	dik_dak (~dik_dak@66.162.73.238) has joined #zsh
+2014-03-06 09:27:15	-->	chandan (~chandan@106.51.171.214) has joined #zsh
+2014-03-06 09:27:49	<--	goldkatze (~nobody@unaffiliated/goldkatze) has quit (Ping timeout: 264 seconds)
+2014-03-06 09:35:32	-->	ylluminate (~ylluminat@66.55.144.184) has joined #zsh
+2014-03-06 09:42:57	-->	endiruna (~endiendir@poisson.phc.unipi.it) has joined #zsh
+2014-03-06 09:44:42	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 09:45:21	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 09:45:30	<--	ansch (~ansch@se2x.mullvad.net) has quit (Quit: Bye)
+2014-03-06 09:46:11	-->	goldkatze (~nobody@unaffiliated/goldkatze) has joined #zsh
+2014-03-06 09:51:31	-->	Hermit (~hermit@unaffiliated/grpala) has joined #zsh
+2014-03-06 09:53:15	<--	lxsameer (~lxsameer@unaffiliated/lxsameer) has quit (Quit: Leaving)
+2014-03-06 09:54:49	<--	crees (crees@freebsd/developer/crees) has quit (Read error: Connection reset by peer)
+2014-03-06 09:55:11	-->	sentinal8473 (~sentinal8@77.75.107.195) has joined #zsh
+2014-03-06 09:56:45	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 09:58:15	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 10:01:08	-->	hahuang65 (~hahuang65@2601:9:7e00:b97:947a:1d21:f99a:dab) has joined #zsh
+2014-03-06 10:01:35	<--	Kneferilis (~Kneferili@nb1-210.static.cytanet.com.cy) has quit (Read error: Connection reset by peer)
+2014-03-06 10:03:43	<--	xintron (~xintron@unaffiliated/xintron) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:05:37	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:05:38	<--	hahuang65 (~hahuang65@2601:9:7e00:b97:947a:1d21:f99a:dab) has quit (Ping timeout: 240 seconds)
+2014-03-06 10:05:58	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 10:09:56	<--	sentinal8473 (~sentinal8@77.75.107.195) has quit (Read error: Connection reset by peer)
+2014-03-06 10:12:56	-->	sentinal8473 (~sentinal8@77.75.107.195) has joined #zsh
+2014-03-06 10:15:19	-->	Kneferilis (~Kneferili@212.31.98.210) has joined #zsh
+2014-03-06 10:18:00	-->	jeffszusz (~jeffszusz@207-67-104-66.static.twtelecom.net) has joined #zsh
+2014-03-06 10:21:26	-->	torjus (~torjus@2a01:79d:b7de:b548:180d:43f:deda:d04e) has joined #zsh
+2014-03-06 10:21:34	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:24:21	<--	foredoomed (~foredoome@101.228.85.136) has quit (Remote host closed the connection)
+2014-03-06 10:25:28	-->	colinbits (~colinbits@70-88-135-49-washingtondc.hfc.comcastbusiness.net) has joined #zsh
+2014-03-06 10:25:34	-->	xintron (~xintron@unaffiliated/xintron) has joined #zsh
+2014-03-06 10:26:00	<--	torjus (~torjus@2a01:79d:b7de:b548:180d:43f:deda:d04e) has quit (Ping timeout: 245 seconds)
+2014-03-06 10:27:08	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 10:27:14	--	earthnat1ve is now known as earthnative
+2014-03-06 10:28:10	<--	Guest98150 (~tarruda@177.98.128.146) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:28:35	<--	xlinkz0 (~xlinkz0@84.247.84.110) has quit (Quit: Leaving)
+2014-03-06 10:29:50	-->	jasonkuhrt (~jasonkuhr@modemcable047.68-83-70.mc.videotron.ca) has joined #zsh
+2014-03-06 10:31:07	jasonkuhrt	I have a simple goal of creating a child process that is killed when the parent is killed, is there a dead-simple way to do this on the commandline?
+2014-03-06 10:31:29	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:31:53	vifon	Isn't it done automatically?
+2014-03-06 10:32:08	thrig	killed how?
+2014-03-06 10:33:57	<--	polyzen (~poly@unaffiliated/polyzen) has quit (Quit: polyzen)
+2014-03-06 10:34:39	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 10:34:49	[arx]	> yes hi & sleep .02s; exit
+2014-03-06 10:34:49	corbenik	[arx]: No output, exitstatus: 0
+2014-03-06 10:34:59	[arx]	> yes hi & sleep .04s; exit
+2014-03-06 10:35:00	corbenik	[arx]: hi
+2014-03-06 10:35:01	corbenik	[arx]: hi
+2014-03-06 10:35:01	corbenik	[arx]: hi
+2014-03-06 10:35:01	corbenik	[arx]: 7 more lines ( http://sprunge.us/YJgc )
+2014-03-06 10:36:47	<--	chavezgu (~chavezgu@as66-186.tontut.fi) has quit (Read error: Operation timed out)
+2014-03-06 10:39:10	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:39:36	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 10:43:54	-->	chandan_ (~chandan@106.51.171.214) has joined #zsh
+2014-03-06 10:46:20	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:46:22	-->	cfricke (~cfricke@96.45.197.22) has joined #zsh
+2014-03-06 10:49:41	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 10:50:28	<--	ferreum (~ferreus@p5DC6C477.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-03-06 10:51:27	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-06 10:53:07	<--	crees (crees@freebsd/developer/crees) has quit (Read error: Connection reset by peer)
+2014-03-06 10:55:08	-->	minde (~minde@unaffiliated/minde) has joined #zsh
+2014-03-06 10:59:57	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 11:00:37	<--	cfricke (~cfricke@96.45.197.22) has quit (Read error: Operation timed out)
+2014-03-06 11:02:51	<--	jasonkuhrt (~jasonkuhr@modemcable047.68-83-70.mc.videotron.ca) has quit (Quit: Linkinus - http://linkinus.com)
+2014-03-06 11:04:29	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 11:05:17	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 11:11:42	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 11:12:44	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 11:14:15	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 11:14:21	-->	Guest98150 (~tarruda@177.98.128.146) has joined #zsh
+2014-03-06 11:16:31	<--	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has quit
+2014-03-06 11:16:39	<--	Hermit (~hermit@unaffiliated/grpala) has quit (Ping timeout: 240 seconds)
+2014-03-06 11:16:45	-->	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has joined #zsh
+2014-03-06 11:17:24	-->	Hermit (~hermit@unaffiliated/grpala) has joined #zsh
+2014-03-06 11:26:00	<--	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has quit (Ping timeout: 245 seconds)
+2014-03-06 11:35:09	<--	robde (~robde@p5B136DCE.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2014-03-06 11:35:38	-->	robde (~robde@p5B136DCE.dip0.t-ipconnect.de) has joined #zsh
+2014-03-06 11:36:24	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 11:37:03	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 11:41:19	<--	sentinal8473 (~sentinal8@77.75.107.195) has quit (Read error: Connection reset by peer)
+2014-03-06 11:42:12	--	dshoreman is now known as dshoreman|Gone
+2014-03-06 11:46:22	-->	cfricke (~cfricke@96.45.197.22) has joined #zsh
+2014-03-06 11:53:48	-->	torjus (~torjus@82.109-247-173.customer.lyse.net) has joined #zsh
+2014-03-06 11:54:00	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 11:54:50	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 11:56:43	-->	sbine (~sbine@tra78-6-88-186-13-233.fbx.proxad.net) has joined #zsh
+2014-03-06 11:57:12	-->	ferreum (~ferreus@185-23-225-110.lsn.wtnet.de) has joined #zsh
+2014-03-06 11:58:39	<--	arvind_khadri (~arvind@unaffiliated/arvind-khadri/x-2237230) has quit (Remote host closed the connection)
+2014-03-06 12:00:33	-->	foredoomed (~foredoome@101.228.85.136) has joined #zsh
+2014-03-06 12:01:12	<--	Hermit (~hermit@unaffiliated/grpala) has left #zsh ("WeeChat 0.3.8")
+2014-03-06 12:02:48	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:02:54	<--	Xeago_ (~Xeago@unaffiliated/xeago) has quit (Remote host closed the connection)
+2014-03-06 12:03:58	-->	raw (~raw@f049192226.adsl.alicedsl.de) has joined #zsh
+2014-03-06 12:05:00	<--	foredoomed (~foredoome@101.228.85.136) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:05:20	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:09:40	-->	koell (~galactica@91.141.2.121.wireless.dyn.drei.com) has joined #zsh
+2014-03-06 12:11:16	-->	bgentry (~bgentry@204.28.122.110) has joined #zsh
+2014-03-06 12:11:36	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:12:28	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:14:11	-->	hidekin (~hidekin@85.218.111.210) has joined #zsh
+2014-03-06 12:18:45	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:19:52	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:20:37	-->	petey (~petey@198.179.137.196) has joined #zsh
+2014-03-06 12:20:38	-->	j^2 (~jasghar@207.235.33.2) has joined #zsh
+2014-03-06 12:23:07	<--	pr0ggie (~p@095-097-155-171.static.chello.nl) has quit (Quit: Bye folks)
+2014-03-06 12:25:55	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:26:30	-->	Xeago (~Xeago@unaffiliated/xeago) has joined #zsh
+2014-03-06 12:28:30	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:34:10	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:34:41	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:39:01	<--	osse (~osse@unaffiliated/osse) has quit (Read error: Connection reset by peer)
+2014-03-06 12:39:45	-->	osse (~osse@unaffiliated/osse) has joined #zsh
+2014-03-06 12:40:26	<--	ylluminate (~ylluminat@66.55.144.184) has quit (Quit: Bye!)
+2014-03-06 12:40:46	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:41:18	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:43:13	<--	bgentry (~bgentry@204.28.122.110) has quit (Quit: bgentry)
+2014-03-06 12:46:49	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 12:46:58	<--	Roukoswarf (admin@rouk.org) has quit (Remote host closed the connection)
+2014-03-06 12:47:00	-->	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has joined #zsh
+2014-03-06 12:48:28	-->	Roukoswarf (admin@rouk.org) has joined #zsh
+2014-03-06 12:49:17	-->	User458764 (~User45876@cue83-2-78-235-77-43.fbx.proxad.net) has joined #zsh
+2014-03-06 12:49:21	<--	torjus (~torjus@82.109-247-173.customer.lyse.net) has quit (Remote host closed the connection)
+2014-03-06 12:49:28	-->	torjus (~torjus@2a01:79d:b7de:b548:5c17:fd08:2812:5e0a) has joined #zsh
+2014-03-06 12:49:32	<--	Roukoswarf (admin@rouk.org) has quit (Client Quit)
+2014-03-06 12:50:58	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:51:15	-->	Roukoswarf (admin@rouk.org) has joined #zsh
+2014-03-06 12:52:44	<--	lunaryorn (~lunaryorn@2001:a60:13cb:bb01:821f:2ff:feae:c69b) has quit
+2014-03-06 12:53:42	<--	Guest98150 (~tarruda@177.98.128.146) has quit (Ping timeout: 249 seconds)
+2014-03-06 12:55:27	<--	crees (crees@freebsd/developer/crees) has quit (Excess Flood)
+2014-03-06 12:55:49	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 12:58:57	-->	rwiggins (~rwiggins@2601:5:1f00:758:92f6:52ff:fee5:77d1) has joined #zsh
+2014-03-06 13:14:19	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 13:14:37	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 13:16:13	-->	ZyX-I (~ZyX-I@broadband-77-37-224-207.nationalcablenetworks.ru) has joined #zsh
+2014-03-06 13:17:37	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 264 seconds)
+2014-03-06 13:21:34	-->	galkavn (~galkavn@62.109.6.58) has joined #zsh
+2014-03-06 13:21:40	<--	j^2 (~jasghar@207.235.33.2) has quit (Quit: for i in `/names` ; do adios $i; done)
+2014-03-06 13:26:21	-->	hahuang65 (~hahuang65@208.65.181.227.static.etheric.net) has joined #zsh
+2014-03-06 13:28:16	-->	bgentry (~bgentry@152.179.69.246) has joined #zsh
+2014-03-06 13:29:23	-->	chavezgu (~chavezgu@as66-186.tontut.fi) has joined #zsh
+2014-03-06 13:30:19	-->	m0viefreak (~asdf@unaffiliated/m0viefreak) has joined #zsh
+2014-03-06 13:31:40	<--	chandan_ (~chandan@106.51.171.214) has quit (Ping timeout: 244 seconds)
+2014-03-06 13:32:27	-->	cat_pants (~kerry@209.189.196.1) has joined #zsh
+2014-03-06 13:34:08	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 13:34:41	<--	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has quit (Remote host closed the connection)
+2014-03-06 13:35:55	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 13:36:18	-->	gigetoo (~gigetoo@c83-250-61-4.bredband.comhem.se) has joined #zsh
+2014-03-06 13:39:38	<--	msx (~quassel@unaffiliated/msx) has quit (Ping timeout: 252 seconds)
+2014-03-06 13:40:11	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 13:42:04	<--	Kryptron_ (~Kryptron@unaffiliated/kryptron) has quit (Ping timeout: 252 seconds)
+2014-03-06 13:42:11	-->	msx (~quassel@181.167.239.149) has joined #zsh
+2014-03-06 13:42:11	<--	msx (~quassel@181.167.239.149) has quit (Changing host)
+2014-03-06 13:42:11	-->	msx (~quassel@unaffiliated/msx) has joined #zsh
+2014-03-06 13:45:06	<--	strull (~strull@pD9FBBDBB.dip0.t-ipconnect.de) has quit (Ping timeout: 244 seconds)
+2014-03-06 13:45:37	<--	galkavn (~galkavn@62.109.6.58) has quit (Ping timeout: 244 seconds)
+2014-03-06 13:46:21	--	dean is now known as dean|away
+2014-03-06 13:49:16	-->	ccxlap (~ccxCZ@156.200.broadband11.iol.cz) has joined #zsh
+2014-03-06 13:49:18	<--	ccxlap (~ccxCZ@156.200.broadband11.iol.cz) has quit (Client Quit)
+2014-03-06 13:50:55	-->	ccxlap (~ccxCZ@156.200.broadband11.iol.cz) has joined #zsh
+2014-03-06 13:57:53	<--	chandan (~chandan@106.51.171.214) has quit (Quit: WeeChat 0.4.3)
+2014-03-06 14:10:52	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 14:19:15	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 14:19:51	<--	User458764 (~User45876@cue83-2-78-235-77-43.fbx.proxad.net) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2014-03-06 14:21:51	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 14:25:50	-->	jackneill (~jackneill@195-38-96-215.pool.digikabel.hu) has joined #zsh
+2014-03-06 14:25:51	<--	jackneill (~jackneill@195-38-96-215.pool.digikabel.hu) has quit (Changing host)
+2014-03-06 14:25:51	-->	jackneill (~jackneill@unaffiliated/jackneill) has joined #zsh
+2014-03-06 14:29:43	-->	druonysus (~drew@206.169.198.1) has joined #zsh
+2014-03-06 14:29:43	<--	druonysus (~drew@206.169.198.1) has quit (Changing host)
+2014-03-06 14:29:43	-->	druonysus (~drew@unaffiliated/druonysus) has joined #zsh
+2014-03-06 14:30:59	<--	jefflyne (~jefflyne@71-90-84-199.dhcp.ftbg.wi.charter.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 14:31:21	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 14:31:30	<--	lysanderslair (~jeff@dsl-173-206-86-7.tor.primus.ca) has quit (Read error: Operation timed out)
+2014-03-06 14:31:55	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 14:32:56	-->	jefflyne (~jefflyne@71-90-84-199.dhcp.ftbg.wi.charter.com) has joined #zsh
+2014-03-06 14:34:32	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 14:39:03	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 14:41:15	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 14:42:52	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-06 14:45:36	-->	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has joined #zsh
+2014-03-06 14:53:56	<--	Kneferilis (~Kneferili@212.31.98.210) has quit (Read error: Connection reset by peer)
+2014-03-06 14:58:25	<--	ndrei (~avo@83.142.149.227) has quit (Ping timeout: 264 seconds)
+2014-03-06 14:59:13	-->	GigaG33k (~frakingch@65-116-221-195.dia.static.qwest.net) has joined #zsh
+2014-03-06 14:59:19	-->	volosh (~volosh@46.148.31.131) has joined #zsh
+2014-03-06 15:00:05	<--	raw (~raw@f049192226.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2014-03-06 15:01:20	<--	goldkatze (~nobody@unaffiliated/goldkatze) has quit (Read error: Connection reset by peer)
+2014-03-06 15:01:29	-->	jayne_ (~jayne@freenode/staff/jayne) has joined #zsh
+2014-03-06 15:02:00	-->	k03ll (~galactica@91.141.2.121.wireless.dyn.drei.com) has joined #zsh
+2014-03-06 15:03:13	-->	goldkatze (~nobody@unaffiliated/goldkatze) has joined #zsh
+2014-03-06 15:03:26	<--	offbyone (~offbyone@spf.ip6.is-is.ca) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:03:28	<--	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-iufuotzcacfzjtef) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:03:29	<--	jayne (~jayne@freenode/staff/jayne) has quit (Read error: Connection reset by peer)
+2014-03-06 15:03:29	<--	koell (~galactica@91.141.2.121.wireless.dyn.drei.com) has quit (Quit: So say we all!)
+2014-03-06 15:03:29	<--	jgornick (jgornick@2600:3c00::f03c:91ff:fedf:72b4) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:03:29	-->	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/session) has joined #zsh
+2014-03-06 15:03:29	<--	MichaelRpdx (~MichaelRp@2601:7:880:cc0:221:6aff:fe69:31e2) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-06 15:03:29	-->	MichaelRpdx (~MichaelRp@2601:7:880:cc0:221:6aff:fe69:31e2) has joined #zsh
+2014-03-06 15:03:30	-->	offbyone (~offbyone@spf.ip6.is-is.ca) has joined #zsh
+2014-03-06 15:03:31	<--	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/session) has quit (Changing host)
+2014-03-06 15:03:31	-->	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-caidzwjfmsesyzbz) has joined #zsh
+2014-03-06 15:03:33	<--	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-caidzwjfmsesyzbz) has quit (Changing host)
+2014-03-06 15:03:33	-->	DarkUnknown (DarkUnknow@unaffiliated/darkunknown) has joined #zsh
+2014-03-06 15:03:33	<--	DarkUnknown (DarkUnknow@unaffiliated/darkunknown) has quit (Changing host)
+2014-03-06 15:03:33	-->	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-caidzwjfmsesyzbz) has joined #zsh
+2014-03-06 15:03:49	-->	j^2 (~jasghar@207.235.33.2) has joined #zsh
+2014-03-06 15:03:54	-->	jgornick (jgornick@2600:3c00::f03c:91ff:fedf:72b4) has joined #zsh
+2014-03-06 15:08:15	-->	ndrei (~avo@83.142.149.227) has joined #zsh
+2014-03-06 15:08:31	<--	cads (~m@24-159-101-83.dhcp.gwnt.ga.charter.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 15:15:57	-->	Sonderblade (~Sonderbla@h-52-183.a157.priv.bahnhof.se) has joined #zsh
+2014-03-06 15:16:04	-->	macmic (~macmic@h195n11-spaa-a12.ias.bredband.telia.com) has joined #zsh
+2014-03-06 15:16:05	<--	macmic (~macmic@h195n11-spaa-a12.ias.bredband.telia.com) has quit (Max SendQ exceeded)
+2014-03-06 15:16:34	-->	macmic (~macmic@h195n11-spaa-a12.ias.bredband.telia.com) has joined #zsh
+2014-03-06 15:16:38	<--	rojem (~rojem@pool-173-48-164-175.bstnma.fios.verizon.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-06 15:16:58	<--	Samopotamus (~IRCIdent@2607:5300:60:a0d::1) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:18:54	<--	jgornick (jgornick@2600:3c00::f03c:91ff:fedf:72b4) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:18:55	<--	zack6849 (zack6849@unaffiliated/maxibyte) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:19:10	-->	Bagers (~amt@2607:5300:60:2a8b::1) has joined #zsh
+2014-03-06 15:19:23	<--	bitmasher (bit@miyu.godless-internets.org) has quit (Ping timeout: 265 seconds)
+2014-03-06 15:19:23	-->	Samopotamus (~IRCIdent@2607:5300:60:a0d::1) has joined #zsh
+2014-03-06 15:19:36	-->	zack6849 (zack6849@unaffiliated/maxibyte) has joined #zsh
+2014-03-06 15:19:49	<--	Amt (~amt@2607:5300:60:2a8b::1) has quit (Read error: Connection reset by peer)
+2014-03-06 15:20:38	<--	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-caidzwjfmsesyzbz) has quit (Excess Flood)
+2014-03-06 15:20:52	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 15:21:14	-->	DarkUnknown (DarkUnknow@gateway/shell/panicbnc/x-kaggoayamfrgismf) has joined #zsh
+2014-03-06 15:21:16	-->	crees (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 15:21:44	-->	jgornick (jgornick@2600:3c00::f03c:91ff:fedf:72b4) has joined #zsh
+2014-03-06 15:22:00	-->	cads (~m@24-159-101-83.dhcp.gwnt.ga.charter.com) has joined #zsh
+2014-03-06 15:27:28	<--	crees (crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)
+2014-03-06 15:28:03	<--	volosh (~volosh@46.148.31.131) has quit (Ping timeout: 240 seconds)
+2014-03-06 15:28:42	-->	dejan555 (~root@unaffiliated/daysleeper555) has joined #zsh
+2014-03-06 15:30:09	-->	crees (~crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 15:33:36	<--	seburb (~seburb@g230121007.adsl.alicedsl.de) has quit (Ping timeout: 244 seconds)
+2014-03-06 15:36:31	<--	dejan555 (~root@unaffiliated/daysleeper555) has quit (Quit: WeeChat 0.4.3)
+2014-03-06 15:38:00	<--	cads (~m@24-159-101-83.dhcp.gwnt.ga.charter.com) has quit (Ping timeout: 240 seconds)
+2014-03-06 15:38:47	-->	dejan555 (~root@unaffiliated/daysleeper555) has joined #zsh
+2014-03-06 15:39:07	<--	hidekin (~hidekin@85.218.111.210) has quit (Remote host closed the connection)
+2014-03-06 15:42:10	-->	crees_ (crees@freebsd/developer/crees) has joined #zsh
+2014-03-06 15:43:58	<--	crees (~crees@freebsd/developer/crees) has quit (Ping timeout: 252 seconds)

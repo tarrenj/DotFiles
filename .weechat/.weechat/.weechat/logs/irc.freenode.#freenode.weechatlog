@@ -1,0 +1,413 @@
+2014-02-26 01:07:12	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #freenode
+2014-02-26 01:07:12	--	Topic for #freenode is "Welcome to #freenode | Staff are voiced; some may also be on /stats p -- you can /msg us at any time | FAQ: https://freenode.net/faq.shtml | Unwelcome queries? Use /mode your_nick +R to block them. | Channel guidelines: https://freenode.net/poundfreenode.shtml | Blog: https://blog.freenode.net | Please don't comment on spam/trolls."
+2014-02-26 01:07:12	--	Topic set by kloeri (~kloeri@freenode/staff/exherbo.kloeri) on Mon, 24 Feb 2014 18:11:42
+2014-02-26 01:07:12	--	Channel #freenode: 1191 nicks (1 op, 28 voices, 1162 normals)
+2014-02-26 01:07:12	--	PvNotice(ChanServ): Welcome to #freenode. All network staff are voiced in here, but may not always be around - type /stats p to get a list of on call staff. Others may be hiding so do feel free to ping and /msg us at will! Also please read the channel guidelines at http://freenode.net/poundfreenode.shtml - thanks.
+2014-02-26 01:07:12	--	URL for #freenode: http://freenode.net/
+2014-02-26 01:07:13	--	Mode #freenode [+CLPcntjf 5:10 #freenode-unreg]
+2014-02-26 01:07:13	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-02-26 01:07:26	smrtz|nix	Can someone highlight me please?  I'm testing my client for something...
+2014-02-26 01:08:19	--	Oblivious is now known as Obby
+2014-02-26 01:08:27	Kitty-	smrtz|nix: like that?
+2014-02-26 01:08:42	smrtz|nix	Oh god, no.
+2014-02-26 01:08:51	smrtz|nix	I guess I'm not done with my client.
+2014-02-26 01:08:58	smrtz|nix	thnaks for testing that Kitty- 
+2014-02-26 01:09:02	<--	Obby (Oblivious@2604:180:1::61f8:310b) has left #freenode ("Leaving...")
+2014-02-26 01:09:09	<--	led_belly (~keystream@S01060050fc1ea715.cg.shawcable.net) has quit (Quit: Lost terminal)
+2014-02-26 01:09:24	smrtz|nix	but that was horrible. sounds and lights and everything bad happening 
+2014-02-26 01:09:29	<--	talluri (~talluri@106.220.7.117) has quit (Ping timeout: 240 seconds)
+2014-02-26 01:09:58	-->	mickfish (42837981@gateway/web/freenode/ip.66.131.121.129) has joined #freenode
+2014-02-26 01:10:32	<--	Vengeance (~VOH@2605:a601:260:d601:613c:6dc5:d808:6c3) has quit (Read error: Connection reset by peer)
+2014-02-26 01:10:37	<--	AndroidVaan (~SonicVaan@xdsl-78-35-199-60.netcologne.de) has quit (Read error: Connection reset by peer)
+2014-02-26 01:11:45	molitar	Guess nobody is around to help with my proxy server issue.
+2014-02-26 01:11:48	-->	yhhua (1b21b719@gateway/web/cgi-irc/kiwiirc.com/ip.27.33.183.25) has joined #freenode
+2014-02-26 01:12:17	<--	per_otte (gallowsb@unaffiliated/per-otte/x-5271672) has left #freenode
+2014-02-26 01:12:20	Kitty-	Hot or not on a female: http://www.discountwomensdressshoes.com/servlet/the-64867/Gray-Riding-Motorcycle-Moto/Detail
+2014-02-26 01:12:20	-->	dvdhrm (~dvdhrm@stgt-5f716aba.pool.mediaWays.net) has joined #freenode
+2014-02-26 01:12:43	<--	yhhua (1b21b719@gateway/web/cgi-irc/kiwiirc.com/ip.27.33.183.25) has left #freenode
+2014-02-26 01:12:58	-->	shaileshg (uid12273@gateway/web/irccloud.com/x-hoexqlscsbobycne) has joined #freenode
+2014-02-26 01:14:10	<--	KingSlayer (dooubletap@unaffiliated/kingslayer) has quit (Quit: Everyone has to die sometime.)
+2014-02-26 01:14:22	<--	Mikaela (mkaysi@trekweb/user/Mkaysi) has quit (Remote host closed the connection)
+2014-02-26 01:14:32	--	r04r is now known as r04r|away
+2014-02-26 01:15:41	<--	mneri (~mneri@host135-187-dynamic.252-95-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-02-26 01:15:42	-->	mneri1 (~mneri@91.253.82.183) has joined #freenode
+2014-02-26 01:15:45	-->	Mikaela (mkaysi@trekweb/user/Mkaysi) has joined #freenode
+2014-02-26 01:16:07	<--	Ashes_ (~quassel@S0106602ad08f9b3c.cg.shawcable.net) has quit (Read error: Connection reset by peer)
+2014-02-26 01:16:31	-->	mneri2 (~mneri@94.163.206.241) has joined #freenode
+2014-02-26 01:16:44	smrtz|nix	Kitty-: depends on your body.
+2014-02-26 01:16:53	<--	mickfish (42837981@gateway/web/freenode/ip.66.131.121.129) has quit (Ping timeout: 245 seconds)
+2014-02-26 01:17:17	-->	sunwind (~paradox@cpc21-brmb8-2-0-cust749.1-3.cable.virginm.net) has joined #freenode
+2014-03-08 00:55:52	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined #freenode
+2014-03-08 00:55:52	--	Topic for #freenode is "Welcome to #freenode | Staff are voiced; some may also be on /stats p -- you can /msg us at any time | FAQ: https://freenode.net/faq.shtml | Unwelcome queries? Use /mode your_nick +R to block them. | Channel guidelines: https://freenode.net/poundfreenode.shtml | Blog: https://blog.freenode.net | Please don't comment on spam/trolls."
+2014-03-08 00:55:52	--	Topic set by evilmquin on Wed, 26 Feb 2014 15:11:10
+2014-03-08 00:55:53	--	Channel #freenode: 1307 nicks (1 op, 29 voices, 1277 normals)
+2014-03-08 00:55:53	--	PvNotice(ChanServ): Welcome to #freenode. All network staff are voiced in here, but may not always be around - type /stats p to get a list of on call staff. Others may be hiding so do feel free to ping and /msg us at will! Also please read the channel guidelines at http://freenode.net/poundfreenode.shtml - thanks.
+2014-03-08 00:55:53	--	URL for #freenode: http://freenode.net/
+2014-03-08 00:55:54	--	Mode #freenode [+CLPcntjf 5:10 #freenode-unreg]
+2014-03-08 00:55:54	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-08 00:56:42	smrtz|nix	Hey, user 'powis' is sending users in #debian spam PM's.  Can on of you guys kick him please?
+2014-03-08 00:56:53	RiverRat	velus: It is implemented in your client.
+2014-03-08 00:56:54	<--	bca (uid1192@wikimedia/Joe-Gazz84) has quit (Quit: Connection closed for inactivity)
+2014-03-08 00:57:01	<--	DD321123 (~DD321123@unaffiliated/nokturnus) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2014-03-08 00:57:05	velus	ok ty
+2014-03-08 00:57:08	<--	velus (~velus@unaffiliated/velus) has left #freenode ("so loong suckers")
+2014-03-08 00:57:13	<--	willo (~quassel@fedora/willo) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-08 00:57:31	-->	willo (~quassel@14-202-197-64.static.tpgi.com.au) has joined #freenode
+2014-03-08 00:57:31	<--	willo (~quassel@14-202-197-64.static.tpgi.com.au) has quit (Changing host)
+2014-03-08 00:57:31	-->	willo (~quassel@fedora/willo) has joined #freenode
+2014-03-08 00:58:21	<--	sa`tan (blaster@76.121.32.97) has quit (Read error: Connection reset by peer)
+2014-03-08 00:59:00	-->	sa`tan (blaster@c-76-121-32-97.hsd1.wa.comcast.net) has joined #freenode
+2014-03-08 00:59:00	<--	mastershake (~mastersha@gateway/tor-sasl/mastershake) has left #freenode
+2014-03-08 00:59:33	-->	LinearInterpol (~RJones@cpe-76-178-249-81.maine.res.rr.com) has joined #freenode
+2014-03-08 00:59:37	<--	Herdin (~IceChat09@unaffiliated/herdin) has quit (Ping timeout: 264 seconds)
+2014-03-08 01:00:02	<--	Levanu (~Levanu@cpe-98-28-4-88.columbus.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-03-08 01:00:18	smrtz|nix	Hello?  Anyone active here?
+2014-03-08 01:00:25	-->	sorakun_ (~quassel@41.230.217.150) has joined #freenode
+2014-03-08 01:00:41	[Keith]	many are, many aren't.
+2014-03-08 01:01:14	clone2	there are more dead people here
+2014-03-08 01:01:15	-->	sunwind` (~paradox@cpc21-brmb8-2-0-cust749.1-3.cable.virginm.net) has joined #freenode
+2014-03-08 01:01:25	<--	willo (~quassel@fedora/willo) has quit (Client Quit)
+2014-03-08 01:01:29	smrtz|nix	Ok, I guess I'll just wait around.
+2014-03-08 01:01:40	RiverRat	For?
+2014-03-08 01:01:41	-->	no-n (~no-n@unaffiliated/no-n) has joined #freenode
+2014-03-08 01:01:44	-->	willo (~quassel@14-202-197-64.static.tpgi.com.au) has joined #freenode
+2014-03-08 01:01:44	<--	willo (~quassel@14-202-197-64.static.tpgi.com.au) has quit (Changing host)
+2014-03-08 01:01:44	-->	willo (~quassel@fedora/willo) has joined #freenode
+2014-03-08 01:02:06	<--	Latioff (~eon@65.60.27.27) has quit (Read error: Connection reset by peer)
+2014-03-08 01:02:21	smrtz|nix	RiverRat:  user 'powis' is sending users in #debian spam PMs.  I'm asking an OPer to kick him.
+2014-03-08 01:02:51	-->	Latioff (~eon@65.60.27.27) has joined #freenode
+2014-03-08 01:02:59	-->	natural (~natural@unaffiliated/science-abc) has joined #freenode
+2014-03-08 01:03:04	natural	hello
+2014-03-08 01:03:06	RiverRat	Yeah, saw your message.  It is in #gentoo as well and I'm watching.  I don't have Kline powers though and staff will probably need more than one report to do anything.
+2014-03-08 01:03:15	<--	netwalker (~netwalker@modemcable157.188-82-70.mc.videotron.ca) has quit (Read error: Connection reset by peer)
+2014-03-08 01:03:22	natural	alive, helol, thank you
+2014-03-08 01:03:42	natural	so, i'm hello
+2014-03-08 01:03:56	<--	sunwind (~paradox@cpc21-brmb8-2-0-cust749.1-3.cable.virginm.net) has quit (Ping timeout: 244 seconds)
+2014-03-08 01:04:42	natural	don't speak unles you want me to kill myself.
+2014-03-08 01:04:48	smrtz|nix	RiverRat: they can ask in #debian, i asked there before coming here, and others said they were getting them as well.
+2014-03-08 01:05:04	<--	fudgy (irssi@2001:1b40:5000:4::6a7c:ac96) has quit (Quit: Ex-Chat)
+2014-03-08 01:05:15	Chiyo	natural If you are feeling suicidal, please read http://redd.it/c305t and call a hotline where you live :)
+2014-03-08 01:05:20	<--	JtH (~5CE0A708@unaffiliated/cmdlnkid) has quit (Remote host closed the connection)
+2014-03-08 01:05:33	natural	you would too after you love life as a spider and find that angels do not live inyour love.
+2014-03-08 01:06:17	clone2	kill the ops take control
+2014-03-08 01:06:37	clone2	the bots will rule
+2014-03-08 01:07:36	<--	toster (~lurker@85.234.190.137) has quit (Read error: Connection reset by peer)
+2014-03-08 01:08:16	-->	onlty (~oaktree@202.30.31.171) has joined #freenode
+2014-03-08 01:10:24	<--	LinearInterpol (~RJones@cpe-76-178-249-81.maine.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-03-08 01:10:25	<--	ashih (~ashih@pool-173-61-151-74.cmdnnj.fios.verizon.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-03-08 01:10:40	<--	willo (~quassel@fedora/willo) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-08 01:11:01	-->	willo (~quassel@14-202-197-64.static.tpgi.com.au) has joined #freenode
+2014-03-08 01:11:02	<--	willo (~quassel@14-202-197-64.static.tpgi.com.au) has quit (Changing host)
+2014-03-08 01:11:02	-->	willo (~quassel@fedora/willo) has joined #freenode
+2014-03-08 01:11:03	-->	jamman2110 (~JAMMAN211@unaffiliated/jamman2110) has joined #freenode
+2014-03-08 01:11:23	natural	If life as an addict disapoints you father, I will seek a life as a power you cannot phathom. The only breaks in this world are built by life. I love father, I will not be betrayed by blood my friend. My friend is better than hell. My actions are living now.
+2014-03-08 01:12:13	-->	Oakfeather (4caaadb9@gateway/web/freenode/ip.76.170.173.185) has joined #freenode
+2014-03-08 01:13:00	natural	My desires of battle.
+2014-03-08 01:13:00	<--	Latioff (~eon@65.60.27.27) has quit (Read error: Connection reset by peer)
+2014-03-08 01:13:38	-->	satc (~mrtazz@202.3.77.238) has joined #freenode
+2014-03-08 01:13:47	-->	Consuela (~stupid@unaffiliated/stupid) has joined #freenode
+2014-03-08 01:13:49	natural	freedome is worth life
+2014-03-08 01:14:05	<--	sorakun_ (~quassel@41.230.217.150) has quit (Remote host closed the connection)
+2014-03-08 01:14:17	satc	I am not able to figure out why my sasl authentication is failing but I am able to use nickserv identify successfully.
+2014-03-08 01:14:23	<--	jamman2110 (~JAMMAN211@unaffiliated/jamman2110) has quit (Client Quit)
+2014-03-08 01:14:30	<--	litenn (~litenn@49.200.27.109.rev.sfr.net) has quit (Remote host closed the connection)
+2014-03-08 01:14:33	natural	i'm sorry
+2014-03-08 01:14:36	-->	Latios (~eon@65.60.27.27) has joined #freenode
+2014-03-08 01:14:43	satc	I have a registered and verified account
+2014-03-08 01:14:47	-->	bocaneri (~bocaneri_@about/linux/staff/sauvin) has joined #freenode
+2014-03-08 01:14:54	natural	fear is death
+2014-03-08 01:15:08	clone2	fear nothing
+2014-03-08 01:15:10	natural	stop asking
+2014-03-08 01:15:11	-->	Ashes_ (~quassel@S0106602ad08f9b3c.cg.shawcable.net) has joined #freenode
+2014-03-08 01:15:24	clone2	kill the a;ien invaders
+2014-03-08 01:15:29	natural	sweet
+2014-03-08 01:16:16	natural	the more i am fighting this the more i am not capable of love. love has fight for me tonight and I won't give up on it
+2014-03-08 01:16:26	<--	viscera (~viscera@unaffiliated/viscera) has quit (Quit: viscera)
+2014-03-08 01:16:26	<--	natural (~natural@unaffiliated/science-abc) has quit (Quit: SountOfHornQuit'nTime)
+2014-03-08 01:17:06	Consuela	👅can i get a cloak update? 🌸🌷💐🌺🌻🌹🌾
+2014-03-08 01:17:51	<--	satc (~mrtazz@202.3.77.238) has quit (Client Quit)
+2014-03-08 01:19:26	<--	willo (~quassel@fedora/willo) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-08 01:20:39	<--	Ge (~Ge@unaffiliated/ge) has quit (Quit: ...)
+2014-03-08 01:20:47	-->	Boser_PC2 (~boser@p54920B3B.dip0.t-ipconnect.de) has joined #freenode
+2014-03-08 01:20:58	-->	willo (~quassel@14-202-197-64.static.tpgi.com.au) has joined #freenode
+2014-03-08 01:20:58	<--	willo (~quassel@14-202-197-64.static.tpgi.com.au) has quit (Changing host)
+2014-03-08 01:20:58	-->	willo (~quassel@fedora/willo) has joined #freenode
+2014-03-08 01:21:07	-->	LinuxGuy91 (~LinuxGuy9@cpc5-mapp12-2-0-cust480.12-4.cable.virginm.net) has joined #freenode
+2014-03-08 01:21:43	-->	vladivostok (uid8101@gateway/web/irccloud.com/x-bunkalxojxfwtygq) has joined #freenode
+2014-03-08 01:22:14	<--	Chiyo (Chiyo@pdpc/supporter/active/chiyo) has quit (Quit: すすすす、すき、だあいすき)
+2014-03-08 01:23:19	--	szagul_ is now known as szagul
+2014-03-08 01:23:49	--	MogDog is now known as Laika
+2014-03-08 01:23:51	--	Laika is now known as MogDog
+2014-03-08 01:24:05	<--	JT_ (~j@202.130.35.90) has quit (Ping timeout: 244 seconds)
+2014-03-08 01:24:51	<--	erplis (Luzi@unaffiliated/erplis) has quit (Ping timeout: 252 seconds)
+2014-03-08 01:25:03	-->	JT (~j@unaffiliated/jt) has joined #freenode
+2014-03-08 01:25:34	-->	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has joined #freenode
+2014-03-08 01:25:40	-->	potatoceleron (4a41ac9e@gateway/web/freenode/ip.74.65.172.158) has joined #freenode
+2014-03-08 01:26:00	<--	LinuxGuy91 (~LinuxGuy9@cpc5-mapp12-2-0-cust480.12-4.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2014-03-08 01:26:07	potatoceleron	could someone give powis a red-hot-poker enema? he's pm spamming all over the place
+2014-03-08 01:26:29	 *	potatoceleron is in #debian and isn't the only person suffering
+2014-03-08 01:27:01	-->	redmenace (~redmenace@162.72.186.255) has joined #freenode
+2014-03-08 01:27:36	smrtz|nix	potatoceleron: is also in #debian, so that's a few people that have complained...
+2014-03-08 01:27:38	<--	Guest75640 (uid10176@gateway/web/irccloud.com/x-jukqhmjbkwjqzxgk) has quit (Quit: Connection closed for inactivity)
+2014-03-08 01:28:31	-->	supermat|cloud (uid26098@gateway/web/irccloud.com/x-hdobukwikbaaodaw) has joined #freenode
+2014-03-08 01:28:45	<--	onlty (~oaktree@202.30.31.171) has quit (Ping timeout: 244 seconds)
+2014-03-08 01:28:49	<--	supermat|cloud (uid26098@gateway/web/irccloud.com/x-hdobukwikbaaodaw) has quit (Changing host)
+2014-03-08 01:28:49	-->	supermat|cloud (uid26098@unaffiliated/supermat) has joined #freenode
+2014-03-08 01:28:49	<--	supermat|cloud (uid26098@unaffiliated/supermat) has quit (Changing host)
+2014-03-08 01:28:49	-->	supermat|cloud (uid26098@gateway/web/irccloud.com/x-hdobukwikbaaodaw) has joined #freenode
+2014-03-08 01:28:55	-->	bc- (~bc@cpe-107-184-30-220.socal.res.rr.com) has joined #freenode
+2014-03-08 01:29:12	potatoceleron	the next time he pm's i suppose i will have more info
+2014-03-08 01:29:19	<--	swat30 (~swat30@204.13.51.122) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:30:00	<--	ty (~ty@wikia/vstf/TyA) has quit (Read error: Connection reset by peer)
+2014-03-08 01:30:41	-->	raianknight (~chatzilla@88.204.115.36) has joined #freenode
+2014-03-08 01:30:56	<--	Pyrelink (~Pyrelink@66.55.134.218) has quit (Quit: Pyrelink)
+2014-03-08 01:31:12	<--	raianknight (~chatzilla@88.204.115.36) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 27.0.2/20140226163451])
+2014-03-08 01:31:14	<--	23LAAKZL3 (~bc@cpe-198-72-183-219.socal.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:31:25	smrtz|nix	potatoceleron: are you trying to do a /whois?  I can do one, I still have the /pm open.
+2014-03-08 01:31:30	<--	redmenace (~redmenace@162.72.186.255) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:31:35	-->	joelroa (~textual@c-50-149-123-185.hsd1.wa.comcast.net) has joined #freenode
+2014-03-08 01:31:38	potatoceleron	i got one
+2014-03-08 01:31:42	smrtz|nix	k
+2014-03-08 01:31:45	<--	FalconSpy (~falcon@unaffiliated/falconspy) has quit (Read error: Connection reset by peer)
+2014-03-08 01:31:51	<--	LazerBeak (~Lazerbeak@unafffiliated/lazerbeak) has quit (Ping timeout: 244 seconds)
+2014-03-08 01:31:59	potatoceleron	powis [~ircap@90.174.1.180]
+2014-03-08 01:32:17	potatoceleron	he keeps spamming about some webcam
+2014-03-08 01:32:24	-->	suzylee (~sallyowen@177.99.67.155) has joined #freenode
+2014-03-08 01:32:24	-->	FalconSpy (~falcon@unaffiliated/falconspy) has joined #freenode
+2014-03-08 01:32:41	[luchty]dog	hit the ignore
+2014-03-08 01:32:54	-->	s3shs (~s3shs@ip68-99-253-150.ph.ph.cox.net) has joined #freenode
+2014-03-08 01:32:55	smrtz|nix	I'd paste the line, but I don't have copy and pasting in tmux, because I'm to dumb to bother to set it up.
+2014-03-08 01:33:02	[luchty]dog	You don't  like what he saying, /ignore
+2014-03-08 01:33:07	<--	FalconSpy (~falcon@unaffiliated/falconspy) has quit (Read error: Connection reset by peer)
+2014-03-08 01:33:11	-->	Kalidarn (~Kalidarn@unaffiliated/kalidarn) has joined #freenode
+2014-03-08 01:33:15	-->	DD3my (~DD3my@unaffiliated/dd3my) has joined #freenode
+2014-03-08 01:33:29	Kalidarn	where do we report malicious bots
+2014-03-08 01:33:56	Kalidarn	 [powis] (~ircap@90.174.1.180): ircap
+2014-03-08 01:34:53	--	Devianttwo is now known as Devianttwo-ZzZz
+2014-03-08 01:35:11	potatoceleron	how do you /ignore with webchat anyway?
+2014-03-08 01:35:15	potatoceleron	it's not even a feature
+2014-03-08 01:35:22	smrtz|nix	[luchty]dog: the thing is, he's doing this on multiple channels, for a long time.
+2014-03-08 01:35:59	<--	joelroa (~textual@c-50-149-123-185.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:36:01	potatoceleron	nevermind, we thought someone would care, because if we were doing this, we figure we'd be banned or something
+2014-03-08 01:36:01	<--	karakedi (~eAC53C340@unaffiliated/orphan) has quit (Ping timeout: 265 seconds)
+2014-03-08 01:36:08	smrtz|nix	also, we shouldn't have to /ignore, he's malisious, so we should ask an OPer to help.
+2014-03-08 01:36:36	potatoceleron	smrtz|nix: i'll just suffer the butthurt, that seems to be the only option to webchat users
+2014-03-08 01:36:40	potatoceleron	thanks anyway
+2014-03-08 01:36:43	grawity	well
+2014-03-08 01:36:44	Kalidarn	170233 powis | webcaam en directooo --> http://www.weeox.es/
+2014-03-08 01:36:45	<--	potatoceleron (4a41ac9e@gateway/web/freenode/ip.74.65.172.158) has left #freenode
+2014-03-08 01:36:48	Kalidarn	is what he said to me
+2014-03-08 01:36:50	wolfcore	potatoceleron: why don't you use a real client
+2014-03-08 01:36:51	grawity	getting a better client is another option, of course
+2014-03-08 01:36:53	Kalidarn	im assuming it goes to a site with malware
+2014-03-08 01:36:59	Kalidarn	so don't click the link obviously
+2014-03-08 01:37:03	<--	Ullarah (~Ullarah@unaffiliated/ullarah) has left #freenode ("Leaving")
+2014-03-08 01:37:16	smrtz|nix	Kalidarn: that's what he's spamming to us too.
+2014-03-08 01:37:24	Kalidarn	ah
+2014-03-08 01:37:28	Kalidarn	probably the same chap then
+2014-03-08 01:37:31	Kalidarn	just a different bot
+2014-03-08 01:37:41	Kalidarn	it only seemed to be in the #vim channel not in any other channels
+2014-03-08 01:37:44	<--	^v (~notnot^v@c-71-238-153-166.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2014-03-08 01:38:13	smrtz|nix	Kalidarn: he's in #debian, and #gentoo too.
+2014-03-08 01:38:19	Kalidarn	ah
+2014-03-08 01:38:55	<--	tdfischer (~tdfischer@kde/tdfischer) has quit (Ping timeout: 265 seconds)
+2014-03-08 01:39:18	-->	ilhami (~IlhamiD@188-178-119-46-static.dk.customer.tdc.net) has joined #freenode
+2014-03-08 01:39:26	ilhami	http://pastebin.com/VsdHt1zg -- can you check whats wrong here?
+2014-03-08 01:39:36	<--	r3zguin0 (~r3zguin0@unaffiliated/r3zguin0) has quit (Ping timeout: 244 seconds)
+2014-03-08 01:39:51	Kalidarn	ilhami: err i think you're in the wrong channel
+2014-03-08 01:39:55	-->	FalconSpy (~falcon@ool-44c49083.dyn.optonline.net) has joined #freenode
+2014-03-08 01:39:55	<--	FalconSpy (~falcon@ool-44c49083.dyn.optonline.net) has quit (Changing host)
+2014-03-08 01:39:56	-->	FalconSpy (~falcon@unaffiliated/falconspy) has joined #freenode
+2014-03-08 01:39:58	Kalidarn	did you mean #android-dev
+2014-03-08 01:40:04	ilhami	banned..
+2014-03-08 01:40:14	Kalidarn	lol well you're not going to get any help here
+2014-03-08 01:40:15	smrtz|nix	no, well, he might be in there too.
+2014-03-08 01:40:38	-->	cipher__ (~cipher__@unaffiliated/cipher--/x-7733551) has joined #freenode
+2014-03-08 01:40:46	ilhami	Kalidarn there are many Android devs around in the world. Why do you not think so?
+2014-03-08 01:41:00	Kalidarn	because this is #freenode and just a service channel
+2014-03-08 01:41:20	ilhami	yeah ppl in here are usually friendly.
+2014-03-08 01:41:21	Kalidarn	sure there might be one person in here that is an android dev, but it's a highly inefficient way of finding your answer
+2014-03-08 01:41:42	Kalidarn	to start entering random irc channels hoping someone might be able to help you with a specific issue
+2014-03-08 01:41:57	ilhami	oh this is not random. I come here often.
+2014-03-08 01:42:08	Latios	ilhami: this channel is strictly for help with Freenode and its services
+2014-03-08 01:42:09	Kalidarn	so tell us why you're banned from #android-dev
+2014-03-08 01:42:11	Latios	not for general help
+2014-03-08 01:42:25	Kalidarn	what Latios said
+2014-03-08 01:42:30	ilhami	Kalidarn: ask the OPs. I don't remember. The ban was set about a year ago.
+2014-03-08 01:42:32	-->	MrLovejoy (328a1795@gateway/web/freenode/ip.50.138.23.149) has joined #freenode
+2014-03-08 01:42:36	ilhami	I dont even know what I did wrong.
+2014-03-08 01:42:43	MrLovejoy	?
+2014-03-08 01:42:56	ilhami	yeah they don't remove bans or they just hate me.
+2014-03-08 01:42:57	-->	hpt (~hpt@61.149.228.39) has joined #freenode
+2014-03-08 01:43:05	Kalidarn	sucks to be on a static ip ;P
+2014-03-08 01:43:08	MrLovejoy	they removed my ban
+2014-03-08 01:43:18	MrLovejoy	you have to eamil them :)
+2014-03-08 01:43:27	-->	totem (~mohammed_@unaffiliated/mohammed-jabber/x-3100227) has joined #freenode
+2014-03-08 01:43:34	ilhami	MrLovejoy give me their email.
+2014-03-08 01:43:38	<--	Vidar__ (~quassel@ip72-194-97-126.oc.oc.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:43:49	<--	RubyPanther (~paris@c-76-105-216-34.hsd1.or.comcast.net) has left #freenode ("self.exit(:stage=>:left)")
+2014-03-08 01:43:50	--	totem is now known as Guest4485
+2014-03-08 01:43:55	-->	Beato (~Beato@unaffiliated/beato) has joined #freenode
+2014-03-08 01:45:08	smrtz|nix	ilhami: I'm sure it's on google.
+2014-03-08 01:45:09	ilhami	I really dont want to use Tor
+2014-03-08 01:45:25	-->	GJPMiningco (~GJPMining@67.9.34.102) has joined #freenode
+2014-03-08 01:45:30	<--	Captain_Awesome (~d@50.97.94.20-static.reverse.softlayer.com) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:45:30	-->	Lovejoy (~androirc@c-50-138-23-149.hsd1.fl.comcast.net) has joined #freenode
+2014-03-08 01:45:35	--	FastLizard4|away is now known as FastLizard4
+2014-03-08 01:45:35	Lovejoy	kline@freenode.net
+2014-03-08 01:45:45	<--	Lovejoy (~androirc@c-50-138-23-149.hsd1.fl.comcast.net) has quit (Client Quit)
+2014-03-08 01:45:52	supermat|cloud	ilhami: I would just pm an op or the founder. Latios, no this channel is also a general help channel
+2014-03-08 01:46:02	MrLovejoy	there i1hami ^
+2014-03-08 01:46:06	Latios	that's not what i've heard
+2014-03-08 01:46:09	Latios	(from irc ops)
+2014-03-08 01:46:23	GJPMiningco	how do i go about getting a Bot cover mask for my bots IP
+2014-03-08 01:46:31	ilhami	supermat|cloud if you just knew how many times I have written to the OPs from that channel. None of them answers.
+2014-03-08 01:46:40	grawity	as the /topic used to say, this *is* a general help channel
+2014-03-08 01:46:46	MrLovejoy	wait for a staff GJPMiningco
+2014-03-08 01:46:55	Kalidarn	grawity: yeah about freenode not android
+2014-03-08 01:46:59	<--	snuffeluffegus (~snuffeluf@ps95204.dreamhost.com) has quit (Quit: Leaving)
+2014-03-08 01:47:06	Kalidarn	or <insert some other random topic>
+2014-03-08 01:47:08	<--	mohammed_jabber (~mohammed_@unaffiliated/mohammed-jabber/x-3100227) has quit (Ping timeout: 265 seconds)
+2014-03-08 01:47:09	MrLovejoy	i!hami -----  kline@freenode.net
+2014-03-08 01:47:19	Kalidarn	it's a service channel for the freenode network for "general" freenode related things.
+2014-03-08 01:47:28	Kalidarn	not personal help desk for life
+2014-03-08 01:47:29	supermat|cloud	MrLovejoy: he wasn't klined, just banned
+2014-03-08 01:47:45	grawity	there are much better channels for many topics; that doesn't forbid anyone from asking non-freenode things here
+2014-03-08 01:47:47	Latios	he was banned from a certain channel
+2014-03-08 01:47:47	MrLovejoy	i have no idea but thats who unban me
+2014-03-08 01:48:15	MrLovejoy	he unban me from the whole freenode server
+2014-03-08 01:48:33	Kalidarn	it would have been a channel ban
+2014-03-08 01:48:36	ilhami	LOL but I am not banned from the whole server.
+2014-03-08 01:48:43	Kalidarn	you'd need to speak to the channel operators about it
+2014-03-08 01:48:49	Kalidarn	and if they don't care, then you're out of luck
+2014-03-08 01:48:53	Kalidarn	try a android mailing list or forum
+2014-03-08 01:48:56	Latios	freenode ops won't unban anybody from a channel they don't own
+2014-03-08 01:49:04	Kalidarn	Latios: exactly.
+2014-03-08 01:49:20	t3st3r	most reliable way to get rid of ban is to talk to one who set it up.
+2014-03-08 01:49:33	ilhami	t3st3r can you check who set my ban?
+2014-03-08 01:49:37	<--	farahtwiggy (~textual@71-81-114-11.dhcp.spbg.sc.charter.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-03-08 01:49:39	Kalidarn	and if they don't want to talk to you about it, you're out of luck.
+2014-03-08 01:49:52	<--	Rastus_Vernon (uid15187@wikimedia/Rastus-Vernon) has quit (Quit: Connection closed for inactivity)
+2014-03-08 01:49:58	ilhami	Kalidarn it's not about luck. It's their skills as OPs that are lacking
+2014-03-08 01:50:01	-->	MrLovejoy_ (328a1795@gateway/web/freenode/ip.50.138.23.149) has joined #freenode
+2014-03-08 01:50:09	ilhami	I don't believe in luck
+2014-03-08 01:50:15	Kalidarn	i'm pretty sure if they banned you they could unban you.
+2014-03-08 01:50:24	Kalidarn	wanting to do so however is a different issue
+2014-03-08 01:50:27	ilhami	they could. do you know how to check who banned me?
+2014-03-08 01:50:34	MrLovejoy_	i got ban from the whole freenode server not just a channel
+2014-03-08 01:50:47	-->	swat30 (~swat30@204.13.51.122) has joined #freenode
+2014-03-08 01:51:44	grawity	ilhami: "/mode #chan +b" to list all bans
+2014-03-08 01:51:53	grawity	ilhami: or just check your own IRC logs
+2014-03-08 01:52:03	t3st3r	ilhami> well, at this point I can't - due to various things they appear to me as ones set by server which isn't much use. Suggested course of actions works if you get ban when you present.
+2014-03-08 01:52:04	Latios	ilhami: type "/msg chanserv access #android-dev list" for a list of staff on the channel
+2014-03-08 01:52:20	<--	MrLovejoy (328a1795@gateway/web/freenode/ip.50.138.23.149) has quit (Ping timeout: 245 seconds)
+2014-03-08 01:52:30	ilhami	can I use Tor? :D
+2014-03-08 01:52:40	ilhami	will I get banned for that?
+2014-03-08 01:52:44	[luchty]dog	ilhami: Really
+2014-03-08 01:52:52	wolfcore	ilhami: do you know what tor is?
+2014-03-08 01:53:02	[luchty]dog	I am surprised I haven't been kline yet
+2014-03-08 01:53:09	ilhami	wolfcore yes proxy
+2014-03-08 01:53:18	ilhami	I think my IP is banned
+2014-03-08 01:53:18	Latios	if you use tor to evade a ban you will be klined
+2014-03-08 01:53:28	MrLovejoy_	xD'
+2014-03-08 01:53:38	MrLovejoy_	not his fault he has a staic IP tho
+2014-03-08 01:53:39	supermat|cloud	Latios: you can use the hidden service
+2014-03-08 01:53:47	cipher__	how do i unblock pm's
+2014-03-08 01:53:55	cipher__	-g isn't working
+2014-03-08 01:54:01	grawity	you will still, however, be banned if you evade a ban
+2014-03-08 01:54:03	MrLovejoy_	how do i change my nick
+2014-03-08 01:54:05	grawity	hidden service or not
+2014-03-08 01:54:24	ilhami	grawity :D
+2014-03-08 01:54:38	ilhami	I am such a bad person huh ? :D
+2014-03-08 01:54:41	wolfcore	yeah
+2014-03-08 01:54:45	MrLovejoy_	here i!lhami do u want to be unban?
+2014-03-08 01:54:48	wolfcore	you can't escape your past
+2014-03-08 01:55:00	<--	swat30 (~swat30@204.13.51.122) has quit (Ping timeout: 240 seconds)
+2014-03-08 01:55:02	MrLovejoy_	erry PING!
+2014-03-08 01:55:10	-->	Physical (~Physical_@unaffiliated/physical) has joined #freenode
+2014-03-08 01:55:17	<--	skcin7_ (~skcin7@rrcs-76-79-113-21.west.biz.rr.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-03-08 01:55:22	ilhami	I'm sure the staff won't care if I use tor
+2014-03-08 01:55:38	MrLovejoy_	ill ask erry to unban u
+2014-03-08 01:55:40	t3st3r	[10:53:29] <ilhami> will I get banned for that? <- depends on ban reason, etc. And setting up tor is a bit tricky.
+2014-03-08 01:55:49	<--	Consuela (~stupid@unaffiliated/stupid) has quit (Quit: Consuela)
+2014-03-08 01:55:59	t3st3r	ilhami> tor exit nodes are mostly banned in sense of usual usage.
+2014-03-08 01:56:01	ilhami	t3st3r dude I dont even know why I am banned. Who has ever deserved a one year ban?
+2014-03-08 01:56:01	Physical	Is it possible to get a cloak removed?
+2014-03-08 01:56:07	MrLovejoy_	how do i change my nick?
+2014-03-08 01:56:12	-->	j4m13 (~j4m13@host81-152-18-123.range81-152.btcentralplus.com) has joined #freenode
+2014-03-08 01:56:14	wolfcore	MrLovejoy_: do /nick
+2014-03-08 01:56:18	MrLovejoy_	yes Physical
+2014-03-08 01:56:25	Physical	Any opers around that could do so for me?
+2014-03-08 01:56:28	--	MrLovejoy_ is now known as MrLovejoy
+2014-03-08 01:56:45	MrLovejoy	no ops are around
+2014-03-08 01:56:54	<--	MrLovejoy (328a1795@gateway/web/freenode/ip.50.138.23.149) has quit (Changing host)
+2014-03-08 01:56:55	-->	MrLovejoy (328a1795@unaffiliated/mrlovejoy) has joined #freenode
+2014-03-08 01:56:55	<--	MrLovejoy (328a1795@unaffiliated/mrlovejoy) has quit (Changing host)
+2014-03-08 01:56:55	-->	MrLovejoy (328a1795@gateway/web/freenode/ip.50.138.23.149) has joined #freenode
+2014-03-08 01:56:55	Physical	Welp
+2014-03-08 01:57:00	 *	Physical flops down and waits
+2014-03-08 01:57:01	MrLovejoy	sorry :/
+2014-03-08 01:57:03	badseed	try again in about 2 hours for staff help, this kind of time they are less active
+2014-03-08 01:57:03	Physical	s'alright
+2014-03-08 01:57:11	wolfcore	Physical: what do you want to change your cloak to?
+2014-03-08 01:57:13	ilhami	when will staff be here?
+2014-03-08 01:57:14	Physical	Yeah I understand. I can ask again later
+2014-03-08 01:57:17	[luchty]dog	jNot really
+2014-03-08 01:57:24	MrLovejoy	yes Physical
+2014-03-08 01:57:26	Physical	wolfcoin: I'm connecting from a VPS with a valid rdns entry, and I'd rather have that.
+2014-03-08 01:57:28	bazhang	Physical, you realize they wont re-activate it in a short time
+2014-03-08 01:57:32	[luchty]dog	You can read topic or hang around
+2014-03-08 01:57:40	[luchty]dog	Simple
+2014-03-08 01:57:41	-->	Macaveli (~JohnBeton@178-117-36-122.access.telenet.be) has joined #freenode
+2014-03-08 01:57:41	t3st3r	ilhami> you can see http://www.freenode.net/irc_servers.shtml#tor but it's tricky to set up and hidden service isn't super-reliable.
+2014-03-08 01:57:42	-->	Rastus_Vernon (uid15187@wikimedia/Rastus-Vernon) has joined #freenode
+2014-03-08 01:57:52	-->	snuffeluffegus (~snuffeluf@2a00:1a28:1251:46:246:93:201:1) has joined #freenode
+2014-03-08 01:57:57	ilhami	t3st3r it's fine.
+2014-03-08 01:58:14	MrLovejoy	1uchty thats a lie i had my cloak removed and a the same cloak re pupt in 10 minutes
+2014-03-08 01:58:15	ilhami	I will evade the ban and tell them they should unban my real account. They arent answering
+2014-03-08 01:58:16	-->	Markow (~ejm@176.122.215.241) has joined #freenode
+2014-03-08 01:58:26	bazhang	Physical, staff are active, please wait for them to see your request
+2014-03-08 01:58:45	Physical	I intend on it, it's not a pressing matter anywho. Just a request :)
+2014-03-08 01:58:46	MrLovejoy	i1lhami ill talk to them
+2014-03-08 01:58:53	ilhami	do it :D
+2014-03-08 01:58:55	-->	gneral (~iLLaki@pdpc/supporter/student/GNeRaL) has joined #freenode
+2014-03-08 01:58:56	gneral	hi
+2014-03-08 01:59:02	Markow	Please support IRC (Internet Relay Chat), "like" this Facebook page I recently created, feel free to post information about this channel and the Freenode server, thanks! https://www.facebook.com/pages/IRC-Internet-Relay-Chat/566347470127325
+2014-03-08 01:59:03	--	deviltux is now known as arthefact
+2014-03-08 01:59:16	[luchty]dog	You know, some people have some fucking attitudes
+2014-03-08 01:59:21	supermat|cloud	ilhami: I don't see how you could evade the ban with For, because they banned the nick ilhami :P
+2014-03-08 01:59:27	badseed	bazhang staff is less active this kind of time
+2014-03-08 01:59:29	supermat|cloud	*Tor
+2014-03-08 01:59:37	<--	rdymac (~rdymac@unaffiliated/rdymac) has quit (Read error: Connection reset by peer)
+2014-03-08 01:59:46	ilhami	supermat|cloud they probably banned nick and IP
+2014-03-08 01:59:58	[luchty]dog	jIt's like your life is more important than me ?
+2014-03-08 02:00:09	supermat|cloud	No, I just saw ilhami!*@*
+2014-03-08 02:00:18	ilhami	so IP isn't banned?
+2014-03-08 02:00:22	bazhang	badseed, that might be so, but I saw some active *just now*
+2014-03-08 02:00:35	MrLovejoy	Markow please dont post links for all i know is you could be a hacker waiting for someone to click it to hack there IP so please dont post links on #freenode
+2014-03-08 02:00:52	badseed	bazhang as far as helping in this chan they are usually more active after an hour and a half
+2014-03-08 02:00:58	--	ilhami is now known as ilhamid
+2014-03-08 02:01:07	[luchty]dog	F bazhang
+2014-03-08 02:01:15	--	ilhamid is now known as ilhami
+2014-03-08 02:01:17	badseed	ilhami please dont tell me that you are here since yesterday night talking about the ban in bitcoin
+2014-03-08 02:01:21	-->	AlexP (~alex@rockbox/staff/AlexP) has joined #freenode
+2014-03-08 02:01:30	ilhami	in bitcoin?
+2014-03-08 02:01:35	Markow	MrLovejoy: Sorry for doing it, I'm not a hacker, don' worry. I'm only supporting Freenode and IRC. Again, my apologies.
+2014-03-08 02:01:39	ilhami	I havent even been to bitcoin
+2014-03-08 02:01:40	[luchty]dog	We not even a community right now
+2014-03-08 02:01:56	MrLovejoy	Markow No Problem thanks for your cooperation
+2014-03-08 02:01:59	badseed	ilhami i went out i found a new girlfriend, we made lone,  we fought, we got separated, i went to sleep, and you’re still on the bitcoin ban?
+2014-03-08 02:02:09	ilhami	what bitcoiin dude?
+2014-03-08 02:02:13	ilhami	I am not banned from bitcoin
+2014-03-08 02:02:17	ilhami	I am banned from android-dev
+2014-03-08 02:02:24	badseed	oh yeah that one
+2014-03-08 02:02:26	[luchty]dog	badseed: If you don't like the due, ignore the bitch
+2014-03-08 02:02:29	Markow	MrLovejoy: The IRC page is a legitimate one, no catch involved.
+2014-03-08 02:02:31	badseed	still, since last night
+2014-03-08 02:02:36	[luchty]dog	s/due/dude/
+2014-03-08 02:02:58	t3st3r	ilhami> hmm it you're banned for something evil, bypassing ban usually leads to another ban + more aggravation of ops who will remember you and make sure to ban you again.
+2014-03-08 02:03:05	[luchty]dog	Some folks make the room sad
+2014-03-08 02:03:07	<--	Kalidarn (~Kalidarn@unaffiliated/kalidarn) has left #freenode ("WeeChat 0.4.1")
+2014-03-08 02:03:40	ilhami	t3st3r I havent done anything evil
+2014-03-08 02:03:45	ilhami	in that channel afaik
+2014-03-08 02:03:46	-->	x21 (~root@209.222.160.179) has joined #freenode

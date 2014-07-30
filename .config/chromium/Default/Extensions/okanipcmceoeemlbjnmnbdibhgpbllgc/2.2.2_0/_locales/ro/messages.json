@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ro"
+   },
+   "qs_about_close_button": {
+      "message": "Închideți"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "După ce faceți clic pe un rezultat al căutării Google, Derulare rapidă poate apărea în colțul din dreapta jos al paginii, afișând unul sau mai multe fragmente de text din pagină, care sunt relevante pentru interogarea dvs. Făcând clic pe text veți ajunge la respectiva parte a paginii"
+   },
+   "qs_about_explanation2": {
+      "message": "Google Derulare rapidă apare numai atunci când poate fi utilă. O puteți minimiza făcând clic pe butonul de minimizare din dreapta sus."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Despre Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Politica de confidențialitate\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Termeni și condiții\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Cum funcționează Google Derulare rapidă:"
+   },
+   "qs_about_installed": {
+      "message": "Google Derulare rapidă este acum instalată."
+   },
+   "qs_about_introduction": {
+      "message": "Google Derulare rapidă este o extensie pentru browser care vă ajută să găsiți mai repede ceea ce căutați."
+   },
+   "qs_about_only_useful": {
+      "message": "Extensia Derulare rapidă apare numai când este utilă. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Aflați mai multe\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opțiunile au fost salvate"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Ajutați la perfecționarea extensiei Google Derulare rapidă trimițând automat statistici de utilizare la Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Opțiuni de confidențialitate"
+   },
+   "qs_about_step_1": {
+      "message": "Efectuați o căutare Google."
+   },
+   "qs_about_step_2": {
+      "message": "Faceți clic pe un rezultat al căutării."
+   },
+   "qs_about_step_3": {
+      "message": "Faceți clic pe Google Derulare rapidă pentru a accesa porțiunile relevante din pagină."
+   },
+   "qs_about_support_instructions": {
+      "message": "Dacă aveți întrebări sau probleme privind utilizarea extensiei Derulare rapidă, consultați \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">pagina de asistență\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Vă mulțumim că ați instalat Google Derulare rapidă!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Încercați-o!\u003C/b> Căutați [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] și faceți clic pe rezultatul „dark matter brown dwarfs”."
+   },
+   "qs_about_try_queries": {
+      "message": "Încercați aceste interogări:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Pentru a dezinstala Google Derulare rapidă, utilizați opțiunea din meniul Instrumente&nbsp;>&nbsp;Extensii din Chrome și faceți clic pe linkul Dezinstalați pentru extensia Google Derulare rapidă."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Dezinstalare"
+   },
+   "qs_description": {
+      "message": "Google Derulare rapidă vă permite să treceți direct la părțile relevante dintr-un rezultat al Căutării Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Mai puține rezultate"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Afișați rezultatele inițiale pentru interogarea dvs."
+   },
+   "qs_gallery_description": {
+      "message": "Google Derulare rapidă este o extensie de browser care vă ajută să găsiți mai rapid ceea ce căutați.\u003Cbr/>\u003Cbr/>După ce faceți clic pe un rezultat al căutării Google, Derularea rapidă poate apărea în colțul din dreapta jos al paginii, afișând unul sau mai multe fragmente de text din pagină, care sunt relevante pentru interogarea dvs. Făcând clic pe text veți ajunge la respectiva parte a paginii.\u003Cbr/>\u003Cbr/>Google Derulare rapidă încearcă să nu vă incomodeze și apare numai atunci când poate fi utilă."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Ne pare rău, Google Derulare rapidă nu a găsit niciun rezultat în această pagină \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Aflați mai multe.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Această pagină pare să fie integral despre \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Google Derulare rapidă apare atunci când numai unele părți ale paginii sunt relevante. \u003Cspan class=\"goog_qs-learn-more\">Aflați mai multe.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Google Derularea rapidă nu a apărut deoarece întreaga pagină este relevantă pentru interogarea dvs."
+   },
+   "qs_info_on_search": {
+      "message": "Google Derulare rapidă apare după ce faceți clic pe un rezultat al căutării Google. \u003Cspan class=\"goog_qs-learn-more\">Aflați mai multe.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Făcând clic pe „Instalați” acceptați acești Termeni și condiții: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Mai multe rezultate \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Afișați mai multe rezultate pentru interogarea dvs."
+   },
+   "qs_name": {
+      "message": "Google Derulare rapidă"
+   },
+   "qs_page_action_active": {
+      "message": "Google Derulare rapidă a găsit rezultate pe această pagină."
+   },
+   "qs_page_action_inactive": {
+      "message": "Google Derulare rapidă este activată. Faceți clic pentru mai multe informații."
+   },
+   "qs_page_action_running": {
+      "message": "Google Derulare rapidă așteaptă ca pagina să se încarce..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Deschideți pagina de ajutor și opțiuni"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Rezultate în pagină pentru \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\nRezultate în pagină pentru \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimizați"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Deschideți Google Derulare rapidă"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Faceți clic pentru a afișa acest text în pagină"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Accesați direct textul $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Cele mai bune rezultate pentru \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

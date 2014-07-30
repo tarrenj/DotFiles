@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hr"
+   },
+   "qs_about_close_button": {
+      "message": "Zatvori"
+   },
+   "qs_about_copy": {
+      "message": "Autorsko pravo &copy; 2009. Google"
+   },
+   "qs_about_explanation": {
+      "message": "Nakon što kliknete rezultat Google pretraživanja u donjem desnom kutu stranice može se pojaviti značajka Quick Scroll s prikazom jednog ili više dijelova teksta stranice koja je relevantna za vaš upit. Klikom na tekst prelazite na taj dio stranice."
+   },
+   "qs_about_explanation2": {
+      "message": "Značajka Quick Scroll prikazuje se samo kad postoji mogućnost njezine upotrebe. Možete je minimizirati ako u gornjem desnom dijelu kliknete gumb za minimiziranje."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">O Googleu\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Pravila o privatnosti\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Uvjeti pružanja usluge\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Način rada značajke Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Značajka Google Quick Scroll sad je instalirana."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll proširenje je preglednika koje ubrzava pronalaženje željenih stavki."
+   },
+   "qs_about_only_useful": {
+      "message": "Značajka Quick Scroll pojavljuje se samo ako je korisna. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"> Saznajte više\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opcije spremljene"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pomognite u poboljšanju proširenja Google Quick Scroll automatskim slanjem statistike o upotrebi Googleu."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Opcije privatnosti"
+   },
+   "qs_about_step_1": {
+      "message": "Potražite Googleovom tražilicom."
+   },
+   "qs_about_step_2": {
+      "message": "Kliknite rezultat pretraživanja."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknite Quick Scroll da biste prešli na relevantne dijelove stranice."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ako imate pitanja ili problema s upotrebom značajke Quick Scroll, pogledajte našu \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">stranicu podrške\u003C/a> .",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Zahvaljujemo što ste instalirali Google Quick Scroll."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Isprobajte!\u003C/ b> Tražite [ \u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a> ], zatim kliknite rezultat pod naslovom \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Isprobajte ove upite:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Kako biste deinstalirali Google Quick Scroll, upotrijebite alate preglednika Chrome &nbsp;>&nbsp;opciju izbornika Proširenja, a zatim za proširenje Google Quick Scroll kliknite vezu Deinstaliraj."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Deinstaliranje"
+   },
+   "qs_description": {
+      "message": "Značajka Quick Scroll omogućuje izravan prelazak na relevantne dijelove rezultata Google pretraživanja."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Manje podudaranja"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Prikažite izvorna podudaranja za svoj upit"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll proširenje je preglednika koje vam pomaže da ono što tražite brže pronađete.\u003Cbr/>\u003Cbr/>Nakon klika na rezultat Google pretraživanja u donjem desnom kutu stranice može se pojaviti značajka Quick Scroll koja pokazuje jedan ili više dijelova teksta sa stranice koji su relevantni za vaš upit. Klik na tekst odvest će vas na taj dio stranice.\u003Cbr/>\u003Cbr/>Značajka Quick Scroll nastoji vam ne smetati te se pojavljuje samo kada postoji vjerojatnost da će vam koristiti."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Nažalost, značajka Quick Scroll nije mogla pronaći nijedno podudaranje na ovoj stranici za upit \u003Cspan class=\"goog_qs-query\">$1\u003C/span>.\u003Cspan class=\"goog_qs-learn-more\">Saznajte više.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Izgleda da je ova cijela stranica za upit \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Značajka Quick Scroll pojavljuje se samo ako su dijelovi stranice relevantni. \u003Cspan class=\"goog_qs-learn-more\">Saznajte više.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Značajka Quick Scroll nije se prikazala jer je cijela stranica relevantna za vaš upit."
+   },
+   "qs_info_on_search": {
+      "message": "Značajka Quick Scroll pojavljuje se nakon što kliknete na rezultat Google pretraživanja.\u003Cspan class=\"goog_qs-learn-more\">Saznajte više.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Klikom \"Instaliraj\" prihvaćate ove Uvjete pružanja usluge: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Više podudaranja \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Prikažite više podudaranja za svoj upit"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Značajka Quick Scroll pronašla je podudaranja na ovoj stranici."
+   },
+   "qs_page_action_inactive": {
+      "message": "Značajka Quick Scroll omogućena je. Kliknite za više informacija."
+   },
+   "qs_page_action_running": {
+      "message": "Značajka Quick Scroll čeka učitavanje stranice..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Otvara stranicu pomoći i opcija"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Podudaranja na stranici za raspon upita \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Podudaranja na stranici za raspon upita \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimiziraj"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Otvori Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknite kako biste ovaj tekst vidjeli na stranici"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Skoči na tekst $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Najbolja podudaranja za raspon upita \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

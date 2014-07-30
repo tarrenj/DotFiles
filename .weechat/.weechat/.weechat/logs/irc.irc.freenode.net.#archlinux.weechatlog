@@ -1,0 +1,39 @@
+2014-03-14 22:18:07	-->	smrtz (~smrtz@unaffiliated/smrtz) has joined #archlinux
+2014-03-14 22:18:07	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <❤> https://i.imgur.com/s1EFMCY.jpg <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-14 22:18:07	--	Topic set by demize on Fri, 14 Mar 2014 06:07:19
+2014-03-14 22:18:08	--	Channel #archlinux: 1627 nicks (1 op, 0 voices, 1626 normals)
+2014-03-14 22:18:09	--	Mode #archlinux [+Ccnt]
+2014-03-14 22:18:09	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-14 22:18:16	-->	rfnash (identrfnas@c-24-11-247-7.hsd1.in.comcast.net) has joined #archlinux
+2014-03-14 22:18:17	<--	trengrj (~trengrj@124-169-158-1.dyn.iinet.net.au) has left #archlinux
+2014-03-14 22:18:18	-->	bocaneri (~bocaneri_@about/linux/staff/sauvin) has joined #archlinux
+2014-03-14 22:18:32	<--	sin3t (~Thunderbi@94.231.188.139) has quit (Read error: Connection reset by peer)
+2014-03-14 22:18:33	smrtz	Can someone help me set up audio please?  I've got alsamixer unmuted, but I still can't hear anything.
+2014-03-14 22:19:02	<--	aryklein (~ary@181.164.2.188) has quit (Quit: Leaving)
+2014-03-14 22:19:15	sabboo	hrmm
+2014-03-14 22:19:19	<--	sabboo (~pete@2001:558:6033:49:24aa:7344:54d4:ab28) has left #archlinux
+2014-03-14 22:19:20	<--	chocko (uid26816@gateway/web/irccloud.com/x-onvkorhxpqodsmdh) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:19:24	<--	levifig_ (sid1908@gateway/web/irccloud.com/x-zzinpeunvbijhfuk) has quit (Ping timeout: 255 seconds)
+2014-03-14 22:19:24	-->	sabboo (~pete@2001:558:6033:49:24aa:7344:54d4:ab28) has joined #archlinux
+2014-03-14 22:19:25	-->	semekh_ (~semekh@ec2-54-80-220-239.compute-1.amazonaws.com) has joined #archlinux
+2014-03-14 22:19:26	-->	iflema_ (~Ian_Flemi@CPE-121-217-226-247.lnse3.cht.bigpond.net.au) has joined #archlinux
+2014-03-14 22:19:27	sabboo	crap
+2014-03-14 22:19:40	-->	GuilhermeCunha (~guilherme@unaffiliated/guilhermecunha) has joined #archlinux
+2014-03-14 22:19:48	<--	RohanRNS (sid16024@gateway/web/irccloud.com/x-tjuadwoxoxalstxw) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:19:50	<--	konr (sid14206@gateway/web/irccloud.com/x-uyvdeccbimiqpfjv) has quit (Ping timeout: 255 seconds)
+2014-03-14 22:19:51	<--	CathoderayMan_ (sid16210@gateway/web/irccloud.com/x-apibmjwjrfeqyzgv) has quit (Ping timeout: 255 seconds)
+2014-03-14 22:19:51	<--	donkeyofdarkness (sid12101@gateway/web/irccloud.com/x-eelswpnwmovvoyji) has quit (Ping timeout: 255 seconds)
+2014-03-14 22:19:55	-->	aryklein (~ary@181.164.2.188) has joined #archlinux
+2014-03-14 22:20:17	<--	irc-_ (sid19775@gateway/web/irccloud.com/x-lfayenyntkrhudmh) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:20:17	<--	tardisonline (uid26905@gateway/web/irccloud.com/x-tivsasktycjasenq) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:20:19	<--	joey18 (~joey@ip-164.net-80-236-39.suresnes.rev.numericable.fr) has quit (Quit: Konversation terminated!)
+2014-03-14 22:20:22	<--	ovf_ (sid19068@gateway/web/irccloud.com/x-xwreyjlwpqxmibsq) has quit (Ping timeout: 264 seconds)
+2014-03-14 22:20:23	-->	invisiblek (~dp@unaffiliated/invisiblek) has joined #archlinux
+2014-03-14 22:20:27	<--	iflema_ (~Ian_Flemi@CPE-121-217-226-247.lnse3.cht.bigpond.net.au) has quit (Client Quit)
+2014-03-14 22:20:44	<--	joshtau (sid17334@gateway/web/irccloud.com/x-edirrltylrfqxcvy) has quit (Ping timeout: 255 seconds)
+2014-03-14 22:20:47	<--	leifw (sid15141@gateway/web/irccloud.com/x-dauyejpssvmppgnu) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:20:47	<--	JuiceSSH (sid17586@gateway/web/irccloud.com/x-lpsowoelolxrjrvg) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:20:47	<--	jzelinskie_ (sid17772@gateway/web/irccloud.com/x-zzpstmzvtxffmmfq) has quit (Ping timeout: 265 seconds)
+2014-03-14 22:20:58	<--	hugoroyd_ (sid6558@gateway/web/irccloud.com/x-yjuxpobauoejqsyo) has quit (Ping timeout: 264 seconds)
+2014-03-14 22:20:58	<--	21WAADLHY (sid17037@gateway/web/irccloud.com/x-yazrbkefdschwqhk) has quit (Ping timeout: 264 seconds)
+2014-03-14 22:21:01	-->	iflema (~Ian_Flemi@CPE-121-217-226-247.lnse3.cht.bigpond.net.au) has joined #archlinux

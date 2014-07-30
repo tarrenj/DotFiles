@@ -1,0 +1,20 @@
+{
+   "background_page": "bg.html",
+   "description": "An online ad-removal tool for your favorite web browser.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLdAXHhyHss4wsWpgoPVEWOFSE5b9Z85CW3wuNgdE/x63fGHRmXQyCGXbE8rILjyeMezdDvkMHeWUNYyOKwFgj786OdJV2tqjjWJfRD0p4A6Q7WFbe4A/qhcQsTE8ImB/+7xaOV5rqqcanlTUPyTfX4b8VxJpeME+/GOgPNSg4hwIDAQAB",
+   "name": "AdSweep",
+   "page_action": {
+      "default_icon": "icons/icon32.png",
+      "default_title": "AdSweep",
+      "popup": "popup.html"
+   },
+   "permissions": [ "http://*/*", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.1.6"
+}

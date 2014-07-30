@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sk"
+   },
+   "qs_about_close_button": {
+      "message": "Zavrieť"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Po kliknutí na výsledok vyhľadávania Google sa v pravom dolnom rohu stránky môže zobraziť rozšírenie Rýchly presun obsahujúce jeden alebo viac úryvkov textu, ktoré sú relevantné pre váš dopyt. Kliknutím na text prejdete na zodpovedajúcu časť stránky."
+   },
+   "qs_about_explanation2": {
+      "message": "Rozšírenie Rýchly presun sa zobrazí len v prípadoch, kedy by mohlo byť užitočné. Minimalizovať ho môžete kliknutím na tlačidlo Minimalizovať vpravo hore."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">O spoločnosti Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Pravidlá ochrany osobných údajov\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Zmluvné podmienky\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Ako funguje rozšírenie Rýchly presun:"
+   },
+   "qs_about_installed": {
+      "message": "Rozšírenie Rýchly presun Google je nainštalované."
+   },
+   "qs_about_introduction": {
+      "message": "Rýchly presun Google je rozšírenie prehliadača, ktoré vám pomôže rýchlejšie nájsť to, čo hľadáte."
+   },
+   "qs_about_only_useful": {
+      "message": "Rozšírenie Rýchly presun sa zobrazí len v prípadoch, keď je to užitočné. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Viac informácií\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Možnosti sú uložené"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pomôžte nám zlepšiť rozšírenie Rýchly presun Google automatickým odosielaním štatistík používania spoločnosti Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Možnosti ochrany osobných údajov"
+   },
+   "qs_about_step_1": {
+      "message": "Vykonajte vyhľadávanie Google."
+   },
+   "qs_about_step_2": {
+      "message": "Kliknite na výsledok vyhľadávania."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknutím na rozšírenie Rýchly presun preskočíte na relevantné časti stránky."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ak máte ťažkosti alebo otázky týkajúce sa rozšírenia Rýchly presun, navštívte našu\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1 \">stránku podpory\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Ďakujeme, že ste si nainštalovali rozšírenie Rýchly presun Google."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Vyskúšajte to!\u003C/ b> Vyhľadajte výraz [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] a kliknite na výsledok „dark matter brown dwarfs“."
+   },
+   "qs_about_try_queries": {
+      "message": "Skúste tieto dopyty:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Ak chcete rozšírenie Rýchly presun Google odinštalovať, prejdite v ponuke prehliadača Chrome na možnosť Nástroje&nbsp;>&nbsp;Rozšírenia a pri rozšírení Rýchly presun Google kliknite na odkaz Odinštalovať."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Odinštalovať"
+   },
+   "qs_description": {
+      "message": "Rozšírenie Rýchly presun vám umožní preskočiť priamo na relevantný úryvok výsledku vyhľadávania Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Menej zhôd"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Zobraziť pôvodné zhody pre hľadaný výraz"
+   },
+   "qs_gallery_description": {
+      "message": "Rýchly presun Google je rozšírenie prehliadača, ktoré vám pomôže rýchlejšie nájsť to, čo hľadáte.\u003Cbr/>\u003Cbr/>Po kliknutí na výsledok vyhľadávania Google sa môže rozšírenie Rýchly presun objaviť v pravom dolnom rohu stránky spolu s niekoľkými úryvkami textu zo stránky, ktoré sú relevantné pre váš dopyt. Kliknutím na text prejdete na zodpovedajúcu časť stránky.\u003Cbr/>\u003Cbr/>Rozšírenie Rýchly presun sa zobrazuje nerušivým spôsobom a len v prípadoch, kedy by mohlo byť užitočné."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Je nám ľúto, rozšírenie Rýchly presun nenašlo na tejto stránke žiadne zhody pre dopyt \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Viac informácií.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Zdá sa, že celá táto stránka tematicky súvisí s dopytom \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Rozšírenie Rýchly presun sa zobrazí, ak sú relevantné iba časti danej stránky. \u003Cspan class=\"goog_qs-learn-more\">Viac informácií.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Rozšírenie Rýchly presun sa nezobrazilo, pretože pre váš dopyt je relevantná celá stránka."
+   },
+   "qs_info_on_search": {
+      "message": "Rozšírenie Rýchly presun sa zobrazí po kliknutí na výsledok vyhľadávania Google. \u003Cspan class=\"goog_qs-learn-more\">Viac informácií.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Kliknutím na položku „Inštalovať“ vyjadrujete súhlas s týmito Zmluvnými podmienkami: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Viac zhôd \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Viac zhôd pre hľadaný výraz"
+   },
+   "qs_name": {
+      "message": "Rýchly presun Google"
+   },
+   "qs_page_action_active": {
+      "message": "Rozšírenie Rýchly presun našlo zhody na tejto stránke."
+   },
+   "qs_page_action_inactive": {
+      "message": "Rozšírenie Rýchly presun je povolené. Kliknutím zobrazíte viac informácií."
+   },
+   "qs_page_action_running": {
+      "message": "Rozšírenie Rýchly presun čaká na načítanie stránky..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Otvoriť stránku pomocníka a možností"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Zhody na stránke pre dopyt \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Zhody na stránke pre dopyt \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimalizovať"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Otvoriť rozšírenie Rýchly presun Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknutím tento text zobrazíte na stránke"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Preskočiť na text $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Najlepšie zhody pre dopyt \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

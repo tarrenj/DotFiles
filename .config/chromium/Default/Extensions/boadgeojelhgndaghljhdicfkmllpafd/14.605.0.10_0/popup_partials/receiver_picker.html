@@ -1,0 +1,85 @@
+<div>
+  <div class="transparent-overlay" ng-show="data.selectingCastMode" ng-click="data.selectingCastMode = false"></div>
+  <div class="no-device-header" ng-hide="receiverActs.length > 0 || init">
+    <div>
+      <angular-message desc="Label that there were no Cast devices found" key="donge_no_cast_device_found">
+        No Cast devices found.
+      </angular-message>
+      <span class="learn-more-link" ng-click="onClickDeviceMissing()">
+        <angular-message desc="Link to get help about finding the Cast device" key="cast_popup_device_missing">
+          (Device missing?)
+        </angular-message>
+      </span>
+    </div>
+  </div>
+  <div class="device-selection-header" ng-show="receiverActs.length > 0">
+    {{receiverListTitle}}
+    <div class="beta-label"></div>
+    <div ng-class="{'drop-down':true, 'menu-button':true, showing:data.selectingCastMode}"
+        ng-click="data.selectingCastMode = !data.selectingCastMode">
+    </div>
+  </div>
+
+  <div ng-if="isV1AppInTab && receiverActs.length > 0" ng-include="'popup_partials/v1_app_banner.html'"></div>
+
+  <div style="-webkit-user-select: none;">
+    <div class="device-selector" role="menu" aria-haspopup="true" aria-activedescendant="">
+      <div ng-repeat="receiverAct in receiverActs" class="goog-menuitem" role="menuitem" ng-click="onClickReceiver(receiverAct)">
+        <div class="goog-menuitem-content">
+          <div ng-class="{'chromecast-device':receiverAct.receiver.receiverType == 'cast', 'generic-device':receiverAct.receiver.receiverType != 'cast'}" class="chromecast-device"></div><span ng-bind-html="receiverAct.receiver.name"></span>
+          <div class="activity-title-in-receiver-list" ng-show="receiverAct.activity" ng-bind-html="receiverAct.activity.title"></div>
+          </div>
+        </div>
+      </div>
+      <div class="goog-menuseparator" role="separator"></div>
+      <div class="goog-menuitem" role="menuitem" ng-click="showOptions()">
+        <div class="goog-menuitem-content">
+          <angular-message desc="Link to Cast extension options page" key="cast_popup_options_link">
+            Options
+          </angular-message>
+        </div>
+      </div>
+      <div class="goog-menuitem" role="menuitem" ng-click="sendFeedback()">
+        <div class="goog-menuitem-content">
+          <angular-message desc="Link to Cast extension feedback page" key="cast_popup_feedback_link">
+            Send feedback...
+          </angular-message>
+        </div>
+      </div>
+      <div class="goog-menuitem last-menuitem" role="menuitem" ng-click="showHelp()">
+        <div class="goog-menuitem-content">
+          <angular-message desc="Link to Cast extension help" key="cast_popup_help_link">
+            Help
+          </angular-message>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="capture-surface-selection" ng-show="data.selectingCastMode">
+    <div ng-class="{'checkable-option':true, checked:data.castAction == 'create_session'}"
+        ng-if="offerCreateSession" ng-click="setUserCastAction('create_session');">
+        {{castAppLabel}}
+    </div>
+    <div ng-class="{'checkable-option':true, checked:data.castAction == 'cast_this_tab'}"
+        ng-click="setUserCastAction('cast_this_tab');">
+      <angular-message desc="Link to Cast the current tab" key="cast_popup_cast_tab">
+        Cast this tab
+      </angular-message>
+    </div>
+    <div ng-class="{'checkable-option':true, checked:data.castAction == 'cast_this_tab_audio'}"
+        ng-click="setUserCastAction('cast_this_tab_audio');">
+      <angular-message desc="Link to Cast in audio mode" key="cast_popup_cast_audio">
+        Cast this tab (optimize for audio)
+      </angular-message>
+    </div>
+    <div ng-class="{'checkable-option':true, checked:data.castAction == 'cast_desktop'}"
+        ng-click="setUserCastAction('cast_desktop');" ng-hide="disableProjectScreen">
+      <angular-message desc="Link to Cast the entire screen" key="cast_popup_cast_screen">
+        Cast entire screen
+      </angular-message>
+      <angular-message desc="Suffix shown for Cast entire screen denoting its experimental nature" key="cast_popup_cast_screen_experimental">
+        (experimental)
+      </angular-message>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background_with_deps.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery_do_not_compile.js", "in-search-results_content_script.js" ],
+      "matches": [ "*://www.google.com/*", "https://encrypted.google.com/*", "*://www.google.ae/*", "*://www.google.at/*", "*://www.google.au/*", "*://www.google.be/*", "*://www.google.bg/*", "*://www.google.ca/*", "*://www.google.ch/*", "*://www.google.cl/*", "*://www.google.cn/*", "*://www.google.co.id/*", "*://www.google.co.il/*", "*://www.google.co.in/*", "*://www.google.co.kr/*", "*://www.google.co.nz/*", "*://www.google.co.jp/*", "*://www.google.co.th/*", "*://www.google.co.uk/*", "*://www.google.co.ve/*", "*://www.google.co.za/*", "*://www.google.com.ar/*", "*://www.google.com.au/*", "*://www.google.com.br/*", "*://www.google.com.co/*", "*://www.google.com.eg/*", "*://www.google.com.hk/*", "*://www.google.com.mx/*", "*://www.google.com.my/*", "*://www.google.com.ng/*", "*://www.google.com.pe/*", "*://www.google.com.ph/*", "*://www.google.com.pk/*", "*://www.google.com.sa/*", "*://www.google.com.sg/*", "*://www.google.com.tr/*", "*://www.google.com.tw/*", "*://www.google.com.ua/*", "*://www.google.com.vn/*", "*://www.google.cz/*", "*://www.google.de/*", "*://www.google.dk/*", "*://www.google.ee/*", "*://www.google.es/*", "*://www.google.fi/*", "*://www.google.fr/*", "*://www.google.gr/*", "*://www.google.hr/*", "*://www.google.hu/*", "*://www.google.ie/*", "*://www.google.it/*", "*://www.google.lt/*", "*://www.google.lv/*", "*://www.google.nl/*", "*://www.google.no/*", "*://www.google.pl/*", "*://www.google.pt/*", "*://www.google.ro/*", "*://www.google.rs/*", "*://www.google.ru/*", "*://www.google.se/*", "*://www.google.si/*", "*://www.google.sk/*" ]
+   }, {
+      "exclude_globs": [ "http://*.acidtests.org/*" ],
+      "js": [ "in-document-start_content_script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_qs_description__",
+   "icons": {
+      "128": "images/icon128x128.png",
+      "16": "images/icon16x16.png",
+      "19": "images/icon19x19.png",
+      "32": "images/icon32x32.png",
+      "48": "images/icon48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCi4GP4r1JFcIaaYWTKGPHjPV7OXP8n7d3JEYlGW+eRz9b1cnLLUqFNkEdrvuhId0MlQi40HT8NC+W2vcqpk2aItSgAdKhkF0X0Ce1M849nDlcscQGQ0UxINJLvF2jQ6PM/Q7PdmRIqK9nwadTB3uJFNoZaFj8JvM88TJwX0cSQWQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_qs_name__",
+   "options_page": "about.html",
+   "page_action": {
+      "default_icon": "images/page-action-active.png"
+   },
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.2",
+   "web_accessible_resources": [ "images/close_on.png", "images/close.png", "images/help_on.png", "images/help.png", "images/icon128x128.png", "images/icon16x16.png", "images/icon19x19.png", "images/icon32x32.png", "images/icon48x48.png", "images/minimize_on.png", "images/minimize.png", "images/number_1.png", "images/number_2.png", "images/number_3.png", "images/page-action-active.png", "images/page-action-animated_0.png", "images/page-action-animated_1.png", "images/page-action-animated_2.png", "images/page-action-animated_3.png", "images/page-action-animated_4.png", "images/page-action-animated_5.png", "images/page-action-animated_6.png", "images/page-action-animated_7.png", "images/page-action-inactive.png", "images/step_1.png", "images/step_2.png", "images/step_3.png" ]
+}

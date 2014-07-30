@@ -1,0 +1,148 @@
+body {
+  background-color: white;
+  font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', arial,
+      sans-serif;
+  font-size: 12px;
+  margin-left: 80px;
+  margin-right: 0px;
+  color: rgb(48, 57, 66);
+  max-width: 800px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 18px;
+  display: inline;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.top-title {
+  padding-left: 4px;
+}
+
+#cast-icon {
+  width: 36px;
+  height: 36px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+header {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  min-width: 600px;
+}
+
+input,
+textarea {
+  font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', arial,
+      sans-serif;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 2px;
+}
+
+input[type='text'] {
+  outline-style: none;
+}
+
+input[type='text']:focus {
+  border: 1px solid rgb(77, 144, 254);
+}
+
+.description {
+  display: block;
+}
+
+.options-sections {
+  margin-top: 66px;
+  max-width: 800px;
+}
+
+.ng-invalid {
+  background-color: #fdd;
+}
+
+caption {
+  font-weight: bold;
+}
+
+.logsDisplay {
+  width: 480px;
+  height: 120px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border: 1px solid black;
+  border: 1px solid rgb(191, 191, 191);
+  font-size: 10px;
+}
+
+.logsError {
+  color: red;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  min-width: 800px;
+}
+
+button {
+  font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', arial,
+      sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.debug-feedback {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logsAttached {
+  max-width: 450px;
+  margin-bottom: 8px;
+}
+
+.overlay {
+  z-index: 200;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(255,255,255,.5);
+}
+
+.overlay:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.overlay div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  padding: 20px;
+  background: -webkit-linear-gradient(top, #fefefe, #e4e0dd);
+  border: 1px solid #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  text-align: center;
+}
+
+.question-with-offset-text {
+  display: block;
+  padding-top: 12px;
+}
+
+.feedback-fine-log-warning {
+  color: red;
+}

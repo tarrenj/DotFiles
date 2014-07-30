@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "tr"
+   },
+   "qs_about_close_button": {
+      "message": "Kapat"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Google arama sonuçlarından birini tıkladığınızda, Quick Scroll sayfanın sağ alt köşesinde görüntülenerek sayfadan sorgunuzla alakalı bir veya daha fazla metin parçası gösterebilir. Metni tıkladığınızda sayfanın ilgili bölümü karşınıza gelir."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll yalnızca kullanışlı olabilecekse görüntülenir. Sağ üstteki simge durumuna küçült düğmesini tıklayarak küçültebilirsiniz."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Google Hakkında\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Gizlilik Politikası\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Hizmet Şartları\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll'un çalışma şekli:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll şimdi yüklendi."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll aradığınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı uzantısıdır."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll yalnızca kullanışlı olabilecekse görüntülenir. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Daha fazla bilgi edinin\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Seçenekler kaydedildi"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Kullanım istatistiklerini Google'a otomatik olarak göndererek Google Quick Scroll'u daha iyi hale getirmemize yardımcı olun."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Gizlilik seçenekleri"
+   },
+   "qs_about_step_1": {
+      "message": "Google araması yapın."
+   },
+   "qs_about_step_2": {
+      "message": "Bir arama sonucunu tıklayın."
+   },
+   "qs_about_step_3": {
+      "message": "Sayfadaki alakalı bölüme gitmek için Quick Scroll'u tıklayın."
+   },
+   "qs_about_support_instructions": {
+      "message": "Quick Scroll'u kullanmayla ilgili sorularınız veya sorunlarınız için lütfen \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">destek sayfamıza\u003C/a> bakın.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Google Quick Scroll'u yüklediğiniz için teşekkür ederiz!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Deneyin!\u003C/b> [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] araması yapıp \"dark matter brown dwarfs\" sonucunu tıklayın."
+   },
+   "qs_about_try_queries": {
+      "message": "Şu sorguları deneyin:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google Quick Scroll'un yüklemesini kaldırmak için Chrome'un Araçlar&nbsp;>&nbsp;Uzantılar menü seçeneğini kullanın ve Google Quick Scroll uzantısı için Yüklemeyi kaldır bağlantısını tıklayın."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Yüklemeyi Kaldırma"
+   },
+   "qs_description": {
+      "message": "Quick Scroll, bir Google arama sonucundaki alakalı bölüme doğrudan gitmenizi sağlar."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Daha az eşleşme"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Sorgunuz için orijinal eşleşmeleri gösterir"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll, aradığınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı uzantısıdır.\u003Cbr/>\u003Cbr/>Google arama sonuçlarından birini tıkladığınızda, Quick Scroll sayfanın sağ alt köşesinde görüntülenerek sayfadan sorgunuzla alakalı bir veya daha fazla metin parçası gösterebilir. Metni tıkladığınızda sayfanın ilgili bölümü karşınıza gelir.\u003Cbr/>\u003Cbr/>Quick Scroll sizi fazla rahatsız etmemeye çalışır ve yalnızca kullanışlı olabilecekse görüntülenir."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Maalesef, Quick Scroll \u003Cspan class=\"goog_qs-query\">$1\u003C/span> için bu sayfada herhangi bir eşleşme bulamadı. \u003Cspan class=\"goog_qs-learn-more\">Daha fazla bilgi edinin.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Sayfanın tamamının \u003Cspan class=\"goog_qs-query\">$1\u003C/span> hakkında olduğu görülüyor. Quick Scroll yalnızca sayfanın bölümleri alakalı olduğunda görüntülenir. \u003Cspan class=\"goog_qs-learn-more\">Daha fazla bilgi edinin.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Sayfanın tamamı sorgunuzla alakalı olduğundan Quick Scroll görüntülenmedi."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll, bir Google arama sonucunu tıkladığınızda görüntülenir. \u003Cspan class=\"goog_qs-learn-more\">Daha fazla bilgi edinin.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "\"Yükle\" seçeneğini tıkladığınızda bu Hizmet Şartları'nı kabul etmiş olursunuz: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Daha fazla eşleşme \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Sorgunuz için diğer eşleşmeleri gösterir"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll bu sayfada eşleşmeler buldu."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll etkin. Daha fazla bilgi için tıklayın."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll sayfanın yüklenmesini bekliyor..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Yardım ve seçenekler sayfasını aç"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> için sayfadaki eşleşmeler"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> için sayfadaki eşleşmeler"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Simge durumuna küçült"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google Quick Scroll uygulamasını aç"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Bu metni sayfada görmek için tıklayın"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Metne git $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> ile en iyi eşleşen sonuçlar"
+   }
+}

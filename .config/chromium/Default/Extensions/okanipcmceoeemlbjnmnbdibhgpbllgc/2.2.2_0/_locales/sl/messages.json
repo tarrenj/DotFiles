@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sl"
+   },
+   "qs_about_close_button": {
+      "message": "Zapri"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Ko kliknete rezultat iskanja z Googlom, se v spodnjem desnem kotu strani lahko pojavi Google Hitro drsenje, ki prikaže dele besedila strani, ki se navezujejo na poizvedbo. Če kliknete besedilo, se prikaže ta del strani."
+   },
+   "qs_about_explanation2": {
+      "message": "Google Hitro drsenje se prikaže samo, če bi vam lahko bilo v pomoč. Lahko ga minimizirate z gumbom za minimiziranje v zgornjem desnem kotu."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">O Googlu\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Pravilnik o zasebnosti\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Pogoji storitve\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Kako deluje Google Hitro drsenje:"
+   },
+   "qs_about_installed": {
+      "message": "Google Hitro drsenje je zdaj nameščeno."
+   },
+   "qs_about_introduction": {
+      "message": "Google Hitro drsenje je razširitev za brskalnik, s katero hitreje najdete, kar iščete."
+   },
+   "qs_about_only_useful": {
+      "message": "Hitro drsenje se pojavi samo, če bi vam lahko bilo v pomoč. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Več o tem\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Možnosti so shranjene"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pomagajte nam izboljšati Google Hitro drsenje, tako da omogočite samodejno pošiljanje statističnih podatkov o uporabi Googlu."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Možnosti zasebnosti"
+   },
+   "qs_about_step_1": {
+      "message": "Iščite z Googlom."
+   },
+   "qs_about_step_2": {
+      "message": "Kliknite rezultat iskanja."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknite Google Hitro drsenje, da skočite na ustrezen del strani."
+   },
+   "qs_about_support_instructions": {
+      "message": "Če imate vprašanja ali težave z uporabo Google Hitrega drsenja, si oglejte \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">stran za podporo\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Hvala, ker ste namestili Google Hitro drsenje."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Preskusite!\u003C/b> Poiščite [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] in kliknite rezultat »dark matter brown dwarfs«."
+   },
+   "qs_about_try_queries": {
+      "message": "Preskusite te poizvedbe:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Če želite odstraniti Google Hitro drsenje, v Chromu izberite »Orodja«&nbsp;>&nbsp;»Razširitve« in kliknite povezavo »Odstrani« za razširitev Google Hitro drsenje."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Odstranjevanje"
+   },
+   "qs_description": {
+      "message": "Hitro drsenje omogoča, da skočite neposredno na ustrezne dele rezultata iskanja z Googlom."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Manj ujemanj"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Izvirna ujemanja za poizvedbo"
+   },
+   "qs_gallery_description": {
+      "message": "Google Hitro drsenje je razširitev za brskalnik in pospeši iskanje.\u003Cbr/>\u003Cbr/>Ko kliknete rezultat iskanja z Googlom, se v spodnjem desnem kotu strani lahko prikaže Google Hitro drsenje, ki pokaže dele besedila strani, ki se navezujejo na poizvedbo. Če kliknete besedilo, se prikaže ta del strani.\u003Cbr/>\u003Cbr/>Google Hitro Drsenje je sicer skrito in se prikaže samo, če bi vam lahko bilo v pomoč."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Google Hitro drsenje na tej strani ni našlo ujemanj za poizvedbo \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Več o tem.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Zdi se, da je vsa stran o poizvedbi \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Hitro drsenje se pojavi, ko so ustrezni samo deli strani. \u003Cspan class=\"goog_qs-learn-more\">Več o tem.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Google Hitro drsenje se ni pojavilo, saj celotna stran ustreza poizvedbi."
+   },
+   "qs_info_on_search": {
+      "message": "Google Hitro drsenje se pojavi, ko kliknete rezultat iskanja z Googlom. \u003Cspan class=\"goog_qs-learn-more\">Več o tem.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Če kliknete »Namesti«, se strinjate s temi pogoji storitve: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Več ujemanj \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Več ujemanj za poizvedbo"
+   },
+   "qs_name": {
+      "message": "Google Hitro drsenje"
+   },
+   "qs_page_action_active": {
+      "message": "Google Hitro drsenje je na tej strani našlo ujemanja."
+   },
+   "qs_page_action_inactive": {
+      "message": "Google Hitro drsenje je omogočeno. Kliknite za več informacij."
+   },
+   "qs_page_action_running": {
+      "message": "Google Hitro drsenje čaka, da se stran naloži ..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Odpiranje strani s pomočjo in možnostmi"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Ujemanja na strani za poizvedbo \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Ujemanja na strani za poizvedbo \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimiziranje"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Odpiranje Google Hitrega drsenja"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknite, če si želite ogledati besedilo na strani"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Pojdi na besedilo $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Najboljša ujemanja za poizvedbo \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

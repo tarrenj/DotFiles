@@ -1,0 +1,38 @@
+body {
+	font: 12px/12px Trebuchet MS,Arial, sans-serif,Tahoma;
+}
+
+
+#options {
+	width: 300px;
+	height: 50px;
+	background-color: #F8E8CB;
+	border-radius: 5px;
+	padding: 10px 0px 5px 10px;
+}
+
+#timeout {
+	margin-left: 10px;
+}
+
+h2 {
+	font: 24px/24px Trebuchet MS,Arial, sans-serif,Tahoma;
+	color: #A38465;
+}
+
+input {
+	width: 55px;
+}
+
+input:disabled {
+	background-color: #D6D6D6;
+}
+
+#messages {
+	color: #C05353;
+	margin-bottom: 10px;
+}
+
+.hidden {
+	display: none;
+}

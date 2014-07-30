@@ -1,0 +1,10 @@
+/*
+ Copyright 2010 Google Inc.  All Rights Reserved.
+ Your use of this software is subject to the Terms of Service located
+ at https://chrome.google.com/extensions/intl/en/gallery_tos.html.
+*/
+var d=function(a,c,b){return a.call.apply(a.bind,arguments)},f=function(a,c,b){if(!a)throw Error();if(2<arguments.length){var e=Array.prototype.slice.call(arguments,2);return function(){var b=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(b,e);return a.apply(c,b)}}return function(){return a.apply(c,arguments)}},g=function(a,c,b){g=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?d:f;return g.apply(null,arguments)},k=function(a,c){function b(){}
+b.prototype=c.prototype;a.superClass_=c.prototype;a.prototype=new b;a.prototype.constructor=a;a.base=function(a,b,m){var h=Array.prototype.slice.call(arguments,2);return c.prototype[b].apply(a,h)}};Function.prototype.bind=Function.prototype.bind||function(a,c){if(1<arguments.length){var b=Array.prototype.slice.call(arguments,1);b.unshift(this,a);return g.apply(null,b)}return g(this,a)};
+Function.prototype.partial=function(a){var c=Array.prototype.slice.call(arguments);c.unshift(this,null);return g.apply(null,c)};Function.prototype.inherits=function(a){k(this,a)};Function.prototype.mixin=function(a){var c=this.prototype,b;for(b in a)c[b]=a[b]};Array.prototype.peek=function(){return this[this.length-1]};function l(){chrome.tabs.create({url:"http://www.google.com/search?q=dark+matter+brown+dwarfs"});return!1}
+jQuery(function(){jQuery("head").append(jQuery('<link rel="stylesheet" type="text/css" href="about_'+chrome.i18n.getMessage("direction")+'_css.css"/>'));jQuery("body").attr("dir",chrome.i18n.getMessage("direction"));var a=chrome.i18n.getMessage("locale");jQuery("[data-msg]").each(function(c,b){var e=b.getAttribute("data-msg");b.innerHTML=chrome.i18n.getMessage(e,b.hasAttribute("data-use-locale")?a:"")});jQuery("#container").show();window.localStorage.welcome||(jQuery("#title").text(chrome.i18n.getMessage("qs_about_installed")),
+window.localStorage.welcome="true");document.referrer||jQuery("#sample-query").click(l)});

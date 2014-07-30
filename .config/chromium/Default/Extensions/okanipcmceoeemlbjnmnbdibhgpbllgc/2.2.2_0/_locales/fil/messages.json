@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "fil"
+   },
+   "qs_about_close_button": {
+      "message": "Isara"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Pagkatapos mong mag-click sa isang resulta ng paghahanap sa Google, maaaring lumitaw ang Quick Scroll sa kanang sulok sa ibaba ng pahina, na nagpapakita ng isa o higit pang mga bahagi ng teksto mula sa pahinang may-katuturuan sa iyong query. Dadalhin ka ng pag-click sa teksto sa bahaging iyon ng pahina."
+   },
+   "qs_about_explanation2": {
+      "message": "Lilitaw lamang ang Quick Scroll kapag malamang na mapakikinabangan ito. Maaari mo itong i-minimize sa pamamagitan ng pag-click sa button na i-minimize sa kanang tuktok."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Tungkol sa Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Patakaran sa Privacy\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Mga Tuntunin ng Serbisyo\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Paano gumagana ang Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Naka-install na ngayon ang Google Quick Scroll."
+   },
+   "qs_about_introduction": {
+      "message": "Ang Google Quick Scroll ay isang extension ng browser na tumutulong sa iyong mas mabilis na makita ang iyong hinahanap."
+   },
+   "qs_about_only_useful": {
+      "message": "Lilitaw lamang ang Quick Scroll kapag mapakikinabangan ito. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Matuto nang higit pa\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Na-save ang mga pagpipilian"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Tumulong na gawing mas mahusay ang Google Quick Scroll sa pamamagitan ng awtomatikong pagpapadala ng mga statistics sa paggamit sa Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Mga pagpipilian sa privacy"
+   },
+   "qs_about_step_1": {
+      "message": "Maghanap sa Google."
+   },
+   "qs_about_step_2": {
+      "message": "Mag-click sa isang resulta ng paghahanap."
+   },
+   "qs_about_step_3": {
+      "message": "Mag-click sa Quick Scroll upang lumaktaw sa mga may-katuturang bahagi ng pahina."
+   },
+   "qs_about_support_instructions": {
+      "message": "Kung mayroon kang mga tanong o problema sa paggamit ng Quick Scroll, pakitingnan ang aming \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">pahina ng supporta\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Salamat sa pag-install ng Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Subukan ito!\u003C/b> Hanapin ang [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] at mag-click sa resultang \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Subukan ang mga query na ito:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Upang i-uninstall ang Google Quick Scroll, gamitin ang Mga Tool ng Chrome&nbsp;>&nbsp;Pagpipilian sa menu ng extension, at mag-click sa link na I-uninstall para sa extention ng Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "I-uninstall"
+   },
+   "qs_description": {
+      "message": "Hinahayaan ka ng Quick Scroll na direktang lumaktaw sa mga may-katuturang bahagi ng isang resulta ng paghahanap sa Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Mas kaunting tugma"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Ipakita ang mga orihinal na tugma para sa iyong query"
+   },
+   "qs_gallery_description": {
+      "message": "Ang Google Quick Scroll ay isang extension ng browser na tumutulong sa iyong mas mabilis na makita ang iyong hinahanap.\u003Cbr/>\u003Cbr/>Pagkatapos mong mag-click sa isang resulta ng paghahanap sa Google, maaaring lumitaw ang Quick Scroll sa kanang sulok sa ibaba ng pahina, na nagpapakita ng isa o higit pang mga bahagi ng teksto mula sa pahinang may-katuturan sa iyong query. Dadalhin ka ng pag-click sa teksto sa bahaging iyon ng pahina.\u003Cbr/>\u003Cbr/>Nawawala ang Quick Scroll upang hindi ka magambala, at lumilitaw lamang ito kapag malamang na mapakikinabangan ito."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Paumanhin, hindi makahanap ang Quick Scroll ng anumang mga tugma sa pahinang ito para \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Matuto nang higit pa.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Mukhang tungkol sa \u003Cspan class=\"goog_qs-query\">$1\u003C/span> ang buong pahinang ito. Lumilitaw ang Quick Scroll kapag mga bahagi lang ng pahina ang may-katuturan. \u003Cspan class=\"goog_qs-learn-more\">Matuto nang higit pa.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Hindi lumitaw ang Quick Scroll dahil may-katuturan ang buong pahina sa iyong query."
+   },
+   "qs_info_on_search": {
+      "message": "Lilitaw ang Quick scroll pagkatapos mong mag-click sa isang resulta ng paghahanap sa Google. \u003Cspan class=\"goog_qs-learn-more\">Matuto nang higit pa.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Sa pag-click sa \"I-install\", sumasang-ayon ka sa Mga Tuntunin ng Serbisyong ito: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Higit pang mga tugma \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Magpakita ng higit pang mga tugma para sa iyong query"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Nakahanap ang Quick Scroll ng mga tugma sa pahinang ito."
+   },
+   "qs_page_action_inactive": {
+      "message": "Pinagana ang Quick Scroll. Mag-click para sa higit pang impormasyon."
+   },
+   "qs_page_action_running": {
+      "message": "Naghihintay ang Quick Scroll upang mag-load ang pahina..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Buksan ang pahina ng tulong at mga pagpipilian"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Mga tugma sa pahina para sa \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Mga tugma sa pahina para sa \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "I-minimize"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Buksan ang Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Mag-click upang makita ang tekstong ito sa pahina"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Lumaktaw sa teksto $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Pinakamahuhusay na tugma para sa \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

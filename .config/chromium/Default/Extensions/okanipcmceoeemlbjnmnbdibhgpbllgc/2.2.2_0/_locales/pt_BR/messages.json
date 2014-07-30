@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "pt-BR"
+   },
+   "qs_about_close_button": {
+      "message": "Fechar"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Após clicar em um resultado de pesquisa do Google, a Rolagem rápida do Google pode aparecer no canto inferior direito da página, mostrando um ou mais trechos de texto da página que são relevantes para a sua consulta. Clicar no texto leva para aquela parte da página."
+   },
+   "qs_about_explanation2": {
+      "message": "A Rolagem rápida do Google aparece somente quando há probabilidade de ser útil. Você pode minimizá-la clicando no botão \"minimizar\" no canto superior direito."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Sobre o Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Política de Privacidade\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Termos de Serviço\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Como a Rolagem rápida funciona:"
+   },
+   "qs_about_installed": {
+      "message": "A Rolagem rápida do Google foi instalada."
+   },
+   "qs_about_introduction": {
+      "message": "A Rolagem rápida do Google é uma extensão de navegador que ajuda o usuário a encontrar o que está pesquisando mais rapidamente."
+   },
+   "qs_about_only_useful": {
+      "message": "A Rolagem rápida só aparece quando é útil. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Saiba mais\u003C/a> .",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opções salvas"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Ajude a melhorar a Rolagem rápida do Google enviando estatísticas de uso automaticamente para o Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Opções de privacidade"
+   },
+   "qs_about_step_1": {
+      "message": "Faça uma pesquisa no Google."
+   },
+   "qs_about_step_2": {
+      "message": "Clique em um resultado da pesquisa."
+   },
+   "qs_about_step_3": {
+      "message": "Clique na Rolagem rápida para ir para as partes relevantes da página."
+   },
+   "qs_about_support_instructions": {
+      "message": "Em caso de dúvidas ou problemas para usar a Rolagem rápida, consulte a nossa \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">página de suporte\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Obrigado por instalar a Rolagem rápida do Google"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Experimente!\u003C/ b> Pesquise por [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] e clique no resultado \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Teste estas consultas:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Para desinstalar a Rolagem rápida do Google, use a opção de menu Ferramentas&nbsp;>&nbsp;Extensões do Chrome e clique no link Desinstalar da extensão Rolagem rápida do Google."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Desinstalar"
+   },
+   "qs_description": {
+      "message": "A Rolagem rápida do Google permite saltar diretamente para os trechos de interesse de um resultado de pesquisa do Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Menos correspondências"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Mostrar as correspondências originais para a sua consulta"
+   },
+   "qs_gallery_description": {
+      "message": "A Rolagem rápida do Google é uma extensão do navegador que ajuda você a encontrar o que está procurando mais rapidamente.\u003Cbr/>\u003Cbr/>Depois de clicar em um resultado de pesquisa do Google, a Rolagem rápida pode aparecer no canto inferior direito da página, mostrando um ou mais trechos do texto da página que são relevantes para sua consulta. Clicar sobre o texto leva para essa parte da página.\u003Cbr/>\u003Cbr/> A ideia da Rolagem rápida não é atrapalhar, por isso ela só aparece quando há probabilidade de ser útil."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "A Rolagem rápida não localizou nenhuma correspondência nesta página para \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Saiba mais.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Esta página inteira parece ser sobre \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. A Rolagem rápida aparece quando apenas algumas partes da página são relevantes. \u003Cspan class=\"goog_qs-learn-more\">Saiba mais.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "A Rolagem rápida não apareceu porque a página inteira é relevante para sua consulta."
+   },
+   "qs_info_on_search": {
+      "message": "A Rolagem rápida aparece após clicar em um resultado de pesquisa do Google. \u003Cspan class=\"goog_qs-learn-more\">Saiba mais.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Ao clicar em \"Instalar\", você concorda com estes Termos de Serviço: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Mais correspondências \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Mostrar mais correspondências para a sua consulta"
+   },
+   "qs_name": {
+      "message": "Rolagem rápida do Google"
+   },
+   "qs_page_action_active": {
+      "message": "A Rolagem rápida do Google encontrou correspondências nesta página."
+   },
+   "qs_page_action_inactive": {
+      "message": "A Rolagem rápida do Google está ativada. Clique para obter mais informações."
+   },
+   "qs_page_action_running": {
+      "message": "A Rolagem rápida do Google está aguardando o carregamento da página..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Abrir a página de opções e a ajuda"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Correspondências na página para \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Correspondências na página para \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimizar"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Abrir a Rolagem rápida do Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Clique para ver este texto na página"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Ir para o texto $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Melhores correspondências para \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

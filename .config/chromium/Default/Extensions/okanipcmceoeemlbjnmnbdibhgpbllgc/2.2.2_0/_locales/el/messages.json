@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "el"
+   },
+   "qs_about_close_button": {
+      "message": "Κλείσιμο"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Αφού κάνετε κλικ σε κάποιο αποτέλεσμα αναζήτησης Google, η Γρήγορη κύλιση μπορεί να εμφανιστεί στην κάτω δεξιά γωνία της σελίδας, εμφανίζοντας ένα ή δύο σημεία από τη σελίδα που σχετίζεται με το ερώτημά σας. Κάνοντας κλικ στο κείμενο θα μεταβείτε σε αυτό το τμήμα της σελίδας."
+   },
+   "qs_about_explanation2": {
+      "message": "Η Γρήγορη κύλιση εμφανίζεται μόνο όταν ενδέχεται να είναι χρήσιμη. Μπορείτε να την ελαχιστοποιήσετε, κάνοντας κλικ στο κουμπί ελαχιστοποίησης που βρίσκεται επάνω δεξιά."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Σχετικά με την Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Πολιτική Απορρήτου\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Όροι Παροχής Υπηρεσιών\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Πώς λειτουργεί η Γρήγορη κύλιση:"
+   },
+   "qs_about_installed": {
+      "message": "Η εγκατάσταση της Γρήγορης κύλισης ολοκληρώθηκε."
+   },
+   "qs_about_introduction": {
+      "message": "Η Γρήγορη κύλιση Google είναι μια επέκταση προγράμματος περιήγησης που σας βοηθάει να βρίσκετε πιο γρήγορα ό,τι αναζητάτε."
+   },
+   "qs_about_only_useful": {
+      "message": "Η Γρήγορη κύλιση εμφανίζεται μόνο όταν είναι χρήσιμη. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Μάθετε περισσότερα\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Οι επιλογές αποθηκεύτηκαν"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Συμβάλετε στη βελτίωση της Γρήγορης κύλισης Google, στέλνοντας αυτόματα στην Google στατιστικά στοιχεία χρήσης."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Επιλογές απορρήτου"
+   },
+   "qs_about_step_1": {
+      "message": "Πραγματοποιήστε αναζήτηση στο Google."
+   },
+   "qs_about_step_2": {
+      "message": "Κάντε κλικ σε κάποιο αποτέλεσμα αναζήτησης."
+   },
+   "qs_about_step_3": {
+      "message": "Κάντε κλικ στη Γρήγορη κύλιση για να μεταβείτε στα σχετικά μέρη της σελίδας."
+   },
+   "qs_about_support_instructions": {
+      "message": "Εάν έχετε ερωτήσεις ή αντιμετωπίζετε προβλήματα κατά τη χρήση της Γρήγορης κύλισης, ανατρέξτε στη \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">σελίδα υποστήριξης\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Σας ευχαριστούμε που εγκαταστήσατε τη Γρήγορη κύλιση Google!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Δοκιμάστε το!\u003C/b> Αναζητήστε τον σύνδεσμο [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] και κάντε κλικ στο αποτέλεσμα \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Δοκιμάστε αυτά τα ερωτήματα:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Για να καταργήσετε την εγκατάσταση της Γρήγορης κύλισης Google, χρησιμοποιήστε την επιλογή μενού \"Επεκτάσεις εργαλείων του&nbsp;>&nbsp;Chrome\" και κάντε κλικ στον σύνδεσμο \"Κατάργηση εγκατάστασης\" για την επέκταση Γρήγορη κύλιση Google."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Κατάργηση εγκατάστασης"
+   },
+   "qs_description": {
+      "message": "Η Γρήγορη κύλιση σάς επιτρέπει να μεταβαίνετε αυτόματα στα σχετικά σημεία ενός αποτελέσματος αναζήτησης Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Λιγότερες αντιστοιχίσεις"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Εμφάνιση των αρχικών αντιστοιχίσεων για το ερώτημά σας"
+   },
+   "qs_gallery_description": {
+      "message": "Η Γρήγορη κύλιση Google είναι μια επέκταση προγράμματος περιήγησης που σας βοηθάει να βρίσκετε πιο γρήγορα ό,τι αναζητάτε.\u003Cbr/>\u003Cbr/>Μόλις κάνετε κλικ σε κάποιο αποτέλεσμα αναζήτησης Google, η Γρήγορη κύλιση ενδέχεται να εμφανιστεί στην κάτω δεξιά γωνία της σελίδας, εμφανίζοντας ένα ή περισσότερα αποσπάσματα κειμένου από τη σελίδα, τα οποία σχετίζονται με το ερώτημά σας. Κάνοντας κλικ στο κείμενο, μπορείτε να μεταβείτε στο σημείο της σελίδας όπου εμφανίζεται.\u003Cbr/>\u003Cbr/>Η Γρήγορη κύλιση δεν εμποδίζει την εργασία σας και εμφανίζεται μόνο όταν ενδέχεται να φανεί χρήσιμη."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Λυπούμαστε, η Γρήγορη κύλιση δεν κατάφερε να εντοπίσει αντιστοιχίσεις σε αυτήν τη σελίδα για το ερώτημα \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Μάθετε περισσότερα.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Φαίνεται πως ολόκληρη η σελίδα αφορά το ερώτημα \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Η Γρήγορη κύλιση εμφανίζει μόνο τμήματα της σελίδας που είναι σχετικά. \u003Cspan class=\"goog_qs-learn-more\">Μάθετε περισσότερα.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Η Γρήγορη κύλιση δεν εμφανίστηκε, γιατί ολόκληρη η σελίδα είναι σχετική με το ερώτημά σας."
+   },
+   "qs_info_on_search": {
+      "message": "Η Γρήγορη κύλιση εμφανίζεται αφού κάνετε κλικ σε κάποιο αποτέλεσμα αναζήτησης Google. \u003Cspan class=\"goog_qs-learn-more\">Μάθετε περισσότερα.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Κάνοντας κλικ στο κουμπί \"Εγκατάσταση\", αποδέχεστε τους εξής Όρους Παροχής Υπηρεσιών: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Περισσότερες αντιστοιχίσεις \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Εμφάνιση περισσότερων αντιστοιχίσεων για  το ερώτημά σας"
+   },
+   "qs_name": {
+      "message": "Γρήγορη κύλιση Google"
+   },
+   "qs_page_action_active": {
+      "message": "Η Γρήγορη κύλιση βρήκε αντιστοιχίσεις σε αυτήν τη σελίδα."
+   },
+   "qs_page_action_inactive": {
+      "message": "Η Γρήγορη κύλιση είναι ενεργοποιημένη. Κάντε κλικ για περισσότερες πληροφορίες."
+   },
+   "qs_page_action_running": {
+      "message": "Η Γρήγορη κύλιση αναμένει τη φόρτωση της σελίδας…"
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Ανοίξτε τη σελίδα βοήθειας και επιλογών"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Αντιστοιχίσεις στη σελίδα για το ερώτημα \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Αντιστοιχίσεις στη σελίδα για το ερώτημα \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Ελαχιστοποίηση"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Ανοίξτε τη Γρήγορη κύλιση Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Κάντε κλικ για να δείτε αυτό το κείμενο στη σελίδα"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Μετάβαση στο κείμενο $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Καλύτερες αντιστοιχίσεις για το ερώτημα \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "zh-TW"
+   },
+   "qs_about_close_button": {
+      "message": "關閉"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "按下某一筆 Google 搜尋結果之後，捲軸幫手可能會出現在網頁右下角，顯示網頁中與您查詢的字詞相關的文字片段。按一下文字即可前往網頁中該段文字所在部分。"
+   },
+   "qs_about_explanation2": {
+      "message": "只有在必要時機 Quick Scroll 才會顯示在畫面上。如要將 Quick Scroll 縮到最小，請按一下右上角的最小化按鈕。"
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">關於 Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">隱私權政策\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">服務條款\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll 的運作方式："
+   },
+   "qs_about_installed": {
+      "message": "Google 捲軸幫手安裝成功。"
+   },
+   "qs_about_introduction": {
+      "message": "Google 捲軸幫手瀏覽器擴充功能可讓您快速找到搜尋內容。"
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll 只會在必要時機出現。\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">瞭解詳情\u003C/a>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "選項已儲存"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "將使用統計資料自動傳送給 Google，協助我們改善 Google 捲軸幫手的效能。"
+   },
+   "qs_about_privacy_options_title": {
+      "message": "隱私權選項"
+   },
+   "qs_about_step_1": {
+      "message": "執行 Google 搜尋。"
+   },
+   "qs_about_step_2": {
+      "message": "按一下搜尋結果。"
+   },
+   "qs_about_step_3": {
+      "message": "按一下 Quick Scroll 即可跳至網頁中的相關內容部分。"
+   },
+   "qs_about_support_instructions": {
+      "message": "如果您對於 Quick Scroll 有任何疑問或使用時遇到問題，請參閱我們的\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">支援網頁\u003C/a>。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "感謝您安裝 Google 捲軸幫手！"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>試試看！\u003C/b>搜尋 [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] 然後按一下「dark matter brown dwarfs」結果。"
+   },
+   "qs_about_try_queries": {
+      "message": "查詢下列關鍵字："
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "如要解除安裝 Google 捲軸幫手，請使用 Chrome 的 [工具&nbsp;>&nbsp;擴充功能] 選單選項，然後按一下 Google 捲軸幫手擴充功能的 [解除安裝] 連結。"
+   },
+   "qs_about_uninstall_title": {
+      "message": "解除安裝"
+   },
+   "qs_description": {
+      "message": "捲軸幫手可讓您直接跳到 Google 搜尋結果中的相關文字片段。"
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  更少相符結果"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "顯示符合您查詢的原始結果"
+   },
+   "qs_gallery_description": {
+      "message": "Google 捲軸幫手瀏覽器擴充功能可協助您迅速找到搜尋內容。\u003Cbr/>\u003Cbr/>按下某筆 Google 搜尋結果之後，捲軸幫手可能會出現在網頁右下角，顯示網頁中與您查詢的字詞相關的文字片段。按一下文字即可前往網頁中該段文字所在部分。\u003Cbr/>\u003Cbr/>捲軸幫手盡量不打擾您的活動，只在必要時機出馬。"
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "很抱歉，Quick Scroll 在這個網頁上沒有找到任何與「\u003Cspan class=\"goog_qs-query\">$1\u003C/span>」相符的結果。\u003Cspan class=\"goog_qs-learn-more\">瞭解詳情\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "網頁的所有內容似乎都與「\u003Cspan class=\"goog_qs-query\">$1\u003C/span>」相關。Quick Scroll 僅在網頁的部分內容與查詢相關時才會出現。\u003Cspan class=\"goog_qs-learn-more\">瞭解詳情\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll 沒有出現，因為網頁的所有內容都與您的查詢相關。"
+   },
+   "qs_info_on_search": {
+      "message": "在您按一下 Google 搜尋結果之後，捲軸幫手就會出現。\u003Cspan class=\"goog_qs-learn-more\">瞭解詳情\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "按一下 [安裝] 表示您同意《服務條款》：https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "更多相符結果 \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "顯示更多符合您查詢的結果"
+   },
+   "qs_name": {
+      "message": "Google 捲軸幫手"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll 在這個網頁上找到相符的結果。"
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll 已啟用，按一下瞭解詳情。"
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll 正在等候網頁載入..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "開啟說明和選項網頁"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "網頁中與 \u003Cspan class=\"goog_qs-query\">\u003C/span> 相符的結果"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "網頁中與「\u003Cspan class=\"goog_qs-query\">\u003C/span>」相符的結果"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "縮到最小"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "開啟 Google 捲軸幫手"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "按一下即可在網頁中查看這段文字"
+   },
+   "qs_toolbar_go_label": {
+      "message": "跳至文字片段 $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "與「\u003Cspan class=\"goog_qs-query\">\u003C/span>」最相符的結果"
+   }
+}

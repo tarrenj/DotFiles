@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ja"
+   },
+   "qs_about_close_button": {
+      "message": "閉じる"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Google の検索結果をクリックすると、状況に応じてページの右下に Quick Scroll が表示されます。Quick Scroll には検索キーワードに関連するテキストの抜粋が表示され、このテキストをクリックするとページ内の該当箇所に移動できます。"
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll は、便利と思われる場合にのみ表示されます。右上のボタンをクリックすると最小化できます。"
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Google について\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">プライバシー ポリシー\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">利用規約\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll の使い方:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll がインストールされました。"
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll は、探している情報をすばやく見つけるためのブラウザ拡張機能です。"
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll は、便利と思われる場合にのみ表示されます。\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">詳細\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "オプションを保存しました"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "使用統計データを Google に自動送信して Google Quick Scroll の機能向上に役立てる。"
+   },
+   "qs_about_privacy_options_title": {
+      "message": "プライバシー オプション"
+   },
+   "qs_about_step_1": {
+      "message": "Google で検索します。"
+   },
+   "qs_about_step_2": {
+      "message": "検索結果のいずれかをクリックします。"
+   },
+   "qs_about_step_3": {
+      "message": "Quick Scroll をクリックすると、ページ内の関連する部分に移動できます。"
+   },
+   "qs_about_support_instructions": {
+      "message": "Quick Scroll の使用方法に関してご不明な点は、\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">サポート ページ\u003C/a>でご確認ください。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Google Quick Scroll をインストールしていただきありがとうございます。"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>試してみよう！\u003C/b>[\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] を検索し、「dark matter brown dwarfs」という検索結果をクリックしてください。"
+   },
+   "qs_about_try_queries": {
+      "message": "以下のキーワードを試してみてください:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google Quick Scroll をアンインストールするには、Chrome の [ツール]&nbsp;>&nbsp;[拡張機能] をクリックし、Google Quick Scroll 拡張機能の [アンインストール] をクリックします。"
+   },
+   "qs_about_uninstall_title": {
+      "message": "アンインストール"
+   },
+   "qs_description": {
+      "message": "Quick Scroll を使用すると、Google 検索結果の中でキーワードに関連する箇所に直接移動できます。"
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  一致する結果を隠す"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "一致する一部の箇所のみ表示"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll は、探している情報をすばやく見つけるためのブラウザ拡張機能です。\u003Cbr/>\u003Cbr/>Google の検索結果をクリックすると、状況に応じてページの右下に Quick Scroll が表示されます。Quick Scroll には検索キーワードに関連するテキストの抜粋が表示され、このテキストをクリックするとページ内の該当箇所に移動できます。\u003Cbr/>\u003Cbr/>Quick Scroll は操作の邪魔にならず、役に立つタイミングでのみ表示されます。"
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "このページには、「\u003Cspan class=\"goog_qs-query\">$1\u003C/span>」に一致する箇所が見つかりませんでした。\u003Cspan class=\"goog_qs-learn-more\">詳細\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "このページ全体が「\u003Cspan class=\"goog_qs-query\">$1\u003C/span>」に関連しているようです。Quick Scroll は、ページの一部が関連している場合にのみ表示されます。\u003Cspan class=\"goog_qs-learn-more\">詳細\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "ページ全体が検索したキーワードに関連しているため、Quick Scroll は表示されません。"
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll は、Google 検索結果をクリックした後に表示されます。\u003Cspan class=\"goog_qs-learn-more\">詳細\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "[インストール] をクリックすると、次の利用規約に同意したことになります: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "その他の一致する箇所 \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "一致するその他の箇所を表示"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "一致する箇所がこのページに見つかりました。"
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll が有効になっています。クリックすると詳しい情報が表示されます。"
+   },
+   "qs_page_action_running": {
+      "message": "ページの読み込みを待っています..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "ヘルプとオプションのページを表示"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> に一致する箇所"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> に一致する箇所"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "最小化"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google Quick Scroll を表示"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "クリックしてページ内のこのテキストの箇所を表示"
+   },
+   "qs_toolbar_go_label": {
+      "message": "テキストに移動 $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> と最も合致"
+   }
+}

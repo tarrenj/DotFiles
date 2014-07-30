@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "fi"
+   },
+   "qs_about_close_button": {
+      "message": "Sulje"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Kun klikkaat Google-hakutulosta, Quick Scroll voi tulla näkyviin sivun oikeaan alakulmaan ja näyttää sivulta vähintään yhden hakuusi liittyvän tekstikatkelman. Klikkaamalla tekstiä pääset kyseiseen sivun osaan."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll tulee näkyviin vain, kun se voi olla avuksi. Voit pienentää laajennuksen klikkaamalla oikean yläkulman Pienennä-painiketta."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Tietoja Googlesta\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Tietosuojakäytäntö\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Käyttöehdot\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Näin Quick Scroll toimii:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll on nyt asennettu."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll on selainlaajennus, jonka avulla löydät hakemasi nopeammin."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll tulee näkyviin vain, jos siitä voi olla hyötyä. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Lisätietoja\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Asetukset tallennettu"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Auta parantamaan Google Quick Scrollia lähettämällä käyttötietoja Googlelle automaattisesti."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Tietosuoja-asetukset"
+   },
+   "qs_about_step_1": {
+      "message": "Tee Google-haku."
+   },
+   "qs_about_step_2": {
+      "message": "Klikkaa hakutulosta."
+   },
+   "qs_about_step_3": {
+      "message": "Voit siirtyä valitsemaasi aihetta käsitteleviin sivun osiin klikkaamalla Quick Scroll -kuvaketta."
+   },
+   "qs_about_support_instructions": {
+      "message": "Jos sinulla on kysyttävää tai Quick Scrollin käytössä on ongelmia, tutustu \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">tukisivuumme\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Kiitos, että asensit Google Quick Scrollin!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Kokeile!\u003C/b> Tee haku [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] ja klikkaa tulosta dark matter brown dwarfs."
+   },
+   "qs_about_try_queries": {
+      "message": "Kokeile näitä kyselyitä:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Voit poistaa Google Quick Scrollin klikkaamalla Poista-linkkiä Google Quick Scroll -laajennuksen kohdalla Chromen valikkokohdassa Työkalut &nbsp;>&nbsp; Laajennukset."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Poista"
+   },
+   "qs_description": {
+      "message": "Quick Scroll vie sinut suoraan Google-hakutuloksen osuviin kohtiin."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Vähemmän osumia"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Näytä haun alkuperäiset osumat."
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll on selainlaajennus, joka auttaa sinua löytämään etsimäsi nopeammin.\u003Cbr/>\u003Cbr/>Kun klikkaat Google-hakutulosta, Quick Scroll voi tulla näkyviin sivun oikeaan alakulmaan ja näyttää sivulta vähintään yhden hakuusi liittyvän tekstikatkelman. Klikkaamalla tekstiä pääset kyseiseen sivun osaan.\u003Cbr/>\u003Cbr/>Quick Scroll pysyttelee poissa tieltä ja tulee näkyviin vain, jos siitä voi olla hyötyä."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Quick Scroll ei löytänyt sivulta osumia haulle \u003Cspan class=\"goog_qs-query\">$1\u003C/span>.\u003Cspan class=\"goog_qs-learn-more\">Lisätietoja.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Koko sivu vaikuttaa käsittelevän kyselyä \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Quick Scroll tulee näkyviin vain, jos osa sivua vastaa kyselyä. \u003Cspan class=\"goog_qs-learn-more\">Lisätietoja.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll ei tullut näkyviin, koska koko sivu liittyy kyselyysi."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll tulee näkyviin klikattuasi Google-hakutulosta. \u003Cspan class=\"goog_qs-learn-more\">Lisätietoja.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Valitsemalla Asenna hyväksyt nämä käyttöehdot: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Lisää osumia \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Näytä lisää osumia haullesi."
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll löysi osumia tältä sivulta."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll on käytössä. Saat lisätietoja klikkaamalla."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll odottaa sivun latautumista..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Avaa ohje- ja asetussivu"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Sivulla olevat osumat kyselyllä \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Sivulla olevat osumat kyselyllä \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Pienennä"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Avaa Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klikkaa, niin näet tämän tekstin sivulla."
+   },
+   "qs_toolbar_go_label": {
+      "message": "Siirry tekstiin $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Parhaat osumat haulla \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

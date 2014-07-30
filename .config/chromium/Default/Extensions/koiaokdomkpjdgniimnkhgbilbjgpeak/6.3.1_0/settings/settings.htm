@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<script src="/libs/jquery.js"></script>
+		<script src="settings.js"></script>
+		<title>AutoHD for YouTube Settings</title>
+		<style>
+			body{
+				width:200px;
+				height:100px;
+				font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+				font-size:13px;
+				padding:20px;
+			}
+			label
+			{
+				cursor:pointer;
+			}
+			.Title
+			{
+				font-size:15px;
+				color:#888;
+			}
+			.Subtitle
+			{
+				font-weight:bold;
+				margin-top:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Title">YouTube Preferences</div>
+		<div class="Subtitle">Play Quality:</div>
+		<select id="QualitySelect">
+			<option value="highres">HD Max (2k/4k) - Experimental</option>
+			<option value="hd1080">HD (1080)</option>
+			<option value="hd720" selected>HD (720)</option>
+			<option value="large">Large (480)</option>
+			<option value="medium">Medium (360)</option>
+			<option value="small">Small (240)</option>
+		</select>
+		<div class="Subtitle">Player Size:</div>
+		<select id="SizeSelect">
+			<option value="0" selected="1">Small</option>
+			<option value="1">Large</option>
+		</select>
+  </body>
+</html>

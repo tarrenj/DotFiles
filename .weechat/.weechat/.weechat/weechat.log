@@ -1,0 +1,15 @@
+[2014-03-29 12:27:13] WeeChat 0.4.3 (compiled on Feb 10 2014 17:48:35)
+[2014-03-29 12:27:13] Reading configuration file sec.conf
+[2014-03-29 12:27:20] Reading configuration file weechat.conf
+[2014-03-29 12:27:20] Reading configuration file plugins.conf
+[2014-03-29 12:27:20] Reading configuration file alias.conf
+[2014-03-29 12:27:20] Reading configuration file aspell.conf
+[2014-03-29 12:27:20] Reading configuration file charset.conf
+[2014-03-29 12:27:20] Reading configuration file irc.conf
+[2014-03-29 12:27:21] irc: connecting to server chat.freenode.net/6697 (SSL)...
+[2014-03-29 12:27:21] Reading configuration file logger.conf
+[2014-03-29 12:27:21] Reading configuration file relay.conf
+[2014-03-29 12:27:21] Reading configuration file rmodifier.conf
+[2014-03-29 12:27:21] Reading configuration file script.conf
+[2014-03-29 12:27:21] Reading configuration file xfer.conf
+[2014-03-29 12:27:21] Reading configuration file iset.conf

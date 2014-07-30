@@ -1,0 +1,21 @@
+2014-02-25 15:55:32	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #xorg
+2014-02-25 15:55:32	--	Topic for #xorg is "Read http://wiki.x.org/wiki/XorgIRC | xorg.conf is not used for input devices by default, see http://xrl.us/xinput & http://tinyurl.com/xinput | xserver 1.15 released | Open driver questions see also #intel-gfx, #radeon, #nouveau | Closed driver questions -> #ati, #nvidia, #poulsbo | Really. Even if those channels seem dead. Not here."
+2014-02-25 15:55:32	--	Topic set by alanc (~alanc@inet-hqmc02-o.oracle.com) on Fri, 27 Dec 2013 13:20:39
+2014-02-25 15:55:32	--	Nicks #xorg: [17SAAIAEX [Awaxx] afiestas aissen Akronym alanc andi-_ ariscop Atlantic777 awakecoding benpi bholst_ bitmasher BlastHardcheese BlueMatt CalimeroTeknik Celelibi CME Coweater crane crazedpsyc CruX| Daekdroom dafox darkbasic DarkPlayer doki_pen_ dolio dormito Droste1 dvance elbeardmorez enderw enyc eugecm felipe` ferret_ fling gener1c_ geomyidae glisse goldkatze grawity Guest94002 hagabaka harobed heiserhorn Hello71 iive infojunky ircuser-3 ivan`` ix J0k3r jackneill JackWinter janLo jaydg jcristau jdoles jepi jgeboski jlouis jmspeex JoeJulian jrayhawk kameloso kem ketas kirin` kkux kloeri Lulzon Mercury mitz mtk mythos ndrei oga oleo OMGOMG OxDeadC0de pcacjr pharris pinage404 Prf_Jakob przemoc QKO Ralesk rellig rostam semeion shal3r SM0TVI smrtz|nix spaceone SS3 stroyan styx__ sungami Tekla telmich tg thaytan thoonai_ tirengarfio tomaw tonyb torindel_ Triskelios trout vmeson Vorpal wiebel wolog WormDrink xxtjaxx zmo zorael]
+2014-02-25 15:55:32	--	Channel #xorg: 119 nicks (0 ops, 0 halfops, 0 voices, 119 normals)
+2014-02-25 15:55:34	--	Mode #xorg [+nt]
+2014-02-25 15:55:34	--	Channel created on Sun, 26 Nov 2006 01:42:43
+2014-02-25 15:57:15	<--	harobed (~stephane-@equ57-1-78-235-121-109.fbx.proxad.net) has quit (Quit: harobed)
+2014-02-25 15:59:40	-->	JoFo (~Jean-Fran@host-213-213-229-139.brutele.be) has joined #xorg
+2014-02-25 16:15:40	<--	elbeardmorez (~quassel@188-221-169-82.zone12.bethere.co.uk) has quit (Read error: Connection reset by peer)
+2014-02-25 16:18:29	-->	harobed (~stephane-@equ57-1-78-235-121-109.fbx.proxad.net) has joined #xorg
+2014-02-25 16:20:25		irc: disconnected from server
+2014-02-25 19:39:48	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #xorg
+2014-02-25 19:39:48	--	Topic for #xorg is "Read http://wiki.x.org/wiki/XorgIRC | xorg.conf is not used for input devices by default, see http://xrl.us/xinput & http://tinyurl.com/xinput | xserver 1.15 released | Open driver questions see also #intel-gfx, #radeon, #nouveau | Closed driver questions -> #ati, #nvidia, #poulsbo | Really. Even if those channels seem dead. Not here."
+2014-02-25 19:39:48	--	Topic set by alanc (~alanc@inet-hqmc02-o.oracle.com) on Fri, 27 Dec 2013 13:20:39
+2014-02-25 19:39:48	--	Nicks #xorg: [17SAAIAEX [Awaxx] afiestas aissen Akronym alanc alvarezp andi-_ ariscop Atlantic777 awakecoding benpi bholst_ bitmasher BlastHardcheese BlueMatt CalimeroTeknik Celelibi CME Coweater crane crazedpsyc CruX| Daekdroom darkbasic DarkPlayer dingyichen doki_pen_ dolio dormito Droste1 dvance edgar-rft enderw enyc eugecm felipe` ferret_ fling gener1c_ geomyidae glisse goldkatze grawity Guest94002 hagabaka harobed heiserhorn Hello71 iive infojunky ircuser-3 ivan`` ix J0k3r JackWinter janLo jaydg jcristau jdoles jgeboski jlouis jmspeex JoeJulian JoFo jrayhawk kameloso kem ketas kirin` kkux kloeri Lulzon Mercury mitz mtk mythos neels oga oleo OMGOMG OxDeadC0de pcacjr pinage404 Prf_Jakob przemoc QKO Ralesk rellig rostam semeion shal3r SM0TVI smrtz|nix spaceone SS3 stroyan styx__ sungami Tekla telmich tg thaytan thoonai_ tirengarfio tomaw tonyb torindel_ Triskelios trout vmeson Vorpal wiebel wolog WormDrink xxtjaxx zmo zorael]
+2014-02-25 19:39:48	--	Channel #xorg: 118 nicks (0 ops, 0 halfops, 0 voices, 118 normals)
+2014-02-25 19:39:50	--	Mode #xorg [+nt]
+2014-02-25 19:39:50	--	Channel created on Sun, 26 Nov 2006 01:42:43
+2014-02-25 19:40:19	smrtz|nix	Hey, in order to adjust the way my terminal looks, I change my .xdefaults, right?
+2014-02-25 19:41:37		irc: disconnected from server

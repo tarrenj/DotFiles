@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hu"
+   },
+   "qs_about_close_button": {
+      "message": "Bezárás"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Miután rákattintott egy Google keresési eredményre, a Gyorsgörgető megjelenhet az oldal jobb alsó sarkában, megjelenítve a keresés szempontjából releváns szövegrész(eke)t. Ha rákattint a szövegre, automatikusan az oldal adott részére ugrik."
+   },
+   "qs_about_explanation2": {
+      "message": "A Gyorsgörgető csak akkor jelenik meg, ha valószínűsíthetően hasznos. A jobb felső sarokban lévő kis méret gombra kattintva kis méretre állíthatja."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Minden a Google-ról\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Adatvédelmi irányelvek\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Általános Szerződési Feltételek\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Így működik a Gyorsgörgető:"
+   },
+   "qs_about_installed": {
+      "message": "A Google Gyorsgörgető telepítése megtörtént."
+   },
+   "qs_about_introduction": {
+      "message": "A Google Gyorsgörgető olyan böngészőbővítmény, amelynek segítségével gyorsabban megtalálhatja, amit keres."
+   },
+   "qs_about_only_useful": {
+      "message": "A Gyorsgörgető csak akkor jelenik meg, ha hasznos. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">További információ\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Beállítások elmentve"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Segítse a Google Gyorsgörgető továbbfejlesztését a használati statisztikák Google számára való automatikus elküldésével."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Adatvédelmi beállítások"
+   },
+   "qs_about_step_1": {
+      "message": "Végezzen egy Google-keresést."
+   },
+   "qs_about_step_2": {
+      "message": "Kattintson egy keresési eredményre."
+   },
+   "qs_about_step_3": {
+      "message": "Az oldal releváns részeire való ugráshoz kattintson a Gyorsgörgetőre."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ha kérdései vannak a Gyorsgörgetővel kapcsolatban, kérjük, tekintse meg \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">támogatóoldalunkat\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Köszönjük, hogy telepítette a Google Gyorsgörgetőt!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Próbálja ki!\u003C/b> Keressen a következőre: [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>], majd kattintson a(z) \"dark matter brown dwarfs\" eredményre."
+   },
+   "qs_about_try_queries": {
+      "message": "Próbálja ki ezeket a lekérdezéseket:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "A Google Gyorsgörgető bővítmény eltávolításához nyissa meg a Google Chrome Eszközök&nbsp;>&nbsp;Bővítmények menüjét, majd kattintson a Google Gyorsgörgető melletti Eltávolítás linkre."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Eltávolítás"
+   },
+   "qs_description": {
+      "message": "A Gyorsgörgető lehetővé teszi, hogy közvetlenül egy Google keresési eredmény releváns részéhez ugorjon."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Kevesebb találat"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "A lekérdezés eredeti találatainak megjelenítése"
+   },
+   "qs_gallery_description": {
+      "message": "A Google Gyorsgörgető egy olyan böngészőbővítmény, amely segít gyorsabban megtalálni, amit keres.\u003Cbr/>\u003Cbr/>Miután rákattint egy Google keresési eredményre, a Gyorsgörgető megjelenhet az oldal jobb alsó sarkában, egy vagy több olyan szövegrészletet mutatva az oldalról, amely releváns a lekérdezésével kapcsolatban. A szövegre kattintva eljuthat az oldal megfelelő részére.\u003Cbr/>\u003Cbr/>A Gyorsgörgető igyekszik nem útban lenni, és csak akkor tűnik fel, ha valószínűleg hasznos lesz."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Sajnáljuk, a Gyorsgörgető nem talált eredményeket ezen az oldalon a következőre: \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">További információ.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Úgy tűnik, hogy az egész oldal témája a(z) \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. A Gyorsgörgető csak akkor jelenik meg, ha az oldalnak csak egy része releváns. \u003Cspan class=\"goog_qs-learn-more\">További információ.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "A Gyorsgörgető azért nem jelent meg, mert az egész oldal releváns a lekérdezés szempontjából."
+   },
+   "qs_info_on_search": {
+      "message": "A Gyorsgörgető azután jelenik meg, hogy rákattint egy Google keresési eredményre. \u003Cspan class=\"goog_qs-learn-more\">További információ.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "A \"Telepítés\" gombra kattintva elfogadja ezeket az Általános Szerződési Feltételeket: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "További találatok \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Több találat megjelenítése a lekérdezéshez"
+   },
+   "qs_name": {
+      "message": "Google Gyorsgörgető"
+   },
+   "qs_page_action_active": {
+      "message": "A Gyorsgörgető ezen az oldalon találatokra bukkant."
+   },
+   "qs_page_action_inactive": {
+      "message": "A Gyorsgörgető engedélyezve van. További információért kattintson ide."
+   },
+   "qs_page_action_running": {
+      "message": "A Gyorsgörgető az oldal betöltődésére vár..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "A Súgó és beállítások oldal megnyitása"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Találatok az oldalon \u003Cspan class=\"goog_qs-query\">\u003C/span> lekérdezéshez"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Találatok az oldalon \u003Cspan class=\"goog_qs-query\">\u003C/span> lekérdezéshez"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Kis méret"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "A Google Gyorsgörgető megnyitása"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kattintson ide a szöveg oldalon való megtekintéséhez"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Ugrás a szövegre $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "A legjobb egyezések a következőre: \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

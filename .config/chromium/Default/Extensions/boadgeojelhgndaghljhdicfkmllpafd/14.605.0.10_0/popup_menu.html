@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="popupMenu" ng-csp xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chromecast Extension Popup</title>
+<link rel="stylesheet" type="text/css" href="popup_menu_css.css" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="angular.js"></script>
+<script type="text/javascript" src="angular_sanitize.js"></script>
+<script type="text/javascript" src="angular_route.js"></script>
+<script type="text/javascript" src="popup_menu_script.js"></script>
+</head>
+<body id="popup" ng-controller="PopupMenuCtrl">
+  <div ng-view></div>
+</body>
+</html>

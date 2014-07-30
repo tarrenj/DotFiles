@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "data/icon38_off.png",
+      "default_popup": "popup_menu.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "api_content_script.js" ],
+      "matches": [ "https://cast.google.com/*", "*://googlecast.github.io/*", "*://*.youtube.com/*", "*://*.youtube-nocookie.com/*", "*://*.netflix.com/WiPlayer*", "https://docs.google.com/presentation/*", "https://docs.google.com/a/*/presentation/*", "https://play.google.com/music/*", "https://play.google.com/video/avi/*", "https://plus.google.com/*", "http://www.hbogo.com/*", "http://www.washingtonpost.com/posttv/*", "http://revision3.com/*", "http://songza.com/*", "http://www.redbull.tv/*", "http://live.redbull.tv/*", "*://*.plexapp.com/*", "http://*.plex.tv/*", "https://*.plex.tv/*", "http://*.plex.tv:32400/*", "*://cloud.real.com/*", "http://www.vevo.com/*", "http://www.viki.com/*" ]
+   } ],
+   "content_security_policy": "default-src 'self'; img-src 'self' https://www.google-analytics.com http://www.google-analytics.com; style-src 'self' 'unsafe-inline' http://fonts.googleapis.com; script-src 'self' https://feedback.googleusercontent.com https://www.gstatic.com https://www.google.com https://www.google-analytics.com https://ssl.google-analytics.com; frame-src https://www.google.com; connect-src 'self' http://*:* https://*:* ws://*:*; font-src http://themes.googleusercontent.com; object-src 'none'",
+   "default_locale": "en",
+   "description": "__MSG_6392731103614271560__",
+   "externally_connectable": {
+      "ids": [ "gdijeikdkaembjbdobgfkoidjkpbmlkd", "mjekoljodoiapgkggnlmbecndfpbbcch", "llohocloplkbhgcfnplnoficdkiechcn", "icljpnebmoleodmchaaajbkpoipfoahp" ]
+   },
+   "feedbackBucket": "Production",
+   "icons": {
+      "128": "data/icon128.png",
+      "16": "data/icon16.png",
+      "48": "data/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3p49puSLQqWRn5jagZXIfOuY+LCUgsD4iDzqt26JAyTjTsHeN2yqOiZL8J+5g35f4G48NlGgMosDzpy8HFvVOVsnRNuKj5oMsqx7/j3GlBpBmb6vEhve9DG4YD0dBAHOy5xxyQVJMO7T+jQdH1+XAdCGZlwGtqV2sIiVgh84ZfwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "27",
+   "name": "Google Cast",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "tabCapture", "dial", "mdns", "cast", "cast.streaming", "storage", "networkingPrivate", "system.cpu", "http://*/*", "https://clients2.google.com/cr/*" ],
+   "receiverVersion": "release-2ca632a4a884bbaa9413d9e7b9fdc559a72ccb4c",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "14.605.0.10",
+   "web_accessible_resources": [ "feedback.html", "api_script.js", "cast_sender.js", "api_iframe.html", "api_iframe_script.js" ]
+}

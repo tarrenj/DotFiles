@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ko"
+   },
+   "qs_about_close_button": {
+      "message": "닫기"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Google 검색결과를 클릭하면 페이지 오른쪽 하단에 퀵 스크롤이 나타나서 페이지에 있는 검색어와 관련된 하나 이상의 텍스트 부분을 표시합니다. 텍스트를 클릭하면 페이지의 해당 부분으로 이동합니다."
+   },
+   "qs_about_explanation2": {
+      "message": "퀵 스크롤은 유용한 경우에만 표시됩니다. 오른쪽 상단의 최소화 버튼을 클릭하여 최소화할 수 있습니다."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Google 정보\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">개인정보취급방침\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">서비스 약관\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "퀵 스크롤의 작동 방식:"
+   },
+   "qs_about_installed": {
+      "message": "Google 퀵 스크롤이 설치되었습니다."
+   },
+   "qs_about_introduction": {
+      "message": "Google 퀵 스크롤은 검색 대상을 더 빠르게 찾아주는 브라우저 확장 프로그램입니다."
+   },
+   "qs_about_only_useful": {
+      "message": "퀵 스크롤은 유용한 경우에만 표시됩니다. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">자세히 알아보기\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "옵션이 저장되었습니다."
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Google 퀵 스크롤 개선에 도움이 되도록 Google에 사용 통계가 자동으로 전송되도록 하겠습니다."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "개인정보 보호 옵션"
+   },
+   "qs_about_step_1": {
+      "message": "Google 검색을 수행합니다."
+   },
+   "qs_about_step_2": {
+      "message": "검색결과를 클릭합니다."
+   },
+   "qs_about_step_3": {
+      "message": "퀵 스크롤을 클릭하여 페이지의 관련된 부분으로 바로 이동합니다."
+   },
+   "qs_about_support_instructions": {
+      "message": "퀵 스크롤 사용 중에 문제가 발생하거나 문의사항이 있으면 Google \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">지원 페이지\u003C/a>를 참조하시기 바랍니다.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Google 퀵 스크롤을 설치해 주셔서 감사합니다."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>사용해 보기\u003C/b> [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>]을(를) 검색하고 'dark matter brown dwarfs' 결과를 클릭하세요."
+   },
+   "qs_about_try_queries": {
+      "message": "다음 검색어를 사용해 보세요."
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google 퀵 스크롤을 제거하려면 Chrome의 도구&nbsp;>&nbsp;> 확장 프로그램 메뉴 옵션을 사용하여 Google 퀵 스크롤 확장 프로그램에 대한 제거 링크를 클릭합니다."
+   },
+   "qs_about_uninstall_title": {
+      "message": "제거"
+   },
+   "qs_description": {
+      "message": "퀵 스크롤을 사용하면 Google 검색결과의 관련된 부분으로 바로 이동할 수 있습니다."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  검색결과 간략히"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "검색어에 대한 원래 검색결과 보기"
+   },
+   "qs_gallery_description": {
+      "message": "Google 퀵 스크롤은 검색 대상을 더 빠르게 찾아주는 브라우저 확장 프로그램입니다.\u003Cbr/>\u003Cbr/>Google 검색결과를 클릭하면 페이지 오른쪽 하단에 퀵 스크롤이 나타나서 페이지에 있는 검색어와 관련된 하나 이상의 텍스트 부분을 표시합니다. 텍스트를 클릭하면 페이지의 해당 부분으로 이동합니다.\u003Cbr/>\u003Cbr/>퀵 스크롤은 웹검색에 불편을 주지 않으며 유용하다고 생각되는 경우에만 표시됩니다."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "퀵 스크롤이 이 페이지에서 \u003Cspan class=\"goog_qs-query\">$1\u003C/span>에 대한 검색결과를 찾지 못했습니다. \u003Cspan class=\"goog_qs-learn-more\">자세히 알아보기\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "페이지 전체가 \u003Cspan class=\"goog_qs-query\">$1\u003C/span>에 대한 내용으로 보입니다. 퀵 스크롤은 페이지 중 일부만 관련이 있을 때 표시됩니다. \u003Cspan class=\"goog_qs-learn-more\">자세히 알아보기\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "페이지 전체가 검색어와 관련이 있으므로 퀵 스크롤이 표시되지 않았습니다."
+   },
+   "qs_info_on_search": {
+      "message": "Google 검색결과를 클릭하면 퀵 스크롤이 표시됩니다. \u003Cspan class=\"goog_qs-learn-more\">자세히 알아보기\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "'설치'를 클릭하면 다음 서비스 약관에 동의하게 됩니다. https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "검색결과 더보기 \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "검색어에 대한 결과 더보기"
+   },
+   "qs_name": {
+      "message": "Google 퀵 스크롤"
+   },
+   "qs_page_action_active": {
+      "message": "퀵 스크롤이 페이지에서 일치하는 항목을 찾았습니다."
+   },
+   "qs_page_action_inactive": {
+      "message": "퀵 스크롤을 사용할 수 있습니다. 자세한 내용을 보려면 클릭하세요."
+   },
+   "qs_page_action_running": {
+      "message": "퀵 스크롤에서 페이지 로드 대기 중..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "도움말 및 옵션 페이지 열기"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span>에 대한 페이지 검색결과"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span>에 대한 페이지 검색결과"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "최소화"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google 퀵 스크롤 열기"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "페이지에서 텍스트를 보려면 클릭"
+   },
+   "qs_toolbar_go_label": {
+      "message": "텍스트로 이동 $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span>에 대한 최적의 검색결과"
+   }
+}

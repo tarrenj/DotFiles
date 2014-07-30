@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery.js", "js/domChangePlugin.js", "js/freeFall.js", "js/options.js" ],
+      "matches": [ "http://www.cigarbid.com/*" ]
+   } ],
+   "description": "Monitors the lowest price seen for a given free fall auction.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGvQKnCor5YatfRHsvsFFF3RjB3pjQWpNUAYaedvtELN3+uRaGbuim+q4VjDmOReHGn5OUcTY+5H2V4sW/KXYUsDTMikR4v5ZX/qTl8mWEDVYm2F2zS+DicLgUhwHXxPKe6NjyxvgACh0RCEdG8meCq/VCqrFp0bI4VaTUTzoLTQIDAQAB",
+   "manifest_version": 2,
+   "name": "CigarBid Free Fall Plugin",
+   "options_page": "html/options.html",
+   "permissions": [ "notifications", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1",
+   "web_accessible_resources": [ "icons/icon48.png" ]
+}

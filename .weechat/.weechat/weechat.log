@@ -1,15 +1,28 @@
-[2014-03-29 12:27:13] WeeChat 0.4.3 (compiled on Feb 10 2014 17:48:35)
-[2014-03-29 12:27:13] Reading configuration file sec.conf
-[2014-03-29 12:27:20] Reading configuration file weechat.conf
-[2014-03-29 12:27:20] Reading configuration file plugins.conf
-[2014-03-29 12:27:20] Reading configuration file alias.conf
-[2014-03-29 12:27:20] Reading configuration file aspell.conf
-[2014-03-29 12:27:20] Reading configuration file charset.conf
-[2014-03-29 12:27:20] Reading configuration file irc.conf
-[2014-03-29 12:27:21] irc: connecting to server chat.freenode.net/6697 (SSL)...
-[2014-03-29 12:27:21] Reading configuration file logger.conf
-[2014-03-29 12:27:21] Reading configuration file relay.conf
-[2014-03-29 12:27:21] Reading configuration file rmodifier.conf
-[2014-03-29 12:27:21] Reading configuration file script.conf
-[2014-03-29 12:27:21] Reading configuration file xfer.conf
-[2014-03-29 12:27:21] Reading configuration file iset.conf
+[2014-06-30 14:32:56] WeeChat 0.4.3 (compiled on May 31 2014 03:48:43)
+[2014-06-30 14:32:56] Reading configuration file sec.conf
+[2014-06-30 14:33:01] Reading configuration file weechat.conf
+[2014-06-30 14:33:01] Reading configuration file plugins.conf
+[2014-06-30 14:33:01] Reading configuration file alias.conf
+[2014-06-30 14:33:01] Reading configuration file aspell.conf
+[2014-06-30 14:33:01] Reading configuration file charset.conf
+[2014-06-30 14:33:01] Reading configuration file irc.conf
+[2014-06-30 14:33:01] irc: connecting to server chat.freenode.net/6667...
+[2014-06-30 14:33:01] Reading configuration file logger.conf
+[2014-06-30 14:33:01] Reading configuration file relay.conf
+[2014-06-30 14:33:01] Reading configuration file rmodifier.conf
+[2014-06-30 14:33:01] Reading configuration file script.conf
+[2014-06-30 14:33:01] Reading configuration file xfer.conf
+[2014-06-30 14:33:01] Reading configuration file iset.conf
+[2014-06-30 14:33:09] Writing configuration file plugins.conf 
+[2014-06-30 14:33:09] Writing configuration file iset.conf 
+[2014-06-30 14:33:09] Writing configuration file xfer.conf 
+[2014-06-30 14:33:09] Writing configuration file script.conf 
+[2014-06-30 14:33:09] Writing configuration file rmodifier.conf 
+[2014-06-30 14:33:09] Writing configuration file relay.conf 
+[2014-06-30 14:33:09] Writing configuration file logger.conf 
+[2014-06-30 14:33:09] Writing configuration file irc.conf 
+[2014-06-30 14:33:09] Writing configuration file charset.conf 
+[2014-06-30 14:33:09] Writing configuration file aspell.conf 
+[2014-06-30 14:33:09] Writing configuration file alias.conf 
+[2014-06-30 14:33:09] Writing configuration file weechat.conf 
+[2014-06-30 14:33:09] Writing configuration file sec.conf 

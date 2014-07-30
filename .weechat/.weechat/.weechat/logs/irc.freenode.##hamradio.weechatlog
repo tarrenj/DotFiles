@@ -1,0 +1,286 @@
+2014-03-25 15:26:19	-->	smrtz|nix (~smrtz@unaffiliated/smrtznix/x-9775867) has joined ##hamradio
+2014-03-25 15:26:19	--	Topic for ##hamradio is "Welcome to the BBQing, Radio yakking, eBike riding-est channel in the Interwebs! || We now have a Facebook page! Direct your favorite browser to https://www.facebook.com/freenodehamradio -- not a lot of info here yet, so feel free to add ideas/suggestions!"
+2014-03-25 15:26:19	--	Topic set by ErrantEgo (~ErrantEgo@freenode/jester/errantego) on Mon, 10 Feb 2014 01:44:16
+2014-03-25 15:26:19	--	Channel ##hamradio: 291 nicks (1 op, 1 voice, 289 normals)
+2014-03-25 15:26:19	--	PvNotice(ChanServ): The channel bot - w8irc - is voiced in the channel, and is here to help, and it has its own webpage. Send a PM ( /msg w8irc !help ) to use the bot. If you abuse the bot in the channel: you, the bot, or both will be quieted (or kicked) at an op's own discretion!! *** No complaints nor arguments will be entertained. This is your only warning! ***
+2014-03-25 15:26:20	Lisa_Fox	:-)
+2014-03-25 15:26:21	gordonjcp	Lisa_Fox: :-)
+2014-03-25 15:26:21	--	Mode ##hamradio [+Ccntjf 5:3 ##hamradio-unregistered]
+2014-03-25 15:26:21	--	Channel created on Wed, 27 Jan 2010 02:17:33
+2014-03-25 15:26:34	gordonjcp	http://gjcp.net/~gordonjcp/mp3s/hr16.mp3 <- HR16 with custom ROM set
+2014-03-25 15:27:04	Lisa_Fox	gordonjcp, oh Alesis, love the design...
+2014-03-25 15:27:05	<--	Pentapus_ (~Pentapus@nat-128-84-124-0-739.cit.cornell.edu) has quit (Ping timeout: 246 seconds)
+2014-03-25 15:27:21	Lisa_Fox	gordonjcp, wavetable?
+2014-03-25 15:27:41	gordonjcp	Lisa_Fox: it's got two large ROMs with samples in, and a firmware ROM with the start points
+2014-03-25 15:27:48	Lisa_Fox	gordonjcp, I'm not sure if those are samples or FM instruments
+2014-03-25 15:27:59	gordonjcp	the end points are encoded as magic values in the data
+2014-03-25 15:28:06	Lisa_Fox	gordonjcp, Ah cool, love the sound from the demo you urled
+2014-03-25 15:28:14	Lisa_Fox	ah i see
+2014-03-25 15:28:17	Dianora	https://www.facebook.com/permalink.php?story_fbid=740971779281171&id=178566888854999
+2014-03-25 15:28:31	Dianora	Malaysian aircraft position analysis
+2014-03-25 15:28:35	gordonjcp	Lisa_Fox: they do an interesting thing where the samples are 8 bit but the DACs are 16 bit
+2014-03-25 15:28:36	Dianora	using doppler effects
+2014-03-25 15:28:54	gordonjcp	Lisa_Fox: a marker byte signals the ASIC to "change gear" and shift the data down one bit
+2014-03-25 15:28:55	Lisa_Fox	gordonjcp, oh neat! the S-50 is an oddball, i think it is 12bit
+2014-03-25 15:29:06	gordonjcp	so you play back 8 bits worth of data on the upper 8 bits of the DAC
+2014-03-25 15:29:20	gordonjcp	then hit the marker, and shift down to bits 14-7, and so on
+2014-03-25 15:29:32	Lisa_Fox	gordonjcp, funky design scheme going on there. love the sound, and it sure looks cool as well.
+2014-03-25 15:30:39	smrtz|nix	Hey, can someone help me figure out the antenna for a Bullet M5 please?  It's an N type connector, but it's much to heavy, and since I'll be building the antenna myself, I'm currious if I can just solder it directly to the bullet?
+2014-03-25 15:30:44	<--	Ex0deus (~Exodeus@unaffiliated/ex0deus) has quit (Ping timeout: 240 seconds)
+2014-03-25 15:30:47	smrtz|nix	Using 5ghz, by the way.
+2014-03-25 15:30:51	gordonjcp	smrtz|nix: no, don't do that
+2014-03-25 15:31:01	smrtz|nix	gordonjcp: Ok.
+2014-03-25 15:31:17	gordonjcp	smrtz|nix: you do realise how fiddly a 5.8GHz aerial is going to be to make?
+2014-03-25 15:31:31	smrtz|nix	I need a connector to replace the one on the bullet though.  Can you guys help me find one?
+2014-03-25 15:31:42	gordonjcp	why do you need to replace the connector on the bullet?
+2014-03-25 15:31:44	smrtz|nix	gordonjcp: no, but I'm just trying to make an omni whip.
+2014-03-25 15:31:52	gordonjcp	smrtz|nix: okay, that should be easy enough
+2014-03-25 15:31:57	smrtz|nix	gordonjcp: it's much to heavy for us, we're mounting it in an RC airplane.
+2014-03-25 15:32:00	gordonjcp	you *will* need to cut it within about 0.5mm
+2014-03-25 15:32:13	smrtz|nix	we have micromoters.
+2014-03-25 15:32:49	kludge	smrtz|nix: the problem is that the connection from the connector to the board is designed for just that connector and if you change it, it won't be constant Z anymore.
+2014-03-25 15:33:06	smrtz|nix	I don't see any reason why we can't just buy one though, if it's cheap, so I'll look into that too, but none the less, I'll need a new connector.  Can you help me find one that's light and has the same pinout as the bullet?
+2014-03-25 15:33:36	smrtz|nix	good point.
+2014-03-25 15:33:36	kludge	You could try and just attach a whip and some radials to the board but tuning is going to be very haphazard, I would not bet on it being correct without a way to dip it.
+2014-03-25 15:33:42	gordonjcp	smrtz|nix: also, have you got an amateur radio licence?
+2014-03-25 15:33:57	<--	raspberrypifan (~raspberry@71-22-220-224.gar.clearwire-wmx.net) has quit (Ping timeout: 252 seconds)
+2014-03-25 15:34:45	smrtz|nix	gordonjcp: yeah, but we don't need one for this.
+2014-03-25 15:34:58	gordonjcp	smrtz|nix: yes, you do
+2014-03-25 15:35:23	gordonjcp	you will need an amateur licence that covers you for the chunk of 5.8GHz you plan on using, and for homebrew equipment
+2014-03-25 15:35:41	gordonjcp	(so, probably not a UK Foundation licence, for example)
+2014-03-25 15:35:47	smrtz|nix	gordonjcp: no, it's for standard wifi, in a compotition where we're all given special allowance to use this stuff.
+2014-03-25 15:35:55	gordonjcp	smrtz|nix: no, it's *not* standard wifi
+2014-03-25 15:35:57	 *	kludge nods.  Once you have cut the case, it's no longer type-accepted gear and no longer usable for standing wifi.
+2014-03-25 15:36:01	gordonjcp	exactly
+2014-03-25 15:36:51	smrtz|nix	oh, well either way, I've got a license, and the compotition allows us to use it.
+2014-03-25 15:36:55	kludge	But frankly there is so much purpose-built wifi gear out there that it seems easier to use that than hack up something not designed for it.
+2014-03-25 15:37:24	gordonjcp	smrtz|nix: the competition doesn't matter
+2014-03-25 15:37:34	kludge	And if you DO use the ham license and obey the ham rules you can use additional power which may be of benefit too (although not if your antennae are mistuned).
+2014-03-25 15:37:45	smrtz|nix	gordonjcp: you can check the rules here: http://www.auvsi-seafarer.org/
+2014-03-25 15:37:55	gordonjcp	smrtz|nix: no, I don't plan to
+2014-03-25 15:38:07	gordonjcp	what the competition rules say is irrelevant
+2014-03-25 15:38:08	smrtz|nix	kludge: the max output power is dictated in the rules, good idea though!
+2014-03-25 15:38:12	--	scoutcamper|away is now known as scoutcamper
+2014-03-25 15:38:18	gordonjcp	it is illegal to operate an unlicensed transmitter
+2014-03-25 15:38:30	kludge	smrtz|nix: how is it dictated?  As output power or radiated?
+2014-03-25 15:38:35	smrtz|nix	gordonjcp: they explain how we're granted access to frequencies.
+2014-03-25 15:38:40	smrtz|nix	kludge: let me check...
+2014-03-25 15:38:44	gordonjcp	you could quite possibly win by default, by getting all the other entrants busted for using illegal transmitters
+2014-03-25 15:38:56	gordonjcp	smrtz|nix: doesn't matter
+2014-03-25 15:39:07	gordonjcp	smrtz|nix: if you're using modified wifi equipment, you *must* hold a suitable licence
+2014-03-25 15:39:12	kludge	gordonjcp: well, in the US it's legal to operate an unlicensed transmitter on the ISM band since it's a dumping ground for trash, but that isn't the case in the UK.
+2014-03-25 15:39:27	kludge	US treats ISM bands differently than you guys do.
+2014-03-25 15:39:30	gordonjcp	kludge: pretty sure it's not
+2014-03-25 15:39:37	n3glv	type accepted for use in the ism band
+2014-03-25 15:39:40	gordonjcp	pretty sure it still has to be type approved
+2014-03-25 15:39:51	kludge	Type acceptance is not licensing!
+2014-03-25 15:40:00	n3glv	mod it and it's != to factory-as-approved
+2014-03-25 15:40:16	kludge	But yes, type acceptance is needed for an intentional radiator.
+2014-03-25 15:40:21	-->	raspberrypifan (~raspberry@71-22-220-224.gar.clearwire-wmx.net) has joined ##hamradio
+2014-03-25 15:40:43	Dianora	hrmm I imagine the FCC are too busy arguing politics these days to care much about little things like this
+2014-03-25 15:40:53	gordonjcp	Dianora: well, there's that
+2014-03-25 15:40:55	n3glv	as soon as it's !=type accepted gear, it _should_ fall under home brew ham
+2014-03-25 15:40:56	Dianora	if they are anything like the nonsense that has happend to our IC
+2014-03-25 15:41:08	smrtz|nix	kludge: it actually just lists what channels within the 5ghz wifi standard we can use, so I guess we can chose our own power level!
+2014-03-25 15:41:13	BrightCloud	yess
+2014-03-25 15:41:15	n3glv	as Dianora said, we're splitting legal hairs
+2014-03-25 15:41:20	Dianora	gordonjcp: Our Industry Canada has become very non technical or so I am told, full of politicians
+2014-03-25 15:41:28	BrightCloud	i now have a working AD8065 and AD4804-2
+2014-03-25 15:41:38	Dianora	n3glv: Oh as long as you aren't interfering with a *real* station they don't care
+2014-03-25 15:41:47	-->	KC9YDN (~Ethan@adsl-99-186-237-116.dsl.bltnin.sbcglobal.net) has joined ##hamradio
+2014-03-25 15:41:48	<--	KC9YDN (~Ethan@adsl-99-186-237-116.dsl.bltnin.sbcglobal.net) has quit (Changing host)
+2014-03-25 15:41:48	-->	KC9YDN (~Ethan@unaffiliated/ethan) has joined ##hamradio
+2014-03-25 15:41:49	n3glv	so, with ham lisence you could run hundreds, if not thousands of watts
+2014-03-25 15:42:06	Dianora	if you somehow manage to interfere with a commercial station theyll nail you
+2014-03-25 15:42:11	smrtz|nix	n3glv: I feel like that won't be safe...  haha
+2014-03-25 15:42:13	n3glv	won't help you hear anything though
+2014-03-25 15:42:25	Dianora	n3glv: but not use encryption
+2014-03-25 15:42:42	n3glv	Dianora: true, however data compression is legal
+2014-03-25 15:42:51	n3glv	and can be same thing in the end
+2014-03-25 15:43:09	Dianora	n3glv: yes, but think of the pr0n you can't downlad
+2014-03-25 15:43:13	Dianora	n3glv: yes, but think of the pr0n you can't download
+2014-03-25 15:43:14	smrtz|nix	Ok, so I get that changing the connector is a bad idea, and I'll try and reevaluate leaving it on.  But, if I can't get that to work, can you guys recommend a replacement please?
+2014-03-25 15:43:16	Dianora	grrr
+2014-03-25 15:43:29	Dianora	is it already an sma?
+2014-03-25 15:43:34	kludge	It's an N.
+2014-03-25 15:43:46	Dianora	N is fine
+2014-03-25 15:43:51	Dianora	leave it on
+2014-03-25 15:43:59	kludge	That's the problem, changing it to anything else without radical board surgery to keep it constant Z.
+2014-03-25 15:43:59	Dianora	WTF do you want to change it
+2014-03-25 15:44:05	n3glv	N are great
+2014-03-25 15:44:05	smrtz|nix	What connection standard would you recommend for 5Ghz?  Or does it not matter?
+2014-03-25 15:44:08	Dianora	what's wrong with N?
+2014-03-25 15:44:13	Dianora	type N is fine
+2014-03-25 15:44:14	<--	howlymowly_ (~quassel@brln-4db90b57.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2014-03-25 15:44:17	smrtz|nix	it's way to heavy.
+2014-03-25 15:44:25	Dianora	why?
+2014-03-25 15:44:27	kludge	he wants to reduce weight, he doesn't want to use a proper lightweight link.
+2014-03-25 15:44:32	smrtz|nix	it's waterproof, dust proof, and crazy.
+2014-03-25 15:44:38	Dianora	why does he want to reduce weight
+2014-03-25 15:44:41	 *	Dianora pulls teeth
+2014-03-25 15:44:44	smrtz|nix	kludge: I'm trying to use what we already have...
+2014-03-25 15:44:54	smrtz|nix	Dianora: I'm mounting this in an RC plane.
+2014-03-25 15:44:59	kludge	He wants to put it on a model airplane but he doesn't want to purchase proper equipment.
+2014-03-25 15:45:00	Dianora	ate the fly that ate the
+2014-03-25 15:45:12	Dianora	smrtz|nix: oh you can't do that
+2014-03-25 15:45:14	domaani	pl-259 will do fine
+2014-03-25 15:45:18	Dianora	IT WON'T WORK either
+2014-03-25 15:45:22	Dianora	domaani: bulshit
+2014-03-25 15:45:22	smrtz|nix	Why?
+2014-03-25 15:46:16	kludge	Dianora: http://www.panix.com/~kludge/goat.jpg
+2014-03-25 15:46:47	oh2ftg	.cx
+2014-03-25 15:46:49	n3glv	SMA are nice
+2014-03-25 15:47:15	Travis	At least that's a goat, and not goatse.
+2014-03-25 15:47:38	smrtz|nix	Dianora: why won't it work?  
+2014-03-25 15:49:34	kludge	Brazil on 14228
+2014-03-25 15:49:45	-->	Ex0deus (~Exodeus@172.242.145.163) has joined ##hamradio
+2014-03-25 15:49:45	<--	Ex0deus (~Exodeus@172.242.145.163) has quit (Changing host)
+2014-03-25 15:49:45	-->	Ex0deus (~Exodeus@unaffiliated/ex0deus) has joined ##hamradio
+2014-03-25 15:52:34	smrtz|nix	Alright, well now I'm just confused.  We've done test flights and been able to maintain a link with the Bullet in the plane, so it does work....
+2014-03-25 15:53:07	kludge	smrtz|nix: Dianora's complaint will be the same one that I pointed out.
+2014-03-25 15:53:20	-->	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined ##hamradio
+2014-03-25 15:53:29	smrtz|nix	kludge: you're saying don't change the connector, right?
+2014-03-25 15:53:59	kludge	Or if you do, have someone with a VNA do the job for you properly so it stays constant-Z.
+2014-03-25 15:54:03	<--	alteregoa (~fnordistu@77-58-57-29.dclient.hispeed.ch) has quit (Quit: Verlassend)
+2014-03-25 15:54:05	smrtz|nix	Also, just out of curiosoty, do you know what I mean by Bullet m5?
+2014-03-25 15:54:11	kludge	But that this will not be an easy job.
+2014-03-25 15:54:49	smrtz|nix	kludge: yeah, I get that.  I'm going to try rebalancing the plane tonight so we don't need to remove the extra weight.
+2014-03-25 15:55:01	kludge	Yes, I have seen the Ubiquiti links, they are very popular because they are about the cheapest outdoor-rated ones.
+2014-03-25 15:55:14	<--	Travis (~Travis@unaffiliated/travis) has quit (Quit: Leaving)
+2014-03-25 15:55:23	kludge	But that is sort of the opposite of what you want for rc use.
+2014-03-25 15:55:27	smrtz|nix	kludge: yeah, and it's small and light.  So it's pretty much as close as we're going to get to purpous built.
+2014-03-25 15:55:32	kludge	I must go help a friend shower, back in a bit.
+2014-03-25 15:55:38	smrtz|nix	haha, ok.
+2014-03-25 15:55:43	-->	Travis (~Travis@unaffiliated/travis) has joined ##hamradio
+2014-03-25 15:58:37	-->	Krellan__ (~krellan@50.242.94.241) has joined ##hamradio
+2014-03-25 15:59:31	smrtz|nix	Can anyone recommend a 5ghz antenna with a right angle N connector?
+2014-03-25 15:59:34	smrtz|nix	do they make them?
+2014-03-25 16:00:02	Aegis_	hrr, a mag loop 100m in circumference made with four 10 cm diameter conductors  has an efficiency of 0.8% and requires a 9000 pF capacitor
+2014-03-25 16:00:23	smrtz|nix	Or, how bad would it be to add a right angle adapter to the system?
+2014-03-25 16:00:40	Aegis_	at 170 KHz
+2014-03-25 16:02:15	<--	Krellan_ (~krellan@50.242.94.241) has quit (Ping timeout: 268 seconds)
+2014-03-25 16:02:25	PoolShark_	I have some ubiquiti outdoor stuff and it's awesome
+2014-03-25 16:03:07	smrtz|nix	PoolShark_: nice.
+2014-03-25 16:06:18	-->	TXRoadkill (~Kurt@99-19-22-120.lightspeed.hstntx.sbcglobal.net) has joined ##hamradio
+2014-03-25 16:07:20	<--	cool_guy6 (~IceChat77@199.119.232.223) has quit (Ping timeout: 246 seconds)
+2014-03-25 16:07:25	<--	oy1r| (029610ff@gateway/web/freenode/ip.2.150.16.255) has quit (Ping timeout: 245 seconds)
+2014-03-25 16:07:48	<--	cr (~i@50.12.174.31) has quit (Ping timeout: 268 seconds)
+2014-03-25 16:07:57	<--	m0sin (~Alice@cpc18-grim14-2-0-cust478.12-3.cable.virginm.net) has quit
+2014-03-25 16:08:33	-->	alteregoa (~fnordistu@77-58-57-29.dclient.hispeed.ch) has joined ##hamradio
+2014-03-25 16:08:44	-->	cr (~i@50.12.174.31) has joined ##hamradio
+2014-03-25 16:08:52	alteregoa	good morning vietnaaaam
+2014-03-25 16:09:08	raspberrypifan	well i got echomac working again
+2014-03-25 16:09:35	<--	cr (~i@50.12.174.31) has quit (Read error: Connection reset by peer)
+2014-03-25 16:10:31	<--	Travis (~Travis@unaffiliated/travis) has quit (Quit: Leaving)
+2014-03-25 16:10:55	alteregoa	i don't have a mac for submarines (echomac)
+2014-03-25 16:10:55	-->	Travis (~Travis@unaffiliated/travis) has joined ##hamradio
+2014-03-25 16:11:31	-->	heathkid|2 (~heathkid@unaffiliated/heathkid) has joined ##hamradio
+2014-03-25 16:11:31	<--	heathkid (~heathkid@unaffiliated/heathkid) has quit (Disconnected by services)
+2014-03-25 16:11:37	--	heathkid|2 is now known as heathkid
+2014-03-25 16:11:48	alteregoa	hello Travis ruok?
+2014-03-25 16:11:58	raspberrypifan	huh
+2014-03-25 16:12:12	PoolShark_	hey
+2014-03-25 16:12:23	alteregoa	a echo mac sounds like macintosh for subs
+2014-03-25 16:12:40	raspberrypifan	its the mac echolink
+2014-03-25 16:12:45	raspberrypifan	does anyone use all-star?
+2014-03-25 16:12:48	smrtz|nix	kludge: when you get back, I'm thinking about http://www.l-com.com/coaxial-coaxial-adapter-sma-male-n-female   But it's just going to add more weight.  Can you tell me anything about how it'll affect the link quality?
+2014-03-25 16:13:13	alteregoa	glad i don't use windows anymore
+2014-03-25 16:15:58	Travis	You don't want that!
+2014-03-25 16:16:18	Travis	If you are screwing a HT to a piece of coax, you want the strain relief cable.
+2014-03-25 16:16:22	smrtz|nix	Travis: why not?
+2014-03-25 16:16:31	smrtz|nix	Oh, haha ok.
+2014-03-25 16:16:43	PoolShark_	yes you want apigtail
+2014-03-25 16:16:45	Travis	That connector will bust your HT's antenna connection faster than you can say "oh ****"
+2014-03-25 16:17:00	smrtz|nix	I'm not doing that, I'm connecting a Bullet to an antenna on a plane
+2014-03-25 16:17:00	Travis	The strain relief cable is just like that adapter, but with a piece of coax in the middle.
+2014-03-25 16:17:02	-->	Pentapus (~Pentapus@nat-128-84-124-0-739.cit.cornell.edu) has joined ##hamradio
+2014-03-25 16:17:25	Travis	What the heck is that?
+2014-03-25 16:17:39	smrtz|nix	Bullet M5, it's for wireless networking.
+2014-03-25 16:17:56	Travis	and it uses a standard SMA connection?
+2014-03-25 16:18:12	-->	ex0deus_ (~Exodeus@172.242.145.163) has joined ##hamradio
+2014-03-25 16:18:12	<--	ex0deus_ (~Exodeus@172.242.145.163) has quit (Changing host)
+2014-03-25 16:18:12	-->	ex0deus_ (~Exodeus@unaffiliated/ex0deus) has joined ##hamradio
+2014-03-25 16:18:12	smrtz|nix	Travis: nope, it's N
+2014-03-25 16:18:22	Travis	ok, so you want N to what connector?
+2014-03-25 16:18:57	Travis	HOLY COW!  That gadget is 80 USD
+2014-03-25 16:19:07	smrtz|nix	well, it doesn't need to convert.  the end goal is a 5Ghz wifi antenna that's at a right angle to the N connector.
+2014-03-25 16:19:19	-->	oy1r (5db303d6@gateway/web/freenode/ip.93.179.3.214) has joined ##hamradio
+2014-03-25 16:19:25	Travis	ok, so find one with the opposite end on it.
+2014-03-25 16:19:27	Travis	or make it.
+2014-03-25 16:20:04	<--	Ex0deus (~Exodeus@unaffiliated/ex0deus) has quit (Ping timeout: 240 seconds)
+2014-03-25 16:20:09	smrtz|nix	I'd like to have a link to one we can buy before I suggest that we make one.
+2014-03-25 16:20:25	smrtz|nix	And I can't find any 5Ghz right angle N antennas.
+2014-03-25 16:20:33	smrtz|nix	I'm looking for a whip.
+2014-03-25 16:20:55	Aegis_	make one
+2014-03-25 16:21:02	smrtz|nix	So I'm thinking about using a right angle adapter? but That would add loss.
+2014-03-25 16:21:27	<--	Pentapus (~Pentapus@nat-128-84-124-0-739.cit.cornell.edu) has quit (Ping timeout: 265 seconds)
+2014-03-25 16:21:28	-->	Otter_ (~otter1@cpe-173-175-113-80.satx.res.rr.com) has joined ##hamradio
+2014-03-25 16:21:41	smrtz|nix	Aegis_: can you link to a high quality female N connector to base off please?
+2014-03-25 16:22:01	Aegis_	amphenol.
+2014-03-25 16:22:13	<--	Krellan__ (~krellan@50.242.94.241) has quit (Ping timeout: 264 seconds)
+2014-03-25 16:22:16	Aegis_	and how do you define "high quality" ?
+2014-03-25 16:22:40	smrtz|nix	as good as we can get for, say, $15 USD?
+2014-03-25 16:22:56	Aegis_	you can get "ok" connectors for $15
+2014-03-25 16:23:04	smrtz|nix	Just OK?
+2014-03-25 16:23:05	alteregoa	if you are dead its cruel for the others, but for yourself it isn't cruel because you're dead - analogue to stupidity...
+2014-03-25 16:23:15	Aegis_	yah , just "ok"
+2014-03-25 16:23:31	smrtz|nix	Damn.
+2014-03-25 16:23:32	Aegis_	"good" is gonna cost you
+2014-03-25 16:23:40	alteregoa	i always buy huber & suhner plugs
+2014-03-25 16:24:36	Aegis_	you might see what pasternack has
+2014-03-25 16:25:01	smrtz|nix	How much should I spend, I don't need a pro grade connector, since I'm going to be making this antenna myself...
+2014-03-25 16:25:29	Aegis_	get the amphenol rfx series connector
+2014-03-25 16:25:32	alteregoa	damn plug is 15 bucks
+2014-03-25 16:25:36	alteregoa	just an UHF plug
+2014-03-25 16:26:16	alteregoa	no chinese crap, swiss quality
+2014-03-25 16:26:27	<--	newell (~gemboy@h-66-166-22-146.snva.ca.megapath.net) has quit (Quit: Leaving)
+2014-03-25 16:27:01	smrtz|nix	Aegis_: Ok.
+2014-03-25 16:27:27	alteregoa	someone in hear listens to the hip?
+2014-03-25 16:29:36	smrtz|nix	Aegis_: one of these? http://www.digikey.com/catalog/en/partgroup/n-type-rfx/2280  what would you recommend for a whip?
+2014-03-25 16:29:56	-->	Krellan_ (~krellan@50.242.94.241) has joined ##hamradio
+2014-03-25 16:31:04	Aegis_	take your pick
+2014-03-25 16:31:41	Aegis_	ypu can download the spec sheets for them and look the drawings over to see if they do what you need
+2014-03-25 16:34:19	-->	cr (~i@50.12.174.31) has joined ##hamradio
+2014-03-25 16:34:53	smrtz|nix	What material would you recommend to make the antenna itself out of?
+2014-03-25 16:35:04	smrtz|nix	just Coax? Or something else?
+2014-03-25 16:35:42	Aegis_	go to a hobby shop and get some piano wire.  It is thin spring steel and nickel plated so you can solder it
+2014-03-25 16:36:09	Aegis_	make the antenna of that and put some tiny heat shrink tubing over it to make it look nice
+2014-03-25 16:36:50	smrtz|nix	Awesome, thanks for the help
+2014-03-25 16:36:51	Aegis_	I an assuming you are going to simply make a 1/4 or 5/8 wavelength monopole
+2014-03-25 16:36:59	smrtz|nix	probobly.
+2014-03-25 16:37:12	Aegis_	you could just use a short pice of brass rod or brass tubing
+2014-03-25 16:38:03	<--	Travis (~Travis@unaffiliated/travis) has quit (Quit: Leaving)
+2014-03-25 16:38:22	-->	va7lnxX (~quassel@S01067cbfb1eea75d.vc.shawcable.net) has joined ##hamradio
+2014-03-25 16:39:43	<--	oh2ftg (~Ismo@dsl-espbrasgw1-54f9df-42.dhcp.inet.fi) has quit (Read error: Connection reset by peer)
+2014-03-25 16:41:35	Aegis_	http://shop.hobbylobby.com/products/-039-music-wire-602201/
+2014-03-25 16:43:07	-->	bdavenport (~davenport@chronos.rpi.mindlesstux.com) has joined ##hamradio
+2014-03-25 16:43:24	PoolShark_	I use brass tubing to build LPDAs
+2014-03-25 16:46:58	-->	Travis (~Travis@unaffiliated/travis) has joined ##hamradio
+2014-03-25 16:47:25	<--	Otacon22 (~otacon22@93-36-123-162.ip60.fastwebnet.it) has quit (Ping timeout: 264 seconds)
+2014-03-25 16:48:37	-->	heathkid|2 (~heathkid@unaffiliated/heathkid) has joined ##hamradio
+2014-03-25 16:48:37	<--	heathkid (~heathkid@unaffiliated/heathkid) has quit (Disconnected by services)
+2014-03-25 16:50:28	<--	Krellan_ (~krellan@50.242.94.241) has quit (Ping timeout: 265 seconds)
+2014-03-25 16:56:11	--	heathkid|2 is now known as heathkid
+2014-03-25 16:58:04	-->	tem_ (~tem@2605:6000:e181:7100:b92b:9b08:940c:d81c) has joined ##hamradio
+2014-03-25 16:59:39	<--	PoolShark_ (~PoolShark@99-6-195-16.lightspeed.gnvlsc.sbcglobal.net) has quit (Ping timeout: 265 seconds)
+2014-03-25 17:00:22	-->	catchin (~me@ip174-67-221-94.oc.oc.cox.net) has joined ##hamradio
+2014-03-25 17:00:51	<--	kludge (gG44zwMTVW@pdpc/supporter/active/kludge) has quit (Quit: leaving)
+2014-03-25 17:01:35	<--	tem (~tem@2605:6000:e181:7100:b92b:9b08:940c:d81c) has quit (Ping timeout: 265 seconds)
+2014-03-25 17:01:48	<--	catchin (~me@ip174-67-221-94.oc.oc.cox.net) has quit (Client Quit)
+2014-03-25 17:02:47	-->	Pentapus (~Pentapus@nat-128-84-124-0-739.cit.cornell.edu) has joined ##hamradio
+2014-03-25 17:06:10	<--	oy1r (5db303d6@gateway/web/freenode/ip.93.179.3.214) has quit (Ping timeout: 245 seconds)
+2014-03-25 17:07:27	<--	Pentapus (~Pentapus@nat-128-84-124-0-739.cit.cornell.edu) has quit (Ping timeout: 252 seconds)
+2014-03-25 17:07:27	<--	silicong (~silicong@c-98-195-8-153.hsd1.tx.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-03-25 17:09:33	Aegis_	huge pileup on 7257 KHz
+2014-03-25 17:09:46	<--	ephemer0l (~ephemerol@unaffiliated/ephemer0l) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-25 17:10:03	-->	ephemer0l (~ephemerol@unaffiliated/ephemer0l) has joined ##hamradio
+2014-03-25 17:12:42	-->	swaite (~swaite@pool-108-20-48-9.bstnma.fios.verizon.net) has joined ##hamradio
+2014-03-25 17:13:14	<--	va7lnxX (~quassel@S01067cbfb1eea75d.vc.shawcable.net) has quit (Ping timeout: 264 seconds)
+2014-03-25 17:13:58	-->	hardaker (~hardaker@75-101-64-27.dsl.dynamic.omsoft.com) has joined ##hamradio
+2014-03-25 17:15:59	Aegis_	oh I think it is W1AW/0
+2014-03-25 17:16:28	-->	PoolShark_ (~PoolShark@99-6-195-16.lightspeed.gnvlsc.sbcglobal.net) has joined ##hamradio
+2014-03-25 17:16:34	PoolShark_	back
+2014-03-25 17:16:41	Aegis_	welcome back
+2014-03-25 17:17:14	<--	DarkUranium (~quassel@cpe-77.38.77.88.cable.t-1.si) has quit (Remote host closed the connection)
+2014-03-25 17:17:42	PoolShark_	DSL stinks
+2014-03-25 17:37:16	--	irc: disconnected from server

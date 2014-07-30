@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "da"
+   },
+   "qs_about_close_button": {
+      "message": "Luk"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Når du klikker på et Google-søgeresultat, kan Quick Scroll vises i nederste højre hjørne af siden og vise et eller flere tekststykker på den side, der er relevant for din forespørgsel. Hvis du klikker på teksten, kommer du til den del af siden."
+   },
+   "qs_about_explanation2": {
+      "message": "Google Quick Scroll vises kun, når den med al sandsynlighed er til nytte. Du kan minimere den ved at klikke på minimerknappen øverst til højre."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Om Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Privatlivspolitik\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Servicevilkår\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Sådan fungerer Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll er nu installeret."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll er en browserudvidelse, som hjælper dig med at finde det, du leder efter, hurtigere."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll vises kun, når den er til nytte. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Få flere oplysninger\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Indstillingerne er gemt"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Hjælp med at gøre Google Quick Scroll bedre ved automatisk at sende brugsstatistikker til Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Indstillinger for privatliv"
+   },
+   "qs_about_step_1": {
+      "message": "Foretag en Google-søgning."
+   },
+   "qs_about_step_2": {
+      "message": "Klik på et søgeresultat."
+   },
+   "qs_about_step_3": {
+      "message": "Klik på Quick Scroll for at springe til de relevante dele af siden."
+   },
+   "qs_about_support_instructions": {
+      "message": "Hvis du har spørgsmål eller problemer i forbindelse med at brug af Quick Scroll, kan du se vores \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">supportside\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Tak, fordi du installerer Google Quick Scroll."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Prøv det!\u003C/b> Søg efter [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>], og klik på resultatet \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Prøv disse forespørgsler:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Hvis du vil afinstallere Google Quick Scrool, skal du i Chrome vælge Værktøjer&nbsp;>&nbsp;i menuen Udvidelser og klikke på linket Afinstaller for udvidelsen Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Afinstaller"
+   },
+   "qs_description": {
+      "message": "Google Quick Scroll giver dig mulighed for at gå direkte til relevante tekststykker i et Google-søgeresultat."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Færre resultater"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Få vist de oprindelige resultater for din forespørgsel"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll er en browserudvidelse, som hjælper dig med at finde det, du søger efter, hurtigere.\u003Cbr/>\u003Cbr/>Når du klikker på et Google-søgeresultat, kan Quick Scroll vises i nederste højre hjørne på siden og vise et eller flere tekststykker på den side, der er relevante for din forespørgsel. Hvis du klikker på teksten, kommer du til den del af siden.\u003Cbr/>\u003Cbr/>Quick Scroll forsøger at holde sig i baggrunden, og den vises kun, når den med al sandsynlighed er til nytte."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Quick Scroll kunne desværre ikke finde nogen resultater på denne side for \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Få flere oplysninger.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Hele denne side synes at dreje sig om \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Quick Scroll vises kun, når dele af siden er relevante. \u003Cspan class=\"goog_qs-learn-more\">Få flere oplysninger.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll blev ikke vist, fordi hele siden er relevant for din søgning."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll vises, når du klikker på en Google-resultatside. \u003Cspan class=\"goog_qs-learn-more\">Få flere oplysninger.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Når du klikker på \"Installer\", accepterer du disse servicevilkår: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Flere resultater \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Få vist flere resultater for din forespørgsel"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Fremhæver fandt resultater på denne side."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll er aktiveret. Klik her for at få flere oplysninger."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll venter på, at siden indlæses..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Åbn Hjælp og siden Indstillinger"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Resultater på siden for \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Resultater på siden for \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimer"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Åbn Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klik for at få vist denne tekst på siden"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Spring til tekst $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Bedste resultater for \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

@@ -1,0 +1,532 @@
+2014-02-25 14:48:06	-->	smrtz (~smrtz@137.155.209.33) has joined #debian
+2014-02-25 14:48:06	--	Topic for #debian is "wheezy released: /msg dpkg squeeze->wheezy | current point release: /msg dpkg 7.4 | NO FLOOD: /msg dpkg paste | /msg bots  NOT people | offtopic: #debian-offtopic | testing/unstable: #debian-next (irc.oftc.net)"
+2014-02-25 14:48:06	--	Topic set by themill (~stuart@unaffiliated/themill) on Sun, 23 Feb 2014 01:07:03
+2014-02-25 14:48:06	--	Nicks #debian: [@ChanServ @debhelper 17SAAH96V 1JTAAGP4P 20WABDAGN [A3G1S] [mrx] [SkG] [vaelen] _5moufl __FBi __william__ _c3p0 _daniel-s__ _krux _Lucretia_ _marix _Paul _pr0xie _val_ `MArceLL` A-TCP-BreAKDoWN aarcane_ aboman abrotman AciD` AciD`` AciD``` acrocity ad adc adi_ Adran aegis aem` ageis AGoodName aidaqt Aim_Here AJ_Z0 Al3xG0 Alam_Squeeze alexandros_c alexbligh alexei alexlist AlexPortable AlexWkz Alina-malina Almtesh AlsoDirkson Alula amatecha Ambagasdowa amitabha amospalla anapivirtua Anarch andatche AngelDeath_ Angelous anhdepyeu ankso anon4565 AntiSpamMeta antonym Apeiron` APLU apofis apollolune apt ArchDuke architekt Arconiaprime Ard1t Argafal ari_ Aristide Arkadietz Armadi Arrowmaster Arroyo1010 Arsenik Artpicre arunasank asakura0 aschro asemani Asenar Ask21 asteryx AsumFace Atlas atomi aton` atyoung_ austin987 av0idz avd awfabian axisys azerus azizLIGHTS Azrael_- b00b b52 b_52globe babilen bars0__ bart_b BarthezZ_ batrick BaW bazhang bchamberlain bcremer bdf beardo beardy beboj bedouin beet0l_ BenNZ berarma berceanu_ Bercik berndj bertrik bezaban bezerker bfit bier_ BiGBOi_ biglama BillyZane bipolar bizarro_1 blackest_mamba blackjack blarghlarghl blast_hardcheese BlastHardcheese blSnoopy blue Blue11 Blueer blueness BlueNexus bobbyd3 boblee bolt bosna BotaniCar boycottg00gle bps bramwelt bramwelt_ brendenbus Brigo BrixSat brolin_empey brontosaurusrex brouette Bryanstein bst_ bt6 budai BuFF bullgard4 burn busch buu bvs c0ded cabe cafuego calbasi Calcarin1 cali calisto calzifer CampinSam capiira_ capri cardiel casheew_ cat_pants catohornet1 catsup caveat- Cavil caviwipes cbdev cbmuser_ Celelibi CEnnis91 cenron centrx Cerise chalcedony chance2105 chattr chb Chex chosi choupy Chris7mas ChrisH Chrisje chrisss404 churnd cian1500ww cire CissWit civillian cj clopez cloromorpho cloudster clu5ter codesoup codygman comradekingu CookieM cooldude copec corepb_ Cork CosmicB CowboyNeal Coweater cpc26 Cr0iX crafty1_ crane cRaNnK crashev crashmag crus ctmjr Cueball cuppscakes cusco cwillu_at_work CybDev CyberGabber CyberSix cyberspace- Cybertinus Cyclohexane Cyis cyphase cyzz D-Boy d3lxa d3sync D4v33 dachi Daemoen daemonkeeper Dagger damentz Dan39 danmackay DANtheBEASTman DarkPlayer darkskiez darkthrone Dartus davidrussell daz dbast dbristow dcarped deathleff deb debsan deception deciph3r deed02392 deepy delluminatus DelphicOkami delYsid`` deni der0b detha Devastator Dewi dextrey Dga dh64 DHost_ Diaoul Diehard digdilem digilink dijenerate dimer dimir diniwed dioz disposable2 dizzylizzy Dj_Dexter djanos djD3f djjunde DLange dobalina doebi dondelelcaro DonVitoCorleone dooglus dorito125 DOUGHTY dozn dpkg dreamon drinkycrow DrOwl DrPossum DrRen Dry_Lips dselect dtcrshr duffduff dumby Dunedan DURgod DustyDingo dutchfish e1z0 ecantin ecj ectospasm eddul Eduard_Munteanu edwardly eikenb eir eki Elemeno-Work eliad_ elichai2 elik EmleyMoor emma Emmanuel_Chanel EnergyCoffee_ Enissay enkrypt enZer0 epsylon ered erry eshlox eshy esing EToS euphoria evdo everjeje evilicey ExeciN Exio4 exussum_ eye69_ f0rg0tt3n f10 f4cl3y fangfufu farn FaV1r3s fbe fcharton fedaii felco felipe Firestarter firztspawn flexo Fli-c floyin FlyingFoX fn00dle folivora forcer format_c frankie frankS2 frdmn freaky[t] fredsted frikinz frlttrwrd frusif fubbi funtapaz funyun fuqi Furai Fusl futex_ FUZxxl g_r_eek GabiP GabrieleV galler gandaliter gardar- Gargamot1 gensgad george2|chakra gernot ggherdov ghenry ghost64 ghost75_ GhostInTheshell ghostlines gigetoo GJdan glebihan glebihan_ Gm4n GNU\colossus gnugr Godsey- goldkatze grache28 grand_grunt Granis graytron grep0r grepidemic greyscale grindhold grobda24 guerremdq Guest39633 Guest41293 Guest4688 Guest53586 Guest64024 Guest6515 Guest65426 Guest69126 Guest7666 guk gunkaaa_ guntha` Gurty gusnan haasn Hackintech halfie hallucinium halothe2_ halu harobed harrison hasanek hax404 HeavyMetal heinrich5991 hendrikz hesco hexagon Hexeon HGeiger2 HicksD_ hid3 himura HisaoNakai hnsz2002 holmgren Holo-phil horsik_ HSaka_ huayra Hydroxide HymyPoika hyppias ianw iateadonut iceisfun iceroot icydar_ idoru ignasio ikonia impulse150 indieross inf_l00p infernix initself integral internat Internet13 IonelPopescu ioudas iPcjamesy4 Iridos Ishaq ItTakesTwo ivan`` iViLe IVplay ix ixela j0z jaakkos jaami jab416171_ jaggz|3 jahman jamesfryman Janhouse jannic Janusz1 jareddlc jareth_ Jarus jas4711 jasonwert jaybe jayne Jbdye jbonjean jbraeg jbroome jcm__ Jdbye|Laptop jdoles jelly jelly-home JelmerD jetho Jguy jholden_away JHoughtelin jhulst jhutchins Jikan jirka_on_d jmcnaught JmZ- joako JoFo JohnDoh johskar joltcan JonathanD joncrunchbang Jonuz JordanJ2 jordanm joschi JotaK jpinx jrgill jsaddened JStoker jtdowney jthomas__ jtrucks jubbsy judd Juzzika jweez JWF JyZyXEL k-man K0HAX k1ng K1rk_ K4k Kaboon kain88 kakolak kalz kameloso Kamilion Kanerix kanja kayamm KBme kdox keith4_ kelsoo kermit kevinsky Khere_ kiddesr killy9999 kini kInOzAwA Kiril kirkland kludge` Klumben Knaldgas knigitz knyon Kobaz koell komori Konrad127123 Krabbe Krenz kriebz Krigsforbryter kro[au] kRush ksuhku ksx4system Kulrak l3lu3 Lady_Aleena lakcaj langkid1 Lartza lazers lduros le_bozo Leconite leitao Leoneof levifig lexibq linedash Linuturk linux4life798 LippyLee Lirion LjL llakey llimeht Locke0- loonquawl loonypark lord4163 LordDeath LordShiva loremipsium LoRez loxley LRN lroe LtL lubyou luckman212 Lunchb0x lysias M0ulin M4dH4TT3r Mac101 macrobat MACscr mactimes_ MaekSo maferv magenbrot magnulu magyar maik majuscule makospityputy makospityputy_ malik_ mallxs Malmis_i mambaw mand0 Mapley marienz marjus markovh marlinc martin-_-_ martinalex martines master_j matuka` mauricio_ mav mavhc mavrix maxexcloo maxorator maxyz McLive mdel mdorenka me-koyote meiand meise Meliorate melter mepl meshuggah Messenger_bird messenjah mete- meti mgodzilla mhall119 mick_laptop midacts midnightmagic Miesco Mikaela mikeey milligan_ milobit milosn mimor mindstorm minsa MissionCritical mist mister_z1mbie misterli mixomathoze mjt Mmike mnathani mns moetunes Mogget moncky mongaj Moonlightning Moredread MoreRandomThanU Morn_ Morrolan mossman moza mpkossen mpmc mr_daemon mr_red MrFrood mtn mtrd`w muh2000 mukmuk mumixam musca mvensky mwschib mye MyWay n0arch n0c n13z na1rb nag nagarkot_ Namikaze nanoha-sama Nanuq NaPs Natenom nathanhi nconrads4 ndrei ne0sis nearst NeilHanlon nell neobii Neptune_ netkat_ nevyn nezZario Niamkik nice92 nickmoec1 niel nightfly NightGriffin nihilista Nik05 niko nikomo NiLon nirix nitz nkuttler nn_ Nnel no0p nodiscc noirx nomad_dw noname001 Noskcaj nosklo Nothing4You Nothing4You_ noxs nse nullified Numline1 nwps nyov nyuszika7h oahong oberling Obi-Wan oddie_ Olipro ollo olri on1ald on1x onebitaway Onixs_ oops_ OpenTokix opiumozor Orbitrix Orphis osfd Otyg overrider owa owen1 oxez oxful_ p0g0_ p0ly P1xel|NotAlive p8m p_quarles Paden pagioss pajarillo parallel21 ParkerR pathy patterson paulez_ pav5088 Peer69 Pendrag0n Percy- Perdu petemc peter5 petern_ PeterSilie petn-randall pfote pfsmorigo ph4nt0mas ph88 phant0mas phantomik Phil-Work phix phogg phragment phrozen77 phunyguy phy1729 Phyks pi2 Pici Piggy pikaro_ pinage404 pingveno Pip3r pipeep piyo pkv Plazma ponyofdeath Posterdati prateek992 preller Procy0n prof-freud project2501a Pryon Psylo pterodaktil publiccert Pucilowski_ Python1320 pythonsnake1 q3k qewzee qman__ quackgyver Quashie quasisane quenoz QwertyDragon r3m ra1nb0w RA3OR rabbieth rabeeh Radex RagingComputer RaphaelT raSter^ ravigehlot_ rax- raxo rbanffy rbnw rdz reazem redpill regreddit reko relipse remx RES401 resixian_ Rev|SleepingFox rhizome Ricardo__ rich- RichiH RickyB98 riddle Ritzton Rix rjsalts rl0 rmdashrf Rn0 RobbyF robix robmozart_ Rockj rockyban- rockybanana roentgen roger_rabbit rogg rojem Rokixz romm ronin rook2pawn Rootert rOss^64 ross` rotaticus Rothgar RougeR rozie rrehbein rtr_ Rubas Rubin RussellB28 ruukasu rvgate ryan-c ryan42 RyanKnack rypervenche rysiek|pl sadbox sAITEk Salonce Sanchal Sanchal_ santiagoR sarlalian satseki sbach sbine Scall Scar3cr0w schlarpc scoopex ScottE Screwba sdollins Se-bash Seb sedulous seekr SerajewelKS serjsj Seryth Seth_Hikaru sevenfou1k shad0VV ShapeShifter499 shawn\ shengyao shingouz shroud Shuro sidmo sifeic sig-wall sileht silverf0x Sir_Designer SirCmpwn SirLagz sitic slackner slacko01225 SlaGTaTs Slagwag Sleepy63 sllide slvmecha Slythen smaug9 smica smrtz smyers snadge Solid-State SoMaek Some_Person Somefellow Someguy123 soulz sourcodec1 southward spacepluk spal sparty sphenxes spinningcompass Spleeze Spockz sputnik staropram stef_ steve81 stew stfsux Sthebig stig` stigi` STMelon stockholm stojic StrangeloveMD StupidWeasel Su7 subcritical Subfusc sukaeto sunkan supersonic sussudio suy SwedeMike SwedFTP SweetMuffin swick sylar Symmetria symptom syn_ synchris syssi T4b Tabstar Tarjaizaid TBCOOL tcpman tdreyer1 techie26_ tempspace tensorpudding teraflops terrasapien Th0masR0ss tharkun ThatGraemeGuy the_joker_ thebolshevik_ TheDrums themill TheOne1 the|herbivore thiagoss thims thingamabob Thms ThomasJ|d thoonai_ Thor threadlock thunderrd thunderWilly Ticho TildaTurn timahvo1 timmmaaaayyy tlund tmfsd tmpval TmvC tnguyen tnguyen_ ToBeFree Togusa tolecnal tolkor Tom01 tomaw tombatone tomocha6 tondo tonyoy totte towo` toxboi traph treaki_ treehouse Trellmor_ trem0r tremon trewas TreySmee TriJetScud tristero trvz trysten tubaman_ tucow tumppu tuvwx Tux txomon|fon txomon|home tylerjd ulkesh Underbyte underdog` Uninstall_ Unity up365 uplate useall user472259 Utility_ vagn__ val_erie valerius valeriusL ValicekB vectr0n VeggieMeat_ veikko velleity veryape VidaLoca vilmibm vimel virako virtuose vivid VlperX vol4ko Vorpal Voyager_MP vt0r vurma w1ck3dg01h3r W4rd_ waqstar Waster waynr wcmckee wed__ weems weirdtunguska weltzooo werdna Werring whirling wiak Wiktor Willis willmore wingman2 woffs_ wolfmitchell wolrah_ wols WormFood woshty ws2k3__ Wug Wyzard_ x-treme x3_iVaN Xalem xand Xanthor xcq_ XDS2010 xikon xingu xintron Xiol Xiti Xjs|moonshine xnbya xragnar xrated XSoul yago YamakasY yamba yan yano Yeka_ yells yofun yogurt2ungue yokel yoklar Yong_ Yoshi1 yuastnav Yukikaze z zaggynl ZbooNet zenadm1n zerick Zeroedout_ Zhann Zharf zigong zinx ZIPY Zordek zr0 zso zwick zxq9 Zyferus zykotick9 zymurgy zz0 zz_hakr zz_karupanerura {41444d494e}]
+2014-02-25 14:48:06	--	Channel #debian: 1261 nicks (2 ops, 0 halfops, 0 voices, 1259 normals)
+2014-02-25 14:48:06	--	URL for #debian: http://www.debian.org
+2014-02-25 14:48:08	--	Mode #debian [+CLPcntlf 1274 #debian-overflow]
+2014-02-25 14:48:08	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-02-25 14:48:33	<--	yago (~kresp0@gateway/tor-sasl/kresp0) has quit (Remote host closed the connection)
+2014-02-25 14:48:48	-->	lnxslck (~lnxslck@av-217-129-245-126.netvisao.pt) has joined #debian
+2014-02-25 14:48:52	smrtz	I jus installed debian, and I'm in openbox, but there's something wrong with my graphics driver, I'm on an AMD E450, can someone help me out please?
+2014-02-25 14:49:20	Eduard_Munteanu	smrtz: if you ask about your problem
+2014-02-25 14:49:23	-->	kkvlk (~kkvlk@181.47.158.9) has joined #debian
+2014-02-25 14:49:33	petn-randall	smrtz: What's wrong with your graphics driver?
+2014-02-25 14:49:44	centrx	AMD E450 is not a graphics card?
+2014-02-25 14:49:58	smrtz	petn-randall: How can I find out?
+2014-02-25 14:50:10	smrtz	centrx: no, but I'm using it's intagrated gpu
+2014-02-25 14:50:20	Eduard_Munteanu	smrtz: you said there's something wrong, how did you arrive at that conclusion?
+2014-02-25 14:50:26	petn-randall	smrtz: Well, you said there's something wrong with it. How do you know?
+2014-02-25 14:51:04	-->	Namaskar (~Namaskr@host86-143-148-0.range86-143.btcentralplus.com) has joined #debian
+2014-02-25 14:51:11	smrtz	Eduard_Munteanu: Everything just looks, weird.  The screen worked when I was in console, but once I started openbox, it started freaking out like this.
+2014-02-25 14:51:17	esing	Should I run rsync on the first Stage already with these options--recursive --times --links --hard-links --delete? It's not clear to me. I got it from 'rsync setup' paragraph: http://www.debian.org/mirror/ftpmirror
+2014-02-25 14:51:38	smrtz	Like, the boarders of all my windows are surrounded by flickering white dots.
+2014-02-25 14:51:47	smrtz	sec, maybe it'll show up in a scrot
+2014-02-25 14:52:02	-->	jsubl2 (~jsubl2@65.31.208.17) has joined #debian
+2014-02-25 14:52:06	petn-randall	esing: How many GB do you have free? Usually it's not necessary to mirror the whole archive unless you've got 100+ local machines to serve.
+2014-02-25 14:52:22	Eduard_Munteanu	smrtz: what sort of output (VGA, HDMI, ...) and display do you use?
+2014-02-25 14:52:37	smrtz	I'm on a laptop, using the built in display.
+2014-02-25 14:52:48	smrtz	Eduard_Munteanu: a thinpad x130e
+2014-02-25 14:52:50	<--	kermit (~zip55413@pdpc/supporter/bronze/kermit) has quit (Quit: Leaving.)
+2014-02-25 14:52:51	<--	halothe2_ (~halothe23@unaffiliated/halothe23) has quit
+2014-02-25 14:52:59	<--	timahvo1 (~rogue@197.237.174.93) has quit (Ping timeout: 272 seconds)
+2014-02-25 14:53:00	Eduard_Munteanu	Ah.
+2014-02-25 14:53:14	smrtz	http://imgur.com/CJN5PQG
+2014-02-25 14:53:15	petn-randall	smrtz: Take a picture and picpaste it if you like.
+2014-02-25 14:53:19	smrtz	If you guys can see it.
+2014-02-25 14:53:19	-->	smw (~smw@unaffiliated/smw) has joined #debian
+2014-02-25 14:53:22	esing	petn-randall, I've got a one TB hdd here. I estimated the size of the official repo to be about 120 GB big
+2014-02-25 14:53:43	Eduard_Munteanu	smrtz: nope, looks normal
+2014-02-25 14:53:56	smrtz	Eduard_Munteanu: Ahh, well trust me, things are, weird...
+2014-02-25 14:54:31	-->	halothe2_ (~halothe23@unaffiliated/halothe23) has joined #debian
+2014-02-25 14:54:35	Eduard_Munteanu	smrtz: what driver are you using? Did you change things?
+2014-02-25 14:54:57	smrtz	Eduard_Munteanu: petn-randall: what's weird is I installed yesterday, and this worked, but trying to install bspwm didn't, and I reinstalled today, and that works, but this driver doesn't...
+2014-02-25 14:55:01	petn-randall	smrtz: Check /var/log/kern.log for any errors since you started X.
+2014-02-25 14:55:05	smrtz	Eduard_Munteanu: can you please tell me how to check?
+2014-02-25 14:55:06	-->	halothe__ (~halothe23@unaffiliated/halothe23) has joined #debian
+2014-02-25 14:55:07	<--	JoFo (~Jean-Fran@85.234.199.20) has quit (Ping timeout: 246 seconds)
+2014-02-25 14:55:10	--	mpmc is now known as mpmc[BNC4FREE]
+2014-02-25 14:55:15	smrtz	petn-randall: thanks
+2014-02-25 14:55:17	<--	halothe__ (~halothe23@unaffiliated/halothe23) has quit (Remote host closed the connection)
+2014-02-25 14:55:26	-->	rfmj (~rfmj@187.59.160.190.dynamic.adsl.gvt.net.br) has joined #debian
+2014-02-25 14:55:39	-->	halothe23 (~halothe23@unaffiliated/halothe23) has joined #debian
+2014-02-25 14:55:45	-->	Mikrop (~mikrop@2a01:e34:ec23:2310:40cd:6f84:1df8:6033) has joined #debian
+2014-02-25 14:55:49	Eduard_Munteanu	smrtz: glxinfo or /var/log/Xorg.*.log
+2014-02-25 14:56:00	--	Mode #debian [+l 1280] by debhelper
+2014-02-25 14:56:00	-->	pankid (~pan@c-68-40-250-153.hsd1.mi.comcast.net) has joined #debian
+2014-02-25 14:56:42	-->	sktsee (~sktsee@70-9-121-59.pools.spcsdns.net) has joined #debian
+2014-02-25 14:56:56	petn-randall	esing: It's closer to 900 GB ... http://www.debian.org/mirror/size
+2014-02-25 14:57:12	<--	elichai2 (~elichai2@unaffiliated/elichai2) has left #debian ("WeeChat 0.4.3")
+2014-02-25 14:57:25	<--	Quashie (~boingredd@74.212.183.186) has quit (Ping timeout: 272 seconds)
+2014-02-25 14:57:47	centrx	hurd-i386 is only 17GB. Does it have some magical tiny binaries, or does it lack packages?
+2014-02-25 14:58:20	--	Cyis is now known as Cyis|afk
+2014-02-25 14:58:35	<--	dorito125 (~dorito125@141.225.243.254) has quit (Remote host closed the connection)
+2014-02-25 14:58:37	-->	joshfng (~joshfng@c-174-55-50-31.hsd1.pa.comcast.net) has joined #debian
+2014-02-25 14:58:37	<--	halothe2_ (~halothe23@unaffiliated/halothe23) has quit (Ping timeout: 246 seconds)
+2014-02-25 14:58:45	<--	joshfng (~joshfng@c-174-55-50-31.hsd1.pa.comcast.net) has quit (Client Quit)
+2014-02-25 14:58:59	smrtz	Eduard_Munteanu: I think I'm using XFree86-DRI?
+2014-02-25 14:59:08	esing	petn-randall, Ah right, because it got all the architectures mixed and I guess I can't filter the architectures out
+2014-02-25 14:59:10	-->	LindyThing (~LindyThin@infra-dip.corp.den01.viawest.net) has joined #debian
+2014-02-25 14:59:19	<--	ne0sis (~quassel@197.87.27.186) has quit (Ping timeout: 272 seconds)
+2014-02-25 14:59:33	Eduard_Munteanu	smrtz: mmm, that's not it
+2014-02-25 14:59:44	--	peter5 is now known as peterS
+2014-02-25 14:59:46	Eduard_Munteanu	smrtz: pastebin the xorg log
+2014-02-25 14:59:54	smrtz	Eduard_Munteanu: ati)drv.so?
+2014-02-25 14:59:55	smrtz	Eduard_Munteanu: ok.
+2014-02-25 14:59:56	cat_pants	Is it possible to split a late_command into multiple late_commands for readability? I currently have a giant single line separated by semicolons, it's ugly as hell
+2014-02-25 15:00:02	esing	petn-randall, How can I only get packages for i386?
+2014-02-25 15:00:28	<--	magyar (~magyar@unaffiliated/magyar) has quit (Quit: Riding the split)
+2014-02-25 15:01:16	Eduard_Munteanu	esing: you might want to use an APT cacher instead
+2014-02-25 15:01:26	<--	calbasi (~joan@156.190.14.37.dynamic.jazztel.es) has quit (Quit: Leaving.)
+2014-02-25 15:01:33	Eduard_Munteanu	esing: what are you planning to use the mirror for?
+2014-02-25 15:01:41	-->	Ex-Opesa (~Ex-Opesa@unaffiliated/ex-opesa) has joined #debian
+2014-02-25 15:01:49	<--	BenNZ (~Ben__@118-93-135-136.dsl.dyn.ihug.co.nz) has quit (Quit: The Person Who Laughs Last Doesn't Get The Joke)
+2014-02-25 15:02:38	<--	mavrix (~kvirc@109.66.0.140) has quit (Ping timeout: 264 seconds)
+2014-02-25 15:03:04	-->	Mikrop_ (~mikrop@2a01:e34:ec23:2310:a412:856a:3d1f:ef6a) has joined #debian
+2014-02-25 15:03:20	<--	jsubl2 (~jsubl2@65.31.208.17) has quit (Quit: leaving)
+2014-02-25 15:03:21	esing	Eduard_Munteanu, To install i386 packages on a debian system without internet connection
+2014-02-25 15:03:42	esing	(wheezy)
+2014-02-25 15:03:50	<--	spal (~susam@pdpc/supporter/active/spal) has quit (Ping timeout: 264 seconds)
+2014-02-25 15:04:06	<--	Mikrop (~mikrop@2a01:e34:ec23:2310:40cd:6f84:1df8:6033) has quit (Ping timeout: 245 seconds)
+2014-02-25 15:04:07	-->	elichai2 (~elichai2@unaffiliated/elichai2) has joined #debian
+2014-02-25 15:04:19	<--	supersonic (~sonic@bcdc7076.skybroadband.com) has quit (Read error: Connection reset by peer)
+2014-02-25 15:04:20	elichai2	in debian netinstall it have an encryption option?
+2014-02-25 15:04:23	<--	oops_ (~oops@122.167.210.183) has quit (Ping timeout: 272 seconds)
+2014-02-25 15:04:24	-->	_supersonic (~sonic@bcdc7076.skybroadband.com) has joined #debian
+2014-02-25 15:04:51	abrotman	yes
+2014-02-25 15:04:54	abrotman	read the insatllation manual
+2014-02-25 15:05:00	-->	Quashie (~boingredd@74.212.183.186) has joined #debian
+2014-02-25 15:05:05	<--	ruukasu (~ruukasu@209.222.7.238) has quit (Ping timeout: 244 seconds)
+2014-02-25 15:05:33	smrtz	Eduard_Munteanu: since there's no wgetpaste, I'm installing gedit, and I'll copy and paste the output ot of there, that's why it's taking so long.
+2014-02-25 15:05:34	-->	arif-ali (~arif-ali@2.28.242.223) has joined #debian
+2014-02-25 15:06:00	--	Mode #debian [+l 1274] by debhelper
+2014-02-25 15:06:02	abrotman	!pastebinit
+2014-02-25 15:06:02	dpkg	pastebinit is a command-line tool to send data to a <pastebin>.  NOTE: Debian 6.0 "Squeeze" users, you must "pastebinit -b http://paste.debian.net" or configure pastebinit to use something other than pastebin.com.  To paste e.g. your sources.list do "aptitude install pastebinit; pastebinit /etc/apt/sources.list"; to paste the output of a program do e.g. "dmesg | pastebinit".  See also <pastebinit config>, <nopaste>.
+2014-02-25 15:06:09	-->	ash1 (~Thunderbi@82.211.220.196) has joined #debian
+2014-02-25 15:06:14	smrtz	Eduard_Munteanu: http://pastebin.com/czX5D4si
+2014-02-25 15:06:31	-->	ariscop (~Phase4@icookc.lnk.telstra.net) has joined #debian
+2014-02-25 15:06:39	--	Fusl is now known as fusl
+2014-02-25 15:06:41	-->	lamppid (~lamppid@ip-212-52-59-109.kava.lt) has joined #debian
+2014-02-25 15:07:01	-->	tommy_e (~tommy_e@static-5-103-129-67.seas-nve.net) has joined #debian
+2014-02-25 15:07:57	-->	btiefert (~btiefert@173-8-238-129-Colorado.hfc.comcastbusiness.net) has joined #debian
+2014-02-25 15:08:07	<--	mister_z1mbie (~otremblay@client304-office.soundnetworking.com) has quit (Quit: leaving)
+2014-02-25 15:08:58	<--	slacko01225 (~root@213.246.99.95) has quit (Quit: Leaving)
+2014-02-25 15:09:34	<--	useall (~lb@2001:0:53aa:64c:3c32:4fac:d1b6:682f) has quit (Ping timeout: 256 seconds)
+2014-02-25 15:09:42	Eduard_Munteanu	smrtz: hm, yes, there is something wrong
+2014-02-25 15:09:45	<--	icydar_ (~icydar@p5B0E603C.dip0.t-ipconnect.de) has quit (Quit: Lost terminal)
+2014-02-25 15:10:10	smrtz	Eduard_Munteanu: how so?
+2014-02-25 15:10:26	Eduard_Munteanu	[  1073.179] (EE) RADEON(0): Acceleration initialization failed
+2014-02-25 15:10:40	smrtz	Ahh, ok.
+2014-02-25 15:10:50	-->	kermit (unknown@pdpc/supporter/bronze/kermit) has joined #debian
+2014-02-25 15:11:09	<--	lysias (~n@mystery.pinkflag.net) has quit (Quit: leaving)
+2014-02-25 15:11:28	-->	magyar (~magyar@unaffiliated/magyar) has joined #debian
+2014-02-25 15:11:58	<--	sitic (~quassel@wikipedia/siric) has quit (Remote host closed the connection)
+2014-02-25 15:12:05	Eduard_Munteanu	smrtz: hold on, I'm still looking at it
+2014-02-25 15:12:19	smrtz	Eduard_Munteanu: sure.
+2014-02-25 15:13:39	-->	kisisten (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has joined #debian
+2014-02-25 15:13:41	Eduard_Munteanu	smrtz: can you pastebin dmesg as well?
+2014-02-25 15:13:44	smrtz	sure.
+2014-02-25 15:13:52	<--	valerius (~user@85.26.180.153) has quit (Ping timeout: 244 seconds)
+2014-02-25 15:14:15	<--	kisisten (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2014-02-25 15:14:23	-->	kisisten (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has joined #debian
+2014-02-25 15:14:24	esing	Eduard_Munteanu, Could I run the apt-cacher on a ubuntu system but use the debian mirror and if I wanted to get debian packages they would only be on the ubuntu system's storage and not necessarily installed on ubuntu? . I can't use apt-cacher though because I can't connect the system with another internet connected linux system.
+2014-02-25 15:14:31	<--	valeriusL (~valerius@85.26.180.153) has quit (Ping timeout: 272 seconds)
+2014-02-25 15:14:42	smrtz	Eduard_Munteanu: http://pastebin.com/ZRic5HB7
+2014-02-25 15:15:39	<--	ianw (iwienand@nat/redhat/x-bosaodzjqmeoeeyz) has quit (Excess Flood)
+2014-02-25 15:16:08	-->	ianw (iwienand@nat/redhat/x-kcrrxklwzlzlesus) has joined #debian
+2014-02-25 15:16:30	-->	tschundeee (~tschundee@2a02:908:db32:a100:6ca2:db8d:c402:d8c7) has joined #debian
+2014-02-25 15:16:39	-->	k42b3 (~k42b3@p579979F8.dip0.t-ipconnect.de) has joined #debian
+2014-02-25 15:16:43	-->	useall (~lb@2001:0:53aa:64c:3c32:4fac:d1b6:682f) has joined #debian
+2014-02-25 15:16:59	-->	GusBricker (~GusBricke@c220-237-20-42.eburwd9.vic.optusnet.com.au) has joined #debian
+2014-02-25 15:17:37	Eduard_Munteanu	smrtz: it seems you're missing the firmware
+2014-02-25 15:17:41	<--	magyar (~magyar@unaffiliated/magyar) has quit (Ping timeout: 272 seconds)
+2014-02-25 15:17:50	Eduard_Munteanu	[    5.207106] [drm:radeon_pci_probe] *ERROR* radeon kernel modesetting for R600 or later requires firmware-linux-nonfree.
+2014-02-25 15:17:53	smrtz	Ahh, ok.  That sounds like a possibility
+2014-02-25 15:18:03	<--	kisisten (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has quit (Client Quit)
+2014-02-25 15:18:04	esing	Eduard_Munteanu, Actually I could connect a Ubuntu system (running the apt-cacher) with the debian system, by using a usb<->usb bridged cable
+2014-02-25 15:18:06	-->	magyar (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has joined #debian
+2014-02-25 15:18:06	<--	magyar (~magyar@c-98-234-55-57.hsd1.ca.comcast.net) has quit (Changing host)
+2014-02-25 15:18:06	-->	magyar (~magyar@unaffiliated/magyar) has joined #debian
+2014-02-25 15:18:11	-->	boudiccas (~boudiccas@unaffiliated/boudiccas) has joined #debian
+2014-02-25 15:18:45	-->	Guest185 (~smuxi@cpe-76-168-136-105.socal.res.rr.com) has joined #debian
+2014-02-25 15:18:51	Eduard_Munteanu	esing: you could ask apt-get to download packages without installing them
+2014-02-25 15:19:33	Eduard_Munteanu	esing: although that might not be easy to use, I was thinking of a VM.
+2014-02-25 15:19:46	-->	spal (~susam@pdpc/supporter/active/spal) has joined #debian
+2014-02-25 15:20:27	smrtz	Eduard_Munteanu: firmware-linux-nonfree isn't in the default repos?
+2014-02-25 15:20:49	Eduard_Munteanu	smrtz: not sure, haven't tried it lately
+2014-02-25 15:20:49	ksuhku	no, because of non-freeness
+2014-02-25 15:21:09	<--	tschundeee (~tschundee@2a02:908:db32:a100:6ca2:db8d:c402:d8c7) has quit (Ping timeout: 249 seconds)
+2014-02-25 15:21:12	smrtz	ksuhku: ahh, I should have figured that...
+2014-02-25 15:21:54	<--	GusBricker (~GusBricke@c220-237-20-42.eburwd9.vic.optusnet.com.au) has quit
+2014-02-25 15:21:56	-->	adellam (~adellam@pdpc/supporter/active/adellam) has joined #debian
+2014-02-25 15:22:16	-->	minest (~minest@41.226.93.97) has joined #debian
+2014-02-25 15:23:08	smrtz	ksuhku: it looks like it is?: https://packages.debian.org/wheezy/firmware-linux-nonfree
+2014-02-25 15:23:11	esing	Eduard_Munteanu, Also I am not sure if I could mess up debian with ubuntu packages if I add debians repo to Ubuntu sources
+2014-02-25 15:23:24	Eduard_Munteanu	esing: don't do that, no
+2014-02-25 15:23:30	<--	Guest185 (~smuxi@cpe-76-168-136-105.socal.res.rr.com) has quit (Remote host closed the connection)
+2014-02-25 15:23:48	esing	So the apt-cacher server should have the same linux distru like the apt-cacher client
+2014-02-25 15:23:49	Eduard_Munteanu	esing: you can debootstrap a Debian chroot and use that instead
+2014-02-25 15:24:05	<--	comradekingu (~comradeki@109.108.219.28) has quit (Ping timeout: 245 seconds)
+2014-02-25 15:24:11	esing	Oh that's good to know
+2014-02-25 15:24:16	ksuhku	smrtz, wow, confusing!
+2014-02-25 15:24:52	<--	Nnel (~Nnel@31.55.91.16) has quit (Ping timeout: 246 seconds)
+2014-02-25 15:24:55	smrtz	ksuhku: yeah, and everything I see on google says to just install it with apt.  Can you search for it please, and tell me if apt finds it for you?
+2014-02-25 15:25:09	Eduard_Munteanu	Well, it's free-er than the alternative, which is fglrx. :)
+2014-02-25 15:25:17	smrtz	I think it's like, apt-cash search firmware-linux-nonfree or something like that.
+2014-02-25 15:25:45	ksuhku	smrtz, I'm not at my debian box now
+2014-02-25 15:25:46	Eduard_Munteanu	smrtz: apt-cache
+2014-02-25 15:25:52	smrtz	ksuhku: ahh, ok.
+2014-02-25 15:25:58	smrtz	I'll keep trying random things then.
+2014-02-25 15:26:09	<--	capiira_ (~capiira@p50895124.dip0.t-ipconnect.de) has quit (Quit: Leaving...)
+2014-02-25 15:26:10	-->	GusBricker (~GusBricke@c220-237-20-42.eburwd9.vic.optusnet.com.au) has joined #debian
+2014-02-25 15:27:23	-->	valeriusL (~valerius@85.26.180.162) has joined #debian
+2014-02-25 15:27:25	smrtz	Looks like I need to enable a repo for it.
+2014-02-25 15:27:28	mtn	smrtz: you need to add non-free to your sources.list
+2014-02-25 15:27:40	smrtz	mtn: yeah, thanks for the confermation.
+2014-02-25 15:27:40	mtn	smrtz: might as well add contrib, too
+2014-02-25 15:27:43	-->	capiira (~capiira@p50895124.dip0.t-ipconnect.de) has joined #debian
+2014-02-25 15:28:04	-->	_ZbooNet (~nuptse@fr141-3-78-229-168-2.fbx.proxad.net) has joined #debian
+2014-02-25 15:28:19	-->	Nnel (~Nnel@31.55.91.16) has joined #debian
+2014-02-25 15:28:48	-->	comradekingu (~comradeki@109.108.219.28) has joined #debian
+2014-02-25 15:29:01	smrtz	mtn: hmm, I don't see any lines for either non-free, or contrib in my sources.list.  Can you pastebin yours for me, so I can pull the relevent lines out of there pleaes?
+2014-02-25 15:29:10	-->	valerius (~user@85.26.180.162) has joined #debian
+2014-02-25 15:29:32	-->	ompaul (~ompaul@unaffiliated/ompaul) has joined #debian
+2014-02-25 15:29:44	Eduard_Munteanu	smrtz: https://wiki.debian.org/SourcesList
+2014-02-25 15:29:48	<--	tommy_e (~tommy_e@static-5-103-129-67.seas-nve.net) has quit (Quit: Computer has gone to sleep.)
+2014-02-25 15:30:19	smrtz	Eduard_Munteanu: ahh, ok.
+2014-02-25 15:30:28	-->	Roland- (~win@unaffiliated/roland-) has joined #debian
+2014-02-25 15:30:29	-->	Arr0way (~Arr0way@gateway/tor-sasl/arr0way) has joined #debian
+2014-02-25 15:30:44	Roland-	hello can i mtr otr traceroute an AS directly ? I want to know if I have peering
+2014-02-25 15:30:59	esing	Eduard_Munteanu, Is the use of Debootstrap what you meant by VM, or do I also need an actualy VM for that setup? I guess if I have the Debootstrap chrooted Debian and the apt-cacher server that should all
+2014-02-25 15:31:01	<--	mtn (~mtn@dpc6744160070.direcpc.com) has quit (Quit: Konversation terminated!)
+2014-02-25 15:31:01	Arr0way	question - will a i686 debian install be smaller than a amd64 install ?
+2014-02-25 15:31:11	Eduard_Munteanu	Roland-: use an online BGP looking glass tool
+2014-02-25 15:31:12	esing	+be
+2014-02-25 15:31:22	Arr0way	my thought is there will be both 32 and 64 bit libs on the 64 install ?
+2014-02-25 15:31:23	smrtz	Eduard_Munteanu: that page doesn't exist.
+2014-02-25 15:31:24	ksuhku	Arr0way, on disk probably not, in memory yeah
+2014-02-25 15:31:31	<--	capiira (~capiira@p50895124.dip0.t-ipconnect.de) has quit (Client Quit)
+2014-02-25 15:31:36	<--	hallucinium (~hallicini@81.56.60.28) has quit (Ping timeout: 240 seconds)
+2014-02-25 15:31:43	-->	capiira (~capiira@p50895124.dip0.t-ipconnect.de) has joined #debian
+2014-02-25 15:31:44	stew	smrtz: yes it does
+2014-02-25 15:31:46	Arr0way	ksuhku: it will use more ram ?
+2014-02-25 15:31:51	ksuhku	yes
+2014-02-25 15:31:53	ompaul	Arr0way: there won't be enough to care about
+2014-02-25 15:32:14	Arr0way	ompaul: id like to keep my install down to < 1gb if possible
+2014-02-25 15:32:15	ompaul	Arr0way: or to put it another way, if it matters that much do your own use metrics
+2014-02-25 15:32:25	-->	Eco_ (~interface@86.93.14.48) has joined #debian
+2014-02-25 15:32:37	ompaul	Arr0way: ehn use the net install and don't do a desktop
+2014-02-25 15:32:46	-->	siso (~siso@50.56.228.68) has joined #debian
+2014-02-25 15:32:50	-->	alij001 (~alij001@162.220.240.121) has joined #debian
+2014-02-25 15:32:56	--	Eco_ is now known as BugBite
+2014-02-25 15:32:57	Arr0way	ompaul: i will, I'm debootstraping
+2014-02-25 15:32:58	<--	sktsee (~sktsee@70-9-121-59.pools.spcsdns.net) has quit (Quit: sktsee)
+2014-02-25 15:33:06	smrtz	stew: I'm getting a "this page does not exist yet" error...
+2014-02-25 15:33:29	stew	smrtz: dunno, it works fine for me
+2014-02-25 15:33:38	Eduard_Munteanu	Arr0way: Wheezy is multiarch, you get the 32bit stuff if you install 32bit stuff explicitly, AFAIK
+2014-02-25 15:33:40	<--	Arsenik (~Cyanure@81-65-97-92.rev.numericable.fr) has quit (Remote host closed the connection)
+2014-02-25 15:33:54	Arr0way	Eduard_Munteanu: ok thanks
+2014-02-25 15:33:58	Eduard_Munteanu	smrtz: try using http instead of https
+2014-02-25 15:33:59	smrtz	stew: wtf, when I find the page on goole, it works fine for me too.  The URLs are exactly the same...
+2014-02-25 15:34:01	<--	martinalex (~quassel@jupiter.kawo2.rwth-aachen.de) has quit (Ping timeout: 244 seconds)
+2014-02-25 15:34:12	stew	smrtz: you can also 'man sources.list'
+2014-02-25 15:34:14	-->	Persopolis (~Persopoli@cpc10-haye19-2-0-cust19.17-4.cable.virginm.net) has joined #debian
+2014-02-25 15:34:34	Eduard_Munteanu	Beats me why https would be broken for you, though.
+2014-02-25 15:34:39	-->	r00tN (~r00t@198.23.143.221) has joined #debian
+2014-02-25 15:35:01	<--	Aristide (~quassel@2a01:e35:2eb9:64b0:1e4b:d6ff:feca:6b69) has quit (Ping timeout: 246 seconds)
+2014-02-25 15:35:03	<--	inf_l00p (~infl00p@ns.infloop.gr) has quit (Quit: .)
+2014-02-25 15:35:05	<--	siso (~siso@50.56.228.68) has quit (Read error: Connection reset by peer)
+2014-02-25 15:35:25	smrtz	Eduard_Munteanu: I've got it working now, thanks though.
+2014-02-25 15:35:39	-->	siso (~siso@92.52.76.140) has joined #debian
+2014-02-25 15:36:44	smrtz	Eduard_Munteanu: got it.
+2014-02-25 15:37:58	<--	rfmj (~rfmj@187.59.160.190.dynamic.adsl.gvt.net.br) has quit (Remote host closed the connection)
+2014-02-25 15:38:33	<--	pankid (~pan@c-68-40-250-153.hsd1.mi.comcast.net) has quit (Remote host closed the connection)
+2014-02-25 15:38:33	--	Mode #debian [+l 1282] by debhelper
+2014-02-25 15:38:33	Persopolis	Hi I'm trying to locate a package to manually install - could you help me locate a source for it please - libboost1.37 and libboost1.37-dev for amd64
+2014-02-25 15:38:34	<--	RA3OR (~demon@unaffiliated/ra3or) has quit (Read error: Connection reset by peer)
+2014-02-25 15:38:38	smrtz	Eduard_Munteanu: How can I kill x from within?  Just sudo pkill xserver?
+2014-02-25 15:38:39	-->	Rosco2 (~RossGammo@188-178-212-240-dynamic.dk.customer.tdc.net) has joined #debian
+2014-02-25 15:38:39	<--	calisto (~calisto@unaffiliated/calisto) has quit (Ping timeout: 272 seconds)
+2014-02-25 15:38:41	-->	FreezingCold (~FreezingC@135.0.41.14) has joined #debian
+2014-02-25 15:38:43	-->	RA3OR (~demon@unaffiliated/ra3or) has joined #debian
+2014-02-25 15:38:52	<--	Kiril (kiril@freebsd/lover/kiril) has quit (Read error: Connection reset by peer)
+2014-02-25 15:38:58		irc: disconnected from server
+2014-02-25 15:42:02	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #debian
+2014-02-25 15:42:02	--	Topic for #debian is "wheezy released: /msg dpkg squeeze->wheezy | current point release: /msg dpkg 7.4 | NO FLOOD: /msg dpkg paste | /msg bots  NOT people | offtopic: #debian-offtopic | testing/unstable: #debian-next (irc.oftc.net)"
+2014-02-25 15:42:02	--	Topic set by abrotman (~abrotman@pdpc/supporter/active/abrotman) on Sat, 08 Feb 2014 19:13:28
+2014-02-25 15:42:02	--	Nicks #debian: [@ChanServ @debhelper 17SAAH96V 1JTAAGP4P 20WABDAGN [A3G1S] [mrx] [SkG] [vaelen] _5moufl __FBi __william__ _c3p0 _daniel-s__ _krux _Lucretia_ _marix _Paul _pr0xie _supersonic _val_ _ZbooNet `MArceLL` A-TCP-BreAKDoWN aarcane_ abailarri aboman abrotman AciD` AciD`` AciD``` acrocity ad adc adellam adi_ Adran aegis aem` ageis AGoodName aidaqt Aim_Here AJ_Z0 Al3xG0 Alam_Squeeze alexandros_c alexbligh alexei alexlist AlexPortable AlexWkz alij001 Alina-malina Almtesh AlsoDirkson Alula amatecha Ambagasdowa amitabha amospalla anapivirtua Anarch andatche AngelDeath_ Angelous anhdepyeu ankso anon4565 AntiSpamMeta antonym Apeiron` APLU apofis apollolune apt ArchDuke architekt Arconiaprime Ard1t Argafal ari_ arif-ali ariscop Aristide Arkadietz Armadi Arr0way Arrowmaster Arroyo1010 Artpicre asakura0 aschro asemani Asenar ash1 Ask21 asteryx AsumFace Atlas atomi aton` atyoung_ austin987 av0idz avd awfabian axisys azerus azizLIGHTS Azrael_- b00b b52 b_52globe babilen bars0__ bart_b BarthezZ_ batrick BaW bazhang bchamberlain bcremer bdf beardo beardy beboj bedouin beet0l_ berarma berceanu_ Bercik berndj bertrik bezaban bezerker bfit bier_ BiGBOi_ biglama BillyZane bipolar bizarro_1 blackest_mamba blackjack blarghlarghl blast_hardcheese BlastHardcheese blSnoopy blue Blue11 Blueer blueness BlueNexus bobbyd3 boblee bolt bosna BotaniCar boudiccas boycottg00gle bps bramwelt bramwelt_ brendenbus Brigo BrixSat brolin_empey brontosaurusrex brouette Bryanstein bst_ bt6 btiefert budai BuFF BugBite bullgard4 burn busch buu bvs c0ded cabe cafuego Calcarin1 cali calzifer CampinSam capiira capri cardiel casheew cat_pants catohornet1 catsup caveat- Cavil caviwipes cbdev cbmuser_ Celelibi CEnnis91 cenron centrx Cerise chalcedony chance2105 chattr chb Chex chosi choupy Chris7mas ChrisH Chrisje chrisss404 churnd cian1500ww cire CissWit civillian cj clopez cloromorpho cloudster clu5ter codesoup codygman comradekingu CookieM cooldude copec corepb_ Cork CosmicB CowboyNeal Coweater cpc26 Cr0iX crafty1_ crane cRaNnK crashev crashmag crus ctmjr Cueball cuppscakes cusco cwillu_at_work CybDev CyberGabber CyberSix cyberspace- Cybertinus Cyclohexane Cyis|afk cyphase cyzz D-Boy d3lxa d3sync D4v33 dachi Daemoen daemonkeeper Dagger damentz Dan39 danmackay DANtheBEASTman DarkPlayer darkskiez darkthrone Dartus davidrussell daz dbast dbristow dcarped deathleff deb debsan deception deciph3r deed02392 deepy delluminatus DelphicOkami delYsid`` deni der0b detha Devastator Dewi dextrey Dga dh64 DHost_ Diaoul Diehard digdilem digilink dijenerate dimer dimir diniwed dioz disposable2 dizzylizzy Dj_Dexter djanos djD3f djjunde DLange dobalina doebi dondelelcaro dooglus DOUGHTY dozn dpkg dreamon drinkycrow DrOwl DrPossum DrRen Dry_Lips dselect dtcrshr duffduff dumby Dunedan DURgod DustyDingo dutchfish e1z0 ecantin ecj ectospasm eddul Eduard_Munteanu edwardly eikenb eir eki Elemeno-Work eliad_ elichai2 elik EmleyMoor emma Emmanuel_Chanel EnergyCoffee_ Enissay enkrypt epsylon ered erry eshlox eshy esing EToS euphoria evdo everjeje evilicey Ex-Opesa ExeciN Exio4 exussum_ eye69_ f0rg0tt3n f10 f4cl3y fangfufu farn FaV1r3s fbe fcharton fedaii felco felipe Firestarter firztspawn flexo Fli-c floyin FlyingFoX fn00dle folivora forcer format_c frankie frankS2 frdmn freaky[t] fredsted FreezingCold frikinz_ frlttrwrd frusif fubbi funtapaz funyun fuqi Furai fusl futex_ FUZxxl g_r_eek GabiP GabrieleV galler gandaliter gardar- Gargamot1 gensgad george2|chakra gernot ggherdov ghenry ghost64 ghost75_ GhostInTheshell ghostlines gigetoo GJdan glebihan glebihan_ Gm4n GNU\colossus gnugr Godsey- goldkatze grache28 grand_grunt Granis graytron grep0r grepidemic greyscale grindhold grobda24 guerremdq Guest39633 Guest41293 Guest4688 Guest53586 Guest64024 Guest6515 Guest65426 Guest69126 Guest7666 guk gunkaaa_ guntha` Gurty GusBricker gusnan haasn Hackintech halfie halothe23 halu harobed harrison hasanek hax404 HeavyMetal heinrich5991 hendrikz hesco hexagon Hexeon HGeiger2 HicksD_ hid3 himura HisaoNakai hnsz2002 holmgren Holo-phil horsik_ HSaka_ huayra Hydroxide HymyPoika hyppias ianw iateadonut iceisfun iceroot idoru ignasio ikonia impulse150 indieross infernix initself integral internat Internet13 IonelPopescu ioudas iPcjamesy4 Iridos Ishaq ItTakesTwo ivan`` iViLe IVplay ix ixela j0z jaakkos jaami jab416171_ jaggz|3 jahman jamesfryman Janhouse jannic Janusz1 jareddlc jareth_ Jarus jas4711 jasonwert jaybe jayne Jbdye jbonjean jbraeg jbroome jcm__ Jdbye|Laptop jdoles jelly jelly-home JelmerD jetho Jguy jholden_away JHoughtelin jhulst jhutchins Jikan jirka_on_d jmcnaught JmZ- joako JohnDoh johskar joltcan JonathanD joncrunchbang Jonuz JordanJ2 jordanm joschi JotaK jpinx jrgill jsaddened JStoker jtdowney jthomas__ jtrucks jubbsy judd Juzzika jweez JWF JyZyXEL k-man K0HAX k1ng K1rk_ k42b3 K4k Kaboon kain88 kakolak kalz kameloso Kamilion Kanerix kanja kayamm KBme kdox keith4_ kelsoo kermit kevinsky Khere_ kiddesr killy9999 kini kInOzAwA Kiril kirkland kkvlk kludge` Klumben Knaldgas knigitz knyon Kobaz koell komori Konrad127123 Krabbe Krenz kriebz Krigsforbryter kro[au] kRush ksx4system Kulrak l3lu3 Lady_Aleena lakcaj lamppid langkid1 Lartza lazers lduros le_bozo Leconite leitao Leoneof levifig lexibq LindyThing linedash Linuturk linux4life798 LippyLee Lirion LjL llakey llimeht lnxslck Locke0- loonquawl loonypark lord4163 LordDeath LordShiva loremipsium LoRez loxley LRN lroe LtL lubyou luckman212 Lunchb0x M0ulin M4dH4TT3r Mac101 macrobat MACscr mactimes_ MaekSo maferv magenbrot magnulu magyar maik majuscule makospityputy makospityputy_ malik_ mallxs Malmis_i mambaw mand0 Mapley marienz marjus markovh marlinc martin-_-_ martines master_j matuka` mauricio_ mav mavhc maxexcloo maxorator maxyz McLive mdel mdorenka me-koyote meiand meise Meliorate melter mepl meshuggah Messenger_bird messenjah mete- meti mgodzilla mhall119 mick_laptop midacts midnightmagic Miesco Mikaela mikeey Mikrop_ milligan_ milobit milosn mimor mindstorm minest minsa MissionCritical mist misterli mixomathoze mjt Mmike mnathani mns moetunes Mogget moncky mongaj Moonlightning Moredread MoreRandomThanU Morn_ Morrolan mossman moza mpkossen mpmc[BNC4FREE] mr_daemon mr_red MrFrood mtrd`w muh2000 mukmuk mumixam musca mvensky mwschib mye MyWay n0arch n0c n13z na1rb nagarkot_ Namaskar Namikaze nanoha-sama Nanuq NaPs Natenom nconrads4 ndrei nearst NeilHanlon nell neobii Neptune_ netkat_ nevyn nezZario Niamkik nice92 nickmoec1 niel nightfly NightGriffin nihilista Nik05 niko nikomo NiLon nirix nitz nkuttler nn_ Nnel no0p nodiscc noirx nomad_dw noname001 Noskcaj nosklo Nothing4You Nothing4You_ nse nullified Numline1 nwps nyov nyuszika7h oahong oberling Obi-Wan oddie_ Olipro ollo olri ompaul on1ald on1x onebitaway Onixs_ OpenTokix opiumozor Orbitrix Orphis osfd Otyg overrider owa owen1 oxez oxful_ p0g0_ p0ly P1xel|NotAlive p8m p_quarles Paden pagioss pajarillo parallel21 ParkerR pathy patterson paulez_ pav5088 Peer69 Pendrag0n Percy- Perdu Persopolis petemc petern_ peterS PeterSilie petn-randall pfote pfsmorigo ph4nt0mas ph88 phant0mas phantomik Phil-Work phix phogg phragment phrozen77 phunyguy phy1729 Phyks pi2 Pici Piggy pikaro_ pinage404 pingveno Pip3r pipeep piyo pkv Plazma ponyofdeath Posterdati prateek992 preller Procy0n prof-freud project2501a Pryon Psylo pterodaktil publiccert Pucilowski_ Python1320 pythonsnake1 q3k qman__ quackgyver Quashie quasisane quenoz QwertyDragon r00tN r3m ra1nb0w RA3OR rabbieth rabeeh Radex RagingComputer RaphaelT raSter^ ravigehlot_ rax- raxo rbanffy rbnw rdz reazem redpill regreddit reko relipse remx RES401 resixian_ Rev|SleepingFox rhizome Ricardo__ rich- RichiH RickyB98 riddle Ritzton Rix rjsalts rl0 rmdashrf Rn0 RobbyF robix robmozart_ Rockj rockyban- rockybanana roentgen roger_rabbit rogg rojem Rokixz Roland- romm ronin rook2pawn Rootert Rosco2 rOss^64 ross` rotaticus Rothgar RougeR rozie rrehbein rtr_ Rubas Rubin RussellB28 rvgate ryan-c ryan42 RyanKnack rypervenche rysiek|pl sadbox sAITEk Salonce Sanchal Sanchal_ santiagoR sarlalian satseki sbach sbine Scall Scar3cr0w schlarpc scoopex ScottE Screwba sdollins Se-bash Seb sedulous seekr SerajewelKS serjsj Seryth Seth_Hikaru sevenfou1k shad0VV ShapeShifter499 shawn\ shengyao shingouz shroud Shuro sidmo sifeic sig-wall sileht silverf0x Sir_Designer SirCmpwn SirLagz slackner SlaGTaTs Slagwag Sleepy63 sllide slvmecha Slythen smaug9 smica smrtz|nix smw smyers snadge Solid-State SoMaek Some_Person Somefellow Someguy123 soulz sourcodec1 southward spacepluk spal sparty sphenxes spinningcompass Spleeze Spockz sputnik staropram stef_ steve81 stew stfsux Sthebig stig` stigi` STMelon stockholm stojic StrangeloveMD StupidWeasel Su7 subcritical Subfusc sukaeto sunkan sussudio suy SwedeMike SwedFTP SweetMuffin swick sylar Symmetria symptom syn_ synchris syssi T4b Tabstar Tarjaizaid TBCOOL tcpman tdreyer1 techie26_ tempspace tensorpudding teraflops terrasapien Th0masR0ss tharkun ThatGraemeGuy the_joker_ thebolshevik_ TheDrums themill TheOne1 the|herbivore thiagoss thims thingamabob Thms ThomasJ|d thoonai_ Thor threadlock thunderrd thunderWilly Ticho TildaTurn timmmaaaayyy tlund tmfsd tmpval TmvC tnguyen tnguyen_ ToBeFree Togusa tolecnal tolkor Tom01 tomaw tombatone tomocha6 tondo tonyoy totte towo` toxboi traph treaki_ treehouse Trellmor_ trem0r tremon trewas TreySmee TriJetScud tristero trvz trysten tubaman_ tucow tumppu tuvwx Tux txomon|fon txomon|home tylerjd ulkesh Underbyte underdog` Uninstall_ Unity up365 uplate user472259 Utility_ vagn__ val_erie valerius valeriusL ValicekB vectr0n VeggieMeat_ veikko velleity veryape VidaLoca vilmibm vimel virako virtuose vivid VlperX vol4ko Vorpal Voyager_MP vt0r vurma w1ck3dg01h3r W4rd_ waqstar Waster waynr wcmckee wed__ weems weirdtunguska weltzooo werdna Werring whirling wiak Wiktor Willis willmore wingman2 woffs_ wolfmitchell wolrah_ wols WormFood woshty ws2k3__ Wug Wyzard_ x-treme x3_iVaN Xalem xand Xanthor xcq_ XDS2010 xikon xingu xintron Xiol Xiti Xjs|moonshine xnbya xragnar xrated XSoul YamakasY yamba yan yano Yeka_ yells yofun yogurt2ungue yokel yoklar Yong_ Yoshi1 yuastnav Yukikaze z zaggynl ZbooNet zenadm1n zerick Zeroedout_ Zhann Zharf zigong zinx ZIPY Zordek zr0 zso zwick zxq9 Zyferus zykotick9 zymurgy zz0 zz_hakr zz_karupanerura {41444d494e}]
+2014-02-25 15:42:02	--	Channel #debian: 1259 nicks (2 ops, 0 halfops, 0 voices, 1257 normals)
+2014-02-25 15:42:02	--	URL for #debian: http://www.debian.org
+2014-02-25 15:42:03	Eduard_Munteanu	esing: if you rsync manually it should be straightforward, see the --exclude option
+2014-02-25 15:42:04	--	Mode #debian [+CLPcntlf 1282 #debian-overflow]
+2014-02-25 15:42:04	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-02-25 15:42:10	smrtz|nix	Eduard_Munteanu: yep, it's fixed now.  Thanks!
+2014-02-25 15:42:22	elichai2	in debian netinstall it have an encryption option?
+2014-02-25 15:42:29	abailarri	Hello. I'm trying to host a web in a server on debian wheezy. I configured the vhost and the bind zone, but when I put the url, it goes to the /var/www web, not to the /var/www/miweb.com
+2014-02-25 15:42:30	-->	kian_ (~kian@72.238.179.158) has joined #debian
+2014-02-25 15:42:32	-->	roboman2444 (~roboman24@pool-173-76-40-248.bstnma.fios.verizon.net) has joined #debian
+2014-02-25 15:42:32	<--	roboman2444 (~roboman24@pool-173-76-40-248.bstnma.fios.verizon.net) has quit (Changing host)
+2014-02-25 15:42:32	-->	roboman2444 (~roboman24@unaffiliated/roboman2444) has joined #debian
+2014-02-25 15:42:34	abailarri	any help please?
+2014-02-25 15:42:37	-->	nathanhi (~nathanhi@deepserve.info) has joined #debian
+2014-02-25 15:42:42	<--	brontosaurusrex (~b@unaffiliated/brontosaurusrex) has quit (Quit: Leaving)
+2014-02-25 15:42:48	-->	qewzee (~qz@labrat.cz) has joined #debian
+2014-02-25 15:42:50	<--	nyuszika7h (nyuszika7h@pdpc/supporter/active/nyuszika7h) has quit (Ping timeout: 252 seconds)
+2014-02-25 15:42:51	<--	sedulous (~sedulous@unaffiliated/sed/x-0159859) has quit (Ping timeout: 252 seconds)
+2014-02-25 15:42:51	<--	andatche (~andatche@mule.andatche.com) has quit (Remote host closed the connection)
+2014-02-25 15:42:52	Eduard_Munteanu	elichai2: IIRC yes, but it should be the same as the normal installer
+2014-02-25 15:42:57	--	nathanhi is now known as Guest92010
+2014-02-25 15:43:07	<--	Guest92010 (~nathanhi@deepserve.info) has quit (Changing host)
+2014-02-25 15:43:08	-->	Guest92010 (~nathanhi@unaffiliated/nathanhi) has joined #debian
+2014-02-25 15:43:20	elichai2	Eduard_Munteanu: so both Net and normal installers have encryption option?
+2014-02-25 15:43:23	-->	_minest_ (~minest@41.226.93.97) has joined #debian
+2014-02-25 15:43:24	<--	Sir_Designer (~mareklug@wikipedia/mareklug) has quit (Quit: 15 minutes with you / oh, I wouldn't say no)
+2014-02-25 15:43:34	Eduard_Munteanu	elichai2: it's the same installer really, AFAIK
+2014-02-25 15:43:54	-->	DonVitoCorleone (~KG@unaffiliated/donvitocorleone) has joined #debian
+2014-02-25 15:44:17	-->	sedulous (~sedulous@unaffiliated/sed/x-0159859) has joined #debian
+2014-02-25 15:44:37	elichai2	Eduard_Munteanu: so it has an encryption right?
+2014-02-25 15:45:15	<--	Guest92010 (~nathanhi@unaffiliated/nathanhi) has quit (Excess Flood)
+2014-02-25 15:45:31	-->	noxs (~noxs@HSI-KBW-078-042-030-235.hsi3.kabel-badenwuerttemberg.de) has joined #debian
+2014-02-25 15:45:33	Eduard_Munteanu	elichai2: I think so, I'm not sure... you could try it (perhaps in a VM if you don't want to disrupt something).
+2014-02-25 15:46:01	--	Mode #debian [+l 1276] by debhelper
+2014-02-25 15:46:07	-->	Guest68960 (~nathanhi@deepserve.info) has joined #debian
+2014-02-25 15:46:19	-->	gnugnu6 (~gnugnu6@37-1-162-187.ip.skylogicnet.com) has joined #debian
+2014-02-25 15:46:21	-->	nag (nagyon@vasaconsulting.com) has joined #debian
+2014-02-25 15:46:34	<--	serjsj (~serjs@79.164.31.179) has quit
+2014-02-25 15:47:20	--	george2|chakra is now known as george2
+2014-02-25 15:47:33	stew	yes, it has options for installed to an encrypted volume
+2014-02-25 15:47:34	<--	Guest68960 (~nathanhi@deepserve.info) has quit (Changing host)
+2014-02-25 15:47:34	-->	Guest68960 (~nathanhi@unaffiliated/nathanhi) has joined #debian
+2014-02-25 15:47:37	<--	Zordek (zord@2a02:2b88:2:1::282d:10) has quit (Quit: leaving)
+2014-02-25 15:47:38	<--	minest (~minest@41.226.93.97) has quit (Ping timeout: 240 seconds)
+2014-02-25 15:47:41	<--	AlexPortable (uid7568@gateway/web/irccloud.com/x-raofvuupfqyignnt) has quit (Quit: Connection closed for inactivity)
+2014-02-25 15:47:50	--	Guest68960 is now known as nathanhi
+2014-02-25 15:47:50	-->	trueneu (~textual@188.134.48.179) has joined #debian
+2014-02-25 15:48:03	-->	nyuszika7h (nyuszika7h@pdpc/supporter/active/nyuszika7h) has joined #debian
+2014-02-25 15:48:08	<--	noirx (~noirx@s529d3443.adsl.online.nl) has quit (Quit: Leaving)
+2014-02-25 15:48:26	-->	MicP (~MicP@unaffiliated/micp) has joined #debian
+2014-02-25 15:48:50	<--	r00tN (~r00t@198.23.143.221) has quit (Ping timeout: 264 seconds)
+2014-02-25 15:49:19	-->	tgd (~tom@4ad54-1-88-172-90-158.fbx.proxad.net) has joined #debian
+2014-02-25 15:49:23	<--	CookieM (~tomek@dkt66.neoplus.adsl.tpnet.pl) has quit (Quit: IRC is just multiplayer notepad)
+2014-02-25 15:49:24	<--	Almtesh (~Almtesh@unaffiliated/almtesh) has quit (Remote host closed the connection)
+2014-02-25 15:49:59	<--	yogurt2ungue (~yogurt2un@181.31.153.241) has quit (Ping timeout: 272 seconds)
+2014-02-25 15:50:18	-->	useall (~lb@2001:0:53aa:64c:3c32:4fac:d1b6:682f) has joined #debian
+2014-02-25 15:51:00	<--	martin-_-_ (~martin___@chello080109116052.4.15.vie.surfer.at) has quit (Read error: Connection reset by peer)
+2014-02-25 15:51:11	<--	santiagoR (~santiagoR@201.216.209.201) has quit (Quit: Leaving)
+2014-02-25 15:51:34	-->	frostschutz (~frostschu@p4FFF4B27.dip0.t-ipconnect.de) has joined #debian
+2014-02-25 15:52:09	-->	Havis (~Havis@bband-dyn124.178-41-149.t-com.sk) has joined #debian
+2014-02-25 15:53:05	--	frikinz_ is now known as frikinz
+2014-02-25 15:53:09	<--	Miesco (~mugsy@209.42.123.40) has quit (Ping timeout: 244 seconds)
+2014-02-25 15:53:34	<--	yan (~yan@111-252-18-115.dynamic.hinet.net) has quit (Ping timeout: 252 seconds)
+2014-02-25 15:53:54	<--	boycottg00gle (~user@stgt-4d02c078.pool.mediaways.net) has quit (Remote host closed the connection)
+2014-02-25 15:53:59	-->	mdim (~user@line-marko.cs.utah.edu) has joined #debian
+2014-02-25 15:54:10	petn-randall	Hi abailarri, which web server are you using?
+2014-02-25 15:54:17	abailarri	apache
+2014-02-25 15:54:48	petn-randall	abailarri: What does 'apache2ctl -S' give you?
+2014-02-25 15:55:16	-->	serjs (~serjs@79.164.31.179) has joined #debian
+2014-02-25 15:55:17	-->	adolar (~thomas@e178192128.adsl.alicedsl.de) has joined #debian
+2014-02-25 15:55:25	-->	yan (~yan@1-170-76-133.dynamic.hinet.net) has joined #debian
+2014-02-25 15:55:26	mdim	how does it work in Debian when a package has a "broken" version of a program? Does the Debian team put an effort to backport as much as possible from a newer version to fix it? In partcular, I'd like to know about Evolution (GNOME 3.4 in Wheezy)
+2014-02-25 15:55:30	<--	_ZbooNet (~nuptse@fr141-3-78-229-168-2.fbx.proxad.net) has quit (Quit: Leaving)
+2014-02-25 15:55:48	abailarri	petn-randall, http://pastebin.com/cCDvhTAZ
+2014-02-25 15:56:03	<--	ZbooNet (~nuptse@fr141-3-78-229-168-2.fbx.proxad.net) has quit (Quit: Leaving)
+2014-02-25 15:56:06	abailarri	the ernaigaz.... is my new web
+2014-02-25 15:56:14	abailarri	the inurri... is the /var/www
+2014-02-25 15:56:43	petn-randall	abailarri: What are the contents of /etc/apache2/sites-enabled/ernaigazte.cc.conf?
+2014-02-25 15:56:53	tgd	hi. I'm having troubles integrating a patch to a package (first time trying). My process so far is: apt-get source, integrating my changes to debian/patches with quilt (the patch is properly created and applied to the sources). From there I have tried to make a binary package with "quilt pop -a" then "debuild -us -uc", but the result seems to be unpatched. I also tried without "quilt pop -a" with the same result. What am I missing ?
+2014-02-25 15:56:55	-->	linuxator (~deepblue@unaffiliated/rampageripper) has joined #debian
+2014-02-25 15:56:56	centrx	mdim, How is it broken?
+2014-02-25 15:57:14	<--	vurma (~kimchi@nl109-141-178.student.uu.se) has quit (Ping timeout: 264 seconds)
+2014-02-25 15:57:15	<--	harobed (~stephane-@equ57-1-78-235-121-109.fbx.proxad.net) has quit (Quit: harobed)
+2014-02-25 15:57:23	<--	lord4163 (~lord4163@81-232-61-81-no226.tbcn.telia.com) has quit (Quit: lord4163)
+2014-02-25 15:57:39	-->	valgrind (~valgrind@48.Red-79-154-130.dynamicIP.rima-tde.net) has joined #debian
+2014-02-25 15:57:45	abailarri	petn-randall, http://pastebin.com/fHqeFUTy
+2014-02-25 15:57:52	petn-randall	tgd: We have #debian-mentors on irc.oftc.net, which is the better suited channel for packaging support. They won't bite and will help you there ;)
+2014-02-25 15:58:00	mdim	centrx: one example: I add a WebDAV calendar that I have write permissions for. For some time, I can happily add, edit, and remove events, but after some time the calendar simply becomes "read-only"
+2014-02-25 15:58:06	tgd	petn-randall: thanks!
+2014-02-25 15:58:18	mdim	in other words, I can't add an event or make any modifications to the calendar
+2014-02-25 15:58:30	petn-randall	abailarri: And you access it over http://ernaigazte.cc?
+2014-02-25 15:58:45	centrx	mdim, Did you find any reference to this bug online?
+2014-02-25 15:58:46	mdim	so, what I have to do is to delete the calendar and add it again to be able to normally use it
+2014-02-25 15:58:51	<--	tgd (~tom@4ad54-1-88-172-90-158.fbx.proxad.net) has quit (Quit: Changing server)
+2014-02-25 15:58:52	-->	cantoma (~jduro@cpc4-bath5-2-0-cust199.aztw.cable.virginm.net) has joined #debian
+2014-02-25 15:59:03	abailarri	petn-randall, when I acces to ernaigazte.cc it goes to inurritegia.cc
+2014-02-25 15:59:04	mdim	centrx: I haven't given it a try. There are multiple other issues
+2014-02-25 15:59:16	-->	aitiba (~aitiba@unaffiliated/aitiba) has joined #debian
+2014-02-25 15:59:35	stew	mdim: that doesn't sound like a bug that would get fixed in stable
+2014-02-25 15:59:57	centrx	mdim, Are you mixing in non-Debian packages or packages from other releases?
+2014-02-25 16:00:00	<--	useall (~lb@2001:0:53aa:64c:3c32:4fac:d1b6:682f) has quit (Ping timeout: 256 seconds)
+2014-02-25 16:00:09	-->	zir0faive (~zir0faive@cty37-1-78-214-92-19.fbx.proxad.net) has joined #debian
+2014-02-25 16:00:11	centrx	mdim, Those bugs sound like they would have been fixed in upstream before it was even included in the release in the first place.
+2014-02-25 16:00:19	mdim	stew: so, a GNOME team within Debian would act if there was a bug report for this and port a fix to Debian stable?
+2014-02-25 16:00:21	petn-randall	abailarri: I can't reproduce the problem. I'm getting two different pages from here.
+2014-02-25 16:00:22	<--	Nnel (~Nnel@31.55.91.16) has quit (Quit: WeeChat 0.4.3)
+2014-02-25 16:00:30	centrx	mdim, Software does not simply "acquire" bugs over time without other changes being made to the system
+2014-02-25 16:00:31	mdim	centrx: nope, pure Debian stable (Wheezy 7.4)
+2014-02-25 16:00:32	<--	ash1 (~Thunderbi@82.211.220.196) has quit (Quit: ash1)
+2014-02-25 16:00:33	petn-randall	abailarri: Maybe your browser is still caching the page?
+2014-02-25 16:00:36	stew	mdim: no, i'm saying they would not do this
+2014-02-25 16:00:44	-->	Zzeiss (~wsy@72-61-210-169.pools.spcsdns.net) has joined #debian
+2014-02-25 16:00:45	<--	bertrik (~quassel@rockbox/developer/bertrik) has quit (Remote host closed the connection)
+2014-02-25 16:01:11	stew	mdim: if they did port a fix for it, they would have a hard time getting the release managers to allow such a fix to go in
+2014-02-25 16:01:23	stew	mdim: since it doesn't sound like a release critical bug
+2014-02-25 16:01:36	abailarri	petn-randall, I cleaned the cache
+2014-02-25 16:01:45	mdim	stew: so, if I want to stay with Debian stable, I just have to wait for a new Debian release and hope it will include a version of GNOME where this is fixed?
+2014-02-25 16:01:58	<--	biglama (~Day_dream@gar31-4-82-240-199-124.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-02-25 16:02:11	<--	Roland- (~win@unaffiliated/roland-) has left #debian
+2014-02-25 16:02:24	-->	JoFo (~Jean-Fran@host-213-213-229-139.brutele.be) has joined #debian
+2014-02-25 16:02:55	stew	mdim: right.  and the next release is certain to have a much different version of gnome
+2014-02-25 16:02:56	<--	Persopolis (~Persopoli@cpc10-haye19-2-0-cust19.17-4.cable.virginm.net) has quit
+2014-02-25 16:02:56	--	fusl is now known as Fusl
+2014-02-25 16:03:07	<--	elichai2 (~elichai2@unaffiliated/elichai2) has quit (Remote host closed the connection)
+2014-02-25 16:03:14	petn-randall	abailarri: http://inurritegia.cc redirects me to https, and then to a login page, http://ernaigazte.cc/ looks like a blog of some kind. I get different pages from here.
+2014-02-25 16:03:23	stew	mdim: the next release of debian might be 18 months away? (no way of knowing)
+2014-02-25 16:03:33	-->	elichai2 (~elichai2@unaffiliated/elichai2) has joined #debian
+2014-02-25 16:03:47	-->	HumTDev (~User@c-76-30-179-116.hsd1.tx.comcast.net) has joined #debian
+2014-02-25 16:03:59	<--	leitao (breno@nat/ibm/x-cnopfucbewtatpad) has quit (Ping timeout: 244 seconds)
+2014-02-25 16:04:00	abailarri	o petn-randall it is because the dns are not propagued 100%
+2014-02-25 16:04:06	-->	nicko_94 (~nicolas@pc-153-223-215-201.cm.vtr.net) has joined #debian
+2014-02-25 16:04:08	abailarri	pulse f5 some times
+2014-02-25 16:04:22	nicko_94	does anybody know how to permanently set the sampling_down_factor of the ondemand governor?
+2014-02-25 16:04:25	mdim	stew: I see. So, I'd say if one wants to have a desktop integration with a groupware suite, one shouldn't rely on getting that from Debian Wheezy
+2014-02-25 16:04:27	HumTDev	Does anyone have a guide on how to install AMD catalyst drivers?  I installed it but X won't start and I am stuck on black screen with blinking cursor in top left corner.  ideas?
+2014-02-25 16:04:36	tremon	mdim: in practice, not many feature bugfixes are backported into stable but it depends (somewhat) on maintainer preference.
+2014-02-25 16:05:01	<--	spal (~susam@pdpc/supporter/active/spal) has quit (Ping timeout: 244 seconds)
+2014-02-25 16:05:16	petn-randall	abailarri: Firefox saves a redirect if it's a "301 redirect permanent", that's at least one of the annoying "features" I found with Firefox.
+2014-02-25 16:05:20	-->	osfd_ (~osfd@mar44-6-78-238-152-140.fbx.proxad.net) has joined #debian
+2014-02-25 16:05:25	nicko_94	HumTDev: you have to erase the /etc/X11/xorg.conf file, and then run as root "aticonfig --initial"
+2014-02-25 16:05:26	tremon	mdim: also, gnome upstream isn't big on maintenance releases, most of the time the specific gnome release in debian is EOL before stable is even released
+2014-02-25 16:05:33	mdim	so, a more general question is: how was GNOME 3.4 picked to be included in Wheezy (and not some more recent version)?
+2014-02-25 16:05:35	stew	its not like a maintainer can decide he prefers to fix minor bugs in stable and just go and do it, its up to an SRM who is bound to be very conservative
+2014-02-25 16:05:49	HumTDev	nicko_94, yeah I did that.  No good. :/  Blacklist fglrx maybe?
+2014-02-25 16:06:04	mdim	stew: SRM is...?
+2014-02-25 16:06:10	stew	mdim: it was the most recent release at the time when wheezy was frozen
+2014-02-25 16:06:11	<--	serjs (~serjs@79.164.31.179) has quit (Ping timeout: 245 seconds)
+2014-02-25 16:06:14	stew	mdim: stable release manager
+2014-02-25 16:06:27	<--	TreySmee (~Trey@209.105.138.68) has quit (Read error: Connection reset by peer)
+2014-02-25 16:06:36	nicko_94	HumTDev: that's the opposite step. You have to be sure that radeon module is blacklisted
+2014-02-25 16:06:43	-->	Nnel (~Nnel@31.55.91.16) has joined #debian
+2014-02-25 16:06:59	stew	mdim: gnome 3.6 didn't exist at the time when wheezy was frozen
+2014-02-25 16:07:00	HumTDev	radeon will try to load?  ok i will try black listing that module
+2014-02-25 16:07:03	<--	shawn\ (Elite7741@gateway/shell/elitebnc/x-roglqkfggisuxgka) has left #debian
+2014-02-25 16:07:05	HumTDev	brb
+2014-02-25 16:07:07	mdim	stew: so, even when a GNOME version has some nasty usability issues, it still gets to be included in Debian stable?
+2014-02-25 16:07:16	-->	mareklug (~mareklug@wikipedia/mareklug) has joined #debian
+2014-02-25 16:07:41	stew	mdim: yes. the alternative is to remove gnome from debian completely?
+2014-02-25 16:07:42	tremon	have there been gnome releases without them?
+2014-02-25 16:07:42	centrx	mdim, If you weren't able to find anyone else who encountered these bugs, how nasty could they be?
+2014-02-25 16:07:45	-->	TreySmee (~Trey@209.105.138.68) has joined #debian
+2014-02-25 16:07:49	abailarri	petn-randall, what?
+2014-02-25 16:07:58	-->	bertrik (~quassel@ip117-49-211-87.adsl2.static.versatel.nl) has joined #debian
+2014-02-25 16:07:58	<--	bertrik (~quassel@ip117-49-211-87.adsl2.static.versatel.nl) has quit (Changing host)
+2014-02-25 16:07:58	-->	bertrik (~quassel@rockbox/developer/bertrik) has joined #debian
+2014-02-25 16:08:09	nicko_94	HumTDev: if you used the official installer, there should be a file already created at /etc/modprobe.d/ to do that
+2014-02-25 16:08:13	-->	nIMBVS (~nIMBVS@2a02:2f0e:1024:c300:2d62:dacb:6681:c86b) has joined #debian
+2014-02-25 16:08:25	mdim	centrx: as I said, I haven't tried to find someone else that ran into the same issues (even though I did stumble upon such users)
+2014-02-25 16:08:37	-->	Lunarnaut (~Lunarnaut@dyn-72-33-200-228.uwnet.wisc.edu) has joined #debian
+2014-02-25 16:08:39	<--	mdel (uid25573@gateway/web/irccloud.com/x-ywncxiutlvgetplp) has quit (Quit: Connection closed for inactivity)
+2014-02-25 16:08:42	stew	mdim: is this bug filed in the bts?
+2014-02-25 16:08:57	mdim	stew: I don't know
+2014-02-25 16:09:01	-->	useall (~lb@2001:0:53aa:64c:3c32:4fac:d1b6:682f) has joined #debian
+2014-02-25 16:09:16	mdim	stew: and from what you guys just said, probably it's not worth even trying to file such issues
+2014-02-25 16:09:23	-->	Tramp (~mt@84-72-26-132.dclient.hispeed.ch) has joined #debian
+2014-02-25 16:09:27	-->	use_zfs_yo (uid22802@gateway/web/irccloud.com/x-kzlznfwmibwldkpo) has joined #debian
+2014-02-25 16:09:27	-->	bytbox (~s@pool-72-83-38-111.washdc.fios.verizon.net) has joined #debian
+2014-02-25 16:09:29	centrx	It would be if you wanted to find out what was causing it
+2014-02-25 16:09:31	stew	mdim: why?
+2014-02-25 16:09:40	centrx	It could be a configuration setting even
+2014-02-25 16:09:51	mdim	stew: because they're not going to be backported to Debian stable
+2014-02-25 16:10:04	stew	mdim: does this bug exist in debian testing?
+2014-02-25 16:10:32	mdim	another big issue: a keyboard and mouse simply "die" in GNOME sometimes, and all one can do is to reboot the whole OS
+2014-02-25 16:10:35	stew	mdim: if bugs aren't being reported to debian, please don't hold debian at fault for releasing with bugs it doesn't know about
+2014-02-25 16:10:56	<--	prateek992 (~chatzilla@122.164.187.104) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 27.0.1/20140218140052])
+2014-02-25 16:11:05	<--	YamakasY (~yamakasy@62.58.32.94) has quit (Ping timeout: 246 seconds)
+2014-02-25 16:11:06	-->	serjs (~serjs@79.164.31.179) has joined #debian
+2014-02-25 16:11:17	d3lxa	any idea how can I change the font color in GTK3 apps (like liferea)? it's pure white, it burns my eyes, I prefer grey-white, thx
+2014-02-25 16:11:17	stew	mdim: if you don't report a bug, we cannot track whether or not the next release of debian fixes the bug
+2014-02-25 16:11:21	mdim	stew: I'm just trying to figure out how the whole thing works, including a policy for what package versions get in, etc.
+2014-02-25 16:11:24	-->	dequeued (~dequeued@dequeued.poly.edu) has joined #debian
+2014-02-25 16:11:36	stew	mdim: sure, i can answer all those questions
+2014-02-25 16:11:40	Zzeiss	mdim: yeah, seen that.  It's pretty rare and I don't know how to cause it.
+2014-02-25 16:11:47	stew	mdim: what specifically do you want to know?
+2014-02-25 16:12:07	mdim	stew: I already got answers to that
+2014-02-25 16:12:37	<--	TreySmee (~Trey@209.105.138.68) has quit (Quit: Leaving)
+2014-02-25 16:13:39	mdim	generally speaking, where do I report bugs for packages in Debian stable? I guess not upstream because, as you just said, Debian usually has much older package versions than upstream
+2014-02-25 16:13:41	-->	lysias (~n@mystery.pinkflag.net) has joined #debian
+2014-02-25 16:13:49	stew	mdim: here's the section of the developers reference which talks about updates to stable: https://www.debian.org/doc/manuals/developers-reference/pkgs.html#upload-stable
+2014-02-25 16:13:52	stew	mdim: /msg dpkg bts
+2014-02-25 16:14:03	<--	_minest_ (~minest@41.226.93.97) has quit (Quit: Leaving)
+2014-02-25 16:14:03	jhutchins	mdim: You haven't actually defined a bug, you've defined a problem you had with the system.
+2014-02-25 16:14:20	-->	harj0 (~Trey@unaffiliated/harj0) has joined #debian
+2014-02-25 16:14:33	--	Fusl is now known as fusl
+2014-02-25 16:14:56	<--	moza (~moza@dynamic.1.16.34dbfd721d80.0236994134c.afb.bredband2.com) has quit (Quit: do widzenia)
+2014-02-25 16:14:57	-->	paulbanks (~paulbanks@46-198-13-227.adsl.cyta.gr) has joined #debian
+2014-02-25 16:15:01	mdim	jhutchins: how do I make a transition from a problem to a bug?
+2014-02-25 16:15:23	jhutchins	mdim: You need to narrow it down to the portion of the system that's causing the problem at least.
+2014-02-25 16:15:46	jhutchins	mdim: Ideally point out the code segment that is incorrect and why, but that's farther than most users can go.
+2014-02-25 16:15:52	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) has joined #debian
+2014-02-25 16:16:14	jhutchins	mdim: At the very least, it needs to be reproducible on a clean install.
+2014-02-25 16:16:17	mdim	jhutchins: well, if my keyboard and mouse freeze, and I can't do anything after that, it can be hard to narrow down the problem to a specific system
+2014-02-25 16:16:32	<--	kkvlk (~kkvlk@181.47.158.9) has quit (Remote host closed the connection)
+2014-02-25 16:16:39	jhutchins	mdim: Correct, unless you know exactly what step preceeds the freeze.
+2014-02-25 16:17:09	-->	kkvlk (~kkvlk@181.47.158.9) has joined #debian
+2014-02-25 16:17:44	-->	lofl (~ah@ti0159a400-1072.bb.online.no) has joined #debian
+2014-02-25 16:17:50	mdim	jhutchins: and as you might guess, I'm just a random user who doesn't keep a log of every action one does, so it can be hard to reproduce. This issue in particular, a freeze with a mouse and keyboard, I have no clue what precedes it
+2014-02-25 16:17:58	<--	azerus (~badass@unaffiliated/badass) has quit (Quit: Leaving...)
+2014-02-25 16:18:04	-->	spal (~susam@pdpc/supporter/active/spal) has joined #debian
+2014-02-25 16:18:12	--	fusl is now known as Fusl
+2014-02-25 16:18:20	-->	viscera (~viscera@unaffiliated/viscera) has joined #debian
+2014-02-25 16:18:28	-->	harobed (~stephane-@equ57-1-78-235-121-109.fbx.proxad.net) has joined #debian
+2014-02-25 16:18:38	--	Fusl is now known as fusl
+2014-02-25 16:18:38	jhutchins	mdim: You should also be able to see that while this happens on your system, it doesn't happen consistently across other systems.
+2014-02-25 16:18:53	-->	uizex1 (~uiz@81.168.49.1) has joined #debian
+2014-02-25 16:18:57	mdim	jhutchins: of course. Yet, that doesn't mean that's not a bug
+2014-02-25 16:18:58	lofl	hi guys. I got a strange problem, and a unusual one I think.  I got a clean install af debian jessie. But no idea how to get wireless card to work.  Broadcom Corporation BCM43224
+2014-02-25 16:19:17	jhutchins	mdim: I see your complaint about the calendar problem, but not the keyboard/mouse freeze.  What kind?  Wireless?  USB?
+2014-02-25 16:19:28	--	fusl is now known as Fusl
+2014-02-25 16:19:35	<--	linuxator (~deepblue@unaffiliated/rampageripper) has quit (Quit: Konversation terminated!)
+2014-02-25 16:19:43	mdim	jhutchins: wireless and laptop-in-built
+2014-02-25 16:20:01	jhutchins	mdim: Failure to handle certain hardware correctly could be a bug, yes, but only if it were consistent and reproducible.
+2014-02-25 16:20:03	lofl	broadcom-sta-dkms  blargh  is this what I need?
+2014-02-25 16:20:15	tremon	!tell lofl -about b43
+2014-02-25 16:20:18	<--	uizex1 (~uiz@81.168.49.1) has left #debian
+2014-02-25 16:20:25		irc: disconnected from server
+2014-02-25 19:28:46	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #debian
+2014-02-25 19:28:46	--	Topic for #debian is "wheezy released: /msg dpkg squeeze->wheezy | current point release: /msg dpkg 7.4 | NO FLOOD: /msg dpkg paste | /msg bots  NOT people | offtopic: #debian-offtopic | testing/unstable: #debian-next (irc.oftc.net)"
+2014-02-25 19:28:46	--	Topic set by themill (~stuart@unaffiliated/themill) on Sun, 23 Feb 2014 01:07:03
+2014-02-25 19:28:46	--	Nicks #debian: [@ChanServ @debhelper 17SAAH96V 1JTAAGP4P 20WABDAGN [mrx] [vaelen] _5moufl __FBi _c3p0 _daniel-s__ _krux _Lucretia_ _marix _pr0xie _supersonic _val_ `MArceLL` A-TCP-BreAKDoWN aarcane_ aboman abrain abrotman AciD` AciD``` acrocity ad adc adi_ Adran aegis aem` ageis AGoodName aidaqt Aim_Here airstrike aitiba AJ_Z0 akp Al3xG0 Alam_Squeeze alex_mayorga alexandros_c alexbligh alexei alexlist AlexWkz alij001 Alina-malina AlsoDirkson Alula amatecha Ambagasdowa amitabha amospalla anapivirtua Anarch andatche AngelDeath_ Angelous anhdepyeu ankso AntiSpamMeta antonym Apeiron` apipkin APLU apofis apollolune apt ArchDuke architekt Arconiaprime Ard1t Argafal ari_ arif-ali ariscop Arkadietz Armadi Arr0way Arrowmaster Arroyo1010 arthurfiggis Artpicre asakura0 aschro Asenar Ask21 asteryx Atlas atomi aton` austin987 av0idz avd awfabian axisys azizLIGHTS Azrael_- b00b b52 babilen bars0__ bart_b BarthezZ_ batrick BaW bazhang bchamberlain bcremer bdf beardo beardy beboj bedouin beet0l_ benf berarma berceanu_ Bercik berndj Betal bezaban bezerker bfit bier_ BiGBOi_ BillyZane binaryhat bipolar bits8mybytes bizarro_1 blackest_mamba blackjack blarghlarghl blast_hardcheese BlastHardcheese blSnoopy blue Blue11 Blueer blueness BlueNexus bobbyd3 boblee bolt bosna BotaniCar boudiccas bps bramwelt bramwelt_ brendenbus BrixSat brolin_empey brong_ brontosaurusrex brouette Bryanstein bst_ bt6 btiefert budai BuFF BugBite burn busch buu bvs bytbox c0ded cabe cafuego Calcarin1 cali calzifer CampinSam cantoma capiira capri cardiel casheew cat_pants catsup caveat- Cavil caviwipes cbdev cbmuser_ Celelibi cenron Cerise chalcedony chance2105 chattr chb Chex chosi choupy Chris7mas ChrisH Chrisje chrisss404 churnd cian1500ww cire CissWit civillian cj clopez cloromorpho cloudster clu5ter cluelessperson codesoup codygman comradekingu cooldude copec corepb_ Cork CosmicB CowboyNeal Coweater cpc26 Cr0iX crafty1_ crane cRaNnK crashev crashmag crus ctmjr Cueball cuppscakes cusco cwillu_at_work CybDev CyberSix cyberspace- Cybertinus Cyclohexane Cyis|afk cyphase cyzz D-Boy d3lxa d3sync D4v33 dachi Daemoen daemonkeeper Dagger damentz Dan39 danmackay DANtheBEASTman dArK_IcE DarkPlayer darkskiez darkthrone davidrussell daz dbast dbristow deathleff deb debsan deciph3r deed02392 deepy delluminatus DelphicOkami delYsid`` deni der0b detha Devastator Dewi dextrey Dga dh64 DHost_ Diaoul Diehard digdilem digilink dijenerate dimer dimir diniwed dioz disarone disposable2 dizzylizzy Dj_Dexter djanos djD3f djjunde DLange doebi dondelelcaro DonVitoCorleone dooglus DOUGHTY dozn dpkg Dreadnaught dreamon drinkycrow DrOwl DrPossum DrRen Dry_Lips dselect dtcrshr duffduff dumby Dunedan DURgod DustyDingo e1z0 ecj ectospasm eddul Eduard_Munteanu edwardly eean eikenb eir eki Elemeno-Work eliad_ elik EmleyMoor emma Emmanuel_Chanel EnergyCoffee_ Enissay enkrypt epsylon ered eristisk erry eshlox eshy esing esulu EToS euphoria evdo everjeje evilicey Ex-Opesa ExeciN Exio4 exussum_ eye69_ f0rg0tt3n f10 f4cl3y fangfufu farn FaV1r3s fbe fcharton fedaii felco felipe Firestarter firztspawn flexo Fli-c floyin FlyingFoX fn00dle folivora forcer frankie frankS2 frdmn freaky[t] fredbarns fredsted freedomrun FreezingCold frikinz frlttrwrd frostschutz frusif fubbi funtapaz funyun fuqi Furai fusl futex_ FUZxxl g_r_eek GabiP GabrieleV galler gandaliter gardar- GeekMan1222|Desk george2 gernot ggherdov ghenry ghost64 ghost75_ GhostInTheshell gigetoo GJdan glebihan glebihan_ gm152 Gm4n GNU\colossus gnugnu6 gnugr Godsey- goldkatze grache28 grand_grunt Granis graytron grep0r grepidemic greyscale grindhold guerremdq Guest41293 Guest4688 Guest53586 Guest64024 Guest6515 Guest65426 Guest72904 Guest7666 guk gunkaaa_ guntha` Gurty GusBricker gusnan haasn Hackintech halfie harj0 harobed harrison hax404 HeavyMetal heinrich5991 hendrikz hesco hexagon Hexeon HicksD_ hid3 himura HisaoNakai hnsz2002 holmgren horsik_ huayra Hydroxide HymyPoika ianw iateadonut iceisfun iceroot idoru ignasio ikonia impulse150 imunsie indieross infernix initself integral internat Internet13 iPcjamesy4 Iridos Ishaq ItTakesTwo ivan`` iViLe ix j0z jaakkos jaami jab416171_ jaggz|3 jahman jamesfryman Janhouse jannic Janusz1 jareddlc jareth_ jarray52 Jarus jas4711 jaybe jayne Jbdye jbonjean jbraeg jbroome jcm__ Jdbye|Laptop jdoles jelly jelly-home JelmerD jetho Jguy jholden_away JHoughtelin jhulst jhutchins Jikan jirka_on_d jmcnaught JmZ- joako JoFo JohnDoh johskar joltcan JonathanD joncrunchbang Jonuz Jordan_U JordanJ2 jordanm joschi jpinx jrgill jsaddened JStoker jtdowney jthomas__ jtrucks jubbsy judd jweez JWF JyZyXEL k-man K0HAX k1ng K1rk_ K4k Kaboon kain88 kakolak kalz kameloso Kamilion Kanerix KBme kdox keith4 kelsoo kermit kevinsky Khere_ kian_ kiddesr killy9999 kini kInOzAwA Kiril kirkland kludge` Klumben Knaldgas knigitz knyon koell komori Konrad127123 Krabbe Krenz kriebz Krigsforbryter kro[au] kRush ksx4system Kulrak l3lu3 Lady_Aleena lakcaj lamppid langkid1 Lartza lazers lduros le_bozo Leconite leitao Leoneof levifig lexibq linedash linguini Linuturk linux4life798 LippyLee Lirion LjL llakey llimeht lnxslck Locke0- loonquawl loonypark LordDeath LordShiva loremipsium LoRez loxley LRN lroe LtL lubyou luckman212 Lunchb0x lysias M0ulin M4dH4TT3r macrobat MACscr mactimes_ MaekSo maferv magenbrot magnulu magyar maik majuscule makospityputy makospityputy_ malik_ mallxs Malmis_i mambaw mand0 Mapley marienz marjus markovh marlinc martines master_j matthewvz matuka` mav mavhc maxexcloo maxorator maxyz McLive mdorenka me-koyote meiand meise Meistarin Meliorate melter mepl meshuggah Messenger_bird messenjah_ mete- meti mgodzilla mhall119 mick_laptop midacts midnightmagic Miesco Mikaela mikeey milligan_ milobit milosn mimor mindstorm minsa mintgreen MissionCritical mist misterli mixomathoze mjt Mmike mnathani mns moetunes Mogget moncky mongaj Moonlightning Moredread MoreRandomThanU Morn_ Morrolan mossman mpkossen mpmc[BNC4FREE] mr_daemon mr_red MrFrood mtn mtrd`w muh2000 mukmuk mumixam musca mwschib n0arch n0c n13z na1rb nag nagarkot_ Namaskar Namikaze nanoha-sama Nanuq NaPs Natenom nathanhi nconrads4 nearst NeilHanlon nell neobii Neptune_ netkat_ nevyn nezZario Niamkik nice92 nickmoec1 niel nightfly NightGriffin nihilista Nik05 niko nikomo NiLon nirix nitz nkuttler nn_ Nnel no0p nodiscc nomad_dw noname001 Noskcaj nosklo Nothing4You Nothing4You_ noxs nse nullified Numline1 nwps nyov nyuszika7h oahong oberling Obi-Wan oddie_ Olipro olivier_bK ollo olri on1ald on1x onebitaway Onixs OpenTokix opiumozor Orbitrix Orphis osfd Otyg oufo overrider owa owen1 oxez oxful_ p0g0_ p0ly P1xel|NotAlive p8m p_quarles pagioss pajarillo parallel21 ParkerR pathy patterson paulez_ pav5088 Peer69 Pendrag0n Percy- petemc petern_ peterS PeterSilie petn-randall pfote pfsmorigo ph4nt0mas phant0mas phantomik Phil-Work phix phogg phragment phrozen77 phunyguy phy1729 Phyks pi2 Pici Piggy pikaro_ pinage404 pingveno Pip3r pipeep piyo Plazma ponyofdeath poolson Posterdati preller Procy0n prof-freud project2501a Pryon Psylo pterodaktil publiccert Pucilowski_ Python1320 pythonsnake1 q3k qewzee qman__ quackgyver Quashie quasisane quenoz QwertyDragon r3m ra1nb0w RA3OR rabbieth rabeeh Radex RagingComputer RaphaelT raSter^ ravigehlot_ rax- raxo rbanffy rbnw rdz reavengrey redpill regreddit reko relipse relix remx RES401 resixian_ Rev|SleepingFox rhizome Ricardo__ rich- RichiH rickyb98 riddle Ritzton Rix rjsalts rl0 rmdashrf Rn0 RobbyF robix robmozart_ roboman2444 Rockj rockyban- rockybanana roentgen roger_rabbit rogg rojem Rokixz ronin rook2pawn Rootert rOss^64 ross` rotaticus Rothgar RougeR rozie rtr_ Rubas Rubin RussellB28 rvgate ryan-c ryan42 RyanKnack rypervenche rysiek|pl s8321414 sadbox sAITEk Salonce Sanchal Sanchal_ sarlalian satseki sbach sbine Scall Scar3cr0w schlarpc scoopex ScottE SCR1845-6357A SCR1845-6357B Screwba sdollins Se-bash Seb sedulous seekr SerajewelKS Seth_Hikaru sevenfou1k shad0VV shengyao shinnya shroud Shuro sidmo sifeic sig-wall sigterm sileht silverf0x SirCmpwn SirLagz slackner SlaGTaTs Slagwag Sleepy63 sllide Slythen smaug9 smrtz|nix smw smyers snadge Solid-State SoMaek Some_Person Somefellow Someguy123 soulz sourcodec1 southward spacepluk spal sparty sphenxes Spleeze Spockz sputnik stef_ steve81 stew stfsux Sthebig stig` stigi` STMelon stockholm stojic StrangeloveMD Streusel StupidWeasel Su7 subcritical Subfusc sukaeto sunkan sussudio suy SwedeMike SwedFTP SweetMuffin swick sylar Symmetria symptom syn_ syssi T4b Tabstar Tarjaizaid TBCOOL tcpman tdreyer1 techie26_ tempspace tensorpudding Terp_ terrasapien Th0masR0ss th3m1773n tharkun ThatGraemeGuy the_joker_ thebolshevik_ TheCoffeMaker TheDrums themill TheOne1 the|herbivore thiagoss thims thingamabob Thms ThomasJ|d thoonai_ Thor thowe threadlock thunderrd Ticho TildaTurn timmmaaaayyy tlund tmfsd tmpval TmvC tnguyen tnguyen_ ToBeFree Togusa tolecnal tolkor Tom01 tomaw tomocha6 tonyoy totte toxboi Tramp traph treaki__ Trellmor_ trem0r trewas TriJetScud tristero trvz trysten tubaman_ tucow tumppu tuvwx Tux txomon|fon txomon|home tylerjd uizex1 ulkesh Ultip Underbyte underdog` Uninstall_ Unity up365 uplate use_zfs_yo useall user472259 Utility_ vagn__ valerius valeriusL ValicekB vectr0n VeggieMeat_ veikko velleity veryape VidaLoca vilmibm vimel virako virtuose viscera VlperX VoidWhisperer Vorpal Voyager_MP vt0r w1ck3dg01h3r W4rd_ waqstar Waster waynr wcmckee wed__ weirdtunguska weltzooo werdna Werring Wharncliffe whirling wiak Wiktor WilliamDotSI Willis willmore wingman2 woffs_ wolfmitchell wolrah_ wols WormFood woshty ws2k3__ Wug Wyzard_ x-treme x3_iVaN Xalem xand xcq_ XDS2010 xikon xingu xintron Xiol Xiti Xjs|moonshine xnbya xragnar xrated XSoul yamba yan yano Yeka_ yells yofun yokel yoklar Yong_ Yoshi1 yuastnav Yukikaze z zaggynl zerick Zeroedout_ Zhann Zharf zigong zinx ZIPY zr0 zso zxq9 Zyferus zykotick9 zymurgy zz0 zz_hakr zz_karupanerura {41444d494e} |DM|]
+2014-02-25 19:28:46	--	Channel #debian: 1210 nicks (2 ops, 0 halfops, 0 voices, 1208 normals)
+2014-02-25 19:28:46	--	URL for #debian: http://www.debian.org
+2014-02-25 19:28:47	--	Mode #debian [+CLPcntlf 1228 #debian-overflow]
+2014-02-25 19:28:47	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-02-25 19:28:55	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-02-25 19:29:14	abrotman	but the mail gets delivered eventually?
+2014-02-25 19:29:21	<--	freedomrun (~freedomru@unaffiliated/freedomrun) has quit (Quit: So long and thanks for all the fish)
+2014-02-25 19:29:37	<--	lamppid (~lamppid@ip-212-52-59-109.kava.lt) has quit (Ping timeout: 244 seconds)
+2014-02-25 19:29:55	esulu	cafuego: http://paste.debian.net/84097/
+2014-02-25 19:29:58	<--	SCR1845-6357B (~debian@16.Red-88-28-0.staticIP.rima-tde.net) has quit (Quit: SCR1845-6357B)
+2014-02-25 19:30:32	poolson	actually i just tested with another email address
+2014-02-25 19:30:36	poolson	got delivered
+2014-02-25 19:30:44	-->	kkvlk (~kkvlk@181.47.158.9) has joined #debian
+2014-02-25 19:30:46	poolson	so prolly something to do with how mx is setup on other domain etc
+2014-02-25 19:30:48	poolson	oops :)
+2014-02-25 19:31:00	poolson	thought it seemed a bit odd !
+2014-02-25 19:31:09	cafuego	esulu: Netrw directory listing?
+2014-02-25 19:31:34	-->	kdeder (~pete@192-0-154-83.cpe.teksavvy.com) has joined #debian
+2014-02-25 19:32:42	--	zz_karupanerura is now known as karupanerura
+2014-02-25 19:32:43	<--	AciD``` (~gni@jau72-5-78-223-56-21.fbx.proxad.net) has quit (Ping timeout: 244 seconds)
+2014-02-25 19:33:10	-->	tokik (~tokik@122x212x176x138.ap122.ftth.ucom.ne.jp) has joined #debian
+2014-02-25 19:35:17	-->	User2 (~User@82-170-182-141.ip.telfort.nl) has joined #debian
+2014-02-25 19:35:28	<--	User2 (~User@82-170-182-141.ip.telfort.nl) has left #debian ("WeeChat 0.4.3")
+2014-02-25 19:35:28	<--	txomon|home (~txomon@unaffiliated/txomon) has quit (Remote host closed the connection)
+2014-02-25 19:35:47	-->	spinningcompass (~spinningc@173.192.176.161-static.reverse.softlayer.com) has joined #debian
+2014-02-25 19:36:21	<--	mtn (~mtn@dpc6744160070.direcpc.com) has quit (Quit: Konversation terminated!)
+2014-02-25 19:37:35	<--	andatche (~andatche@mule.andatche.com) has quit (Quit: Bye)
+2014-02-25 19:37:52	<--	dArK_IcE (~DARKICEPT@a79-168-159-95.cpe.netcabo.pt) has quit
+2014-02-25 19:38:12	-->	laidback_01 (~quassel@72-160-61-55.dyn.centurytel.net) has joined #debian
+2014-02-25 19:39:09	-->	miseria (~miseria@CPEc8d3a35a59fe-CM000f9fa607d2.cpe.net.cable.rogers.com) has joined #debian
+2014-02-25 19:39:16	miseria	"tiempo: dime el dia de mi transformacion, quiero tener mi libertad, viajar felizmente, sin ser esclavo de la muerte" bienvenidos: http://castroruben.com *temo_a_un_ser_sin_rival*
+2014-02-25 19:39:16	<--	miseria (~miseria@CPEc8d3a35a59fe-CM000f9fa607d2.cpe.net.cable.rogers.com) has quit (Client Quit)
+2014-02-25 19:41:01	-->	minest (~minest@41.226.178.54) has joined #debian
+2014-02-25 19:41:23	<--	joncrunchbang (~joncrunch@cm-84.210.13.135.getinternet.no) has quit (Quit: Leaving)
+2014-02-25 19:41:37		irc: disconnected from server

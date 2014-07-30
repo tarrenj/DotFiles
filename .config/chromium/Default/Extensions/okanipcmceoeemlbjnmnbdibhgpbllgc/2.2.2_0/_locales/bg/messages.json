@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "bg"
+   },
+   "qs_about_close_button": {
+      "message": "Затваряне"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "След като кликнете върху резултат от търсенето с Google, разширението за бързо превъртане може да се покаже в долния десен ъгъл на страницата, където извежда един или няколко фрагмента от наличния текст, които са подходящи за заявката ви. Кликването върху текста ще ви отведе до съответната част от страницата."
+   },
+   "qs_about_explanation2": {
+      "message": "Разширението за бързо превъртане се показва само когато е вероятно да ви бъде от полза. Можете да го намалите, като кликнете върху бутона за намаляване в горния десен ъгъл."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Всичко за Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Декларация за поверителност\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Общи условия\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Начин на работа на Бързо превъртане:"
+   },
+   "qs_about_installed": {
+      "message": "Разширението Google Бързо превъртане е вече инсталирано."
+   },
+   "qs_about_introduction": {
+      "message": "Google Бързо превъртане е разширение за браузъра, което ви помага да намирате каквото търсите по-бързо."
+   },
+   "qs_about_only_useful": {
+      "message": "Бързо превъртане се показва само когато ви е от полза. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Научете повече\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Опциите са запазени"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Помогнете ни да подобрим Google Бързо превъртане, като автоматично ни изпращате статистически данни за използването му."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Опции за поверителност"
+   },
+   "qs_about_step_1": {
+      "message": "Извършете търсене с Google."
+   },
+   "qs_about_step_2": {
+      "message": "Кликнете върху резултат от търсенето."
+   },
+   "qs_about_step_3": {
+      "message": "Кликнете върху Бързо превъртане, за да преминете към подходящите части на страницата."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ако имате въпроси или проблеми при използването на Бързо превъртане, моля, вижте \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">страницата ни за поддръжка\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Благодарим ви, че инсталирате Google Бързо превъртане!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Опитайте!\u003C/b> Потърсете [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] и кликнете върху резултата „dark matter brown dwarfs“."
+   },
+   "qs_about_try_queries": {
+      "message": "Опитайте тези заявки:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "За да деинсталирате Google Бързо превъртане, използвайте опцията „Разширения“&nbsp;>&nbsp;от меню „Инструменти“ \nна Chrome и кликнете върху връзката „Деинсталиране“ за това разширение."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Деинсталиране"
+   },
+   "qs_description": {
+      "message": "Разширението за бързо превъртане ви позволява да преминавате директно към уместните фрагменти в резултат от търсенето с Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  По-малко съответствия"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Показване на оригиналните съответствия за заявката ви"
+   },
+   "qs_gallery_description": {
+      "message": "Google Бързо превъртане е разширение за браузъра, което ви помага да намирате каквото търсите по-бързо.\u003Cbr/>\u003Cbr/>След като кликнете върху резултат от търсенето с нас, разширението за бързо превъртане може да се покаже в долния десен ъгъл на страницата, където извежда един или няколко фрагмента от наличния текст, които са подходящи за заявката ви. Кликването върху текста ще ви отведе до съответната част от страницата. \u003Cbr/>\u003Cbr/>Разширението не ви пречи и се показва само когато е вероятно да ви бъде от полза."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "За съжаление Бързо превъртане не можа да намери никакви съответствия на тази страница за „\u003Cspan class=\"goog_qs-query\">$1\u003C/span>“. \u003Cspan class=\"goog_qs-learn-more\">Научете повече.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Изглежда, че цялата страница е на тема „\u003Cspan class=\"goog_qs-query\">$1\u003C/span>“. Бързо превъртане се показва само когато части от страницата са подходящи. \u003Cspan class=\"goog_qs-learn-more\">Научете повече.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Бързо превъртане не се показа, защото цялата страница е подходяща за заявката ви."
+   },
+   "qs_info_on_search": {
+      "message": "Бързо превъртане се показва, след като кликнете върху резултат от търсенето с Google. \u003Cspan class=\"goog_qs-learn-more\">Научете повече.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "С кликването върху „Инсталиране“ приемате тези Общи условия: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Още съответствия \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Показване на още съответствия за заявката ви"
+   },
+   "qs_name": {
+      "message": "Google Бързо превъртане"
+   },
+   "qs_page_action_active": {
+      "message": "Бързо превъртане намери съответствия на тази страница."
+   },
+   "qs_page_action_inactive": {
+      "message": "Бързо превъртане е активирано. Кликнете за още информация."
+   },
+   "qs_page_action_running": {
+      "message": "Бързо превъртане изчаква страницата да се зареди..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Отваряне на страницата за помощ и опции"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Съответствия в страницата за „\u003Cspan class=\"goog_qs-query\">\u003C/span>“"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Съответствия на страницата за „\u003Cspan class=\"goog_qs-query\">\u003C/span>“"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Намаляване"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Отваряне на Google Бързо превъртане"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Кликнете, за да видите този текст в страницата"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Преминаване към текста $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Най-добри съответствия за „\u003Cspan class=\"goog_qs-query\">\u003C/span>“"
+   }
+}

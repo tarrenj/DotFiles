@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "tsp"
+   },
+   "locale": {
+      "message": "vi"
+   },
+   "qs_about_close_button": {
+      "message": "Đóng"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Sau khi bạn nhấp vào kết quả tìm kiếm của Google, Quick Scroll có thể xuất hiện ở góc dưới cùng bên phải của trang, hiển thị một hay nhiều đoạn văn bản từ trang phù hợp với truy vấn của bạn. Việc nhấp vào văn bản sẽ đưa bạn đến phần đó của trang."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll chỉ xuất hiện khi hữu ích. Bạn có thể thu nhỏ tiện ích mở rộng này bằng cách nhấp vào nút thu nhỏ ở phía trên cùng bên phải."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Giới thiệu về Google\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">Chính sách bảo mật\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">Điều khoản dịch vụ\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Cách thức hoạt động của Google Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll hiện đã được cài đặt."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll là một tiện ích mở rộng của trình duyệt giúp bạn tìm thấy nhanh hơn nội dung bạn đang tìm kiếm."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll chỉ xuất hiện khi hữu ích. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">Tìm hiểu thêm\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Đã lưu tùy chọn"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Trợ giúp cải thiện Google Quick Scroll bằng cách tự động gửi thống kê sử dụng đến Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Tùy chọn bảo mật"
+   },
+   "qs_about_step_1": {
+      "message": "Thực hiện tìm kiếm Google."
+   },
+   "qs_about_step_2": {
+      "message": "Nhấp vào kết quả tìm kiếm."
+   },
+   "qs_about_step_3": {
+      "message": "Nhấp vào Quick Scroll để chuyển tới các phần có liên quan của trang."
+   },
+   "qs_about_support_instructions": {
+      "message": "Nếu bạn có thắc mắc hoặc vấn đề khi sử dụng Quick Scroll, vui lòng xem \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">trang hỗ trợ\u003C/a> của chúng tôi.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Cảm ơn bạn đã cài đặt Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>Hãy dùng thử!\u003C/b> Tìm kiếm [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] và nhấp vào kết quả \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Thử các truy vấn này:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Để gỡ cài đặt Google Quick Scroll, hãy sử dụng tùy chọn trình đơn Công cụ&nbsp;>&nbsp;Tiện ích mở rộng của Chrome và nhấp vào liên kết Gỡ cài đặt cho tiện ích mở rộng Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Gỡ cài đặt"
+   },
+   "qs_description": {
+      "message": "Quick Scroll cho phép bạn chuyển thẳng đến các đoạn văn bản có liên quan trong kết quả tìm kiếm của Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  Ít kết quả phù hợp hơn"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Hiển thị kết quả phù hợp ban đầu cho truy vấn của bạn"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll là một tiện ích mở rộng của trình duyệt giúp bạn tìm thấy nhanh hơn nội dung bạn đang tìm kiếm.\u003Cbr/>\u003Cbr/>Sau khi bạn nhấp vào kết quả tìm kiếm của Google, Quick Scroll có thể xuất hiện ở góc dưới cùng bên phải của trang, hiển thị một hay nhiều đoạn văn bản từ trang phù hợp với truy vấn của bạn. Việc nhấp vào văn bản sẽ đưa bạn đến phần đó của trang.\u003Cbr/>\u003Cbr/>Quick Scroll cố gắng ẩn khỏi màn hình của bạn và chỉ xuất hiện khi hữu ích."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Rất tiếc, Quick Scroll không thể tìm thấy bất kỳ kết quả phù hợp nào trên trang này cho \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. \u003Cspan class=\"goog_qs-learn-more\">Tìm hiểu thêm.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Dường như toàn bộ trang này có nội dung về \u003Cspan class=\"goog_qs-query\">$1\u003C/span>. Quick Scroll xuất hiện khi chỉ các phần của trang có liên quan. \u003Cspan class=\"goog_qs-learn-more\">Tìm hiểu thêm.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll không xuất hiện do toàn bộ trang có liên quan đến truy vấn của bạn."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll xuất hiện sau khi bạn nhấp vào kết quả tìm kiếm của Google. \u003Cspan class=\"goog_qs-learn-more\">Tìm hiểu thêm.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "Bằng cách nhấp \"Cài đặt\", bạn đồng ý với các Điều khoản dịch vụ này: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Nhiều kết quả phù hợp hơn \u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span>"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Hiển thị thêm kết quả phù hợp cho truy vấn của bạn"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll đã tìm thấy kết quả phù hợp trên trang này."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll đã được bật. Nhấp để biết thêm thông tin."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll đang đợi tải trang..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Mở trang trợ giúp và tùy chọn"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Kết quả phù hợp trong trang cho \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Kết quả phù hợp trên trang cho \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Thu nhỏ"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Mở Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Nhấp để xem văn bản này trong trang"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Chuyển tới nội dung $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Kết quả phù hợp nhất cho \u003Cspan class=\"goog_qs-query\">\u003C/span>"
+   }
+}

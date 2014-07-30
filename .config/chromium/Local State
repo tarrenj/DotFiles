@@ -1,0 +1,221 @@
+{
+   "app_list": {
+      "app_launch_count": 0,
+      "last_app_launch_ping": "13048732800000000",
+      "last_launch_ping": "13048732800000000",
+      "launch_count": 0
+   },
+   "browser": {
+      "last_redirect_origin": ""
+   },
+   "gl_renderer_string": "Gallium 0.4 on AMD PALM",
+   "gl_vendor_string": "X.Org",
+   "gl_version_string": "3.0 Mesa 10.2.1",
+   "hardware_acceleration_mode_previous": true,
+   "http_original_content_length": "1394913373",
+   "http_received_content_length": "1394913373",
+   "local_state": {
+      "multiple_profile_prefs_version": 7
+   },
+   "ntp": {
+      "promo_resource_cache_update": "1404265212.210103"
+   },
+   "plugins": {
+      "metadata": {
+         "adobe-flash-player": {
+            "displayurl": true,
+            "group_name_matcher": "*Shockwave Flash*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_flash",
+            "lang": "en-US",
+            "matching_mime_types": [ "application/futuresplash" ],
+            "mime_types": [ "application/futuresplash", "application/x-shockwave-flash" ],
+            "name": "Adobe Flash Player",
+            "url": "http://get.adobe.com/flashplayer/",
+            "versions": [ {
+               "reference": "http://www.adobe.com/support/security/bulletins/apsb12-03.html",
+               "status": "up_to_date",
+               "version": "11.1.102"
+            } ]
+         },
+         "google-chrome-pdf": {
+            "group_name_matcher": "*Chrome PDF Viewer*",
+            "mime_types": [  ],
+            "name": "Chrome PDF Viewer",
+            "versions": [ {
+               "comment": "Google Chrome PDF has no version information.",
+               "status": "up_to_date",
+               "version": "0"
+            } ]
+         },
+         "google-talk": {
+            "group_name_matcher": "*Google Talk*",
+            "mime_types": [  ],
+            "name": "Google Talk",
+            "versions": [ {
+               "comment": "'Google Talk Plugin' and 'Google Talk Plugin Video Accelerator' use two completely different versioning schemes, so we can't define a minimum version.",
+               "status": "up_to_date",
+               "version": "0"
+            } ]
+         },
+         "java-runtime-environment": {
+            "displayurl": true,
+            "group_name_matcher": "Java*",
+            "help_url": "https://support.google.com/chrome/?p=plugin_java",
+            "lang": "en-US",
+            "mime_types": [ "application/x-java-applet", "application/x-java-applet,version=1.1", "application/x-java-applet,version=1.1.1", "application/x-java-applet,version=1.1.2", "application/x-java-applet,version=1.1.3", "application/x-java-applet,version=1.2", "application/x-java-applet,version=1.2.1", "application/x-java-applet,version=1.2.2", "application/x-java-applet,version=1.3", "application/x-java-applet,version=1.3.1", "application/x-java-applet,version=1.4", "application/x-java-applet,version=1.4.1", "application/x-java-applet,version=1.4.2", "application/x-java-applet,version=1.5", "application/x-java-applet,version=1.6", "application/x-java-applet,version=1.7", "application/x-java-bean", "application/x-java-bean,version=1.1", "application/x-java-bean,version=1.1.1", "application/x-java-bean,version=1.1.2", "application/x-java-bean,version=1.1.3", "application/x-java-bean,version=1.2", "application/x-java-bean,version=1.2.1", "application/x-java-bean,version=1.2.2", "application/x-java-bean,version=1.3", "application/x-java-bean,version=1.3.1", "application/x-java-bean,version=1.4", "application/x-java-bean,version=1.4.1", "application/x-java-bean,version=1.4.2", "application/x-java-bean,version=1.5", "application/x-java-bean,version=1.6", "application/x-java-bean,version=1.7", "application/x-java-vm" ],
+            "name": "Java(TM)",
+            "url": "http://java.com/download",
+            "versions": [ {
+               "status": "requires_authorization",
+               "version": "1.6.0.39"
+            }, {
+               "status": "out_of_date",
+               "version": "1.7"
+            }, {
+               "status": "requires_authorization",
+               "version": "1.7.0.13"
+            } ]
+         },
+         "lightspark": {
+            "displayurl": true,
+            "group_name_matcher": "*Shockwave Flash*",
+            "lang": "en-US",
+            "matching_mime_types": [ "application/x-lightspark" ],
+            "mime_types": [ "application/x-lightspark" ],
+            "name": "Lightspark",
+            "url": "https://launchpad.net/lightspark",
+            "versions": [ {
+               "status": "requires_authorization",
+               "version": "0"
+            } ]
+         }
+      },
+      "resource_cache_update": "1404226641.422718"
+   },
+   "policy": {
+      "last_statistics_update": "13048700181420337"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1404265225.750185,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_0",
+            "background_apps": false,
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_name": true,
+            "managed_user_id": "",
+            "name": "First user",
+            "user_name": "jake.tarren@gmail.com"
+         }
+      },
+      "last_active_profiles": [ "Default" ],
+      "last_used": "Default",
+      "preference_hashes": {
+         "/home/smrtz/.config/chromium/Default": {
+            "browser": {
+               "show_home_button": "9463DEC4C15E47646D05FD921E0E475249EA15DE77808C4664EF238C54D89FC7"
+            },
+            "default_search_provider": {
+               "keyword": "8A8A9B48184018558D6873E80636BBECBBF5E2D723A8317D6B85537E760244E3",
+               "name": "0B5FC00383E95E9BDECC08879BFDD8C66DA5D8B7F247C6E742D31615239779EA",
+               "search_url": "7D5FC0AFD888075F00548076224586A84FEEFB8CB9EDE6D92EF4EC63B061EEBC"
+            },
+            "extensions": {
+               "known_disabled": "6882E895E93409288B5C5FACE48643A3F0CE254F930EC3E666999E0E34B677F9",
+               "settings": {
+                  "ahfgeienlihckogmohjhadlkjgocpleb": "49CE98E6DEC9B29A9C19ED4A65B7ED2314AB63A3A512761AEB3A8518BA8E7B6F",
+                  "ajdeppjlhjeajbpcgkjeapnnbiaboopa": "636D2A1CC59748CDC10F600DB6FC43FF387B4CAFEC8553661ADADD3CF7123A4A",
+                  "apdfllckaahabafndbhieahigkjlhalf": "61541CA6F323F119EDCAB3A1A35E22A9BC271E71EDC1124921E0E4E443912523",
+                  "bekmjjakgojplnhahcilegeiklenjbgb": "22ED633AE89F0EBEE916691DDE7C7C8E1BD8BB097378DD245E60EF1456A1FBB2",
+                  "blpcfgokakmgnkcojhhkbfbldkacnbeo": "3743EBC462F03E3E8F6B9F13379E7F25E4766D139B0650F278AFCB7ED09D99EA",
+                  "boadgeojelhgndaghljhdicfkmllpafd": "005F991E47DD4118A4487A7BD581A12EFB1835B1EFCBFEA91AA6FA3F5FEEE568",
+                  "cfhdojbkjhnklbpkdaibdccddilifddb": "FAA4559DF2A6DD0ACD9640A616B40B98781D9FD64EDFCFD61C122EFD4961A920",
+                  "cfmnofdklmodpnmnjkfbphpmdckbanoj": "D1D65A3887BEE6DEB38E0931BB727F415B9793403689025FA5B5A14F97562ECA",
+                  "coobgpohoikkiipiblmjeljniedjpjpf": "D153E8F9B1B7FD42CB531A7A986E0B77F0CCB41D99FFACFBDAB68C8DD5B0D353",
+                  "dbepggeogbaibhgnhhndojpepiihcmeb": "6D8A41CCB6B06BCA4530D97C329E2D26DC614F4F947310673379EC6A8E46D8A7",
+                  "eemcgdkfndhakfknompkggombfjjjeno": "231D1CA6770AC54DB46447EB7AD3010A6AB5873AF57402B607FECCBCCA73F701",
+                  "ennkphjdgehloodpbhlhldgbnhmacadg": "46FB0B74EAE4391A378FE1958B21B2322152AC10A1B6507FED3B2805402CABD4",
+                  "gcbommkclmclpchllfjekcdonpmejbdp": "BC80DD2E45DED5ED1E873A3AD053811025B9BECE389F5EE68B375A689BBE0F51",
+                  "gighmmpiobklfepjocnamgkkbiglidom": "00A984F6C989AD9FCBF3AFDA0EE33881276FC55ACB583BBF418265964BFD5D3F",
+                  "gofhjkjmkpinhpoiabjplobcaignabnl": "E05A7518C5F6A15EB9A8743BB60E3EFB882CBC5C0B42AEC53DCA39501224BED1",
+                  "haggdgmfhabhnmfmcmodogfmehljdoco": "531A5DA23CAFAE610B5D25E4D156FA82C9C022ED4C66F331138EE488FF8C04FE",
+                  "hdokiejnpimakedhajhdlcegeplioahd": "58F0B5F999465597FFBB480081AAF1636A43EC565626EA7191EB17524F3FB91D",
+                  "kbmfpngjjgdllneeigpgjifpgocmfgmb": "8F4672EF6B0F537BA7900E9446197382BA0DA843A2CCAFA10A4F85CD5D78A395",
+                  "koiaokdomkpjdgniimnkhgbilbjgpeak": "D5AE925964980CE373275F051D0849FAE4498AA41FBF0CA845F0992BBF829A65",
+                  "ljpmlpgnjljcjikoimdifbklgebnpkej": "BD79C3ACAE5CAE6576717E59D542C7D927A1E5B34CED498FBD98B54077634FA8",
+                  "lplmljfembbkocngnlkkdgabpnfokmnl": "0F7C9FE5827897898973B366A886D9A74ACD7BF8F1C46F9F385B0370C8FDC696",
+                  "mfehgcgbbipciphmccgaenjidiccnmng": "5793D3D8967F7D3C2D79529D17979ABE87E74B8992F519A222FED0ABEDA6D876",
+                  "mfffpogegjflfpflabcdkioaeobkgjik": "15247610D4710B86E0A306612277F0D0BAA328673887D6CFA484DEBE5F869D7C",
+                  "mgndgikekgjfcpckkfioiadnlibdjbkf": "0C9A45A686B98542CB40FAE9E022679658797FEBADF93D2FFFEF04F4CD766883",
+                  "milkhonmecplandlkfbjplfbdenjlkmp": "96FB8315E41B6DB2894D367828DA924A595EECDB96D6048CC8B25B234EE3AC23",
+                  "mlomiejdfkolichcflejclcbmpeaniij": "776404BD3FDA8AFA4FCD7C4F7C6FB9BFB2CF5AC083533CFBD5F69ABD07BC033D",
+                  "nmmhkkegccagdldgiimedpiccmgmieda": "8D20AB4BBB772BC88343336D5A07D1FF60981B9EF4E2D20A4D4A6127EE1B4B7F",
+                  "nonjdcjchghhkdoolnlbekcfllmednbl": "864C852891D77E6DE4D6D92F7B8A4712E17DE2B079B1781197186AF2D56212BE",
+                  "ojmmnceaidnmminjjffpndcbdibelgam": "DB34BCE447879533CDD7FC1969E28A692A4AF2C9092217A6B37B8BA543F6917E",
+                  "okanipcmceoeemlbjnmnbdibhgpbllgc": "963E5C5414E5750A25149EF04A6601F71F2AD20AEDA6963E90D908CBB64E182B",
+                  "pafkbggdmjlpgkdkcbjmhmfcdpncadgh": "02C3FBDFECC504A79E7DADFF88A0E7B88CD2F2BBB00F45CDA591FFFA728A0EF7",
+                  "pjkljhegncpnkpknbcohdijeoejaedia": "FB724F3EB73D72E73D3A5B8AC79142AE8528E9443DA3509B3119EE9114B079AF"
+               }
+            },
+            "google": {
+               "services": {
+                  "last_username": "55A694BD530153AE481F0F8EE35D395B539DBE3E6495764063EF65EB97135CCD"
+               }
+            },
+            "homepage": "A2ACE9BD4269F737C08F84D6373441614EDB4DD7083CF7BF16D421528B558DF1",
+            "homepage_is_newtabpage": "547DD594A200A6C826A149309738E7FAD622F4D7B1B875CD6ECB2E96F2940E21",
+            "pinned_tabs": "699F1AC92729A024B80605AFC3C63BFB2A35B70C4214581BBE108F851528E9E8",
+            "profile": {
+               "reset_prompt_memento": "D4530CB53DD89D7863C8A6CB3762FD06DE5DBC9965D16D3A72FE1B19AD4A6C8F"
+            },
+            "search_provider_overrides": "1E1EBA3A4DC28A23BEFCF6ED5D71CE71E9814DD587A305F6B14F72E834AF75DD",
+            "session": {
+               "restore_on_startup": "FF7E6D4A0C00443182E8326EE564F803943764462F88443412193C73C8E5046B",
+               "startup_urls": "F4E009B0CB1F76F0BE386EB7593F0319EFA3F2FA8B369E591D07F7035A3A526A"
+            }
+         },
+         "hash_of_hashes": {
+            "/home/smrtz/.config/chromium/Default": "FC66238D54B5D9EABA391115ED5201C2D6FF5822EBF1C950FE282939E7AA7106"
+         },
+         "store_versions": {
+            "/home/smrtz/.config/chromium/Default": 2
+         }
+      }
+   },
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1402748665",
+      "launch_count": "18"
+   },
+   "user_experience_metrics": {
+      "low_entropy_source2": 5928,
+      "session_id": 17,
+      "stability": {
+         "breakpad_registration_fail": 1,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 1,
+         "debugger_present": 0,
+         "execution_phase": 500,
+         "exited_cleanly": false,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "0",
+         "launch_count": 1,
+         "launch_time_sec": "1404265207",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1402460974",
+         "stats_version": "35.0.1916.153-64-devel"
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}

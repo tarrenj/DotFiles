@@ -1,0 +1,143 @@
+2014-02-25 14:11:24	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #bspwm
+2014-02-25 14:11:24	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 14:11:24	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 14:11:24	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dimeshake_ dotpyfe dunsmoreb earsplit faiden hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 14:11:24	--	Channel #bspwm: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2014-02-25 14:11:24	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 14:11:26	--	Mode #bspwm [+cnt]
+2014-02-25 14:11:26	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 14:11:51	smrtz|nix	Hey, I'm trying to install on debian, but I've only got a console enviroment.  Can someone help me out please?
+2014-02-25 14:12:18	earsplit	do you have X installed?
+2014-02-25 14:12:21	earsplit	follow the debian guide for that
+2014-02-25 14:12:31	earsplit	is it a netinstall?
+2014-02-25 14:12:33	smrtz|nix	earsplit: I've got x.
+2014-02-25 14:12:49	smrtz|nix	earsplit: no, normal debian 7.4, no WM/DE.
+2014-02-25 14:13:45	-->	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-02-25 14:14:25	earsplit	lol there are so many debian downloads
+2014-02-25 14:14:31	earsplit	i thought normal shipped with gnome 3 these days
+2014-02-25 14:14:57	earsplit	http://cdimage.debian.org/debian-cd/7.4.0/amd64/bt-cd/
+2014-02-25 14:15:09	smrtz|nix	Haha, I know.  I just switchd from arch, and the whole release systems are weird...
+2014-02-25 14:15:16	smrtz|nix	thanks, I'll wget that.
+2014-02-25 14:16:24	earsplit	no i was just pointing out the different releases
+2014-02-25 14:16:25	smrtz|nix	earsplit: that's a link to a debian image, not a guide on installing bspwm.
+2014-02-25 14:16:31	earsplit	yeah i know
+2014-02-25 14:16:37	earsplit	i was trying to figure out what you had installed already
+2014-02-25 14:16:41	smrtz|nix	earsplit: ahh, my bad.
+2014-02-25 14:16:42	earsplit	the install process should be teh same
+2014-02-25 14:16:45	earsplit	*the
+2014-02-25 14:17:29	smrtz|nix	yeah, it shouldn't be release dependant.  For the record, I installed the debian without a DE, whatever one that is.
+2014-02-25 14:18:14	earsplit	i would test that X is properly configured, as it isn't installed with some of the minimal installs
+2014-02-25 14:18:16	earsplit	https://wiki.archlinux.org/index.php/Beginners'_guide#Test_X
+2014-02-25 14:18:20	earsplit	you can use a similar process to that
+2014-02-25 14:18:21	faiden	Has Debian switched to systemd yet?
+2014-02-25 14:18:24	earsplit	twm, xclock, etc
+2014-02-25 14:18:34	earsplit	no its still on initscripts
+2014-02-25 14:18:42	earsplit	they just decided on systemd a few weeks back
+2014-02-25 14:18:48	earsplit	or last week maybe
+2014-02-25 14:18:56	faiden	ty then i will wait to install untill the switch
+2014-02-25 14:19:06	faiden	i bet there will be some trouble switching
+2014-02-25 14:19:08	earsplit	after you get X installed though, the install process is exactly the same
+2014-02-25 14:19:14	earsplit	for bspwm
+2014-02-25 14:19:19	earsplit	except with different package names
+2014-02-25 14:19:34	smrtz|nix	Ok, actually, this sucks. I'm going to install openbox real quick, that should make sure x is set up right, and then I'll be back working on getting bspwm set up.
+2014-02-25 14:19:37		irc: disconnected from server
+2014-02-25 14:23:54	-->	smrtz (~smrtz@137.155.209.33) has joined #bspwm
+2014-02-25 14:23:54	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 14:23:54	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 14:23:54	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dimeshake_ dotpyfe dunsmoreb earsplit faiden hardcore_ Lopi Mapley Mechanimal Mossepo siwoti smrtz tbuck thadood tuftedocelot xGeee_]
+2014-02-25 14:23:54	--	Channel #bspwm: 20 nicks (0 ops, 0 halfops, 0 voices, 20 normals)
+2014-02-25 14:23:54	--	Notice(rajaniemi.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2014-02-25 14:23:54	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 14:23:54	--	Mode #bspwm [+cnt]
+2014-02-25 14:23:54	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 14:24:14	smrtz	Ok, I'm up in openbox, but there's something weird with my graphics driver, I'll have to fix that later.
+2014-02-25 14:25:16	faiden	This is going to be good *brings popcorn*
+2014-02-25 14:26:19	smrtz	I'm trying to install using bspwm for dummies, is that still uptodate?
+2014-02-25 14:26:26	smrtz	faiden: what do you mean?
+2014-02-25 14:26:48	faiden	I'm just easily entertained
+2014-02-25 14:29:41	smrtz	I'm haveing issues git cloneing the repo, can you help with that faiden?  It's not really a bspwm issue thoug.
+2014-02-25 14:29:59	tuftedocelot	Is git installed?
+2014-02-25 14:30:10	tuftedocelot	git clone URL
+2014-02-25 14:30:14	faiden	I'm sorry not 100% sure how to do that myselfe
+2014-02-25 14:30:18	tuftedocelot	Doesn't get any shorter than that
+2014-02-25 14:30:49	smrtz	tuftedocelot: Yeah, git is set up, but it's error message says my network is down?
+2014-02-25 14:30:52	smrtz	sec...
+2014-02-25 14:32:14	smrtz	tuftedocelot: Ok, nevermind, it's working now, must have had a typo in the url
+2014-02-25 14:34:57	earsplit	:D
+2014-02-25 14:35:51	smrtz	Hmm, I can't make bspwm because I don't have libxcb-ewmh1-dev, but that's obsolete...
+2014-02-25 14:36:28	tuftedocelot	Welcome to Debian
+2014-02-25 14:37:03	smrtz	what do you mean?  I just switched after a few years on arch, kinda on a whim...  Can you explain more please?
+2014-02-25 14:37:51	smrtz	I got it working with libxcb-ewmh-dev, if anyone wants to update a wiki or something...
+2014-02-25 14:37:51	tuftedocelot	I'm being facetious. Debian focuses on stability and backporting rather than upstream
+2014-02-25 14:38:13	smrtz	tuftedocelot: Ahh, ok.  lol.
+2014-02-25 14:38:26	smrtz	I've also noticed that they don't have the strongest wiki...
+2014-02-25 14:39:53	earsplit	plz edit the bspwm for dummies if it needs to be updated
+2014-02-25 14:40:13	smrtz	earsplit: I can?  I guess I could do a pull request.  Ok. I'll do that in a bit.
+2014-02-25 14:40:22	earsplit	you dont need to make a PR
+2014-02-25 14:40:29	earsplit	just hit the edit button on the wiki page
+2014-02-25 14:40:38	smrtz	Oh, cool.
+2014-02-25 14:41:19	earsplit	https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies/_compare/2fd659d1aa2abe117e6b8b264890d594c0eba32a...f0b4d4fc1a96d5f1053205001fdf4bd853bbba2c
+2014-02-25 14:41:30	earsplit	you might want to comment on that before changing it
+2014-02-25 14:42:42	earsplit	like, 'debian packages are release specific. these may not be the exact package names needed for your release"
+2014-02-25 14:42:57	earsplit	and then change the title to your debian version
+2014-02-25 14:42:59	earsplit	like
+2014-02-25 14:43:17	smrtz	I can't load that url?
+2014-02-25 14:43:18	earsplit	"on Debian 7.4"
+2014-02-25 14:43:32	earsplit	the point is that someone changed it from libxcb-ewmh1-dev to libxcb-ewmh-dev
+2014-02-25 14:43:34	earsplit	like 2 days ago
+2014-02-25 14:43:42	earsplit	it keeps getting switched back and forth
+2014-02-25 14:43:48	earsplit	because people install on different releases
+2014-02-25 14:43:53	smrtz	ahh.
+2014-02-25 14:44:05	earsplit	or ubuntu / etc
+2014-02-25 14:44:57	smrtz	Can I configure bspwm live?
+2014-02-25 14:47:03	tuftedocelot	Mostly, using bspc or you can write to bspwmrc and restart bspwm to have the changes take effect
+2014-02-25 14:47:27	tuftedocelot	You'll want to update bspwmrc though if you change something via bspc and want to keep the change
+2014-02-25 14:47:39	smrtz	tuftedocelot: oh, I've been using awesomewm, so bspc looks really cool.
+2014-02-25 14:47:45	smrtz	oh, ok.
+2014-02-25 14:47:46	smrtz	coool.
+2014-02-25 14:56:48	<--	Mechanimal (~kyle@184.75.214.163) has left #bspwm
+2014-02-25 14:58:57	-->	Mechanimal (~kyle@184.75.214.163) has joined #bspwm
+2014-02-25 15:10:43	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-02-25 15:12:05	-->	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has joined #bspwm
+2014-02-25 15:20:27	faiden	What I like about bspwm is the oneshot rule, the window gaps, smooth mouse window sizing and how it rezises the windows and how windows opens
+2014-02-25 15:20:59	earsplit	what about the bsp part :)
+2014-02-25 15:21:11	faiden	what does bsp stand for?
+2014-02-25 15:22:12	faiden	ohh binary space partition
+2014-02-25 15:22:37	faiden	I think that was what i meant with how it open windows ^^
+2014-02-25 15:22:57	earsplit	the presel thing is key
+2014-02-25 15:23:06	earsplit	i do wish there was a sane way to spawn windows automatically
+2014-02-25 15:23:25	earsplit	say i want to open 10 terminals with a script that ssh's into 10 servers
+2014-02-25 15:23:36	faiden	RIght
+2014-02-25 15:23:41	earsplit	they all open in that spiral
+2014-02-25 15:23:42	earsplit	lol
+2014-02-25 15:24:10	earsplit	unless i found some algorithm to presel each window in the proper order
+2014-02-25 15:24:16	earsplit	but i can't wrap my head around that
+2014-02-25 15:24:43	faiden	Is there a way to open windows in a set order
+2014-02-25 15:26:12	faiden	Like, im happy with the layout that im working with, lets save it and next time i can return to it
+2014-02-25 15:26:22	faiden	instead of opening and seting it up each boot
+2014-02-25 15:26:56	tuftedocelot	I think that's where saving history comes in
+2014-02-25 15:27:08	faiden	hmm need to look into that
+2014-02-25 15:30:19	<--	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Remote host closed the connection)
+2014-02-25 15:34:43	faiden	will programs start aswell as window order?
+2014-02-25 15:35:22	earsplit	yeah look at the loop example
+2014-02-25 15:35:31	earsplit	it persists on logout
+2014-02-25 15:35:57	earsplit	but if you want it saved after shutdown, it will require you to modify it
+2014-02-25 15:38:58		irc: disconnected from server
+2014-02-25 15:55:36	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #bspwm
+2014-02-25 15:55:36	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 15:55:36	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 15:55:36	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dimeshake_ dotpyfe dunsmoreb earsplit faiden hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 15:55:36	--	Channel #bspwm: 19 nicks (0 ops, 0 halfops, 0 voices, 19 normals)
+2014-02-25 15:55:36	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 15:55:38	--	Mode #bspwm [+cnt]
+2014-02-25 15:55:38	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 16:20:25		irc: disconnected from server
+2014-02-25 19:35:51	-->	smrtz|nix (~smrtz@137.155.209.33) has joined #bspwm
+2014-02-25 19:35:51	--	Topic for #bspwm is ""BSPWM support channel""
+2014-02-25 19:35:51	--	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 12:12:02
+2014-02-25 19:35:51	--	Nicks #bspwm: [amacgregor_ Ceryn china cornu dimeshake_ dotpyfe dunsmoreb hardcore_ Lopi Mapley Mechanimal siwoti smrtz|nix tbuck thadood tuftedocelot xGeee_]
+2014-02-25 19:35:51	--	Channel #bspwm: 17 nicks (0 ops, 0 halfops, 0 voices, 17 normals)
+2014-02-25 19:35:51	--	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-02-25 19:35:52	--	Mode #bspwm [+cnt]
+2014-02-25 19:35:52	--	Channel created on Wed, 06 Nov 2013 11:59:37
+2014-02-25 19:41:37		irc: disconnected from server

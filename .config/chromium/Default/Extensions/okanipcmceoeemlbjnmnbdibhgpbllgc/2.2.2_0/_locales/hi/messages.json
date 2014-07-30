@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hi"
+   },
+   "qs_about_close_button": {
+      "message": "बंद करें"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "आपके द्वारा किसी Google खोज परिणाम पर क्लिक करने के बाद, हो सकता है त्वरित स्क्रॉल आपकी क्वेरी के लिए प्रासंगिक पृष्ठ से टेक्‍स्‍ट के एक या अधिक बिट दिखाते हुए, पृष्ठ के निचले-दाएं कोने पर दिखाई दे. टेक्स्‍ट पर क्लिक करने पर आप पृष्ठ के उस भाग पर पहुंच जाएंगे."
+   },
+   "qs_about_explanation2": {
+      "message": "त्वरित स्क्रॉल केवल तभी दिखाई देता है जब इसके उपयोगी होने की संभावना हो. आप शीर्ष-दाईं ओर संक्षिप्त करें बटन पर क्लिक करके इसे संक्षिप्त कर सकते हैं."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\">Google के बारे में\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\">गोपनीयता नीति\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\">सेवा की शर्तें\u003C/a>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "त्वरित स्क्रॉल कैसे कार्य करता है:"
+   },
+   "qs_about_installed": {
+      "message": "Google त्‍वरित स्‍क्रॉल अब इंस्‍टॉल हो गया है."
+   },
+   "qs_about_introduction": {
+      "message": "Google त्वरित स्क्रॉल एक ऐसा ब्राउज़र एक्‍सटेंशन है जो तेज़ी से खोजने में आपकी सहायता करता है."
+   },
+   "qs_about_only_useful": {
+      "message": "त्‍वरित स्‍क्रॉल केवल इसके उपयोगी होने की संभावना पर दिखाई देता है. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">अधिक जानें\u003C/a>.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "विकल्प सहेजे गए"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Google को अपने आप उपयोग आंकड़े भेजकर Google त्वरित स्क्रॉल को बेहतर बनाने में सहायता करें."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "गोपनीयता विकल्प"
+   },
+   "qs_about_step_1": {
+      "message": "एक Google खोज करें."
+   },
+   "qs_about_step_2": {
+      "message": "किसी खोज परिणाम पर क्लिक करें."
+   },
+   "qs_about_step_3": {
+      "message": "पृष्ठ के प्रासंगिक भागों पर जाने के लिए त्वरित स्क्रॉल पर क्लिक करें."
+   },
+   "qs_about_support_instructions": {
+      "message": "यदि त्‍वरित स्‍क्रॉल का उपयोग करने के बारे में कोई प्रश्न या समस्‍याएं हैं, तो कृपया हमारा \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\">समर्थन पृष्ठ\u003C/a> देखें.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Google त्वरित स्क्रॉल इंस्टॉल करने के लिए धन्‍यवाद!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb>इसे आज़माएं!\u003C/b> [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\">dark matter brown dwarfs\u003C/a>] खोजें और \"dark matter brown dwarfs\" परिणाम पर क्‍लिक करें."
+   },
+   "qs_about_try_queries": {
+      "message": "ये क्वेरी आज़माएं:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google त्‍वरित स्‍क्रॉल को अनइंस्‍टॉल करने के लिए, Chrome के टूल&nbsp;>&nbsp;एक्‍सटेंशन मेनू विकल्‍प का उपयोग करें, और Google त्‍वरित स्‍क्रॉल एक्‍सटेंशन के लिए अनइंस्‍टॉल लिंक पर क्‍लिक करें."
+   },
+   "qs_about_uninstall_title": {
+      "message": "अनइंस्टॉल करें"
+   },
+   "qs_description": {
+      "message": "त्वरित स्क्रॉल आपको सीधे Google खोज परिणामों के प्रासंगिक बिट पर जाने देता है."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&laquo;\u003C/span>  कम मिलान"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "अपनी क्वेरी के लिए मूल मिलान दिखाएं"
+   },
+   "qs_gallery_description": {
+      "message": "Google त्वरित स्क्रॉल एक ब्राउज़र एक्‍सटेंशन है जो आपको तेज़ी से खोजने में सहायता करता है.\u003Cbr/>\u003Cbr/>आपके द्वारा Google खोज परिणामों पर क्‍लिक करने के बाद, हो सकता है पृष्ठ के नीचे-दाएं कोने पर आपकी क्‍वेरी से प्रासंगिक पृष्ठों से एक या अधिक टेक्स्‍ट के बिट दिखाते हुए त्वरित स्क्रॉल दिखाई दें. टेक्‍स्ट पर क्‍लिक करके आप पृष्ठ के उस भाग पर पहुंच जाएंगे.\u003Cbr/>\u003Cbr/>त्वरित स्क्रॉल आपके काम में बाधा नहीं डालता है, और केवल तब दिखाई देता है जब इसके उपयोगी होने की संभावना हो."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "क्षमा करें, त्‍वरित स्‍क्रॉल \u003Cspan class=\"goog_qs-query\">$1\u003C/span> के लिए इस पृष्ठ पर कोई मिलान नहीं ढूंढ सका. \u003Cspan class=\"goog_qs-learn-more\">अधिक जानें.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "यह पूरा पृष्ठ \u003Cspan class=\"goog_qs-query\">$1\u003C/span> लगता है. त्‍वरित स्‍क्रॉल केवल तब दिखाई देता है जब पृष्ठ के भाग प्रासंगिक होते हैं. \u003Cspan class=\"goog_qs-learn-more\">अधिक जानें.\u003C/span>",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "चूंकि पूरा पृष्ठ आपकी क्‍वेरी से प्रासंगिक है इसलिए त्‍वरित स्‍क्रॉल दिखाई नहीं दिया."
+   },
+   "qs_info_on_search": {
+      "message": "आपके द्वारा किसी Google खोज परिणाम पर क्‍लिक करने के बाद त्‍वरित स्‍क्रॉल दिखाई देता है. \u003Cspan class=\"goog_qs-learn-more\">अधिक जानें.\u003C/span>"
+   },
+   "qs_long_description_url": {
+      "message": "\"इंस्‍टॉल करें\" क्‍लिक करके, आप सेवा की शर्तों से सहमति‍ देते हैं: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\">&raquo;\u003C/span> अधिक मिलान"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "अपनी क्वेरी के लिए अधिक मिलान दिखाएं"
+   },
+   "qs_name": {
+      "message": "Google त्वरित स्क्रॉल"
+   },
+   "qs_page_action_active": {
+      "message": "त्वरित स्क्रॉल को इस पृष्ठ पर मिलान प्राप्त हुए हैं."
+   },
+   "qs_page_action_inactive": {
+      "message": "त्वरित स्क्रॉल सक्षम है. अधिक जानकारी के लिए क्लिक करें."
+   },
+   "qs_page_action_running": {
+      "message": "त्वरित स्क्रॉल, पृष्ठ के लोड होने की प्रतीक्षा कर रहा है..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "सहायता और विकल्प पृष्ठ खोलें"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> के पृष्ठों से मेल खाता है"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> के पृष्ठों से मेल खाता है"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "संक्षिप्त करें"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google त्वरित स्क्रॉल खोलें"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "पृष्ठ में यह टेक्‍स्‍ट देखने के लिए क्लिक करें"
+   },
+   "qs_toolbar_go_label": {
+      "message": "टेक्स्‍ट $1 पर जाएं",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\">\u003C/span> के सर्वश्रेष्ठ मिलान"
+   }
+}
