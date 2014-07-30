@@ -1,0 +1,28 @@
+<div>
+  <div class="stats-collect-prompt-title">
+    <angular-message desc="auto usage stats collection prompt title" key="auto_stats_collection_title">
+      Help improve Cast
+    </angular-message>
+  </div>
+
+  <div class="stats-collect-prompt-description">
+    <angular-message desc="auto usage stats collection prompt description" key="auto_stats_collection_description">
+      Would you like to make Cast better by sharing anonymous usage information with Google? Your privacy is important to us, and you can always change this setting in "Options".
+    </angular-message>
+  </div>
+
+  <div class="stats-collect-prompt-checkbox">
+    <input ng-model="sendUsage" type="checkbox" ng-change = "changeSendUsage()">
+      <angular-message desc="Label for sending usage statistics" key="stats_collect_prompt_option">
+        Automatically send Cast extension usage statistics to Google
+      </angular-message>
+    </input>
+  </div>
+
+  <button class="button-action button stats-collect-prompt-dissmiss-button" ng-click="dismiss()">
+    <angular-message desc="Button to dismiss stats collection prompt" key="auto_stats_collection_dismiss">
+      OK
+    </angular-message>
+  </button>
+
+</div>

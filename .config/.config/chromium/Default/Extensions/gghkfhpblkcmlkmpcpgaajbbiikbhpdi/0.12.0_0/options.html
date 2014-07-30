@@ -1,0 +1,312 @@
+<html>
+<head>
+    <title>Vichrome Options</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/options.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="lib/jquery-2.0.1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+    <div id="navbar-container">
+        <h1 id="navbar-content-title">Vichrome</h1>
+        <ul class="navbar" role="tablist">
+            <li class="navbar-item" role="tab"><a href="#general">General</a></li>
+            <li class="navbar-item" role="tab"><a href="#appearance">Appearance</a></li>
+            <li class="navbar-item" role="tab"><a href="#keymapping">Key Mapping</a></li>
+            <li class='navbar-item navbar-item-separator'></li>
+            <li class="navbar-item" role="tab"><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <div id="page-container">
+        <div id="general" class='page'>
+            <h2>General</h2>
+            <section>
+            <h3>Basics</h3>
+            <div>
+                <div>
+                    <label>
+                        <span class="option">
+                            Scroll Step Size
+                        </span>
+                        <input id="scrollPixelCount" type="number" size="7" />
+                        <span class="option">
+                            px
+                        </span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <span class="option">
+                            Command Wait Timeout Interval
+                        </span>
+                        <input id="commandWaitTimeOut" type="number" size="7" />
+                        <span class="option">
+                            ms
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <div>
+                        <span class="option">
+                            Default New Tab Page
+                        </span>
+                        <label>
+                            <input name="newTabPage" type="radio" value="home" />Home&nbsp;&nbsp;
+                            <input name="newTabPage" type="radio" value="newtab" />Chrome New Tab&nbsp;&nbsp;
+                            <input name="newTabPage" type="radio" value="blank" />Blank Page&nbsp;&nbsp;
+                        </label>
+                    </div>
+                    <div>
+                        <span class="description">
+                            Note:Except for Home, Vichrome will be disabled on a new tab page
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <label>
+                        <input id="disableAutoFocus" type="checkbox" />
+                        <span class="option">
+                            Disable auto focus when page is opened
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="smoothScroll" type="checkbox" />
+                        <span class="option">
+                            Smooth Scroll
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="enableCompletion" type="checkbox" />
+                        <span class="option">
+                            Enable Completion
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <span class="option">
+                        Search Engine
+                    </span>
+                    <select id="searchEngine">
+                        <option>www.google.com</option>
+                        <option>www.google.co.jp</option>
+                    </select>
+                </div>
+                <div>
+                    <label>
+                        <input id="notifyUpdateSucceeded" type="checkbox" />
+                        <span class="option">
+                            Notify Update Succeeded (Open release history page in a new tab)
+                        </span>
+                    </label>
+                </div>
+            </div>
+            </section>
+            <section>
+            <h3>Search</h3>
+            <div>
+                <div>
+                    <label>
+                        <input id="wrapSearch" type="checkbox" />
+                        <span class="option">
+                            Wrap Scan
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="ignoreCase" type="checkbox" />
+                        <span class="option">
+                            Ignore Case
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="incSearch" type="checkbox" />
+                        <span class="option">
+                            Incremental Search
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span class="option">
+                            Minimum Length for Incremental Search
+                        </span>
+                        <input id="minIncSearch" type="number" size="7" />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="useMigemo" type="checkbox" />
+                        <span class="option">
+                            Use Migemo Search
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <span class="option">
+                            Minimum Length for Migemo Search
+                        </span>
+                        <input id="minMigemoLength" type="number" size="7" />
+                    </label>
+                </div>
+            </div>
+            </section>
+            <section>
+            <h3>f Mode (Hit Hints)</h3>
+            <div>
+                <div>
+                    <span class="option">
+                        f Mode Keys(used for a hint char)
+                    </span>
+                    <input id="fModeAvailableKeys" type="text" size="30"/>
+                </div>
+                <div>
+                    <label>
+                        <input id="fModeIgnoreCase" type="checkbox" />
+                        <span class="option">
+                            Ignore Case
+                        </span>
+                    </label>
+                </div>
+            </div>
+            </section>
+            <section>
+            <h3>Ignored URLs</h3>
+            <div>
+                <div>
+                    <textarea id="ignoredUrls" spellcheck="false" rows="6" cols="80"></textarea>
+                </div>
+                <div align="right">
+                    <input id="ignoredUrlsButton" value="Update Ignored URLs" type="button">
+                </div>
+            </div>
+            </section>
+        </div>
+        <div id="appearance" class='page'>
+            <h2>Appearance</h2>
+            <section>
+            <h3>Command Box</h3>
+            <div>
+                <div>
+                    <span class="option">
+                        Command Box Alignment
+                    </span>
+                    <select id="commandBoxAlign">
+                        <option>Right-Bottom</option>
+                        <option>Left-Bottom</option>
+                        <option>Right-Top</option>
+                        <option>Left-Top</option>
+                    </select>
+                </div>
+                <div>
+                    <span class="option">
+                        Command Box Width
+                    </span>
+                    <input id="commandBoxWidth" type="number" size="7" />
+                    <span class="option">
+                        px
+                    </span>
+                </div>
+            </div>
+            </section>
+            <section>
+            <h3>f-Mode</h3>
+            <div>
+                <div>
+                    <span class="option">
+                        Hint Font Size
+                    </span>
+                    <input id="hintFontSize" type="number" size="5" />
+                    <span class="option">
+                        px
+                    </span>
+                </div>
+                <div>
+                    <label>
+                        <input id="useFModeAnimation" type="checkbox" />
+                        <span class="option">
+                            Use f-Mode Animation
+                        </span>
+                    </label>
+                </div>
+                <div>
+                    <span class="option">
+                        Background Color
+                    </span>
+                    <input id="hintBackgroundColor" type="text" />
+                </div>
+                <div>
+                    <span class="option">
+                        Color
+                    </span>
+                    <input id="hintColor" type="text" />
+                </div>
+                <div>
+                    <span class="option">
+                        Selected Color
+                    </span>
+                    <input id="hintColorSelected" type="text" />
+                </div>
+            </div>
+            </section>
+        </div>
+        <div id="keymapping" class='page'>
+            <h2>Key Mapping / Command Aliases</h2>
+            <section>
+            <h3>Key Mapping / Alias Setting</h3>
+            <div>
+                <div>
+                    <textarea id="keyMapping" spellcheck="false" rows="30" cols="80"></textarea>
+                </div>
+                <div align="right">
+                    <input id="keyMappingButton" value="Update Key Mapping" type="button">
+                </div>
+            </div>
+            </section>
+            <section>
+            <h3>All KeyMappings</h3>
+            <div>
+                <div id="keyMappingList"></div>
+            </div>
+            </section>
+        </div>
+        <div id="about" class='page'>
+            <h2>About</h2>
+            <section>
+            <h3>Author</h3>
+            <div>
+                <div>
+                    Kazunori Kajihiro
+                </div>
+                <div>
+                    Follow me on <a href="http://www.twitter.com/k2nr_">twitter</a>
+                </div>
+                <div>
+                    Blog: <a href="http://k2nr.me/">http://k2nr.me/</a>(Japanese)
+                </div>
+                <div>
+                    Github: <a href="http://github.com/k2nr">https://github.com/k2nr</a>
+                </div>
+                <div>
+                    E-mail: kazunori.kajihiro@gmail.com
+                </div>
+            </div>
+            </section>
+            <section>
+            <div align="right">
+                Vichrome is hosted on <a href="https://github.com/k2nr/ViChrome">Github</a>
+            </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+embed[type*="application/x-silverlight-2"],
+object[type*="application/x-silverlight-2"]
+{
+	display: none !important;
+}

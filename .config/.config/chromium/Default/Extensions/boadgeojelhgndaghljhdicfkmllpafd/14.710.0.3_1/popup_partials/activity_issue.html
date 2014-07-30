@@ -1,0 +1,5 @@
+<div class="nonFatalIssue" ng-show="issueMessage" ng-controller="PopupIssuerNotifierCtrl">
+  <div ng-bind-html="issueMessage"></div>
+  <span ng-show="showIssueOptActButton" ng-click="actOnIssueWithOptAct()">{{issueOptActText}}</span>
+  <span ng-click="actOnIssueWithDefaultAct()">{{issueDefaultActText}}</span>
+</div>

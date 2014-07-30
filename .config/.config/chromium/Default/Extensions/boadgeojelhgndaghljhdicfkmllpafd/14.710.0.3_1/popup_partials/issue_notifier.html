@@ -1,0 +1,21 @@
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td class="sad-face"><img src="data/sad-face.png"></td>
+        <td>
+          <div class="issue-title" ng-bind-html="issueTitle"></div>
+          <div class="issue-message" ng-bind-html="issueMessage"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="buttons-50pct">
+    <tbody>
+      <tr>
+        <td class="button" ng-show="showIssueOptActButton" ng-click="actOnIssueWithOptAct()">{{issueOptActText}}</td>
+        <td class="button-action button" ng-click="actOnIssueWithDefaultAct()">{{issueDefaultActText}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

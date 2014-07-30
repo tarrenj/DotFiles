@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "background.htm"
+   },
+   "content_scripts": [ {
+      "css": [ "css/scroll-bars.css" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Thin Scroll Bar to increase screen space for little more visibility. It is thin to show current position on the document",
+   "homepage_url": "http://tejji.com/",
+   "icons": {
+      "128": "img/128x128.png",
+      "16": "img/16x16.png",
+      "48": "img/48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTnw4wUCm+kzZeNOYc6diUT0Aa9y8aHYaIWYywucg544VIss8THU7/Vkpn0ej3Ip78K+vCDnOb8253c9+TlnpcTUfEhfyKC6WNVYrGDlaPvRUwDF67iHYm+1ebYn8LwFZIv+2+uFNTkKs41b64TODSvAJ/yHx+EUWQlq0pgEZpzwIDAQAB",
+   "manifest_version": 2,
+   "name": "Thin Scroll Bar",
+   "options_page": "options.htm",
+   "permissions": [ "contextMenus", "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

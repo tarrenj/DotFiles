@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "/libs/jquery.js", "/libs/jquery.utils.js", "libs/googleanalytics.js", "/background/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [  ],
+      "js": [ "libs/jquery.js", "content/youtube.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://autohdyt.appspot.com https://ssl.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en_US",
+   "description": "Make YouTube videos automatically play in HD.",
+   "devtools_page": "inspector/inspector.htm",
+   "homepage_url": "http://www.autohdforyoutube.com/",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "72": "icons/72.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWs8g1r5oRSUc28SV4FCXEzfdiksqcwcsg88jZvxLagdaRydjVZrHwll3gKx8eNWGg/I1IWmX1R5BvNSFBasTcm9tR85BRQLllpCForrw6gcpeivK7DxN3IkV/Fe0grmfLEzkhZH8j0MIwgnamw2JV8cUm6SMFVj0O7rcaQvEFnwIDAQAB",
+   "manifest_version": 2,
+   "name": "Auto HD For YouTube™",
+   "options_page": "settings/settings.htm",
+   "page_action": {
+      "default_icon": {
+         "19": "icons/hd128.png",
+         "38": "icons/hd128.png"
+      },
+      "default_popup": "settings/settings.htm",
+      "default_title": "Youtube Settings"
+   },
+   "permissions": [ "webNavigation", "tabs", "webRequest", "webRequestBlocking", "storage", "unlimitedStorage", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.3.3"
+}

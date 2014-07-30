@@ -1,0 +1,76 @@
+<html ng-app ng-csp xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Google Cast extension E2E test utilities</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+  <style media="screen" type="text/css">
+
+    .statsDisplay {
+      width: 480px;
+      height: 120px;
+      overflow-y: scroll;
+      border: 1px solid black;
+      border: 1px solid rgb(191, 191, 191);
+      font-size: 10px;
+    }
+
+  </style>
+  <script type="text/javascript" src="angular.js"></script>
+  <script type="text/javascript" src="e2e_test_utils.js"></script>
+</head>
+<body id="e2e_test_utils" ng-controller="E2eTestUtilsCtrl">
+
+  <button ng-click="getWebRtcStats()" id="getWebRtcStats">Get WebRTC stats</button>
+  <div class="statsDisplay" id="webrtc_stats">
+     <pre>{{webrtcStats}}</pre>
+  </div>
+  <br/>
+
+  <button ng-click="getV2MirroringStats()" id="getV2MirroringStats">Get V2 Mirroring stats</button>
+  <div class="statsDisplay" id="v2_mirroring_stats">
+     <pre>{{v2MirroringStats}}</pre>
+  </div>
+  <br/>
+
+  <button ng-click="uploadV2MirroringLogs()" id="uploadV2MirroringLogs">Upload V2 Mirroring Logs</button>
+  <div class="statsDisplay" id="v2_mirroring_logs_report_id">
+    <pre>{{v2LogsId}}</pre>
+  </div>
+  <br/>
+
+  <button ng-click="getMirrorId()" id="getMirrorId">Get Mirror ID</button>
+  <div id="mirrorId">
+     <pre>{{mirrorId}}</pre>
+  </div>
+  <br/>
+
+  <button ng-click="stopAllActivities()" id="stopAllActivities">Stop All Activities</button>
+  <br/>
+  <br/>
+
+  <form ng-submit="stopActivityById()">
+    <input ng-model="activityIdToStop" type="text" size="15" id="activityIdToStop"/>
+    <input type="submit" value="Stop Activity" id="stopActivityById"/>
+  </form>
+
+  <form ng-submit="openTabThenMirror()">
+    <input ng-model="receiverIp" type="text" size="15" id="receiverIpAddress"/>
+    <input ng-model="url" type="text" size="50" id="urlToOpen"/>
+    <input type="submit" value="Open Then Mirror (v1)" id="mirrorUrl"/>
+  </form>
+
+  <form ng-submit="openTabThenMirrorV2()">
+    <input ng-model="receiverIpV2" type="text" size="15" id="receiverIpAddressV2"/>
+    <input ng-model="urlV2" type="text" size="50" id="urlToOpenV2"/>
+    <input type="submit" value="Open Then Mirror (v2)" id="mirrorUrlV2"/>
+  </form>
+
+  <button ng-click="stopV2Mirroring()" id="stopV2Mirroring">Stop V2 Mirroring</button>
+  <br/>
+
+  <form ng-submit="desktopMirror()">
+    <input type="submit" value="Start Desktop Mirror" id="mirrorDesktop"/>
+  </form>
+
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Free Options</title>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <style type="text/css">
+        #body {
+            margin: 0 auto;
+            width: 50em;
+        }
+
+        #container {
+            float: left;
+            margin: 1em;
+        }
+
+        #icon {
+            float: left;
+            margin-top: 2em
+        }
+
+        #tabs {
+            width: 30em;
+            min-height: 19em;
+        }
+
+        #tabs li {
+            font-size: 10pt;
+        }
+
+        #title {
+            font-size: 1.5em
+        }
+
+        #selExcludedSites, #txtAddExcludedSite {
+            width: 23em;
+        }
+
+        #excludedSites button {
+            width: 5em;
+        }
+
+        #messages {
+            padding: 1em;
+            max-width: 28em;
+            height: 3em;
+        }
+
+        #saved {
+            display: none;
+            background-color: #ffd;
+            padding: .5em;
+        }
+
+        #saved p {
+            font-size: 9pt;
+        }
+
+        #title, #buttons, #about, #about p, #messages p {
+            text-align: center
+        }
+
+        #delays p, #delays input, #txtPicturesOpacity {
+            text-align: right
+        }
+
+        .notice {
+            font-size: 8pt;
+        }
+
+        .hint {
+            font-size: 8pt;
+            padding-left: 25px;
+            display: block;
+        }
+
+        .hint, .hint a {
+            color: #555;
+        }
+
+        #sliderPicturesOpacity {
+            font-size: 0.7em;
+            margin-bottom: 0.5em
+        }
+
+        hr {
+            margin: 0.7em 0
+        }
+
+        .actionKey {
+            line-height: 14px;
+            margin-top: 10px;
+        }
+
+        #optionTab5 p {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/options.js"></script>
+</head>
+<body>
+<div id="body">
+    <img id="icon" src="../images/icon128.png">
+
+    <div id="container">
+        <h1 id="title">Hover Free Options</h1>
+
+        <div id="tabs">
+            <ul>
+                <li><a href="#optionTab1">General</a></li>
+                <li><a href="#optionTab2">Sites</a></li>
+                <li><a href="#optionTab3">Action keys</a></li>
+                <li><a href="#optionTab4">Advanced</a></li>
+                <li><a href="#optionTab5">Support the project</a></li>
+            </ul>
+            <div id="optionTab1">
+                <p><input type="checkbox" id="chkExtensionEnabled"> <label for="chkExtensionEnabled">Enable Hover
+                    Free</label></p>
+
+                <h2>View</h2>
+
+                <p><input type="checkbox" id="chkMouseUnderlap"> <label for="chkMouseUnderlap">Extend zoomed images
+                    below the mouse cursor<br>
+                    <span class="hint">If unchecked, zoomed images will be resized dynamically.</span></label></p>
+
+                <p><input type="checkbox" id="chkPageActionEnabled"> <label for="chkPageActionEnabled">Show icon in
+                    address bar<br>
+                    <span class="hint">(Only when images can be zoomed)</span></label></p>
+
+                <p><input type="checkbox" id="chkShowCaptions"> <label for="chkShowCaptions">Show pictures captions<br>
+                    <span class="hint">(When available)</span></label></p>
+
+                <p><input type="checkbox" id="chkShowWhileLoading"> <label for="chkShowWhileLoading">Show zoomed
+                    pictures while loading</label></p>
+
+                <p><input type="checkbox" id="chkShowHighRes"> <label for="chkShowHighRes">Show high resolution pictures
+                    when available<br>
+                    <span class="hint">Pictures may take more time to load.</span></label></p>
+
+                <h2>Delays</h2>
+
+                <div id="delays">
+                    <p><label for="txtDisplayDelay">Delay before displaying a picture</label>: <input type="text"
+                                                                                                      id="txtDisplayDelay"
+                                                                                                      size="2"> sec.</p>
+
+                    <p><label for="txtFadeDuration">Fading animation duration</label>: <input type="text"
+                                                                                              id="txtFadeDuration"
+                                                                                              size="2"> sec.</p>
+                </div>
+            </div>
+            <div id="optionTab2">
+                <h2><span id="Dis-enable">Disable</span> Hover Free for specific sites</h2>
+
+                <p>Enter URLs for which Hover Free must be <span id="Dis-enabled">disabled</span>.</p>
+
+                <p><i>Examples: facebook.com, google.com/reader</i></p>
+                <table id="excludedSites">
+                    <tr>
+                        <td><input type="text" id="txtAddExcludedSite"></td>
+                        <td>
+                            <button id="btnAddExcludedSite">Add</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><select id="selExcludedSites" size="8"></select></td>
+                        <td>
+                            <button id="btnRemoveExcludedSite">Remove</button>
+                            <br>
+                            <button id="btnClearExcludedSites">Clear</button>
+                        </td>
+                    </tr>
+                </table>
+                <p class="notice">Be aware that domain filters can overlap. Example: if you have filtered
+                    "picasaweb.google.com" and "google.com", removing "picasaweb.google.com" will not reactivate Picasa
+                    Web Albums, as it will still be excluded by the "google.com" filter.</p>
+
+                <h2><input type="checkbox" id="chkWhiteListMode"> <label for="chkWhiteListMode">White list mode</label>
+                </h2>
+
+                <p>If this box is checked, Hover Free will be enabled <em>only</em> for the sites listed above.</p>
+            </div>
+            <div id="optionTab3">
+                <table id="tableActionKeys">
+                </table>
+            </div>
+            <div id="optionTab4">
+                <h2>Advanced options</h2>
+
+                <p><input type="checkbox" id="chkUpdateNotifications"> <label for="chkUpdateNotifications">Show update
+                    notifications</label><br>
+                    <span class="hint"><a id="aShowUpdateNotification" href="javascript:">Show latest</a></span></p>
+
+                <p><input type="checkbox" id="chkAddToHistory"> <label for="chkAddToHistory">Add viewed pictures to the
+                    browser's history</label></p>
+
+                <p><input type="checkbox" id="chkFilterNSFW"> <label for="chkFilterNSFW">Exclude NSFW images (Reddit
+                    only)</label></p>
+
+                <p><input type="checkbox" id="chkAlwaysPreload"> <label for="chkAlwaysPreload">Automatically preload
+                    zoomed images<br>
+                    <span class="hint">(This may slow down browsing and consume a lot of bandwidth)</span></label></p>
+                    
+                <p><input type="checkbox" id="chkEnableGalleries"> <label for="chkEnableGalleries">Enable albums support</label></p>
+
+                <hr>
+                <p><label for="txtPicturesOpacity">Zoomed pictures opacity</label>: <input type="text"
+                                                                                           id="txtPicturesOpacity"
+                                                                                           size="2"> %
+
+                <div id="sliderPicturesOpacity"></div>
+                <div class="notice"><span>Transparent</span><span style="float: right">Opaque</span></div>
+                </p>
+            </div>
+            <div id="optionTab5">
+                <h2>Support Hover Free Development</h2>
+
+                <p>Hover Free is distributed for free and is supported via donation.  Currently the best way to donate is in the form of pull requests via <a href="https://github.com/ralph-tice/hoverfree/pulls">GitHub</a> but if you don't have time to spare <a href="https://www.gittip.com/ralphtice/">gittip</a> are also appreciated.  Or just tell your friends.</p>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="btnSave">Save</button>
+            <button id="btnReset">Reset</button>
+        </div>
+        <div id="messages">
+            <div id="saved"><p>Options saved.<br>Some settings may need a page refresh.</p></div>
+        </div>
+        <div id="about">
+            Hover Free would not be possible without a lot of hard work and dedication from Romain Vallet.  That said, Hover Free embraces the spirit of open source software in allowing for development to continue without the threat of malicious changes or violation of privacy or degradation of users' browsing experience.
+            <p><g:chrome-web-store widgettype="ratingreview" appid="hcmnnggnaofmhflgomfjfbndngdoogkj"></g:chrome-web-store></p>
+            <script type="text/javascript" src="https://chrome.google.com/webstore/widget/developer/scripts/widget.js"></script>
+            <p><a target="_blank" href="https://github.com/ralph-tice/hoverfree/">Home page</a> -
+                <a target="_blank" href="https://github.com/ralph-tice/hoverfree/issues">Report a bug</a></p>
+
+            <!-- Google +1 -->
+            <div class="g-plusone" data-size="small"
+                 data-href="https://chrome.google.com/webstore/detail/hover-free/hcmnnggnaofmhflgomfjfbndngdoogkj"></div>
+            <script src="../js/g-plusone.js"></script>
+
+            <!-- Facebook Like -->
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FHover-Free%2F122258947959335&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=21&amp;ref=options_page"
+                    style="border:none; overflow:hidden; width:100px; height:21px; vertical-align: middle;"></iframe>
+
+            <p>Version <span id="versionNumber"></span>
+            <p>&copy; 2013 Romain Vallet &copy; 2013 Ralph Tice</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

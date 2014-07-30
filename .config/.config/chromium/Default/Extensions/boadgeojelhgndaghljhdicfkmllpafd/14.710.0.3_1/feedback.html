@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html ng-app="feedbackController" ng-csp xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Google Cast feedback
+    </title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+    <link href="feedback.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="background_script.js"></script>
+  </head>
+  <body id="feedback" ng-controller="FeedbackCtrl">
+    <div class="fixed-top">
+      <header>
+        <img id="cast-icon" src="data/icon48.png" alt="Cast">
+        <h1 class="top-title">
+          <angular-message desc="Header for feedback page" key="cast_feedback_title">
+            Google Cast feedback
+          </angular-message>
+        </h1>
+      </header>
+    </div>
+    <div class="options-sections">
+      <div ng-show="requestMirroringSessionFeedback">
+        <angular-message desc="Displayed to user after a mirroring session" key="cast_feedback_thankyou">
+          Thank you for trying Cast mirroring.
+        </angular-message>
+        <br/>
+        <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_request">
+          Since your session lasted over a minute, we&apos;d like you to provide
+          our team feedback about your experience. If anything went wrong, please
+          click the boxes to attach the Cast extension and External logs.
+        </angular-message>
+      </div>
+      <p>
+        <angular-message desc="Google cast feedback general description" key="cast_feedback_general_description">
+          Your feedback helps us to improve Google Cast and is
+          appreciated.  Note that we are not able to provide personal
+          responses to submitted feedback issues.  If you wish to
+          contact Google directly about issues related to Chromecast,
+          please refer
+          to <a href="https://support.google.com/chromecast/troubleshooter/2995236?hl=en&ref_topic=2994245">this
+          page</a> for details.
+        </angular-message>
+      </p>
+      <div ng-hide="requestMirroringSessionFeedback">
+        <angular-message desc="Feedback question" key="cast_feedback_topic">
+          What are you providing feedback about?
+        </angular-message>
+        <br/>
+        <select ng-model="top.feedbackType"
+                ng-options="type.value as type.desc for type in feedbackTypes">
+        </select>
+      </div>
+      <div ng-switch="feedbackType">
+        <div ng-switch-default>
+          <span class="description">
+            <angular-message desc="Tell user to enter feedback below" key="cast_feedback_description_required_label">
+              Please enter your feedback here (required).
+            </angular-message>
+          </span>
+          <textarea ng-model="top.feedbackDescription" id="fd-description"
+              rows="8" cols="60"></textarea>
+        </div>
+        <div ng-switch-when="MirroringQuality">
+          <table>
+            <caption>
+              <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_quality_details">
+                Mirroring quality details
+              </angular-message>
+            </caption>
+            <tr ng-show="debug">
+              <td>
+                <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_processor">
+                  Processor:
+                </angular-message>
+                (<a href="http://www.wikihow.com/Check-CPU-Speed" target="_new">help</a>)
+              </td>
+              <td colspan="5">
+                <input type="text" ng-model="top.cpu" size="30" required="true" placeholder="Example: Intel i5 @ 3.2GHz"/> <em>(required)</em>
+              </td>
+            </tr>
+            <tr ng-show="debug">
+              <td>
+                <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_gpu">
+                  Graphics card/GPU:
+                </angular-message>
+                (<a href="http://wiki.answers.com/Q/How_do_you_find_out_what_kind_of_graphics_card_you_have" target="_new">help</a>)
+              </td>
+              <td colspan="5">
+                <input type="text" ng-model="top.gpu" size="30" required="true" placeholder="Example: Radeon HD 7570"/>
+                <em>
+                  <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_required_parens">
+                    (required)
+                  </angular-message>
+                </em>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_video_smoothness">
+                  Video Smoothness:
+                </angular-message>
+              </td>
+              <td ng-repeat="r in videoSmoothnessRatings">
+                <input type="radio" ng-model="top.videoSmoothness"
+                    value="{{r.id}} ({{r.desc}})" id="vsr-{{r.id}}"/>
+                <label for="vsr-{{r.id}}">
+                  {{r.text}}
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_video_quality">
+                  Video Quality:
+                </angular-message>
+              </td>
+              <td ng-repeat="r in videoQualityRatings">
+                <input type="radio" ng-model="top.videoQuality"
+                    value="{{r.id}} ({{r.desc}})" id="vqr-{{r.id}}"/>
+                <label for="vqr-{{r.id}}">
+                  {{r.text}}
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_audio_quality">
+                  Audio Quality:
+                </angular-message>
+              </td>
+              <td ng-repeat="r in audioQualityRatings">
+                <input type="radio" ng-model="top.audioQuality"
+                    value="{{r.id}} ({{r.desc}})" id="aqr-{{r.id}}"/>
+                <label for="aqr-{{r.id}}">
+                  {{r.text}}
+                </label>
+              </td>
+            </tr>
+          </table>
+          <div class="question-with-offset-text">
+            <angular-message desc="Requesting feedback after a mirroring session" key="cast_feedback_url">
+              (Optional) What content/URL were you casting?
+            </angular-message>
+          </div>
+          <input type="text" size="60" ng-model="top.projectedContentUrl" />
+          <div class="question-with-offset-text">
+            <angular-message desc="Comments after requesting feedback after a mirroring session" key="cast_feedback_comments">
+              Additional comments:
+            </angular-message>
+          </div>
+          <textarea rows="2" cols="60" ng-model="top.comments"></textarea>
+        </div>
+        <div ng-switch-when="Discovery">
+          <p>
+            <angular-message desc="Displayed to user when requesting feedback about discovery"
+                key="cast_feedback_discovery_setup">
+              Are you able to see your Chromecast from the Windows/Mac setup application?
+            </angular-message>
+            <br/>
+            <label><input type="radio" ng-model="top.visibleInSetup" value="Yes">
+              <angular-message desc="Radio button response to feedback about discovery"
+                  key="cast_feedback_discovery_yes">
+                Yes
+              </angular-message>
+            </input>
+            </label>
+            <br/>
+              <label>
+                <input type="radio" ng-model="top.visibleInSetup" value="No">
+                  <angular-message desc="Radio button response to feedback about discovery"
+                                   key="cast_feedback_discovery_no">
+                    No
+                  </angular-message>
+                </input>
+              </label>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.visibleInSetup" value="Unknown">
+              <angular-message desc="Radio button response to feedback about discovery"
+                  key="cast_feedback_discovery_did_not_try">
+                Did not try
+              </angular-message>
+              </input>
+            </label>
+          </p>
+          <p>
+            <angular-message desc="Displayed to user when requesting feedback about discovery"
+                key="cast_feedback_discovery_vpn">
+              Do you have any special VPN, proxy, firewall, or NAS software installed?
+            </angular-message>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.hasNetworkSoftware" value="Yes">
+              <angular-message desc="Radio button response to feedback about discovery"
+                  key="cast_feedback_discovery_yes">
+                Yes
+              </angular-message>
+              </input>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.hasNetworkSoftware" value="No">
+              <angular-message desc="Radio button response to feedback about discovery"
+                  key="cast_feedback_discovery_no">
+                No
+              </angular-message>
+              </input>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.hasNetworkSoftware" value="Unknown">
+              <angular-message desc="Radio button response to feedback about discovery"
+                  key="cast_feedback_discovery_not_sure">
+                Not sure
+              </angular-message>
+              </input>
+            </label>
+          </p>
+          <p>
+            <angular-message desc="Displayed to user when requesting feedback about discovery"
+                key="cast_feedback_discovery_network">
+              Which of the following best describes your network?
+            </angular-message>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.networkDescription" value="SameWifi">
+              <angular-message desc="Network topology radio button"
+                  key="cast_feedback_discovery_network_wifi_same">
+                PC and Chromecast on the same Wi-Fi network
+              </angular-message>
+              </input>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.networkDescription" value="DifferentWifi">
+                <angular-message desc="Network topology radio button"
+                                 key="cast_feedback_discovery_network_wifi_diff_networks">
+                PC and Chromecast on different Wi-Fi networks (e.g. 2.4GHz vs. 5GHz)
+                </angular-message>
+              </input>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" ng-model="top.networkDescription" value="WiredPC">
+              <angular-message desc="Network topology radio button"
+                  key="cast_feedback_discovery_network_wifi_wired">
+                PC is wired and Chromecast is on Wi-Fi
+              </angular-message>
+              </input>
+            </label>
+          </p>
+
+          <div class="question-with-offset-text">
+            <angular-message desc="Comments after requesting feedback after a mirroring session"
+                key="cast_feedback_comments">
+              Additional comments:
+            </angular-message>
+          </div>
+          <textarea rows="2" cols="60" ng-model="top.comments"></textarea>
+        </div>
+      </div>
+      <br/>
+
+      <label for="attach-logs">
+        <input type="checkbox" id="attach-logs" ng-model="top.attachLogs"
+               ng-change="attachLogsClick()">
+        <angular-message desc="Checkbox label for grabbing logs from users"
+            key="goog_cast_feedback_mirroring_logs_button">
+          Attach Cast extension logs -
+          Please check this as it helps us debug issues
+        </angular-message>
+        </input>
+      </label>
+      <div ng-show="includeFineLogs" class="feedback-fine-log-warning">
+        <angular-message desc="Warning label about fine logs are included"
+            key="goog_cast_feedback_fine_logs_warning">
+          Warning - Detailed logging is enabled; logs below may include URLs or other sensitive information.  Please review and ensure that you're comfortable submitting this information.
+        </angular-message>
+      </div>
+      <div class="logsDisplay">
+        <pre>{{logs}}</pre>
+      </div>
+
+      <br/>
+      <label for="attach-external-logs">
+        <input type="checkbox" id="attach-external-logs"
+          ng-model="top.attachExternalLogs" ng-change="attachExternalLogsClick()">
+        <angular-message desc="Checkbox label for grabbing external logs from users"
+            key="goog_cast_feedback_mirroring_external_logs_button">
+          Attach device logs -
+          Please check this as it helps us debug issues
+        </angular-message>
+        </input>
+      </label>
+
+      <div class="logsDisplay" ng-switch on="externalLogsState">
+        <span ng-switch-when="noDevice" class="logsError">
+          <angular-message desc="Error displayed when we can't get the logs"
+              key="goog_cast_feedback_mirroring_external_logs_error_device_not_found">
+            Chrome could not find a connected device.
+          </angular-message>
+        </span>
+        <span ng-switch-when="notAvailable" class="logsError">
+          <angular-message desc="Error displayed when we can't get the logs"
+              key="goog_cast_feedback_mirroring_external_logs_error_device_not_supported">
+            The device you were using does not provide logs.
+          </angular-message>
+        </span>
+        <span ng-switch-when="error" class="logsError">
+          <angular-message desc="Error displayed when we failed to get the logs"
+              key="goog_cast_feedback_get_external_logs_error">
+            Unable to retrieve logs from the device.
+          </angular-message>
+        </span>
+        <span ng-switch-when="retrieving" >
+          <angular-message desc="Displayed when we are trying to get the logs"
+              key="goog_cast_feedback_retrieving_external_logs">
+            Including logs from {{externalDeviceName}}.
+          </angular-message>
+        </span>
+        <span ng-switch-when="ok">
+          <angular-message desc="Displayed when we are tryingt to get the logs"
+              key="goog_cast_feedback_got_external_logs">
+            Included logs from {{externalDeviceName}}.
+          </angular-message>
+        </span>
+      </div>
+
+      <p>
+        <angular-message desc="Disclaimer for grabbing session data"
+                         key="cast_feedback_mirroring_disclaimer">
+          Your Chrome version, operating system version, Cast extension
+          options, and WebRTC performance stats will be submitted in addition to
+          any information you choose to include above. This feedback is used to
+          diagnose problems and help improve the extension. Any personal
+          information you submit, whether explicitly or incidentally will be
+          protected in accordance with our privacy policies. <b>By submitting this
+          feedback, you agree that Google may use feedback that you provide to
+          improve any Google product or service.</b>
+        </angular-message>
+      </p>
+      <div>
+        <button id="cancel" ng-click="cancel()">
+          <angular-message desc="Feedback button" key="cast_feedback_mirroring_cancel">
+            Cancel
+          </angular-message>
+        </button>
+        <button id="submit" ng-click="sendFeedback()">
+          <angular-message desc="Feedback button" key="cast_feedback_mirroring_submit">
+            Send Feedback
+          </angular-message>
+        </button>
+      </div>
+      <div class="overlay" ng-show="showSendConfirmation">
+        <div>
+          <p>{{sendDialogText}}</p>
+          <button ng-disabled="!feedbackSent" ng-click="closeWindow()">
+            <angular-message desc="Feedback button" key="cast_feedback_mirroring_ok">
+              OK!
+            </angular-message>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

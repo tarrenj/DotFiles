@@ -1,0 +1,1334 @@
+<!doctype html>
+<html ng-app="dongleSetup" ng-csp>
+  <head>
+    <link href="dongle_setup_flow_css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="angular.js"></script>
+    <script type="text/javascript" src="angular_sanitize.js"></script>
+    <script type="text/javascript" src="background_script.js"></script>
+    <title>Cast device settings</title>
+  </head>
+  <body dir="{{getDirection(null)}}" id="dongle-setup"
+       ng-controller="dongle.DongleSetupFlowCtrl">
+    <div ng-class="{'cast-device-selection-shifted': flowId}">
+      <h3 ng-show="activeNetworkName && networkingApiSupported">
+        <angular-message desc="Title for an element containing list of the cast
+            devices that can be used for casting on the current network. The
+            message parameter is the name of the network that is connected at
+            the time." key="dongle_cast_device_list_title">
+          Cast devices on network "{{activeNetworkName}}"
+        </angular-message>
+      </h3>
+      <h3 ng-hide="activeNetworkName && networkingApiSupported">
+        <angular-message desc="Title for an element containing list of the cast
+            devices that can be used for casting on the current network. The
+            title is shown when the Wi-Fi is not connected, or the connection
+            status cannot be detected."
+            key="dongle_cast_device_list_title_no_wifi">
+          Available Cast devices
+        </angular-message>
+      </h3>
+      <div class="cast-device-box">
+        <div class="grey-text no-cast-devices-status"
+            ng-show="castDeviceList.length == 0">
+          <angular-message desc="Message shown when no cast devices that can be
+              used for casting are found on the current network."
+              key="donge_no_cast_device_found">
+            No Cast devices found.
+          </angular-message>
+          <p ng-show="!activeNetworkName && networkingApiSupported">
+            <angular-message desc="Message shown if no devices that can be used
+                for casting are found and a Wi-Fi network is not connected.
+                The user instructed to connect a Wi-Fi network, as the cast
+                devices can only be discovered on the same Wi-Fi network they
+                use." key="dongle_no_cast_devices_connect_wifi_message">
+              Please connect to a Wi-Fi network to see configured Cast devices.
+            </angular-message>
+          </p>
+          <p ng-show="activeNetworkName && networkingApiSupported && allowAdd">
+            <angular-message desc="Message shown if no devices that can be used
+                for casting are found. It is shown in the area reserved for the
+                list of cast devices configured on the current network. The
+                message instructs the user to try using a button displayed
+                bellow the list to set up a new cast device."
+                key="dongle_no_cast_devices_add_new_message">
+              Click one of the buttons below to set up a new device.
+            </angular-message>
+          </p>
+        </div>
+        <ul class="device-list-setup" ng-show="castDeviceList.length">
+          <li ng-class="{
+                'device-item': listItem != castDevice,
+                'device-item-selected': listItem == castDevice
+              }"
+              ng-repeat="listItem in castDeviceList"
+              ng-click="onDeviceSelected($index, 'castDeviceList',
+                  'castDevice')"
+              dir="{{getDirection(listItem['name'])}}">
+            {{listItem['name']}}
+          </li>
+        </ul>
+      </div>
+      <button ng-click="onAddDevice()" ng-disabled="flowId" ng-show="allowAdd">
+        <angular-message desc="Label for the button in the extension options
+            that starts search for not yet setup Chromecasts."
+            key="dongle_add_chromecast_button_label">
+          Add Chromecast...
+        </angular-message>
+      </button>
+      <button ng-click="onEditDevice()"
+          ng-disabled="!castDevice || !castDevice.isChromecast || flowId"
+          ng-show="allowEdit">
+        <angular-message desc="The label for the button in the extension options
+            that starts flow for editing the selected device's settings."
+            key="dongle_edit_button_label">
+          Edit...
+        </angular-message>
+      </button>
+      <div ng-hide="allowAdd || allowEdit">
+        <a href="http://support.google.com/chromecast/go/nodevices"
+            target="_blank" class="no-devices-warning">
+          <angular-message desc="Text for the link shown in the extension
+              options directing the user to the support page if she cannot
+              find his Chromecast in the list of the detected Chromecasts."
+              key="dongle_no_cast_device_link">
+            Don't see your device?
+          </angular-message>
+        </a>
+      </div>
+    </div>
+
+    <div id="dongle-flow-background" ng-show="flowId"
+        ng-click="showNetworkOptions = false">
+      <div class = "scrollable" ng-switch="flowId">
+
+      <div ng-switch-when="flow-edit-device" class="flow-edit-device">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for a dialog used for editing a
+                Chromecast settings. It contains the name of the Chromecast."
+                key="dongle_flow_edit_device_title">
+              {{deviceToSetup}} settings
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="grouped-first">
+            <div class="network-select-description">
+              {{getInputLabel('network-settings')}}
+            </div>
+            <div class="input-row">
+              <div class="input-row-label">
+                {{getInputLabel('network-name')}}
+              </div>
+              <div class="context-menu">
+                <div class="context-menu-content">
+                  <div class="context-menu-input">
+                    <input type="text" ng-disabled="connecting"
+                        ng-model="$parent.networkName"
+                        ng-show="selectCustomNetwork"
+                        dir="{{getDirection(networkName)}}">
+                    </input>
+                    <div class="context-menu-input-arrow"
+                        ng-click="!connecting && toggleNetworkOptions($event)"
+                        ng-show="selectCustomNetwork">
+                    </div>
+                  </div>
+                  <button class="context-menu-button"
+                      ng-show="!selectCustomNetwork"
+                      ng-disabled="connecting"
+                      ng-click="toggleNetworkOptions($event)">
+                    <div class="context-menu-network-option-icon
+                                account-for-button-top-border"
+                        ng-style="getNetworkIconStyle(network, 0)">
+                      <div class="context-menu-network-option-lock"
+                          ng-show="networkNeedsPassword(network)">
+                      </div>
+                    </div>
+                    <span class="context-menu-button-label ng-class:{
+                        'context-menu-button-label-no-icon': !network}">
+                      <div dir="{{getDirection(networkName)}}">
+                        {{networkName || getInputLabel('default-network-name')}}
+                      </div>
+                    </span>
+                  </button>
+                  <div class="context-menu-options"
+                      ng-show="showNetworkOptions">
+                    <ul class="context-menu-options-group">
+                      <li ng-repeat="option in networkOptions"
+                          class="context-menu-options-item"
+                          ng-click="onNetworkSelected(option)">
+                        <div class="context-menu-network-option-icon"
+                            ng-style="getNetworkIconStyle(option['value'], 0)">
+                          <div class="context-menu-network-option-lock"
+                              ng-show="networkNeedsPassword(option['value'])">
+                          </div>
+                        </div>
+                        <div class="context-menu-network-option-name"
+                            dir="{{getDirection(option['name'])}}">
+                          {{option['name']}}
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="context-menu-options-group-splitter"
+                        ng-show="!selectCustomNetwork && networkOptions.length">
+                    </div>
+                    <ul class="context-menu-options-group">
+                      <li class="context-menu-options-item"
+                          ng-show="!selectCustomNetwork"
+                          ng-click="onJoinOtherNetwork()">
+                        <div class="context-menu-network-option-icon-empty">
+                        </div>
+                        <div class="context-menu-network-option-name">
+                          {{getInputLabel('join-other-option')}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-row" ng-show="selectCustomNetwork">
+              <div class="input-row-label">
+                {{getInputLabel('network-security')}}
+              </div>
+              <select class="input-row-select-field"
+                  ng-model="$parent.customNetworkSecurity"
+                  ng-disabled="connecting"
+                  ng-options="auth.value as auth.name
+                              for auth in customNetworkSupportedSecurity"
+                  ng-change="networkPassword=''">
+              </select>
+            </div>
+            <div class="input-row" ng-hide="shouldHidePasswordField()">
+              <div class="input-row-label">
+                {{getInputLabel('network-password')}}
+              </div>
+              <input class="input-row-field" type="password"
+                  ng-model="$parent.networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-hide="showNetworkPassword"
+                  dir="{{getDirection(networkPassword)}}">
+              </input>
+              <input class="input-row-field" type="text"
+                  ng-model="$parent.networkPassword"
+                  ng-disabled="shouldDisablePasswordField() || connecting"
+                  ng-show="showNetworkPassword"
+                  dir="{{getDirection(networkPassword)}}">
+              </input>
+              <div ng-class="{
+                    'input-password-toggle-button-hidden': !showNetworkPassword,
+                    'input-password-toggle-button-shown': showNetworkPassword
+                  }" ng-show="!shouldDisablePasswordField()"
+                  ng-click='showNetworkPassword = !showNetworkPassword'>
+              </div>
+            </div>
+          </div>
+          <div class="splitter"></div>
+          <div class="grouped">
+            <div class="input-row">
+              <div class="input-row-label">
+                {{getInputLabel('device-name')}}
+              </div>
+              <input class="input-row-field" ng-model="$parent.friendlyName"
+                  ng-disabled="connecting" maxlength="24" type="text"
+                  dir="{{getDirection(friendlyName)}}">
+            </div>
+            <div class="input-row">
+              <div class="input-row-label">
+                {{getInputLabel('time-zone')}}
+              </div>
+              <select class="input-row-select-field" ng-model="$parent.timezone"
+                  ng-disabled="!availableTimezones.length || connecting"
+                  ng-options="item.timezone as item.display_string
+                              for item in availableTimezones">
+                <option value="" ng-show="!timezone">
+                  {{getInputLabel('default-time-zone-name')}}
+                </option>
+              </select>
+            </div>
+            <div class="input-row">
+              <div class="input-row-label">
+                {{getInputLabel('locale')}}
+              </div>
+              <select class="input-row-select-field" ng-model="$parent.locale"
+                  ng-disabled="!availableLocales.length || connecting"
+                  ng-options="item.locale as item.display_string
+                              for item in availableLocales">
+                <option value="" ng-show="!locale">
+                  {{getInputLabel('default-locale-name')}}
+                </option>
+              </select>
+            </div>
+            <div class="input-row" ng-hide="timeFormat < 0">
+              <div class="input-row-label">
+                {{getInputLabel('time-format')}}
+              </div>
+              <select class="input-row-select-field"
+                  ng-model="$parent.timeFormat"
+                  ng-disabled="connecting"
+                  ng-options="item.format as item.display_string
+                              for item in availableTimeFormats">
+              </select>
+            </div>
+          </div>
+          <div class="grouped">
+            <div class="input-row">
+              <label>
+                <input type="checkbox" class="input-row-checkbox"
+                    ng-disabled="connecting"
+                    ng-model="optIn.stats">
+                </input>
+                <div class="input-row-checkbox-text">
+                  <angular-message desc="Label for a checkbox the user has to
+                      check to give a consent to send usage statistics and crash
+                      reports from a Chromecast to Google. The checkbox is shown
+                      in a dialog for editting the Chromecast's settings."
+                      key="dongle_flow_edit_device_send_stats">
+                    Automatically send usage statistics and crash reports to
+                    Google
+                  </angular-message>
+                </div>
+              </label>
+            </div>
+            <div class="input-row">
+              <label>
+                <input type="checkbox" class="input-row-checkbox"
+                    ng-disabled="connecting"
+                    ng-model="optIn.deviceId">
+                </input>
+                <div class="input-row-checkbox-text">
+                  <angular-message desc="Label for a checkbox the user has to
+                      check to give a consent to use a Chromecast's serial number
+                      when checking for updates for the Chromecast. The checkbox
+                      is shown in a dialog for editting the Chromecast's
+                      settings." key="dongle_flow_edit_device_serial_num">
+                    Use this Chromecast's serial number when checking for
+                    updates
+                  </angular-message>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="grouped">
+            <div class="device-info">
+              <div>
+                <angular-message desc="An entry on Chromecast settings page that
+                    shows the Chromecast's IP address"
+                    key="dongle_flow_edit_info_ip_address">
+                  IP address {{IPAddress}}
+                </angular-message>
+              </div>
+              <div>
+                <angular-message desc="An entry on Chromecast settings page that
+                    shows the Chromecast's MAC address"
+                    key="dongle_flow_edit_info_mac_address">
+                  MAC address {{MACAddress}}
+                </angular-message>
+              </div>
+              <div>
+                <angular-message desc="An entry on Chromecast settings page that
+                    shows the Chromecast's build version"
+                    key="dongle_flow_edit_info_build_version">
+                  Build {{buildVersion}}
+                </angular-message>
+              </div>
+              <div>
+                <angular-message desc="An entry on Chromecast settings page that
+                    shows the Chromecast's country code (e.g. US or GB)."
+                    key="dongle_flow_edit_info_country_code">
+                  Country code {{deviceCountryCode}}
+                </angular-message>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status"  ng-show="connecting">
+            <div class="progress-text grey-text">
+              <div class="progress-icon"></div>
+              <angular-message desc="Message shown to the user while a
+                  Chromecast is being set up. Next to the text is a spinner
+                  animation." key="dongle_progress_setting_up">
+                Setting up the Chromecast...
+              </angular-message>
+            </div>
+          </div>
+          <div class="control-strip-status-buttons" ng-hide="connecting">
+            <button ng-click="onReboot()">
+              {{getButtonLabel('reboot-button')}}
+            </button>
+            <button ng-click="onFactoryReset()">
+              {{getButtonLabel('factory-reset-button')}}
+            </button>
+          </div>
+          <div class="control-buttons">
+            <button ng-click="onSave()"
+                ng-disabled="connecting || shouldDisableSaveButton()">
+              {{getButtonLabel('save-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-select-device" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for the dialog used to select a
+                Chromecast to set up. The dialog contains a list of all the
+                Chromecasts that are detected as not being set up."
+                key="dongle_flow_select_device_title">
+              Set up a new Chromecast
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <angular-message desc="Message above the list of detected unset
+              Chromecasts instructing the user how to discover his Chromecast's
+              name, which is shwon on the TV the Chromecast is plugged into."
+              key="dongle_flow_selec_device_chromecast_name_on_TV">
+            Plug your Chromecast into your TV and select the Chromecast name
+            that you see displayed on your TV screen.
+          </angular-message>
+          <div class="device-box">
+            <div class="device-list-status"
+                ng-hide="deviceList && deviceList.length">
+              <span class="grey-text">
+                <angular-message desc="Status message shown to the user while a
+                    unset Chromecasts are being discovered by scanning Wi-Fi
+                    networks for those belonging to a Chromecast"
+                    key="dongle_progress_searching">
+                  Searching for Chromecasts...
+                </angular-message>
+              </span>
+            </div>
+            <ul class="device-list-unsetup"
+                ng-show="deviceList && deviceList.length">
+              <li ng-class="{
+                    'device-item': listItem != device,
+                    'device-item-selected': listItem == device
+                  }"
+                  ng-repeat="listItem in deviceList"
+                  ng-click="onDeviceSelected($index, 'deviceList', 'device')"
+                  dir="{{getDirection(listItem['Name'])}}">
+                {{listItem['Name']}}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status">
+            <div class="grey-text progress-text"
+                ng-hide="deviceList && deviceList.length">
+              <div class="progress-icon"></div>
+                <angular-message desc="Status message shown to the user while a
+                    unset Chromecasts are being discovered by scanning Wi-Fi
+                    networks for those belonging to a Chromecast"
+                    key="dongle_progress_searching">
+                  Searching for Chromecasts...
+                </angular-message>
+              </div>
+            <div ng-show="deviceList && deviceList.length">
+              <a href="" ng-click="updateFlow('flow-no-device-help')">
+                <angular-message desc="Label for the link directing the user to
+                    troubleshooting steps in a case that he cannot see his
+                    Chromecast in the list of detected unset Chromecasts."
+                    key="dongle_flow_select_device_no_device_help">
+                  Help, I don't see my Chromecast
+                </angular-message>
+              </a>
+            </div>
+          </div>
+          <div class="control-buttons">
+            <button ng-click="onSetup()" ng-disabled="!device">
+              {{getButtonLabel('set-up-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-select-country" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="The title of the dialog in which the user
+                is asked to select the country he/she is currently in. The
+                country is selected from a dropdown with a list of available
+                countries." key="dongle_flow_select_country_title">
+              Select your country
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="grouped-first">
+            <div class="network-select-description">
+              {{getInputLabel('select-country-description')}}
+            </div>
+            <div class="input-row">
+              <div class="input-row-label">
+                {{getInputLabel('country')}}
+              </div>
+              <select class="input-row-select-field" ng-model="$parent.country"
+                  ng-options="item.code as item.display_string
+                              for item in availableCountries">
+                <option value="" ng-show="!country">
+                  {{getInputLabel('default-country-name')}}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="onCountrySelected()" ng-disabled="!country">
+              {{getButtonLabel('continue-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-setup-notice" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for the dialog warning the user that
+                his computer will be disconnected from the network when he
+                proceeds with the Chromecast setup. The dialog is shown just
+                after the user selects a Chromecast to set up, but before the
+                setup starts, as user permission to change network connection is
+                needed. The message is injected the Chromecast name."
+                key="dongle_flow_setup_notice_title">
+              Ready to set up {{deviceToSetup}}
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <angular-message desc="Warning that the internet connection will
+              be unavailable while Chromecast setup is in progress. It is shown
+              just after the user selects a Chromecast to set up, but before the
+              setup starts."
+              key="dongle_flow_setup_notice_content">
+            Your computer's internet connection will temporarily be unavailable
+            while we get {{deviceToSetup}} up on your network.<br>
+            <br>
+            But don't worry, your connection will be restored as soon as setup
+            is finished.<br>
+          </angular-message>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="onContinue()">
+              {{getButtonLabel('continue-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-connect-to-device" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title of the dialog shown while the computer
+                is connecting to the network emitted by a Chromecast during the
+                setup process. In order to successfully use the Chromecast's
+                setup API, the computer has to be connected to the network. The
+                Chromecast's name is injected into the message."
+                key="dongle_flow_connecting_title">
+              Connecting to {{deviceToSetup}}
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="flow-content-detached">
+            <div class="flow-content-status">
+               <div class="grey-text progress-text">
+               <div class="buffer-div"></div>
+                <div class="progress-icon"></div>
+                <div>
+                  <angular-message desc="Message shown to the user while the
+                      computer is connecting to the network emitted by a
+                      Chromecast during the setup process. In order to
+                      successfully use the Chromecast's setup API, the computer
+                      has to be connected to the network. The Chromecast's name
+                      is injected into the message."
+                      key="dongle_flow_connection_content">
+                    Connecting to {{deviceToSetup}}...
+                  </angular-message>
+                </div>
+                <div class="buffer-div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-confirm-pin" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title of the dialog shown while the computer
+                is connecting to the network emitted by a Chromecast during the
+                setup process. In order to successfully use the Chromecast's
+                setup API, the computer has to be connected to the network. The
+                Chromecast's name is injected into the message."
+                key="dongle_flow_connecting_title">
+              Connecting to {{deviceToSetup}}
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="pin-status" ng-show="pin.length == 4">
+            <angular-message desc="Message asking the user to confirm that the
+                pin code shown on the TV screen his Chromecast is plugged in
+                equals to the one extracted from the data retrieved from the
+                Chromecast. The PIN code extracted from the Chromecast is
+                displayed bellow this message."
+                key="dongle_flow_confirm_pin_request">
+              Please confirm that this code is shown on your TV:
+            </angular-message>
+            <br>
+            <div class="pin-container">
+              <span class="pin-cell">{{pin[0]}}</span>
+              <span class="pin-cell">{{pin[1]}}</span>
+              <span class="pin-cell">{{pin[2]}}</span>
+              <span class="pin-cell">{{pin[3]}}</span>
+            </div>
+          </div>
+          <div ng-hide="pin.length == 4">
+            <angular-message desc="Message shown if the user, when asked to
+                confirm that the pin extracted from the Chromecast is the one
+                displayed on his TV screen, dissmisses the pin."
+                key="dongle_flow_confirm_pin_dismissed_message">
+              We will not complete setup for the Chromecast since you did not
+              confirm that the code is shown on your TV.<br>
+              <br>
+              You may also have accidentally connected to another Chromecast.
+              Please ensure that your Chromecast is plugged in and your TV is
+              set to the right input.
+            </angular-message>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-show="pin.length == 4" ng-click="startSetup()">
+              {{getButtonLabel('accept-button')}}
+            </button>
+            <button ng-show="pin.length == 4" ng-click="pin = []">
+              {{getButtonLabel('reject-button')}}
+            </button>
+            <button ng-hide="pin.length == 4" ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-select-network" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for the dialog for setting up the
+                inital Chromecast settings (e.g. the network the Chromecast
+                should use). The Chromecast's name is injected into the
+                message." key="dongle_flow_select_network_title">
+              Set up {{deviceToSetup}}
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="network-select-description">
+            {{getInputLabel('network-settings')}}
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">
+              {{getInputLabel('network-name')}}
+            </div>
+            <div class="context-menu">
+              <div class="context-menu-content">
+                <div class="context-menu-input">
+                  <input type="text" ng-disabled="connecting"
+                      ng-model="$parent.networkName"
+                      ng-show="selectCustomNetwork"
+                      dir="{{getDirection(networkName)}}">
+                  </input>
+                  <div class="context-menu-input-arrow"
+                      ng-click="!connection && toggleNetworkOptions($event)"
+                      ng-show="selectCustomNetwork">
+                  </div>
+                </div>
+                <button class="context-menu-button"
+                    ng-disabled="connecting"
+                    ng-show="!selectCustomNetwork"
+                    ng-click="toggleNetworkOptions($event)">
+                  <div class="context-menu-network-option-icon
+                              account-for-button-top-border"
+                      ng-style="getNetworkIconStyle(network, 0)">
+                    <div class="context-menu-network-option-lock"
+                        ng-show="networkNeedsPassword(network)">
+                    </div>
+                  </div>
+                  <span class="context-menu-button-label ng-class:{
+                      'context-menu-button-label-no-icon': !network}">
+                    <div dir="{{getDirection(networkName)}}">
+                      {{networkName || getInputLabel('default-network-name')}}
+                    </div>
+                  </span>
+                </button>
+                <div class="context-menu-options" ng-show="showNetworkOptions">
+                  <ul class="context-menu-options-group">
+                    <li ng-repeat="option in networkOptions"
+                        class="context-menu-options-item"
+                        ng-click="onNetworkSelected(option)">
+                      <div class="context-menu-network-option-icon"
+                          ng-style="getNetworkIconStyle(option['value'], 0)">
+                        <div class="context-menu-network-option-lock"
+                            ng-show="networkNeedsPassword(option['value'])">
+                        </div>
+                      </div>
+                      <div class="context-menu-network-option-name"
+                          dir="{{getDirection(option['name'])}}">
+                        {{option['name']}}
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="context-menu-options-group-splitter"
+                      ng-show="!selectCustomNetwork && networkOptions.length">
+                  </div>
+                  <ul class="context-menu-options-group">
+                    <li class="context-menu-options-item"
+                        ng-show="!selectCustomNetwork"
+                        ng-click="onJoinOtherNetwork()">
+                      <div class="context-menu-network-option-icon-empty"></div>
+                      <div class="context-menu-network-option-name">
+                        {{getInputLabel('join-other-option')}}
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-row" ng-show="selectCustomNetwork">
+            <div class="input-row-label">
+              {{getInputLabel('network-security')}}
+            </div>
+            <select class="input-row-select-field"
+                ng-disabled="connecting"
+                ng-model="$parent.customNetworkSecurity"
+                ng-options="auth.value as auth.name
+                            for auth in customNetworkSupportedSecurity"
+                ng-change="networkPassword=''">
+            </select>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">
+              {{getInputLabel('network-password')}}
+            </div>
+            <input class="input-row-field" type="password"
+                ng-model="$parent.networkPassword"
+                ng-disabled="shouldDisablePasswordField() || connecting"
+                ng-hide="showNetworkPassword"
+                dir="{{getDirection(networkPassword)}}">
+            </input>
+            <input class="input-row-field" type="text"
+                ng-model="$parent.networkPassword"
+                ng-disabled="shouldDisablePasswordField() || connecting"
+                ng-show="showNetworkPassword"
+                dir="{{getDirection(networkPassword)}}">
+            </input>
+            <div ng-class="{
+                  'input-password-toggle-button-hidden': !showNetworkPassword,
+                  'input-password-toggle-button-shown': showNetworkPassword
+                }" ng-show="!shouldDisablePasswordField()"
+                ng-click='showNetworkPassword = !showNetworkPassword'>
+            </div>
+          </div>
+          <div class="friendly-name-description">
+            <angular-message desc="Label above an input control for changing the
+                Chromecast name from the default one in the Chromecast initial
+                setup dialog." key="dongle_flow_select_network_frinedly_name">
+              Give this Chromecast a friendly name (e.g. Living Room)
+            </angular-message>
+          </div>
+          <input class="friendly-name-input"
+              placeholder="{{deviceToSetup}}" ng-model="$parent.friendlyName"
+              ng-disabled="connecting" maxlength="24" type="text"
+              dir="{{getDirection(friendlyName || deviceToSetup)}}">
+          </input>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status">
+            <div class="grey-text progress-text" ng-show="connecting">
+              <div class="progress-icon"></div>
+              <angular-message desc="Message shown to the user while a
+                  Chromecast is being set up. Next to the text is a spinner
+                  animation." key="dongle_progress_setting_up">
+                Setting up the Chromecast...
+              </angular-message>
+            </div>
+          </div>
+          <div class="control-buttons">
+            <button ng-click="onNetworkOK()"
+                ng-disabled="!getNetwork() || connecting">
+              {{getButtonLabel('ok-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-invalid-password" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for the dialog shown if the Chromecast
+                fails to connect to the network selected by the user due to
+                invalid network credentials (also provided by the user)."
+                key="dongle_flow_invalid_password_title">
+              Unable to connect to network
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <div class="input-row">
+            <div class="input-row-label">{{getInputLabel('network-name')}}</div>
+            <input type="text" class="input-row-field"
+                ng-model="$parent.networkName"
+                dir="{{getDirection(networkName)}}">
+            </input>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">
+               {{getInputLabel('network-security')}}
+            </div>
+            <select class="input-row-select-field"
+                ng-model="$parent.customNetworkSecurity"
+                ng-options="auth.value as auth.name
+                            for auth in customNetworkSupportedSecurity"
+                ng-change="networkPassword=''">
+            </select>
+          </div>
+          <div class="input-row">
+            <div class="input-row-label">
+              {{getInputLabel('network-password')}}
+            </div>
+            <input class="input-row-field" type="password"
+                ng-model="$parent.networkPassword"
+                ng-disabled="shouldDisablePasswordField()"
+                ng-hide="showNetworkPassword"
+                ng-change="disableConfirmPasswordButton = false;"
+                dir="{{getDirection(networkPassword)}}">
+            </input>
+            <input class="input-row-field" type="text"
+                ng-model="$parent.networkPassword"
+                ng-disabled="shouldDisablePasswordField()"
+                ng-show="showNetworkPassword"
+                ng-change="disableConfirmPasswordButton = false;"
+                dir="{{getDirection(networkPassword)}}">
+            </input>
+            <div ng-class="{
+                  'input-password-toggle-button-hidden': !showNetworkPassword,
+                  'input-password-toggle-button-shown': showNetworkPassword
+                }" ng-show="!shouldDisablePasswordField()"
+                ng-click='showNetworkPassword = !showNetworkPassword'>
+            </div>
+          </div>
+          <div class="input-row-warning">
+            <angular-message desc="Warning shown under network password
+                input element when the Chromecast fails to connect to the
+                selected network due to invalid network credentials."
+                key="dongle_flow_invalid_password_warning">
+              Incorrect password.
+            </angular-message>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="onPasswordConfirmed()"
+                ng-disabled="!getNetwork() || disableConfirmPasswordButton">
+              {{getButtonLabel('try-again-button')}}
+            </button>
+            <button ng-click="onCancel()">
+              {{getButtonLabel('cancel-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-no-device-help" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title on the dialog shown when the user
+                clicks on 'Help, I don't see my Chromecast' link under the list
+                of detected unset Chromecasts. The dialog provides few
+                troubleshooting steps."
+                key="dongle_flow_no_device_help_title">
+              Why doesn't my Chromecast appear in the setup list?
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <angular-message desc="Troubleshooting steps provided to the user when
+              he clicks 'Help, I don't see my Chromecast' link under the list
+              of detected unset Chromecasts."
+              key="dongle_flow_no_device_help_content">
+            You may have already set up a Chromecast. To check, click on the
+            Cast extension. If your Chromecast is listed there, you can start
+            casting immediately without additional setup.<br>
+            <br>
+            If not, please verify that your Chromecast is plugged in, powered
+            on, and is within 20 feet of this computer.<br>
+            <br>
+            If you still don't see your Chromecast, you can factory reset by
+            holding the reset button down for 15 seconds on your Chromecast.<br>
+            <br>
+            For more help, visit:
+            <a href="http://support.google.com/chromecast" target="_blank">
+              support.google.com/chromecast
+            </a>
+          </angular-message>
+        </div>
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="updateFlow('flow-select-device')">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-factory-reset" class="flow-edit-device">
+        <div class="flow-title">
+          <span ng-show="nameAfterFactoryReset">
+            <angular-message desc="Title of the dialog shown after a Chromecast
+                gets factory reset through the cast extension."
+                key="dongle_flow_factory_reset_done_title">
+              Your Chromecast has been reset
+            </angular-message>
+          </span>
+          <span ng-show="!nameAfterFactoryReset">
+            <angular-message desc="Title of the dialog shown while a Chromecast
+                is being factory reset through the cast extension."
+                key="dongle_flow_factory_reset_in_progress_title">
+              Your Chromecast is being reset
+            </angular-message>
+          </span>
+        </div>
+        <div class="flow-content" ng-show="nameAfterFactoryReset">
+          <angular-message desc="Message shown after a Chromecast gets factory
+              reset through the cast extension"
+              key="dongle_flow_factory_reset_done_content">
+            All done - the device you have reset is now known as
+            "{{nameAfterFactoryReset}}" and is not connected to a network.<br>
+            <br>
+            If you'd like to set it up on your network, just select "Add
+            Chromecast" on the Chromecast extension options page.
+          </angular-message>
+        </div>
+        <div class="flow-content" ng-show="!nameAfterFactoryReset">
+          <angular-message desc="Message shown while a Chromecast is being
+              factory reset through the cast extension."
+              key="dongle_flow_factory_reset_in_progress_content">
+            Please wait while your Chromecast resets and restarts.
+          </angular-message>
+          <div class="flow-content-detached">
+            <div class="grey-text flow-content-status">
+              <div class="progress-text">
+                <div class="buffer-div"></div>
+                <div class="progress-icon"></div>
+                <div>
+                  <angular-message desc="Status message shown to the user while
+                      a Chromecast is being factory reset through the cast
+                      extension"
+                      key="dongle_flow_factory_reset_progress_status">
+                    Resetting your Chromecast...
+                  </angular-message>
+                </div>
+                <div class="buffer-div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-disabled="!nameAfterFactoryReset" ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+       <div ng-switch-when="flow-reboot" class="flow-edit-device">
+        <div class="flow-title">
+          <angular-message desc="Title of the dialog shown while a Chromecast
+              is being rebooted through the cast extension."
+              key="dongle_flow_reboot_in_progress_title">
+            Your Chromecast is rebooting
+          </angular-message>
+        </div>
+        <div class="flow-content">
+          <angular-message desc="Message shown while a Chromecast is being
+              rebooted through the cast extension."
+              key="dongle_flow_reboot_in_progress_content">
+            Please wait while your Chromecast restarts.
+          </angular-message>
+          <div class="flow-content-detached">
+            <div class="grey-text flow-content-status">
+              <div class="progress-text">
+                <div class="buffer-div"></div>
+                <div class="progress-icon"></div>
+                <div>
+                  <angular-message desc="Status message shown to the user while
+                      a Chromecast is being rebooted through the cast
+                      extension"
+                      key="dongle_flow_reboot_progress_status">
+                    Rebooting your Chromecast...
+                  </angular-message>
+                </div>
+                <div class="buffer-div"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-disabled="true">{{getButtonLabel('ok-button')}}</button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-network-api-unavailable" class="flow">
+        <div class="header-strip">
+          <div class="flow-title">
+            <angular-message desc="Title for the dialog used to select a
+                Chromecast to set up. The dialog contains a list of all the
+                Chromecasts that are detected as not being set up."
+                key="dongle_flow_select_device_title">
+              Set up a new Chromecast
+            </angular-message>
+          </div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+        <div class="flow-content">
+          <p ng-show="os != 'ChromeOS'">
+            <angular-message desc="Message shown when Chromecast setup is
+                started on non-ChromeOS platform. The message informs the user
+                that the setup through the cast extension is available only on
+                ChromeOS" key="dongle_flow_networking_api_unavailable_non_cros">
+              We're sorry, but setup from the extension is only supported on
+              Chrome OS at this time.
+            </angular-message>
+          </p>
+          <p ng-show="os == 'ChromeOS'">
+            <angular-message desc="Message shown when Chroemcast setup is
+                started on the version of ChromeOS on which the Chromecast setup
+                through the cast extension is not yet available"
+                key="dongle_flow_networking_api_unavailable_cros">
+              Chromecast setup requires Chrome OS version 28 or above. Please
+              update to the latest version of Chrome OS to set up your
+              Chromecast using the Chromecast extension.
+            </angular-message>
+          </p>
+        </div>
+        <div class="control-strip">
+          <div class="control-buttons">
+            <button ng-click="onCancel()">
+              {{getButtonLabel('ok-button')}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div ng-switch-when="flow-error" class="flow">
+        <div class="header-strip">
+          <div class="flow-title"></div>
+          <div class="close-button" ng-click="onCancel()"></div>
+        </div>
+
+        <div class="error-flow-content">
+        <!-- Error dialog icon -->
+        <div class="error-icon-div ng-class: error.iconClass"></div>
+
+        <!-- Error dialog title -->
+        <div class="error-title">{{error.title || ''}}</div>
+
+        <!-- Error dialog message -->
+        <div class="error-message" ng-switch="error.id">
+          <p ng-switch-when="generic">
+            <angular-message desc="An error message shown during Chromecast
+                setup when unspecified error is encountered. The message is part
+                of a dialog that has a 'Try again' button that restarts the
+                setup process." key="dongle_error_generic">
+              We're unable to configure your device.<br>
+              Click "Try again" to restart setup.
+            </angular-message>
+          </p>
+          <p ng-switch-when="no-wifi">
+            <angular-message desc="An error message shown if the Wi-Fi is not
+                turned on when the user attempts to start Chromecast setup. The
+                Wi-Fi has to be enabled in order to find unsetup Chromecasts.
+                The message is shown as part of a dialog that has a 'Try again'
+                button that restarts the setup process."
+                key="dongle_error_no_wifi">
+              To set up your Chromecast, turn on your Wi-Fi on this computer and
+              click "Try again" to continue setup.
+            </angular-message>
+          </p>
+          <p ng-switch-when="no-chromecasts">
+            <angular-message desc="An error message shown if there are no
+                unsetup Chromecasts found when the user starts the setup
+                process. Chromecasts are found by scanning the visible Wi-Fi
+                networks for a hotspot network emitted by a Chromecast."
+                key="dongle_error_no_chromecasts">
+              Please check that your Chromecast is nearby and connected
+              correctly.
+            </angular-message>
+          </p>
+          <p ng-switch-when="no-chromecasts-setup-one-exists">
+            <angular-message desc="An error message shown if there are no unset
+                Chromecasts found when the user starts a setup, in case there
+                are some already setup Chromecasts discovered. Note that a setup
+                Chromecast can only be discovered on the same Wi-Fi network the
+                Chromecast is connected to. Above the message, there is a title
+                saying that no Chromecasts to setup could be found. The cast
+                extension reffered in the message is the button in the main
+                Chrome toolbar associated with the Google cast extension"
+                key="dongle_error_no_chromecasts_some_setup">
+              However, it looks like there are Chromecasts that are already
+              set up on your network and ready to go. To see the list of
+              Chromecasts you can use, click on the Cast extension.
+            </angular-message>
+          </p>
+          <p ng-switch-when="invalid-chromecast">
+            <angular-message desc="An error message when a Chromecast device the
+                user tries to connect to cannot be verified as a Chromecast
+                device." key="dongle_error_invalid_chromecast">
+              We couldn't authenticate your Chromecast.<br>
+              Please choose a different Chromecast.
+            </angular-message>
+          </p>
+          <p ng-switch-when="chromecast-disconnected">
+            <angular-message desc="An error message shown when the Google cast
+                extension cannot connect to the hotpost network emitted by a
+                Chromecast. A Chromecast emits a hotspot network when it's in
+                unsetup mode. To be able to setup the Chromecast, the extension
+                has to connect to the hotspot in order to access the
+                Chromecast's setup API. The 'device to setup' parameter reffers
+                to the Chromecast's name."
+                key="dongle_error_chromecast_disconnected">
+              We can't connect to {{deviceToSetup}}. Please make sure your
+              Chromecast is powered on and nearby.
+            </angular-message>
+          </p>
+          <p ng-switch-when="chromecast-name-too-long">
+            <angular-message desc="An error message shown when the
+                user-specified name for a Chromecast exceeds the maximum allowed
+                length (the user is offered an option to change the Chromecast's
+                name during the setup proces)."
+                key="dongle_error_name_too_long">
+              Your Chromecast name should be a maximum of 24 characters.
+            </angular-message>
+          </p>
+          <p ng-switch-when="chromecast-connection-failed">
+            <angular-message desc="An error message shown when Chromecast
+                fails to connect to the network selected by the user and using
+                network credentials provided by the user during the setup
+                process."
+                key="dongle_error_chromecast_connection_failed">
+              We can't connect your Chromecast to your chosen Wi-Fi network.
+              Please check your network name and password, and ensure that your
+              network allows new devices to join.
+            </angular-message>
+          </p>
+          <p ng-switch-when="chromecast-unreachable">
+            <angular-message desc="An error message shown when the extension is
+                unable to communicate with a Chromecast device (e.g. if it fails
+                to retrieve the Chromecast information using the Chromecast's
+                setup API)." key="dongle_error_chromecast_unreachable">
+              We're unable to communicate with your Chromecast.<br>
+              You may need to try again.
+            </angular-message>
+          </p>
+          <p ng-switch-when="chromecast-save-failed">
+            <angular-message desc="An error message shown when the Chromecast
+                settings set by the user fail to get saved to the Chromecast.
+                A link pointing to the Chromecast support page is incorporated
+                in the message. The link text is equal to the actual URL it's
+                pointing to." key="dongle_error_save_failed">
+              We're unable to save your settings to your Chromecast.
+              Please visit <a href="http://support.google.com/chromecast"
+              target="_blank">support.google.com/chromecast</a> for help
+              troubleshooting this issue.
+            </angular-message>
+          </p>
+          <p ng-switch-when="connect-to-setup-network">
+            <angular-message desc="An error message shown during Chromecast
+                setup when, after the Chromecast get connected to the network
+                selected by the user, the cast extension fails to connect the
+                computer from which the setup is done to the same network. The
+                user is asked to change the network manually. The error message
+                is shown as part of a dialog that offers the user options to
+                retry the failed setup step and continue with the setup if it
+                succeeds ('Try again' button) or to restart the whole setup
+                process ('Go back' button)."
+                key="dongle_error_connect_to_setup_network">
+              Your computer is unable to connect to the same Wi-Fi network as
+              your Chromecast. You can manually change your computer's Wi-Fi
+              network to {{networkName}} and try again. Or, you can go back and
+              change your Chromecast's Wi-Fi network.
+            </angular-message>
+          </p>
+          <div ng-switch-when="vpn-connected">
+            <angular-message desc="An error message shown during Chromecast
+                setup process if, after the Chromecast get connected to the
+                network selected by the user, a computer the setup is done from
+                has VPN connected. The user is asked to disconnect the VPN.
+                The message is shown in the dialog that has a 'Try again' button
+                in the bottom. Clicking the button continues the setup at the
+                failed step." key="dongle_error_vpn_connected">
+              <p>
+                Your computer is unable to communicate with your Chromecast when
+                VPN is connected.
+              </p>
+              <p>
+                To complete setup, please disconnect from VPN, and click
+                "Try again".
+              </p>
+            </angular-message>
+          </div>
+          <div ng-switch-when="success-dual-band-warning">
+            <angular-message desc="An error message shown after the Chromecast
+                has been setup in case the Chromecast is connected to a dual
+                band network. The message informs the user that, with the
+                current network setup, he may encounter some problems with
+                detecting and casting to the Chromecast in the future. Above the
+                message is a title informing user the setup was successfull."
+                key="dongle_error_success_dual_band_warning">
+              <p>
+                However, you may have an advanced router - some of your devices
+                may not be able to cast to your Chromecast unless you modify
+                your router settings.
+              </p>
+              <p>
+                If you run into problems, please visit
+                <a href="http://support.google.com/chromecast" target="_blank">
+                  support.google.com/chromecast
+                </a>
+                for help troubleshooting this issue.
+              </p>
+            </angular-message>
+          </div>
+          <div ng-switch-when="setup-chromecast-not-found-on-dual-band">
+            <angular-message desc="An error message shown during Chromecast
+                setup if the Chromecast has been connected to the network
+                selected by the user, but the extension cannot find the setup
+                Chromecast on the selected network. In this state the Chromecast
+                is unusable, so the setup fails. The user is informed that the
+                Chromecast could not be detected, possibly due to the network's
+                Wi-Fi router settings. The message is shown only if
+                the network is dual-band network."
+                key="dongle_error_fail_dual_band">
+              <p>
+                We could not communicate with your Chromecast from this
+                computer. Your Chromecast and computer may be connected  to
+                networks that are unable to talk to one another.
+              </p>
+              <p>
+                This may require a small change to your Wi-Fi router settings.
+                Please visit <a href="http://support.google.com/chromecast"
+                target="_blank">support.google.com/chromecast</a> for help
+                troubleshooting this issue.
+              </p>
+            </angular-message>
+          </div>
+          <p ng-switch-when="setup-chromecast-not-found">
+            <angular-message desc="An error message shown during Chromecast
+                setup if the Chromecast has been connected to the network
+                selected by the user, but the extension cannot find the setup
+                Chromecast on the selected network. In this state the Chromecast
+                is unusable, so the setup fails. The message is shown only if
+                the network is not dual-band network, as in that case, the
+                possible cause for error could be narrowed down."
+                key="dongle_error_setup_chromecast_not_found">
+              Please go back and select a different Wi-Fi network for your
+              Chromecast, or visit
+              <a href="http://support.google.com/chromecast" target="_blank">
+                support.google.com/chromecast
+              </a>
+              for help troubleshooting this issue.
+            </angular-message>
+          </p>
+          <p ng-switch-when="changing-network">
+            <angular-message desc="Dialog message warning that Wi-Fi network
+                will be changed after Chromecast setup is done.
+                Message parameters are (new network name, old network name)."
+                key="dongle_error_setup_changing_network">
+              The Wi-Fi networks for your Chromecast ({{networkName}}) and this
+              device ({{initialNetworkName}}) are different. After setup, this
+              device will be connected to {{networkName}} so you can use your
+              Chromecast.
+            </angular-message>
+          </p>
+        </div>
+        </div>
+
+        <!-- Strip containing controls at the bottom of the dialog -->
+        <div class="control-strip">
+          <div class="control-strip-status" ng-show="error.feedbackLink.show">
+            <a href="feedback.html?feedbackType=Bug" target="_blank">
+              <angular-message desc="Text for the link shown in the error
+                  dialog pointing the user to the page from which he can send
+                  feedback." key="dongle_flow_error_send_feedback_link">
+                Send feedback
+              </angular-message>
+            </a>
+          </div>
+          <div class="control-buttons">
+            <button ng-click="updateFlowAfterError(error.okButton.next)"
+                ng-show="error.okButton.show">
+              {{getButtonLabel(error.okButton.type)}}
+            </button>
+            <button ng-click="updateFlowAfterError(error.cancelButton.next)"
+                ng-show="error.cancelButton.show">
+              {{getButtonLabel(error.cancelButton.type)}}
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

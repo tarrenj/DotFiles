@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "FlashBlock for Chrome. Block them all, or be selective with the embedded whitelist manager",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRmFygsWWPDx/izHE0xrHEzTZxvlaJks0nri7RTCBqs3UkffT8xgL4DnzkXYPfwx6EHyRB9hx8024BpxnHhuMVvSg83CWt+sTOtbNcg92YxN78xdIgaNtaKl/9JyeXrR6qdfRAuG19uHXspLLlCOOrLxHUfHnRKGG5C5wS0Cv0eQIDAQAB",
+   "manifest_version": 2,
+   "name": "FlashBlock",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": {
+         "19": "blocked.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.34",
+   "web_accessible_resources": [ "icon_play.png" ]
+}

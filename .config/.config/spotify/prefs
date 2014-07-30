@@ -1,0 +1,6 @@
+core.flash_version=0
+autologin.blob="tXKZXAe1akKqRjcEqUHwtRLF6c0q1bz+Z5aTYNjeBX2EgN9sTM6ZFUOu2iQ1hD6j"
+autologin.canonical_username="jake.tarren"
+autologin.username="jake.tarren"
+core.clock_delta=0
+network.listen_port=64843

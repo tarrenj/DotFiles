@@ -1,0 +1,101 @@
+.vichrome-statuslineLeft-Bottom {
+    left:  0px;
+    bottom:0px;
+}
+.vichrome-statuslineRight-Bottom {
+    right: 0px;
+    bottom:0px;
+}
+.vichrome-statuslineLeft-Top {
+    left:  0px;
+    top:   0px;
+}
+.vichrome-statuslineRight-Top {
+    right: 0px;
+    top:   0px;
+}
+
+
+#vichromestatusline {
+    background-color: rgba(50, 50, 50, 0.8);
+    font-family: Calibri, "Lucida Grande", Lucida, Arial, sans-serif;
+    position : fixed;
+    text-align: left;
+    color: #fff;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    line-height: 18px;
+    height: 18px;
+    padding: 1px 3px;
+    margin:  0px 0px;
+    font-size: 14px;
+    z-index: 100000;
+}
+
+#vichromehint {
+    border-radius: 3px;
+    border: solid 1px #777;
+    position: absolute;
+    font-family: Helvetica, "Lucida Console", BatangChe, monospace;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    -webkit-box-shadow: none;
+    width : auto;
+    line-height: 14px;
+    height: 14px;
+    padding: 0px 2px;
+    margin:  0px 0px;
+    z-index: 99999;
+}
+
+.vichrome-statuslineinactive {
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+.vichrome-highlight {
+    background-color: Khaki !important;
+    color: black !important;
+}
+
+.vichrome-highlightFocus {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.vichrome-fModeHighlight {
+    background-color: rgba(255, 180, 64, 1.0);
+}
+
+.vichrome-fModeTarget {
+    background-color: rgba(255, 255, 160, 0.7);
+}
+
+#vichrome-commandframe {
+    left: 0px;
+    top: 0px;
+    padding: 0;
+    margin:  0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    position: fixed;
+}
+
+iframe[seamless]{
+    background-color: transparent;
+    border: 0px none transparent;
+    overflow: hidden;
+}
+
+.vichrome-barrelroll {
+    -webkit-transition: -webkit-transform 2s ease;
+    -webkit-transform: rotate(360deg);
+    -moz-transition: -moz-transform 2s ease;
+    -moz-transform: rotate(360deg);
+    -o-transition: -o-transform 2s ease;
+    -o-transform: rotate(360deg);
+    transition: transform 2s ease;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,45 @@
+<div class="activity-control">
+  <div class="transparent-overlay" ng-show="sharedState.selectingMirrorQuality" ng-click="sharedState.selectingMirrorQuality = false"></div>
+
+  <div class="activity-control-to-devices" ng-click="changeDevice()">
+    &lsaquo;&nbsp;
+    <angular-message desc="Link to return to the list of devices" key="cast_popup_back_to_list">
+      Back to device list
+    </angular-message>
+  </div>
+  <hr/>
+  <div ng-if="isV1AppInTab" ng-include="'popup_partials/v1_app_banner.html'"></div>
+  <div ng-if="hasActivityIssue" ng-include="'popup_partials/activity_issue.html'"></div>
+
+  <div class="activity-detail" ng-click="showOriginalTab()">
+    <div class="activity-title-in-control">
+      <img class="activity-icon" ng-src="{{selectedActivity.iconUrl}}"/>
+      <div class="activity-title-text" title="{{selectedActivity.title}}"
+           ng-bind-html="selectedActivity.title"></div>
+    </div>
+    <div class="activity-status">
+      <angular-message desc="Status about where the tab is playing its content" key="cast_popup_playing_on">
+        Playing on <span class="device-name" ng-bind-html="selectedActivity.receiver.name"></span>
+      </angular-message>
+    </div>
+  </div>
+  <table class="buttons-50pct">
+    <tbody>
+      <tr>
+        <td class="button" ng-click="playOrPause()" ng-show="showPlayPause">
+          <img ng-class="{disabledimg: !enableMediaControls || !enablePlayPause}" ng-src="{{playPauseIcon}}"/></td>
+        <td class="button" ng-click="muteOrUmute()" ng-show="showMuteUnmute">
+          <img ng-class="{disabledimg: !enableMediaControls}" ng-src="{{muteUnmuteIcon}}"/></td>
+        <td class="button" ng-click="sharedState.selectingMirrorQuality = true" ng-show="showMirrorQuality">
+          <img ng-src="{{mirrorQualityIcon}}"/></td>
+        <td ng-class="{{actionClass}}" ng-click="doCastAction()" ng-show="showCastAction" ng-bind-html="castActionLabel"></td>
+        <td ng-class="{{actionClass}}" ng-click="stopActivity()">{{stopLabel}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="mirror-quality-selection" ng-show="sharedState.selectingMirrorQuality">
+    <div ng-repeat="mirrorQuality in mirrorQualities" ng-class="{'checkable-option':true, checked:settings.mirrorQualityId == mirrorQuality.id}"  ng-click="settings.mirrorQualityId = mirrorQuality.id; updateSettings(); sharedState.selectingMirrorQuality = false">{{mirrorQuality.name}}
+    </div>
+  </div>
+</div>

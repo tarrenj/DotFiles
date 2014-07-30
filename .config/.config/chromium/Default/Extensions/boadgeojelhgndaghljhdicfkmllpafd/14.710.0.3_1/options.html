@@ -1,0 +1,172 @@
+<html ng-app="optionsController" ng-controller="OptionsCtrl" ng-csp xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+    Google Cast extension options
+  </title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet"/>
+  <link href="options.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="angular.js"></script>
+  <script type="text/javascript" src="background_script.js"></script>
+</head>
+<body id="options"
+    ng-class="{'scrolling-disabled': isChromekeySetupActive}">
+  <div class="fixed-top">
+    <header>
+      <img id="cast-icon" src="data/icon48.png" alt="Cast" ng-dblclick="doubleClicks = doubleClicks + 1">
+      <h1 class="top-title">
+        <angular-message desc="Options page header" key="options_title">
+          Google Cast extension options
+        </angular-message>
+      </h1>
+    </header>
+  </div>
+  <div class="options-sections">
+    <section class="chromekey-setup-frame-section">
+      <iframe id="chromekeySetupFrame" src="dongle_setup_flow.html"
+          ng-class="{'chromekey-setup-frame-active': isChromekeySetupActive}"
+          frameborder="0" width="100%" height="100%">
+      </iframe>
+    </section>
+    <section>
+      <h3>
+        <angular-message desc="Label for section about selecting quality of tab casting" key="options_tab_proj_quality">
+          Tab casting quality
+        </angular-message>
+      </h3>
+      <span ng-repeat="q in qualityLevels" class="controlled-setting-with-label">
+        <input ng-disabled="isMirroring" type="radio" ng-model="model.quality" value="{{q.id}}" id="ql-{{q.id}}"/>
+        <label for="ql-{{q.id}}">{{q.name}}</label>
+      </span>
+    </section>
+    <section ng-show="showDevSettings || doubleClicks > 1">
+      <h3>
+        <angular-message desc="Label for section about selecting mode of tab casting" key="options_tab_cast_mode">
+          Tab casting mode
+        </angular-message>
+      </h3>
+
+      <span class="controlled-setting-with-label">
+        <input type="radio" ng-model="useCastStreaming" value="off" id="useCastStreaming-off"/>
+        <label for="useCastStreaming-off">
+          <angular-message desc="Label for standard casting mode" key="options_tab_cast_standard_mode">
+            Standard
+          </angular-message>
+        </label>
+      </span>
+      <span class="controlled-setting-with-label">
+        <input type="radio" ng-model="useCastStreaming" value="on" id="useCastStreaming-on" ng-disabled="noCastStreaming"/>
+        <label for="useCastStreaming-on">
+          <angular-message desc="Label for enhanced casting mode" key="options_tab_cast_enhanced_mode">
+            Enhanced (experimental; Chrome 36+ only)
+          </angular-message>
+        </label>
+      </span>
+    </section>
+    <span class="controlled-setting-with-label">
+      <input ng-model="sendUsage" type="checkbox" id="sendUsage">
+        <angular-message desc="Label for sending usage statistics" key="options_send_usage">
+          Automatically send Cast extension usage statistics to Google.
+        </angular-message>
+      </input>
+    </span>
+    <div class="fixed-bottom" ng-show="showStopCasting">
+      <div>
+        <angular-message desc="Note about when changes take effect" key="options_change_effect">
+          Your changes will take effect the next time you cast a tab.
+        </angular-message>
+      </div>
+      <button ng-click="stopCasting()" id="stopCasting">
+        <angular-message desc="Button to stop casting immediately" key="options_stop_casting">
+          Stop casting now
+        </angular-message>
+      </button>
+    </div>
+  </div>
+  <div ng-show="showDevSettings || doubleClicks > 1" class="options-sections">
+    <section>
+      <h3>
+        <angular-message desc="Developer settings session title" key="options_developer_settings_sesison_title">
+          Developer Settings
+        </angular-message>
+      </h3>
+      <p>
+        <button ng-click="enableLogWindow()" id="enableLogWindow">Enable Log Window</button>
+      </p>
+      <p>
+        Additional receiver IPs:<br/>
+        <div ng-repeat="id in fixedDeviceIps">
+          {{id}}
+          <a ng-click="removeFixedIpReceiver(id)" href="" id="removeFixedIpReceiver">delete</a>
+        </div>
+        <form ng-submit="addFixedIpReceiver()" id="addFixedIpReceiver">
+          <input ng-model="newReceiverIp" type="text" size="30" id="newReceiverIp"/>
+          <input type="submit" value="add"/>
+        </form>
+      </p>
+    </section>
+  </div>
+  <div ng-show="isInternal" class="options-sections">
+    <section>
+      <h3>Custom mirroring settings</h3>
+      <table border="0">
+        <tr><td colspan=2><b>Video Settings</b></td></tr>
+        <tr>
+          <td>Minimum bitrate:</td>
+          <td>
+            <input ng-model="minVideoBitrate" min="100" max="10000" type="number" size="3" id="minVideoBitrate">kbps
+            (min {{globalMinVideoBitrate}})</input>
+          </td>
+        </tr>
+        <tr>
+          <td>Maximum bitrate:</td>
+          <td>
+            <input ng-model="maxVideoBitrate" min="100" max="10000" type="number" size="3" id="maxVideoBitrate">kbps (max {{globalMaxVideoBitrate}})</input>
+          </td>
+        </tr>
+        <tr>
+          <td>Maximum capture frame rate:</td>
+          <td>
+            <input ng-model="maxFrameRate" type="number" min="1" size="3" id="maxFrameRate">fps</input>
+          </td>
+        </tr>
+        <tr>
+          <td>Resolution:</td>
+          <td>
+            <label ng-repeat="r in videoResolutions">
+              <input ng-model="$parent.videoResolution" type="radio" value="{{r.name}}" id="{{r.name}}"/>
+              {{r.displayName}}
+            </label>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <input ng-model="isMirrorLinkProtected" type="checkbox" id="isMirrorLinkProtected">Enable Mirroring Link Protection</input>
+      </p>
+    </section>
+    <section>
+      <h3>Cloud Settings</h3>
+      <p>
+        <input ng-model="isCloudEnabled" type="checkbox" id="isCloudEnabled">Enable Cloud Features</input>
+      </p>
+      <section ng-show="isCloudEnabled">
+        <p>Pair with cloud device:</p>
+        <form ng-submit="pairWithDevice()">
+          <input ng-model="pairingCode" type="text" size="30" id="pairingCode" ng-disabled="pairingInProgress" />
+          <a ng-click="pairWithDevice()" href="" id="pairWithDevice" ng-disabled="pairingInProgress">pair</a>
+          <p style="color:green" ng-show="showPairSuccess">Pairing successful!</p>
+          <p style="color:red" ng-show="showPairFail">Pairing failed!</p>
+        </form>
+        <p>Delete cloud device:</p>
+        <form ng-submit="deleteDevice()">
+          <select ng-model="deviceToDelete" ng-options="a.name for a in devices" ng-disabled="deleteInProgress"></select><br/>
+          <a ng-click="deleteDevice()" href="" ng-disabled="deleteInProgress">delete</a><br/>
+          <a ng-click="refreshList()" href="" ng-disabled="deleteInProgress">refresh</a>
+        </form>
+      </section>
+      <p>
+        <button ng-click="reload()" id="reload">Apply Cloud Settings</button>
+      </p>
+    </section>
+  </div>
+</body>
+</html>

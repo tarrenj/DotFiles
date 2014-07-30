@@ -1,0 +1,1 @@
+(function(){var a={getBackground:function(){try{if(!b)if(chrome.extension.getBackgroundPage().b)b=chrome.extension.getBackgroundPage().b}catch(c){}return b},setIFrame:function(){param=b.app.getExtUrlParam();document.getElementById("ifOptions").src+=param?"?"+param:""},init:function(){b=a.getBackground();a.setIFrame()}};window.onload=a.init})();
