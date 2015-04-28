@@ -11,7 +11,7 @@ bind - split-window -v
 bind-key x kill-pane
 
 # Give us a slightly higher repeat delay for repeatable keystrokes
-set repeat-time 750
+set -g repeat-time 750
 
 # Allows us to use C-a a <command> to send commands to a TMUX session inside
 # another TMUX session
