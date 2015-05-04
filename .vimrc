@@ -56,16 +56,3 @@ autocmd BufReadPost *
 """"""""""""""""""""""""""""""
 " Always show the status line
 set laststatus=2
-
-
- """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Spell checking
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Pressing ,ss will toggle and untoggle spell checking
-map <leader>ss :setlocal spell!<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugins
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Adds pathogen, required by syntastic
-execute pathogen#infect()
