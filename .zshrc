@@ -23,3 +23,8 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 # Extended globbing and expansion
 setopt extended_glob
+
+# Right hand prompt
+
+# Some helpful aliases
+alias -s find='ps aux | grep -i '
