@@ -1,4 +1,13 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => VIM splits
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Use decent keybindings because I'm not a crazy person
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ignore case when searching
