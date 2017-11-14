@@ -1,8 +1,5 @@
 A place for me to store systems wide DotFiles for all my accounts.
 
-mover info:
-    moves all the files/ssh keys to their respective locations
-
 weechat encrypted nickserv password:
     /secure passphrase <passphrase>
     /secure set freenode <nickserv password>  (maybe not this one)
@@ -20,3 +17,9 @@ autoUpdate script
 SLIM (or someother login manager)
 weechat url handeling
 
+Vim
+    NERDTree
+    ALE
+    YCM
+    LightLine
+    Fix tabbing when pasteing

@@ -16,7 +16,7 @@ else
     Privs="Regular Account"
 fi
  
-printf '%b\n' "$red CNU_UAS_LAB $reset 
+printf '%b\n' "$red Jake Tarren $reset 
 $purple +++++++++++++++++: $reset System Data $purple :+++++++++++++++++++
 $purple +  $reset Hostname $purple = $green $HOSTNAME
 $purple +  $reset Address  $purple = $green $(awk '/[0-9]/ {printf $1"\n"}' /proc/net/arp)
