@@ -1,16 +1,13 @@
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM splits
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Use decent keybindings, because I'm not a crazy person
 nnoremap <c-h> <C-w>h
 nnoremap <c-j> <C-w>j
 nnoremap <c-k> <C-w>k
 nnoremap <c-l> <C-w>l
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Ignore case when searching
 set ignorecase
 
@@ -27,22 +24,8 @@ syntax enable
 " Enable line numbers
 set number
 
-" Basic Lightline configuration
-let g:lightline = {
-      \ 'colorscheme': 'jellybeans',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head'
-      \ },
-      \ }
-" Get outta here mode! Lightline is better then you!
-set noshowmode
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => File Managment
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " netrw Always tree
 let g:netrw_liststyle=3
 " netrw Bugger off banner!
@@ -58,15 +41,16 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 colorscheme desert
 set background=dark
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set colorcolumn=100
+highlight ColorColumn ctermbg=8
+
 " => Text, tab and indent related
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Use spaces instead of tabs
 set expandtab
 
@@ -83,18 +67,28 @@ set wrap "Wrap lines
 
 " Fix backspace
 set backspace=indent,eol,start
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " => Moving around, tabs, windows and buffers
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
      \ if line("'\"") > 0 && line("'\"") <= line("$") |
      \   exe "normal! g`\"" |
      \ endif
 
-
-""""""""""""""""""""""""""""""
 " => Status line
-""""""""""""""""""""""""""""""
 " Always show the status line
 set laststatus=2
+" Basic Lightline configuration
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+" Get outta here mode! Lightline is better then you!
+set noshowmode
