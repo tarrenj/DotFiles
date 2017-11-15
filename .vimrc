@@ -1,11 +1,12 @@
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM splits
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use decent keybindings because I'm not a crazy person
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+" Use decent keybindings, because I'm not a crazy person
+nnoremap <c-h> <C-w>h
+nnoremap <c-j> <C-w>j
+nnoremap <c-k> <C-w>k
+nnoremap <c-l> <C-w>l
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -25,6 +26,25 @@ set mat=2
 syntax enable
 " Enable line numbers
 set number
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => File Managment
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" netrw Always tree
+let g:netrw_liststyle=3
+" netrw Bugger off banner!
+let g:netrw_banner = 0
+" Always NERDTree!
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+" Kill if NERDTree is the only thing left
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Close buffer if file deleted
+let NERDTreeAutoDeleteBuffer = 1
+" NERDTree Pretyfication
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
