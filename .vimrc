@@ -27,7 +27,19 @@ syntax enable
 " Enable line numbers
 set number
 
-
+" Basic Lightline configuration
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+" Get outta here mode! Lightline is better then you!
+set noshowmode
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => File Managment
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
