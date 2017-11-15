@@ -69,7 +69,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-
+" Fix backspace
+set backspace=indent,eol,start
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
