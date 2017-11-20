@@ -15,7 +15,7 @@ set number
 " Get outta here mode! Lightline is better then you!
 set noshowmode
 " Autoclose YCM preview split after inserting suggestion
-let g:ycm_autoclose_preview_window_after_insertion=1
+autocmd CompleteDone * pclose
 
 " => File Managment
 
