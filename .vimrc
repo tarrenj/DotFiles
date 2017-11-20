@@ -1,28 +1,21 @@
-" => VIM splits
-
-" Use decent keybindings, because I'm not a crazy person
-nnoremap <c-h> <C-w>h
-nnoremap <c-j> <C-w>j
-nnoremap <c-k> <C-w>k
-nnoremap <c-l> <C-w>l
-
 " => VIM user interface
 
 " Ignore case when searching
 set ignorecase
-
 " Highlight search results
 set hlsearch
-
 " Show matching brackets when text indicator is over them
 set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
-
 " Enable syntax highlighting
 syntax enable
 " Enable line numbers
 set number
+" Get outta here mode! Lightline is better then you!
+set noshowmode
+" Autoclose YCM preview split after inserting suggestion
+let g:ycm_autoclose_preview_window_after_insertion=1
 
 " => File Managment
 
@@ -90,5 +83,9 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
-" Get outta here mode! Lightline is better then you!
-set noshowmode
+
+" Use decent keybindings, because I'm not a crazy person
+nnoremap <c-h> <C-w>h
+nnoremap <c-j> <C-w>j
+nnoremap <c-k> <C-w>k
+nnoremap <c-l> <C-w>l
