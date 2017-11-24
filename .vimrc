@@ -61,6 +61,9 @@ set wrap "Wrap lines
 " Fix backspace
 set backspace=indent,eol,start
 
+" => Rainbow Parentheses
+let g:rainbow_active = 1
+
 " => Moving around, tabs, windows and buffers
 
 " Return to last edit position when opening files (You want this!)
