@@ -75,6 +75,7 @@ autocmd BufReadPost *
 " => Status line
 " Always show the status line
 set laststatus=2
+
 " Basic Lightline configuration
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
