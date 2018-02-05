@@ -1,10 +1,16 @@
 " Things I forget often
 " ctrl + w c:   Close the things
+
 " ctrl + w v:   Vertical split -- should be rebound to \
 " ctrl + w s:   Horizontal split -- should be rebound to -
-" ctrl + w _:  Max hight of current split
-" ctrl + w |:  Max width of current split
-" ctrl + w =:  Normalize all splits
+
+" ctrl + </>:  Expand left and right
+" ctrl + +/-:  Expand up and down
+" ctrl + w _:  Max hight of current split - Broken...
+" ctrl + w |:  Max width of current split - Broken...
+" ctrl + w =:  Normalize all splits - Broken...
+
+" The actuall vimrc starts now.
 
 " => VIM user interface
 
