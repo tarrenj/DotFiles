@@ -1,3 +1,11 @@
+" Things I forget often
+" ctrl + w c:   Close the things
+" ctrl + w v:   Vertical split -- should be rebound to \
+" ctrl + w s:   Horizontal split -- should be rebound to -
+" ctrl + w _:  Max hight of current split
+" ctrl + w |:  Max width of current split
+" ctrl + w =:  Normalize all splits
+
 " => VIM user interface
 
 " Ignore case when searching
