@@ -47,6 +47,8 @@ let NERDTreeAutoDeleteBuffer = 1
 " NERDTree Pretyfication
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+" show hidden files
+let NERDTreeShowHidden=1
 
 " => Colors and Fonts
 
