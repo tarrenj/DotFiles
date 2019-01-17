@@ -1,5 +1,6 @@
 " Things I forget often
 " ctrl + w c:   Close the things
+" :w !diff % -: Show the diff between the current (unsaved) and saved version
 
 " ctrl + w v:   Vertical split -- should be rebound to \
 " ctrl + w s:   Horizontal split -- should be rebound to -
