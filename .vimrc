@@ -75,7 +75,7 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-" Fix backspace
+" Fix backspace (add line wrap functionality)
 set backspace=indent,eol,start
 
 " => Rainbow Parentheses
