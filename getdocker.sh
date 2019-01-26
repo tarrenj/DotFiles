@@ -24,7 +24,7 @@ apt-get install -y \
     software-properties-common
 
 # Get the signing key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 # Add the repo
 apt-add-repository \
