@@ -17,7 +17,7 @@ apt-get remove docker docker-engine docker.io
 apt-get update
 
 # Install some deps
-apt-get install \
+apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -34,7 +34,7 @@ apt-add-repository \
 
 # Install docker-ce!
 apt-get update
-apt-get install docker-ce
+apt-get install -y docker-ce
 
 # Docker group stuff
 groupadd docker
