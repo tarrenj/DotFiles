@@ -1,4 +1,4 @@
- Things I forget often                                                                                
+" Things I forget often                                                                                
 " ctrl + w c:   Close the things                                                                       
 " :w !diff % -: Show the diff between the current (unsaved) and saved version                          
                                                                                                        
