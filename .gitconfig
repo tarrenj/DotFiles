@@ -1,0 +1,12 @@
+[user]
+	name = Jake Tarren
+	email = jake.tarren@gmail.com
+	signingkey = <PUB>
+[credential]
+	helper = cache --timeout=3600
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[core]
+    editor = vim
