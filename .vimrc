@@ -14,7 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'luochen1990/rainbow'
 Plugin 'itchyny/lightline.vim'
 Plugin 'preservim/nerdtree'
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
+" ^^ Removed until Vim w/ Python3.6 in Debian11
 
 call vundle#end()            " required
 filetype plugin indent on    " required
