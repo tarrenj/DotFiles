@@ -4,7 +4,7 @@ set -ex
 
 # A dumb script to speed up setup of things
 
-sudo apt install git vim zsh tmux nmap build-essential curl wget cmake python3-dev
+/usr/bin/sudo /usr/bin/apt install git vim zsh tmux nmap build-essential curl wget cmake python3-dev
 
 # Flat/easy dot files
 cp ~/builds/dotfiles/.tmux.conf ~/.tmux.conf
@@ -20,12 +20,12 @@ echo "Press any key to continue"
 read
 
 # Install vundle and vim plugins
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+/usr/bin/git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp ~/builds/dotfiles/.vimrc ~/.vimrc
-vim +PluginInstall +qall
+/usr/bin/vim +PluginInstall +qall
+cp ~/builds/dotfiles/ycm_global_extra_conf.py ~/.vim/ycm_global_extra_conf.py
 cd ~/.vim/bundle/YouCompleteMe
-python3 install.py #--go-completer
-cp ~/builds/dotfiles/ycm_global_extra_conf.py ~/.vim/
+/usr/bin/python3 install.py #--go-completer
 
 # OMZ
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -33,8 +33,8 @@ cp ~/builds/dotfiles/custom.zsh-theme ~/.oh-my-zsh/themes/
 
 
 # Brave
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+/usr/bin/sudo /usr/bin/curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install -y brave-browser
+/usr/bin/sudo /usr/bin/apt update
+/usr/bin/sudo /usr/bin/apt install -y brave-browser
 
