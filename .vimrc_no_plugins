@@ -1,0 +1,100 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" Things I forget often
+" ctrl + w c:   Close the things
+" :w !diff % -: Show the diff between the current (unsaved) and saved version
+
+" ctrl + w v:   Vertical split -- should be rebound to \
+" ctrl + w s:   Horizontal split -- should be rebound to -
+
+" ctrl + </>:  Expand left and right
+" ctrl + +/-:  Expand up and down
+" ctrl + w _:  Max hight of current split - Broken...
+" ctrl + w |:  Max width of current split - Broken...
+" ctrl + w =:  Normalize all splits - Broken...
+
+" The actuall vimrc starts now.
+
+" => VIM user interface
+
+" Stop beeping!!
+set noerrorbells
+" Ignore case when searching
+set ignorecase
+" Highlight search results
+set hlsearch
+" Show matching brackets when text indicator is over them
+set showmatch
+" How many tenths of a second to blink when matching brackets
+set mat=2
+" Enable syntax highlighting
+syntax enable
+" Enable line numbers
+set number
+" Get outta here mode! Lightline is better then you!
+set noshowmode
+" Autoclose YCM preview split after inserting suggestion
+autocmd CompleteDone * pclose
+
+" => Colors and Fonts
+
+colorscheme desert
+set background=dark
+
+set colorcolumn=100
+highlight ColorColumn ctermbg=8
+
+" => Text, tab and indent related
+
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabs ;)
+set smarttab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+
+" Fix backspace (add line wrap functionality)
+set backspace=indent,eol,start
+
+" => Moving around, tabs, windows and buffers
+
+" Return to last edit position when opening files (You want this!)
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+
+" => Status line
+" Always show the status line
+set laststatus=2
+
+" Use decent keybindings, because I'm not a crazy person
+nnoremap <c-h> <C-w>h
+nnoremap <c-j> <C-w>j
+nnoremap <c-k> <C-w>k
+nnoremap <c-l> <C-w>l
+
+" Function to compare current buffer with saved file (:DiffSaved)
+function! s:DiffWithSaved()
+	let filetype=&ft
+	diffthis
+	vnew | r # | normal! 1Gdd
+	diffthis
+	exe "setlocal bt=nofile bh=wipe nobl noswf ro ft=" . filetype
+endfunction
+com! DiffSaved call s:DiffWithSaved()
+
+" Don't move the cursor when clicking to restore focus
+augroup NO_CURSOR_MOVE_ON_FOCUS
+  au!
+  au FocusLost * let g:oldmouse=&mouse | set mouse=
+  au FocusGained * if exists('g:oldmouse') | let &mouse=g:oldmouse | unlet g:oldmouse | endif
+augroup END
