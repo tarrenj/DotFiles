@@ -28,7 +28,7 @@ cd ~/.vim/bundle/YouCompleteMe
 /usr/bin/python3 install.py #--go-completer
 
 # OMZ
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/builds/dotfiles/custom.zsh-theme ~/.oh-my-zsh/themes/
 
 
