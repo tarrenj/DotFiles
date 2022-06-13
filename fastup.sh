@@ -30,7 +30,11 @@ cd ~/.vim/bundle/YouCompleteMe
 # OMZ
 sh -c "$(https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/builds/dotfiles/custom.zsh-theme ~/.oh-my-zsh/themes/
-
+cp ~/builds/dotfiles/.zshrc ~/.zshrc
+echo "----WARNING!!: verify username in ~/.zshrc (line 11)!!!"
+echo ""
+echo "Press any key to continue"
+read
 
 # Brave
 /usr/bin/sudo /usr/bin/curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
