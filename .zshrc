@@ -89,12 +89,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias tf="/usr/bin/terraform"
+alias tfa="tf apply"
+alias tfp="tf plan"
+
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Turn off all beeps!
 unsetopt BEEP
 
-# Git tab completion
+# Various tab completion
 autoload -Uz compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
 
