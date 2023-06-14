@@ -3,9 +3,7 @@ export TERM=xterm-256color
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:$HOME/.local/go/bin # Add Go
-export PATH=$PATH:$HOME/go/bin # Add Go installed packages
-
+export PATH=$PATH:/usr/local/go/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/smrtz/.oh-my-zsh
