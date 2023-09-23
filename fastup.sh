@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-
-set -ex
+#set -ex
 
 # A dumb script to speed up setup of things
 
-/usr/bin/sudo /usr/bin/apt install git vim zsh tmux nmap build-essential curl wget cmake python3-dev
+/usr/bin/sudo /usr/bin/apt -y install git vim zsh tmux nmap build-essential curl wget cmake sshuttle python3 python3-dev python3-pip
 
 # Flat/easy dot files
 cp ~/builds/dotfiles/.tmux.conf ~/.tmux.conf
@@ -13,9 +12,9 @@ cp ~/builds/dotfiles/.tmux.conf ~/.tmux.conf
 cp ~/builds/dotfiles/.gitconfig ~/.gitconfig
 #SSH_PUB=$(/usr/bin/ssh-add -L)
 #/usr/bin/sed -i '' "s/<PUB>/$(ssh-add -L)/g" ~/.gitconfig
-echo "----WARNING!!: add public ssh key to ~/.gitconfig!!!"
-echo ".gitconfig requires git >= 2.34. Current git version: " $(git --version)
 echo ""
+echo ""
+echo "----WARNING!!: add public ssh key to ~/.gitconfig!!!"
 echo "Press any key to continue"
 read
 
@@ -28,11 +27,12 @@ cd ~/.vim/bundle/YouCompleteMe
 /usr/bin/python3 install.py #--go-completer
 
 # OMZ
-sh -c "$(https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp ~/builds/dotfiles/custom.zsh-theme ~/.oh-my-zsh/themes/
 cp ~/builds/dotfiles/.zshrc ~/.zshrc
-echo "----WARNING!!: verify username in ~/.zshrc (line 11)!!!"
 echo ""
+echo ""
+echo "----WARNING!!: verify username in ~/.zshrc (line 11)!!!"
 echo "Press any key to continue"
 read
 
@@ -41,4 +41,14 @@ read
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 /usr/bin/sudo /usr/bin/apt update
 /usr/bin/sudo /usr/bin/apt install -y brave-browser
+
+# 1Password
+curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/keyrings/1password-archive-keyring.gpg
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/1password-archive-keyring.gpg] https://downloads.1password.com/linux/debian/amd64 stable main' | sudo tee /etc/apt/sources.list.d/1password.list
+/usr/bin/sudo /usr/bin/mkdir -p /etc/debsig/policies/AC2D62742012EA22/
+/usr/bin/curl -sS https://downloads.1password.com/linux/debian/debsig/1password.pol | sudo tee /etc/debsig/policies/AC2D62742012EA22/1password.pol
+/usr/bin/sudo /usr/bin/mkdir -p /usr/share/debsig/keyrings/AC2D62742012EA22
+/usr/bin/curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/debsig/keyrings/AC2D62742012EA22/debsig.gpg
+/usr/bin/sudo /usr/bin/apt update
+/usr/bin/sudo /usr/bin/apt -y install 1password
 
