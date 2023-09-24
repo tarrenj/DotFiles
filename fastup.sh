@@ -37,19 +37,23 @@ echo "----WARNING!!: verify username in ~/.zshrc (line 11)!!!"
 echo "Press any key to continue"
 read
 
-# Brave
+# Setup custom repos
+## Brave
 /usr/bin/sudo /usr/bin/curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-/usr/bin/sudo /usr/bin/apt update
-/usr/bin/sudo /usr/bin/apt install -y brave-browser
 
-# 1Password
+## 1Password
 curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/keyrings/1password-archive-keyring.gpg
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/1password-archive-keyring.gpg] https://downloads.1password.com/linux/debian/amd64 stable main' | sudo tee /etc/apt/sources.list.d/1password.list
 /usr/bin/sudo /usr/bin/mkdir -p /etc/debsig/policies/AC2D62742012EA22/
 /usr/bin/curl -sS https://downloads.1password.com/linux/debian/debsig/1password.pol | sudo tee /etc/debsig/policies/AC2D62742012EA22/1password.pol
 /usr/bin/sudo /usr/bin/mkdir -p /usr/share/debsig/keyrings/AC2D62742012EA22
 /usr/bin/curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/debsig/keyrings/AC2D62742012EA22/debsig.gpg
-/usr/bin/sudo /usr/bin/apt update
-/usr/bin/sudo /usr/bin/apt -y install 1password
 
+## Sublime
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+# Install packages
+/usr/bin/sudo /usr/bin/apt update
+/usr/bin/sudo /usr/bin/apt -y install sublime-text 1password brave-browser
