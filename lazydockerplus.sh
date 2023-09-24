@@ -7,7 +7,7 @@
 /usr/bin/curl -fsSL https://get.docker.com | /usr/bin/bash
 # Docker group
 /usr/bin/sudo /usr/sbin/groupadd docker
-/usr/bin/sudo /usr/sbin/usermod -aG docker $USER
+/usr/bin/sudo /usr/sbin/usermod -aG docker "$USER"
 # docker-compose
 # # Install process should be updated to use docker plugin thing
 /usr/bin/sudo /usr/bin/curl -SL https://github.com/docker/compose/releases/download/v2.22.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose

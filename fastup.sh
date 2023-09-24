@@ -3,7 +3,7 @@
 
 # A dumb script to speed up setup of things
 
-/usr/bin/sudo /usr/bin/apt -y install git vim zsh tmux nmap build-essential curl wget cmake sshuttle python3 python3-dev python3-pip alacritty shred
+/usr/bin/sudo /usr/bin/apt -y install git vim zsh tmux nmap build-essential curl wget cmake sshuttle python3 python3-dev python3-pip alacritty shred tcpdump ngrep
 
 # Flat/easy dot files
 cp ~/builds/dotfiles/.tmux.conf ~/.tmux.conf
