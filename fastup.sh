@@ -2,7 +2,6 @@
 #set -ex
 
 # A dumb script to speed up setup of things
-
 /usr/bin/sudo /usr/bin/apt -y install git vim zsh tmux nmap build-essential curl wget cmake sshuttle python3 python3-dev python3-pip alacritty shred tcpdump ngrep
 
 # Flat/easy dot files
@@ -62,3 +61,5 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 # Grab docker with (bad) convinence script
 /usr/bin/bash lazydockerplus.sh
 
+# Kill the damn beeps!
+/usr/bin/sudo /usr/sbin/rmmod pcspkr; /usr/bin/echo "blacklist pcspkr" | /usr/bin/sudo /usr/bin/tee -a /etc/modprobe.d/blacklist.conf > /dev/null
