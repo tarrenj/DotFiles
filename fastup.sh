@@ -62,4 +62,5 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 /usr/bin/bash lazydockerplus.sh
 
 # Kill the damn beeps!
-/usr/bin/sudo /usr/sbin/rmmod pcspkr; /usr/bin/echo "blacklist pcspkr" | /usr/bin/sudo /usr/bin/tee -a /etc/modprobe.d/blacklist.conf > /dev/null
+/usr/bin/sudo /usr/sbin/rmmod pcspkr || true
+/usr/bin/grep -qxF "blacklist pcspkr" /etc/modprobe.d/blacklist.conf || /usr/bin/echo "blacklist pcspkr" | /usr/bin/sudo /usr/bin/tee -a /etc/modprobe.d/blacklist.conf > /dev/null
