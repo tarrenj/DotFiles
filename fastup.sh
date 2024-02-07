@@ -6,7 +6,7 @@
 
 # Flat/easy dot files
 cp ~/builds/dotfiles/.tmux.conf ~/.tmux.conf
-cp ~/builds/dotfiles/.alacritty.conf ~/.alacritty.conf
+cp ~/builds/dotfiles/.alacritty.yml ~/.alacritty.yml
 
 # Git config (with SSH signing key)
 cp ~/builds/dotfiles/.gitconfig ~/.gitconfig
