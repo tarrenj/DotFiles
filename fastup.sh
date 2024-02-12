@@ -59,9 +59,18 @@ cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-key
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
   sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-# Install packages
+# Install packages from custom repos
 /usr/bin/sudo /usr/bin/apt update
 /usr/bin/sudo /usr/bin/apt -y install sublime-text 1password brave-browser signal-desktop
+
+# wget Discord and install
+echo
+read -p "Install Discord? (y/n)..." -n 1 -r; echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    /usr/bin/mkdir ~/Downloads
+    /usr/bin/wget https://discord.com/api/download?platform=linux&format=deb -O ~/Downloads/discord.deb
+    /usr/bin/sudo /usr/bin/dpkg -i ~/Downloads/discord.deb
+fi
 
 
 # Grab docker with (bad) convinence script
