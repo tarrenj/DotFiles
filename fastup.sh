@@ -53,9 +53,15 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/1password-archive-keyring.gp
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
+## Signal
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\
+  sudo tee /etc/apt/sources.list.d/signal-xenial.list
+
 # Install packages
 /usr/bin/sudo /usr/bin/apt update
-/usr/bin/sudo /usr/bin/apt -y install sublime-text 1password brave-browser
+/usr/bin/sudo /usr/bin/apt -y install sublime-text 1password brave-browser signal-desktop
 
 
 # Grab docker with (bad) convinence script
