@@ -84,6 +84,8 @@ set colorcolumn=100
 highlight ColorColumn ctermbg=8
 
 " => Text, tab and indent related
+" Spell checking will save me!
+set spell spelllang=en_us
 
 " Use spaces instead of tabs
 set expandtab

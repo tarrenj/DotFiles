@@ -32,7 +32,7 @@ cp ~/builds/dotfiles/custom.zsh-theme ~/.oh-my-zsh/themes/
 cp ~/builds/dotfiles/.zshrc ~/.zshrc
 echo ""
 echo ""
-echo "----WARNING!!: verify username in ~/.zshrc (line 11)!!!"
+echo "----WARNING!!: verify username in ~/.zshrc (line 10)!!!"
 echo "Press any key to continue"
 read
 
@@ -81,4 +81,4 @@ fi
 /usr/bin/grep -qxF "blacklist pcspkr" /etc/modprobe.d/blacklist.conf || /usr/bin/echo "blacklist pcspkr" | /usr/bin/sudo /usr/bin/tee -a /etc/modprobe.d/blacklist.conf > /dev/null
 
 # Disable bluetooth at startup
-/usr/bin/sudo /usr/bin/systemctl disable bluetooth.service
+#/usr/bin/sudo /usr/bin/systemctl disable bluetooth.service
