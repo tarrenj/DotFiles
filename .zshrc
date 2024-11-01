@@ -1,10 +1,15 @@
 # Colors! For lightline
 export TERM=xterm-256color
 
-# If you come from bash you might have to change your $PATH.
+###
+# Path Modifications
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/$HOME/.local/bin
+# Go
+#export PATH=$PATH:/usr/local/go/bin
+#export PATH=$PATH:/$HOME/.local/bin
+# AWS CLI autocomplete
+export PATH=$PATH:/usr/local/bin/
+###
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/smrtz/.oh-my-zsh
@@ -21,11 +26,11 @@ ZSH_THEME="custom"
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
+###
+# OMZ auto-update
 # DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# export UPDATE_ZSH_DAYS=13 # Days
+###
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
