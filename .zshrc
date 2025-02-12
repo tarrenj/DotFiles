@@ -97,6 +97,9 @@ alias tf="/usr/bin/terraform"
 alias tfa="tf apply"
 alias tfp="tf plan"
 
+# This one is bad form, but fits my specific use case well enough...
+alias gsc="git status; echo; git add -A; git commit -m"
+
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
